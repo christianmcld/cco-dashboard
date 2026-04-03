@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T23:48:49.222678+00:00",
+  "generated_at": "2026-04-03T23:49:13.154328+00:00",
   "trending": {
     "topics": [
       {
@@ -764,6 +764,56 @@
           "Why now": "@JulianGoldieSEO posted this TODAY (April 2). The concept of Claude Code as a persistent system (not a one-shot tool) directly reinforces the CMNDSHFT \"AI employee\" positioning. Film it while the leak gives you a natural segue."
         },
         "urgency_hours": 12
+      },
+      {
+        "title": "Opportunity #1: Agency Replacement Hook Series",
+        "details": {
+          "Format": "30-60 second Reels",
+          "Example hook": "\"My agency charged $2K/mo for SEO. Claude does it in 3 minutes.\"",
+          "Skill giveaway": "SEO Audit, Ad Campaign Generator, Proposal Generator",
+          "Expected engagement": "Highest save + share rates of any hook type in the niche"
+        },
+        "urgency_hours": 96
+      },
+      {
+        "title": "Opportunity #2: \"30 Days of AI Skills\" Daily Series",
+        "details": {
+          "Format": "1 Reel/day, 30-45 seconds each",
+          "Example hook": "\"Day 7 of giving away free AI tools that replace expensive software.\"",
+          "Skill giveaway": "Rotate through the top 20 ready skills, one per day",
+          "Expected engagement": "Compounding reach from daily posting + series loyalty"
+        },
+        "urgency_hours": 96
+      },
+      {
+        "title": "Opportunity #3: Claude Code Capability Reveals",
+        "details": {
+          "Format": "Screen recording Reels (15-45 sec) + educational carousels",
+          "Example hook": "\"You can now control Claude Code from your phone. Here's how.\"",
+          "Skill giveaway": "Remote Control Setup, Agent Builder, Skill Builder",
+          "Expected engagement": "High save rate (tutorial content), strong share via DM"
+        },
+        "urgency_hours": 96
+      },
+      {
+        "title": "Opportunity #4: Before/After Transformation Reels",
+        "details": {
+          "Format": "Split-screen or transition Reels, 15-30 seconds",
+          "Example hook": "\"6,000 unread emails to inbox zero in 20 minutes.\"",
+          "Skill giveaway": "Inbox Manager, Image Enhancer, Design Templates",
+          "Expected engagement": "High watch-through rate from curiosity gap"
+        },
+        "urgency_hours": 96
+      },
+      {
+        "title": "Opportunity #5: \"I Built a [Thing] With One Prompt\" Demos",
+        "details": {
+          "Format": "Reels showing real-time build + finished product",
+          "Example hook": "\"I built a $3,000 proposal in 90 seconds. One prompt.\"",
+          "Skill giveaway": "Proposal Generator, Lead Magnet Generator, Ad Campaign Generator",
+          "Expected engagement": "High comment rate (\"How?!\"), strong DM shares"
+        },
+        "urgency_hours": 96
       }
     ]
   },
@@ -1452,7 +1502,7 @@
     "outlier_count": 20,
     "strong_outliers": 16,
     "topic_count": 15,
-    "idea_count": 5,
+    "idea_count": 10,
     "creator_count": 13,
     "period": "week",
     "outlier_rate": 80.0

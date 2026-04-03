@@ -468,24 +468,24 @@ function formatEngagement(n: number): string {
         <section>
           <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-1">
-              <div class="stat-value text-3xl">{formatEngagement(totalEngagement)}</div>
+              <div class="stat-value text-3xl" x-text="formatNum(summaryStats.total_engagement || 0)"></div>
               <div class="section-label mt-2">Total Engagement Tracked</div>
             </div>
             <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-2">
-              <div class="stat-value text-3xl">{outlierRate}%</div>
+              <div class="stat-value text-3xl" x-text="(summaryStats.outlier_rate || 0) + '%'"></div>
               <div class="section-label mt-2">Strong Outlier Rate</div>
             </div>
             <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-3">
-              <div class="stat-value text-3xl">{topFramework ? topFramework.name : 'N/A'}</div>
-              <div class="section-label mt-2">Top Framework</div>
+              <div class="stat-value text-3xl" x-text="topics.length + ' Topics'"></div>
+              <div class="section-label mt-2">Trending Topics</div>
             </div>
             <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-4">
-              <div class="stat-value text-3xl">150-180<span class="text-lg"> WPM</span></div>
-              <div class="section-label mt-2">Sweet Spot: 30-45s</div>
+              <div class="stat-value text-3xl" x-text="outliers.length + ' Posts'"></div>
+              <div class="section-label mt-2">Top Outliers</div>
             </div>
             <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-5">
-              <div class="stat-value text-3xl">{activeCreators.length}</div>
-              <div class="section-label mt-2">Active Creators (7d)</div>
+              <div class="stat-value text-3xl" x-text="creators.length"></div>
+              <div class="section-label mt-2">Active Creators</div>
             </div>
           </div>
         </section>
@@ -1125,6 +1125,7 @@ function formatEngagement(n: number): string {
       creators: [],
       pipelineData: {},
       performanceData: {},
+      summaryStats: {},
 
       // Chart instances
       _fwChart: null,
@@ -1166,7 +1167,7 @@ function formatEngagement(n: number): string {
         this.period = p;
         this.loading = true;
         try {
-          var res = await fetch('/' + p + '.json');
+          var res = await fetch('/data/' + p + '.json');
           if (res.ok) {
             this.currentData = await res.json();
             this.hydrateFromData(this.currentData);
@@ -1180,15 +1181,34 @@ function formatEngagement(n: number): string {
       },
 
       hydrateFromData(d) {
-        this.topics = (d && d.trending && d.trending.topics) ? d.trending.topics.slice(0, 5) : [];
+        this.topics = (d && d.trending && d.trending.topics) ? d.trending.topics : [];
         var posts = (d && d.outliers && d.outliers.posts) ? d.outliers.posts : [];
-        this.outliers = posts.slice().sort(function(a, b) { return b.priority_score - a.priority_score; }).slice(0, 15);
-        this.outlierTotal = (d && d.outliers) ? (d.outliers.total || 0) : 0;
+        this.outliers = posts.slice().sort(function(a, b) { return b.priority_score - a.priority_score; });
+        this.outlierTotal = (d && d.outliers) ? (d.outliers.total || posts.length) : 0;
         this.ideas = (d && d.suggested_content && d.suggested_content.ideas) ? d.suggested_content.ideas : [];
         var cr = (d && d.creator_watch && d.creator_watch.creators) ? d.creator_watch.creators : [];
         this.creators = cr.slice().sort(function(a, b) { return b.avg_engagement - a.avg_engagement; });
         this.pipelineData = (d && d.pipeline) ? d.pipeline : {};
         this.performanceData = (d && d.performance) ? d.performance : {};
+
+        // Hydrate summary stats from period-specific data
+        if (d && d.summary) {
+          this.summaryStats = d.summary;
+        } else {
+          // Compute from current data
+          var totalEng = posts.reduce(function(sum, p) { return sum + (p.engagement || p.engagement_score || 0); }, 0);
+          var strongOutliers = posts.filter(function(p) { return (p.outlier_ratio || 0) >= 10; });
+          this.summaryStats = {
+            total_engagement: totalEng,
+            outlier_count: posts.length,
+            strong_outliers: strongOutliers.length,
+            outlier_rate: posts.length > 0 ? Math.round((strongOutliers.length / posts.length) * 1000) / 10 : 0,
+            topic_count: this.topics.length,
+            idea_count: this.ideas.length,
+            creator_count: this.creators.length,
+            period: d ? (d.period || 'today') : 'today',
+          };
+        }
       },
 
       buildLetsGoCommand(idea) {
