@@ -1,0 +1,1191 @@
+{
+  "generated_at": "2026-04-03T23:21:39.043485+00:00",
+  "trending": {
+    "topics": [
+      {
+        "name": "1. The Claude Code Source Leak & Aftermath",
+        "details": [
+          "**What's happening:** Biggest accidental source code leak in AI history. Reddit threads hitting 5,000+ upvotes across r/ClaudeAI, r/vibecoding, r/ClaudeCode. VentureBeat, TechCrunch, The Register, Hacker News, CyberNews all running stories. Users on r/ClaudeAI are finding and patching bugs in Anthropic's own code and posting fixes publicly.",
+          "**Why it matters for content:** This is a once-in-a-year event. Every AI creator will cover it. The question is WHO covers it with the most useful angle for builders.",
+          "**Suggested hook angle:** Skip the outrage take. Go practical: \"Here's what the leak ACTUALLY revealed about how Claude Code works under the hood \u2014 and what it means for how you should be using it.\" Focus on KAIROS (daemon mode), the 44 unreleased features, and the Auto-dream memory system."
+        ],
+        "heat": "warm",
+        "heat_score": {
+          "total": 61,
+          "cross_source": 56,
+          "engagement": 5,
+          "velocity": 0
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          36,
+          43,
+          51,
+          56,
+          59,
+          61,
+          64
+        ],
+        "sources": [
+          "reddit",
+          "hn",
+          "news"
+        ]
+      },
+      {
+        "name": "2. Claude Code /dream and Auto-Memory 2.0",
+        "details": [
+          "**What's happening:** Claude Code quietly shipped a \"dream\" feature \u2014 a REM-sleep-inspired subagent that consolidates short-term memory into long-term storage between sessions. It runs a 4-phase process: Orientation, Gather Signal, Consolidation, Prune & Index. The r/ClaudeCode thread hit 2,400 upvotes. Top comment: \"OK well now we need /acid to handle all of its hallucinations.\"",
+          "**Why it matters for content:** This is Claude Code becoming a persistent AI employee, not just a session-based tool. Directly tied to the CMNDSHFT narrative of \"AI employees.\"",
+          "**Suggested hook angle:** \"Your AI just learned how to sleep. Here's why that changes everything about how you work with Claude Code.\" Demo the /dream command live, show the before/after of memory files."
+        ],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 25,
+          "cross_source": 16,
+          "engagement": 5,
+          "velocity": 4
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          7,
+          15,
+          20,
+          23,
+          25,
+          28
+        ],
+        "sources": [
+          "reddit"
+        ]
+      },
+      {
+        "name": "3. MIT Study: \"AI Replacing Engineers\" Narrative Debunked (Sort Of)",
+        "details": [
+          "**What's happening:** MIT published research showing AI isn't replacing software engineers \u2014 but the Reddit comments tell a different story. Top comment (593 upvotes): \"We downsized our team by a third while everyone is getting 20-30% more work done using Claude Code.\" IBM reportedly told managers to stop hiring and use AI instead.",
+          "**Why it matters for content:** The tension between the academic take and the real-world layoff data is pure content gold. Both sides have ammunition.",
+          "**Suggested hook angle:** \"MIT says AI won't replace engineers. The comments say otherwise. Here's what's ACTUALLY happening.\" Read the top Reddit comments on camera. Let the audience decide."
+        ],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 26,
+          "cross_source": 16,
+          "engagement": 10,
+          "velocity": 0
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          1,
+          8,
+          16,
+          21,
+          24,
+          26,
+          29
+        ],
+        "sources": [
+          "reddit"
+        ]
+      },
+      {
+        "name": "4. Open-Source Claude Code Skills for Marketing Going Viral",
+        "details": [
+          "**What's happening:** A marketing agency open-sourced their entire Claude Code skill set for growth experiments, sales pipeline, content ops, outbound, and SEO. The X post from @ihtesham2005 pulled 1,574 likes. Multiple creators (Eric Siu, Sabrina Ramonov, others) are sharing their Claude Code stacks publicly.",
+          "**Why it matters for content:** This validates the entire CMNDSHFT model \u2014 skills as the new currency. People are literally giving away what you're selling.",
+          "**Suggested hook angle:** \"A marketing agency just open-sourced skills that replace $8K/month in hires. Here's how to actually use them.\" Walk through the skill set, show how to install and customize for your own business."
+        ],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 25,
+          "cross_source": 16,
+          "engagement": 5,
+          "velocity": 4
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          7,
+          15,
+          20,
+          23,
+          25,
+          28
+        ],
+        "sources": [
+          "x"
+        ]
+      },
+      {
+        "name": "5. \"Chaos Culture\" Dominates Instagram \u2014 Raw Over Polished",
+        "details": [
+          "**What's happening:** The shift from polished, edited content to raw, spontaneous, imperfect posts is accelerating. Younger audiences reward authenticity over production value. AI-generated memes are the fastest-spreading content format. Faceless Reels with AI voiceovers are getting massive reach.",
+          "**Why it matters for content:** This plays directly into the \"film it from your desk\" format Christian already uses. No excuse not to post \u2014 imperfect IS the trend.",
+          "**Suggested hook angle:** \"Stop editing your Reels. Here's why ugly content is outperforming polished content in 2026.\" Show the data, then demonstrate by posting a raw take.",
+          "**`/loop` command gaining traction** \u2014 @JulianGoldieSEO on X: \"The underrated Claude Code feature nobody is talking about. Run once = automation. Run in a loop = system.\"",
+          "**Monetization patterns crystallizing** \u2014 7 ways creators are making money with Claude Code: build-to-sell workflows, custom AI assistants, Gumroad skill packs, consulting, content automation"
+        ],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 12,
+          "cross_source": 8,
+          "engagement": 0,
+          "velocity": 4
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          2,
+          7,
+          10,
+          12,
+          15
+        ],
+        "sources": [
+          "x"
+        ]
+      }
+    ],
+    "urgent": "",
+    "date": "2026-04-03-trends",
+    "file": "/Users/christianmcleod/content-engine/docs/daily-trends/2026-04-03-trends.md"
+  },
+  "outliers": {
+    "posts": [
+      {
+        "hook": "Stop listening to Trump",
+        "creator": "sina.growthtech",
+        "engagement": 31617,
+        "outlier_ratio": 56.46,
+        "priority_score": 90.7,
+        "framework": "Pattern Interrupt",
+        "wpm": 189.0,
+        "duration": 109.2,
+        "url": "https://www.instagram.com/p/DWjpSg1kwLL",
+        "date": "2026-03-31T17:22:08+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Is it possible to take a simple website like this and turn it into a fully edited video like this wi",
+        "creator": "cooper.simson",
+        "engagement": 41074,
+        "outlier_ratio": 17.72,
+        "priority_score": 89.7,
+        "framework": "Question, Cost Replacement",
+        "wpm": 287.3,
+        "duration": 53.7,
+        "url": "https://www.instagram.com/p/DWaHBuJCfNV",
+        "date": "2026-03-28T00:27:50+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Can you build 10,000 on our websites in two minutes with Cloud Code?",
+        "creator": "tenfoldmarc",
+        "engagement": 14494,
+        "outlier_ratio": 65.88,
+        "priority_score": 88.5,
+        "framework": "Question",
+        "wpm": 198.2,
+        "duration": 60.2,
+        "url": "https://www.instagram.com/p/DWfPNXIDDiE",
+        "date": "2026-03-30T00:15:23+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "You need to pay attention because Cloud is giving away a free AI certification that Deloitte is payi",
+        "creator": "raycfu",
+        "engagement": 51839,
+        "outlier_ratio": 27.62,
+        "priority_score": 88.3,
+        "framework": "Cost Replacement",
+        "wpm": 268.1,
+        "duration": 48.6,
+        "url": "https://www.instagram.com/p/DWQB0hWDy4F",
+        "date": "2026-03-24T02:30:13+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Is it possible to redesign ugly rooms like my office and awesome spaces like this with AI, so you do",
+        "creator": "cooper.simson",
+        "engagement": 24941,
+        "outlier_ratio": 10.76,
+        "priority_score": 88.2,
+        "framework": "Question, Pattern Interrupt",
+        "wpm": 305.1,
+        "duration": 54.5,
+        "url": "https://www.instagram.com/p/DWXpROeDEZC",
+        "date": "2026-03-27T01:45:21+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Here's what almost everyone missed in Claude's latest update, and while I'll never use Canva again",
+        "creator": "artem.novitckii",
+        "engagement": 125648,
+        "outlier_ratio": 117.76,
+        "priority_score": 87.7,
+        "framework": "Pattern Interrupt",
+        "wpm": 218.2,
+        "duration": 56.9,
+        "url": "https://www.instagram.com/p/DWBaRqwDFWy",
+        "date": "2026-03-18T10:15:54+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Nobody talks about this, but there's a team running 20 AI agents inside Cloud Code to generate their",
+        "creator": "raycfu",
+        "engagement": 10958,
+        "outlier_ratio": 5.84,
+        "priority_score": 87.4,
+        "framework": "Cost Replacement",
+        "wpm": 271.5,
+        "duration": 67.8,
+        "url": "https://www.instagram.com/p/DWdN1EwDxWp",
+        "date": "2026-03-29T05:27:22+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Most people don't realize that there's over 60,000 plot skills",
+        "creator": "raycfu",
+        "engagement": 35917,
+        "outlier_ratio": 19.14,
+        "priority_score": 87.1,
+        "framework": "Pattern Interrupt",
+        "wpm": 254.6,
+        "duration": 58.9,
+        "url": "https://www.instagram.com/p/DWNXK9Sj3ZH",
+        "date": "2026-03-23T01:39:03+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Most people don't realize that people are building simple cloud plugins and selling them for more th",
+        "creator": "raycfu",
+        "engagement": 19436,
+        "outlier_ratio": 10.35,
+        "priority_score": 87.1,
+        "framework": "Cost Replacement",
+        "wpm": 274.7,
+        "duration": 59.4,
+        "url": "https://www.instagram.com/p/DWXcv2ljy0q",
+        "date": "2026-03-26T23:39:59+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Something is really weird happening with Claude right now and there is a conspiracy theory that Anth",
+        "creator": "artem.novitckii",
+        "engagement": 5939,
+        "outlier_ratio": 5.57,
+        "priority_score": 87.1,
+        "framework": "Curiosity Gap",
+        "wpm": 191.6,
+        "duration": 91.1,
+        "url": "https://www.instagram.com/p/DWizKggjHA_",
+        "date": "2026-03-31T09:31:34+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "5 cloud code skills I wish I had installed on day one",
+        "creator": "justyn.ai",
+        "engagement": 9146,
+        "outlier_ratio": 11.31,
+        "priority_score": 87.0,
+        "framework": "Test/Experiment",
+        "wpm": 241.9,
+        "duration": 62.0,
+        "url": "https://www.instagram.com/p/DWekRCmjjBO",
+        "date": "2026-03-29T18:03:39+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Watch this",
+        "creator": "justyn.ai",
+        "engagement": 4342,
+        "outlier_ratio": 5.37,
+        "priority_score": 87.0,
+        "framework": "Curiosity Gap",
+        "wpm": 192.6,
+        "duration": 35.5,
+        "url": "https://www.instagram.com/p/DWmSBIVDgmV",
+        "date": "2026-04-01T17:54:42+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Cloud Code just killed the website designers",
+        "creator": "tenfoldmarc",
+        "engagement": 88640,
+        "outlier_ratio": 402.91,
+        "priority_score": 86.9,
+        "framework": "Curiosity Gap",
+        "wpm": 169.3,
+        "duration": 67.0,
+        "url": "https://www.instagram.com/p/DWCPx0PkQzA",
+        "date": "2026-03-18T18:03:00+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "I wish someone told me the sooner, but you can actually use a cloth skill to bid out prediction mark",
+        "creator": "raycfu",
+        "engagement": 226883,
+        "outlier_ratio": 120.88,
+        "priority_score": 86.7,
+        "framework": "Cost Replacement",
+        "wpm": 261.4,
+        "duration": 69.1,
+        "url": "https://www.instagram.com/p/DVxEG05D8HL",
+        "date": "2026-03-12T01:55:04+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Is it just me or Claude has gone to absolute shit like now I hit my limit super fast where I before ",
+        "creator": "tenfoldmarc",
+        "engagement": 4111,
+        "outlier_ratio": 18.69,
+        "priority_score": 86.3,
+        "framework": "Before/After",
+        "wpm": 190.3,
+        "duration": 28.1,
+        "url": "https://www.instagram.com/p/DWh7I-zji8V",
+        "date": "2026-03-31T01:17:22+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "This is how to safely install Cloud Code completely for free",
+        "creator": "charliehills",
+        "engagement": 25054,
+        "outlier_ratio": 28.57,
+        "priority_score": 85.9,
+        "framework": "Cost Replacement",
+        "wpm": 226.5,
+        "duration": 43.4,
+        "url": "https://www.instagram.com/p/DWMLIw7lMBG",
+        "date": "2026-03-22T14:35:30+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Everybody's talking about how you can use Cloud Code to build your new app for free, but nobody is s",
+        "creator": "tenfoldmarc",
+        "engagement": 12884,
+        "outlier_ratio": 58.56,
+        "priority_score": 85.8,
+        "framework": "Cost Replacement",
+        "wpm": 213.6,
+        "duration": 59.0,
+        "url": "https://www.instagram.com/p/DWSdERaDHnW",
+        "date": "2026-03-25T01:06:20+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Most people don't realize that people are actually making a lot of money from just using OpenClaw ag",
+        "creator": "raycfu",
+        "engagement": 112754,
+        "outlier_ratio": 60.07,
+        "priority_score": 85.6,
+        "framework": "Curiosity Gap",
+        "wpm": 258.0,
+        "duration": 56.3,
+        "url": "https://www.instagram.com/p/DVzhP3Cj8ZL",
+        "date": "2026-03-13T00:48:09+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Did Claude just kill Canva, PowerPoint, Figma, and basically anything a web designer would charge yo",
+        "creator": "justyn.ai",
+        "engagement": 6370,
+        "outlier_ratio": 7.87,
+        "priority_score": 85.2,
+        "framework": "Question",
+        "wpm": 282.3,
+        "duration": 61.0,
+        "url": "https://www.instagram.com/p/DWZsbDEj6nP",
+        "date": "2026-03-27T20:35:55+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "CloudCode just killed Zapier, Make, and N&N",
+        "creator": "justyn.ai",
+        "engagement": 16905,
+        "outlier_ratio": 20.9,
+        "priority_score": 85.0,
+        "framework": "Curiosity Gap",
+        "wpm": 265.3,
+        "duration": 60.2,
+        "url": "https://www.instagram.com/p/DWMeby9Djm1",
+        "date": "2026-03-22T17:26:12+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      }
+    ],
+    "total": 507
+  },
+  "pipeline": {
+    "total_scripts": 60,
+    "script_files": [
+      "top-10-scripts.md",
+      "scripts-11-20.md",
+      "scripts-batch-1-day-series.md",
+      "scripts-batch-2-advanced.md",
+      "scripts-sam-call-topics.md"
+    ],
+    "skills_ready": 20,
+    "skills_need_rebrand": 13,
+    "creators_monitored": 18,
+    "transcripts": 507
+  },
+  "suggested_content": {
+    "ideas": [
+      {
+        "title": "Idea 1: \"Claude Code's Source Just Leaked \u2014 Here's What They Were Hiding\"",
+        "details": {
+          "Hook": "\"Anthropic accidentally leaked 512,000 lines of Claude Code's source code. And what's inside is wild.\"",
+          "Text overlay": "\"CLAUDE CODE LEAKED: 44 Hidden Features Found\"",
+          "CTA keyword": "LEAK",
+          "Skill giveaway": "Claude Code CLAUDE.md memory optimization skill",
+          "Why now": "Story broke March 31, mainstream coverage is peaking TODAY (April 3). TechCrunch, VentureBeat, The Register all running pieces. 48-72 hour window before it's old news."
+        },
+        "urgency_hours": 12
+      },
+      {
+        "title": "Idea 2: \"Your AI Just Learned How to Sleep\"",
+        "details": {
+          "Hook": "\"Claude Code can now dream. No, literally \u2014 they built a feature called /dream that consolidates your AI's memory while you're away.\"",
+          "Text overlay": "\"Claude Code /dream = AI Memory on Autopilot\"",
+          "CTA keyword": "DREAM",
+          "Skill giveaway": "Auto-dream setup walkthrough skill (show MEMORY.md before/after)",
+          "Why now": "/dream discovery post hit 2,400 upvotes on r/ClaudeCode. Most creators haven't covered this yet because the leak story overshadowed it. Be the one who connects it to practical use."
+        },
+        "urgency_hours": 96
+      },
+      {
+        "title": "Idea 3: \"MIT Says AI Won't Replace Engineers. The Comments Disagree.\"",
+        "details": {
+          "Hook": "\"MIT just published a study saying AI won't replace software engineers. Then I read the comments.\"",
+          "Text overlay": "\"'We downsized by a third. Everyone does 30% more with Claude Code.'\"",
+          "CTA keyword": "TRUTH",
+          "Skill giveaway": "AI workflow audit skill \u2014 assess what in your job can be automated",
+          "Why now": "The Reddit thread is 2 days old and still getting engagement. The IBM \"stop hiring, use AI\" angle just broke. The tension between academic research and real-world reports is peak engagement bait."
+        },
+        "urgency_hours": 36
+      },
+      {
+        "title": "Idea 4: \"A Marketing Agency Just Open-Sourced Their Entire AI Playbook\"",
+        "details": {
+          "Hook": "\"A marketing agency generating millions in revenue just open-sourced their entire Claude Code skill set. Growth experiments, sales pipeline, content ops, SEO \u2014 all of it. Free.\"",
+          "Text overlay": "\"FREE: AI Skills That Replace $8K/Month in Hires\"",
+          "CTA keyword": "SKILLS",
+          "Skill giveaway": "Curated starter pack of 5 best skills from the open-source drop",
+          "Why now": "The @ihtesham2005 X post hit 1,574 likes and is still spreading. Eric Siu amplified it. The \"free AI tools replacing expensive hires\" narrative is red hot."
+        },
+        "urgency_hours": 72
+      },
+      {
+        "title": "Idea 5: \"The Claude Code Feature Nobody Is Talking About\"",
+        "details": {
+          "Hook": "\"Everyone is talking about the Claude Code leak. Nobody is talking about /loop. Run once, it's automation. Run in a loop, it's a system.\"",
+          "Text overlay": "\"/loop = Turn Claude Code Into a 24/7 Employee\"",
+          "CTA keyword": "LOOP",
+          "Skill giveaway": "/loop monitoring skill \u2014 set up Claude Code to watch your community and auto-draft responses",
+          "Why now": "@JulianGoldieSEO posted this TODAY (April 2). The concept of Claude Code as a persistent system (not a one-shot tool) directly reinforces the CMNDSHFT \"AI employee\" positioning. Film it while the leak gives you a natural segue."
+        },
+        "urgency_hours": 12
+      }
+    ]
+  },
+  "creator_watch": {
+    "creators": [
+      {
+        "username": "rpn",
+        "posts": 37,
+        "avg_engagement": 60224,
+        "top_outlier": 10.58,
+        "total_engagement": 2228301,
+        "top_hook": "Social media is dead",
+        "engagement_history": [
+          {
+            "date": "2026-01-28T17:14:31+00:00",
+            "engagement": 47068
+          },
+          {
+            "date": "2026-02-22T16:06:45+00:00",
+            "engagement": 16277
+          },
+          {
+            "date": "2026-03-02T00:59:13+00:00",
+            "engagement": 34367
+          },
+          {
+            "date": "2026-03-05T20:01:48+00:00",
+            "engagement": 80462
+          },
+          {
+            "date": "2026-03-11T21:29:34+00:00",
+            "engagement": 28728
+          },
+          {
+            "date": "2026-03-13T21:38:36+00:00",
+            "engagement": 139368
+          },
+          {
+            "date": "2026-03-24T04:51:05+00:00",
+            "engagement": 13990
+          }
+        ],
+        "last_post_date": "2026-03-24T04:51:05+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "charliehills",
+        "posts": 33,
+        "avg_engagement": 50591,
+        "top_outlier": 1199.98,
+        "total_engagement": 1669488,
+        "top_hook": "This is the one prompt that makes ChatGPT actually sound human",
+        "engagement_history": [
+          {
+            "date": "2026-03-26T14:40:47+00:00",
+            "engagement": 226
+          },
+          {
+            "date": "2026-03-27T14:34:42+00:00",
+            "engagement": 375
+          },
+          {
+            "date": "2026-03-28T14:54:09+00:00",
+            "engagement": 1268
+          },
+          {
+            "date": "2026-03-29T13:35:12+00:00",
+            "engagement": 3689
+          },
+          {
+            "date": "2026-03-30T13:34:17+00:00",
+            "engagement": 1403
+          },
+          {
+            "date": "2026-03-31T15:57:35+00:00",
+            "engagement": 1527
+          },
+          {
+            "date": "2026-04-01T14:19:56+00:00",
+            "engagement": 142
+          }
+        ],
+        "last_post_date": "2026-04-01T14:19:56+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "artem.novitckii",
+        "posts": 21,
+        "avg_engagement": 13299,
+        "top_outlier": 117.76,
+        "total_engagement": 279287,
+        "top_hook": "Here's what almost everyone missed in Claude's latest update, and while I'll nev",
+        "engagement_history": [
+          {
+            "date": "2026-02-27T15:56:28+00:00",
+            "engagement": 984
+          },
+          {
+            "date": "2026-03-18T10:15:54+00:00",
+            "engagement": 125648
+          },
+          {
+            "date": "2026-03-19T10:32:00+00:00",
+            "engagement": 179
+          },
+          {
+            "date": "2026-03-28T09:18:20+00:00",
+            "engagement": 1210
+          },
+          {
+            "date": "2026-03-30T07:49:37+00:00",
+            "engagement": 1067
+          },
+          {
+            "date": "2026-03-31T09:31:34+00:00",
+            "engagement": 5939
+          },
+          {
+            "date": "2026-04-02T09:53:20+00:00",
+            "engagement": 51
+          }
+        ],
+        "last_post_date": "2026-04-02T09:53:20+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "raycfu",
+        "posts": 49,
+        "avg_engagement": 13243,
+        "top_outlier": 120.88,
+        "total_engagement": 648893,
+        "top_hook": "I wish someone told me the sooner, but you can actually use a cloth skill to bid",
+        "engagement_history": [
+          {
+            "date": "2026-03-26T23:39:59+00:00",
+            "engagement": 19436
+          },
+          {
+            "date": "2026-03-27T23:32:33+00:00",
+            "engagement": 678
+          },
+          {
+            "date": "2026-03-29T05:27:22+00:00",
+            "engagement": 10958
+          },
+          {
+            "date": "2026-03-30T05:59:44+00:00",
+            "engagement": 1374
+          },
+          {
+            "date": "2026-03-31T03:08:01+00:00",
+            "engagement": 7743
+          },
+          {
+            "date": "2026-04-01T06:12:26+00:00",
+            "engagement": 1620
+          },
+          {
+            "date": "2026-04-02T04:44:26+00:00",
+            "engagement": 1578
+          }
+        ],
+        "last_post_date": "2026-04-02T04:44:26+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "chriswesst",
+        "posts": 8,
+        "avg_engagement": 10582,
+        "top_outlier": 227.36,
+        "total_engagement": 84658,
+        "top_hook": "CEO, CEO, content director, sales, developer, finance, and client success",
+        "engagement_history": [
+          {
+            "date": "2025-12-24T01:11:09+00:00",
+            "engagement": 0
+          },
+          {
+            "date": "2026-01-15T21:34:05+00:00",
+            "engagement": 111
+          },
+          {
+            "date": "2026-02-10T23:00:37+00:00",
+            "engagement": 361
+          },
+          {
+            "date": "2026-02-27T07:19:02+00:00",
+            "engagement": 756
+          },
+          {
+            "date": "2026-03-01T02:14:37+00:00",
+            "engagement": 82076
+          },
+          {
+            "date": "2026-03-08T23:10:29+00:00",
+            "engagement": 1112
+          },
+          {
+            "date": "2026-03-22T04:19:54+00:00",
+            "engagement": 239
+          }
+        ],
+        "last_post_date": "2026-03-22T04:19:54+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "cooper.simson",
+        "posts": 49,
+        "avg_engagement": 8993,
+        "top_outlier": 41.0,
+        "total_engagement": 440649,
+        "top_hook": "Is it possible to replace an entire SEO agency and rank higher with AI?",
+        "engagement_history": [
+          {
+            "date": "2026-03-28T22:38:46+00:00",
+            "engagement": 176
+          },
+          {
+            "date": "2026-03-29T04:36:50+00:00",
+            "engagement": 563
+          },
+          {
+            "date": "2026-03-30T01:15:05+00:00",
+            "engagement": 806
+          },
+          {
+            "date": "2026-03-31T04:29:56+00:00",
+            "engagement": 9615
+          },
+          {
+            "date": "2026-03-31T21:34:09+00:00",
+            "engagement": 544
+          },
+          {
+            "date": "2026-04-01T02:22:27+00:00",
+            "engagement": 2318
+          },
+          {
+            "date": "2026-04-02T04:29:48+00:00",
+            "engagement": 537
+          }
+        ],
+        "last_post_date": "2026-04-02T04:29:48+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "digitalsamaritan",
+        "posts": 50,
+        "avg_engagement": 5833,
+        "top_outlier": 19.43,
+        "total_engagement": 291646,
+        "top_hook": "Things you don't know you can do with Claude, part 7",
+        "engagement_history": [
+          {
+            "date": "2026-03-13T03:07:22+00:00",
+            "engagement": 3833
+          },
+          {
+            "date": "2026-03-16T02:55:20+00:00",
+            "engagement": 2160
+          },
+          {
+            "date": "2026-03-18T19:43:12+00:00",
+            "engagement": 4736
+          },
+          {
+            "date": "2026-03-21T02:56:26+00:00",
+            "engagement": 1319
+          },
+          {
+            "date": "2026-03-26T03:14:42+00:00",
+            "engagement": 1616
+          },
+          {
+            "date": "2026-03-26T22:00:51+00:00",
+            "engagement": 5792
+          },
+          {
+            "date": "2026-03-31T02:37:47+00:00",
+            "engagement": 1274
+          }
+        ],
+        "last_post_date": "2026-03-31T02:37:47+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "tenfoldmarc",
+        "posts": 50,
+        "avg_engagement": 5161,
+        "top_outlier": 402.91,
+        "total_engagement": 258062,
+        "top_hook": "Cloud Code just killed the website designers",
+        "engagement_history": [
+          {
+            "date": "2026-03-28T23:54:27+00:00",
+            "engagement": 3572
+          },
+          {
+            "date": "2026-03-30T00:15:23+00:00",
+            "engagement": 14494
+          },
+          {
+            "date": "2026-03-30T00:19:58+00:00",
+            "engagement": 115
+          },
+          {
+            "date": "2026-03-31T01:17:22+00:00",
+            "engagement": 4111
+          },
+          {
+            "date": "2026-03-31T22:33:39+00:00",
+            "engagement": 52
+          },
+          {
+            "date": "2026-04-01T03:32:38+00:00",
+            "engagement": 427
+          },
+          {
+            "date": "2026-04-01T17:02:06+00:00",
+            "engagement": 39
+          }
+        ],
+        "last_post_date": "2026-04-01T17:02:06+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "jasoncooperson",
+        "posts": 49,
+        "avg_engagement": 4319,
+        "top_outlier": 85.78,
+        "total_engagement": 211614,
+        "top_hook": "I'm about to give away my $500 content system for free",
+        "engagement_history": [
+          {
+            "date": "2026-03-18T19:36:06+00:00",
+            "engagement": 337
+          },
+          {
+            "date": "2026-03-19T17:41:07+00:00",
+            "engagement": 620
+          },
+          {
+            "date": "2026-03-22T22:48:36+00:00",
+            "engagement": 2899
+          },
+          {
+            "date": "2026-03-26T00:53:54+00:00",
+            "engagement": 1177
+          },
+          {
+            "date": "2026-03-30T02:04:15+00:00",
+            "engagement": 427
+          },
+          {
+            "date": "2026-04-02T04:03:55+00:00",
+            "engagement": 196
+          },
+          {
+            "date": "2026-04-02T05:51:55+00:00",
+            "engagement": 60
+          }
+        ],
+        "last_post_date": "2026-04-02T05:51:55+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "justyn.ai",
+        "posts": 47,
+        "avg_engagement": 3541,
+        "top_outlier": 37.07,
+        "total_engagement": 166444,
+        "top_hook": "Did Clod just kill Canva, PowerPoint, Figma, and basically anything a web design",
+        "engagement_history": [
+          {
+            "date": "2026-03-27T20:35:55+00:00",
+            "engagement": 6370
+          },
+          {
+            "date": "2026-03-29T18:03:39+00:00",
+            "engagement": 9146
+          },
+          {
+            "date": "2026-03-30T16:14:09+00:00",
+            "engagement": 263
+          },
+          {
+            "date": "2026-03-30T18:21:04+00:00",
+            "engagement": 1298
+          },
+          {
+            "date": "2026-03-31T16:44:20+00:00",
+            "engagement": 852
+          },
+          {
+            "date": "2026-04-01T00:02:38+00:00",
+            "engagement": 418
+          },
+          {
+            "date": "2026-04-01T17:54:42+00:00",
+            "engagement": 4342
+          }
+        ],
+        "last_post_date": "2026-04-01T17:54:42+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "sina.growthtech",
+        "posts": 50,
+        "avg_engagement": 1920,
+        "top_outlier": 56.46,
+        "total_engagement": 95987,
+        "top_hook": "Stop listening to Trump",
+        "engagement_history": [
+          {
+            "date": "2026-03-23T22:14:41+00:00",
+            "engagement": 536
+          },
+          {
+            "date": "2026-03-24T20:21:52+00:00",
+            "engagement": 1059
+          },
+          {
+            "date": "2026-03-24T23:13:47+00:00",
+            "engagement": 1238
+          },
+          {
+            "date": "2026-03-27T01:49:28+00:00",
+            "engagement": 2929
+          },
+          {
+            "date": "2026-03-31T17:22:08+00:00",
+            "engagement": 31617
+          },
+          {
+            "date": "2026-03-31T20:42:05+00:00",
+            "engagement": 1470
+          },
+          {
+            "date": "2026-04-01T02:30:36+00:00",
+            "engagement": 444
+          }
+        ],
+        "last_post_date": "2026-04-01T02:30:36+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "techbible.ai",
+        "posts": 27,
+        "avg_engagement": 885,
+        "top_outlier": 31.86,
+        "total_engagement": 23897,
+        "top_hook": "Did you go to law school?",
+        "engagement_history": [
+          {
+            "date": "2026-03-06T14:36:15+00:00",
+            "engagement": 1960
+          },
+          {
+            "date": "2026-03-10T18:13:47+00:00",
+            "engagement": 6661
+          },
+          {
+            "date": "2026-03-15T15:30:24+00:00",
+            "engagement": 238
+          },
+          {
+            "date": "2026-03-16T16:12:32+00:00",
+            "engagement": 156
+          },
+          {
+            "date": "2026-03-17T12:09:09+00:00",
+            "engagement": 277
+          },
+          {
+            "date": "2026-03-20T17:29:44+00:00",
+            "engagement": 7582
+          },
+          {
+            "date": "2026-03-31T12:09:16+00:00",
+            "engagement": 232
+          }
+        ],
+        "last_post_date": "2026-03-31T12:09:16+00:00",
+        "posted_recently": false
+      },
+      {
+        "username": "tom__youngs",
+        "posts": 37,
+        "avg_engagement": 284,
+        "top_outlier": 15.12,
+        "total_engagement": 10509,
+        "top_hook": "I am fucking sick of seeing all these fucking nerds talking about claw code but ",
+        "engagement_history": [
+          {
+            "date": "2026-03-19T11:58:24+00:00",
+            "engagement": 173
+          },
+          {
+            "date": "2026-03-24T10:29:34+00:00",
+            "engagement": 111
+          },
+          {
+            "date": "2026-03-26T14:35:20+00:00",
+            "engagement": 442
+          },
+          {
+            "date": "2026-03-27T15:04:42+00:00",
+            "engagement": 124
+          },
+          {
+            "date": "2026-03-31T18:02:36+00:00",
+            "engagement": 339
+          },
+          {
+            "date": "2026-04-01T06:38:14+00:00",
+            "engagement": 20
+          },
+          {
+            "date": "2026-04-01T08:19:30+00:00",
+            "engagement": 1678
+          }
+        ],
+        "last_post_date": "2026-04-01T08:19:30+00:00",
+        "posted_recently": false
+      }
+    ]
+  },
+  "performance": {
+    "frameworks": [
+      {
+        "name": "Contrarian",
+        "count": 10,
+        "avg_engagement": 19184
+      },
+      {
+        "name": "Proof First",
+        "count": 21,
+        "avg_engagement": 13914
+      },
+      {
+        "name": "Pattern Interrupt",
+        "count": 44,
+        "avg_engagement": 13105
+      },
+      {
+        "name": "Curiosity Gap",
+        "count": 294,
+        "avg_engagement": 12896
+      },
+      {
+        "name": "Cost Replacement",
+        "count": 56,
+        "avg_engagement": 12390
+      },
+      {
+        "name": "Question",
+        "count": 54,
+        "avg_engagement": 11249
+      },
+      {
+        "name": "Before/After",
+        "count": 11,
+        "avg_engagement": 10273
+      },
+      {
+        "name": "Capability Reveal",
+        "count": 15,
+        "avg_engagement": 8695
+      },
+      {
+        "name": "Test/Experiment",
+        "count": 2,
+        "avg_engagement": 6324
+      }
+    ],
+    "pace": [
+      {
+        "range": "<150",
+        "count": 47,
+        "avg_engagement": 4059
+      },
+      {
+        "range": "150-180",
+        "count": 54,
+        "avg_engagement": 17070
+      },
+      {
+        "range": "180-210",
+        "count": 134,
+        "avg_engagement": 18802
+      },
+      {
+        "range": "210-240",
+        "count": 116,
+        "avg_engagement": 13055
+      },
+      {
+        "range": ">240",
+        "count": 156,
+        "avg_engagement": 8097
+      }
+    ],
+    "duration": [
+      {
+        "range": "<30s",
+        "count": 79,
+        "avg_engagement": 5574
+      },
+      {
+        "range": "30-45s",
+        "count": 85,
+        "avg_engagement": 22566
+      },
+      {
+        "range": "45-60s",
+        "count": 118,
+        "avg_engagement": 13284
+      },
+      {
+        "range": "60-90s",
+        "count": 144,
+        "avg_engagement": 12306
+      },
+      {
+        "range": ">90s",
+        "count": 81,
+        "avg_engagement": 8783
+      }
+    ]
+  },
+  "library": {
+    "content_packs": [
+      {
+        "slug": "claude-code-dream",
+        "topic": "Claude Code /dream Feature",
+        "keyword": "DREAM",
+        "skill": "Auto-dream setup walkthrough",
+        "created": "2026-04-03T23:30:00.000000+00:00",
+        "status": "draft",
+        "formats": {
+          "reel": true,
+          "thread": true,
+          "carousel": true,
+          "longform": true
+        },
+        "hook": "Claude Code can now dream. No, literally -- they built a feature called /dream that consolidates your AI's memory while you're away."
+      },
+      {
+        "slug": "claude-code-source-leak",
+        "topic": "Claude Code Source Leak",
+        "keyword": "LEAK",
+        "skill": "Claude Code CLAUDE.md memory optimization",
+        "created": "2026-04-03T22:54:54.614466+00:00",
+        "status": "draft",
+        "formats": {
+          "reel": true,
+          "thread": true,
+          "carousel": true,
+          "longform": true
+        },
+        "hook": "Anthropic accidentally leaked 512,000 lines of Claude Code's source code. And what's inside is wild"
+      },
+      {
+        "slug": "mit-vs-reality-ai-engineers",
+        "topic": "MIT vs Reality: AI Replacing Engineers",
+        "keyword": "TRUTH",
+        "skill": "AI workflow audit -- assess what in your job can be automated",
+        "created": "2026-04-03T23:30:00.000000+00:00",
+        "status": "draft",
+        "formats": {
+          "reel": true,
+          "thread": true,
+          "carousel": true,
+          "longform": true
+        },
+        "hook": "MIT just published a study saying AI won't replace software engineers. Then I read the comments."
+      }
+    ],
+    "total_packs": 3,
+    "total_scripts": 60,
+    "total_skills": 36
+  }
+}

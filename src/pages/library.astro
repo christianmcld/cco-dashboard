@@ -1,0 +1,365 @@
+---
+import Layout from '../layouts/Layout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const packsDir = '/Users/christianmcleod/content-engine/content-packs';
+const packs: any[] = [];
+
+if (fs.existsSync(packsDir)) {
+  for (const dir of fs.readdirSync(packsDir)) {
+    const packPath = path.join(packsDir, dir);
+    if (!fs.statSync(packPath).isDirectory()) continue;
+
+    const metaPath = path.join(packPath, 'metadata.json');
+    if (!fs.existsSync(metaPath)) continue;
+
+    const metadata = JSON.parse(fs.readFileSync(metaPath, 'utf-8'));
+    const pack = {
+      ...metadata,
+      slug: dir,
+      reel: fs.existsSync(path.join(packPath, 'reel-script.md')) ? fs.readFileSync(path.join(packPath, 'reel-script.md'), 'utf-8') : null,
+      thread: fs.existsSync(path.join(packPath, 'twitter-thread.md')) ? fs.readFileSync(path.join(packPath, 'twitter-thread.md'), 'utf-8') : null,
+      carousel: fs.existsSync(path.join(packPath, 'carousel-slides.json')) ? JSON.parse(fs.readFileSync(path.join(packPath, 'carousel-slides.json'), 'utf-8')) : null,
+      longform: fs.existsSync(path.join(packPath, 'longform-script.md')) ? fs.readFileSync(path.join(packPath, 'longform-script.md'), 'utf-8') : null,
+    };
+    packs.push(pack);
+  }
+}
+
+// Sort by created date descending
+packs.sort((a, b) => (b.created || '').localeCompare(a.created || ''));
+
+const totalAssets = packs.reduce((sum, p) => {
+  let count = 0;
+  if (p.reel) count++;
+  if (p.thread) count++;
+  if (p.carousel) count++;
+  if (p.longform) count++;
+  return sum + count;
+}, 0);
+---
+
+<Layout title="Content Library — CMNDSHFT">
+
+<div x-data="{ sidebarOpen: true, mobileSidebar: false }" x-init="sidebarOpen = window.innerWidth > 1024">
+
+  <!-- SIDEBAR NAVIGATION -->
+  <aside
+    class="sidebar"
+    :class="{ 'collapsed': !sidebarOpen, 'mobile-open': mobileSidebar }"
+  >
+    <div class="p-4 flex items-center gap-3 border-b border-border min-h-[56px]">
+      <div class="w-2 h-2 bg-accent rounded-full pulse-dot flex-shrink-0"></div>
+      <span class="font-display font-bold text-sm tracking-tight overflow-hidden whitespace-nowrap" x-show="sidebarOpen" x-transition>CMNDSHFT</span>
+    </div>
+
+    <nav class="flex-1 py-3 space-y-1">
+      <a href="/" class="sidebar-link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="0"></rect><rect x="14" y="3" width="7" height="7" rx="0"></rect><rect x="3" y="14" width="7" height="7" rx="0"></rect><rect x="14" y="14" width="7" height="7" rx="0"></rect></svg>
+        <span x-show="sidebarOpen" x-transition>Dashboard</span>
+      </a>
+      <a href="/library" class="sidebar-link active">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+        <span x-show="sidebarOpen" x-transition>Content Library</span>
+      </a>
+      <a href="#" class="sidebar-link" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <span x-show="sidebarOpen" x-transition>Competitor Research</span>
+      </a>
+      <a href="#" class="sidebar-link" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"></path></svg>
+        <span x-show="sidebarOpen" x-transition>Settings</span>
+      </a>
+    </nav>
+
+    <div class="p-3 border-t border-border">
+      <button
+        @click="sidebarOpen = !sidebarOpen"
+        class="sidebar-link w-full justify-center"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" :class="{ 'rotate-180': !sidebarOpen }" class="transition-transform"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        <span x-show="sidebarOpen" x-transition class="text-xs">Collapse</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main
+    class="main-with-sidebar min-h-screen"
+    :class="{ 'sidebar-collapsed': !sidebarOpen }"
+  >
+    <div class="p-6 lg:p-10 max-w-[1400px] mx-auto">
+
+      <!-- HEADER -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+        <div>
+          <h1 class="font-display text-2xl font-bold text-text">Content Library</h1>
+          <p class="text-sm text-text-secondary mt-1">
+            <span class="text-accent font-bold">{packs.length}</span> packs &middot;
+            <span class="text-accent font-bold">{totalAssets}</span> total assets
+          </p>
+        </div>
+        <a href="/" class="text-xs font-label font-bold tracking-wider uppercase text-text-secondary hover:text-accent transition-colors flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          Back to Dashboard
+        </a>
+      </div>
+
+      <!-- MOBILE MENU BUTTON -->
+      <button
+        class="fixed top-4 right-4 z-[110] p-2 card lg:hidden"
+        @click="mobileSidebar = !mobileSidebar"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+
+      <!-- PACK GRID -->
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+        {packs.map((pack, i) => (
+          <div
+            class="card p-5 animate-fade-in-up"
+            style={`animation-delay: ${i * 0.06}s`}
+            x-data={`{ showReel: false, showThread: false, showCarousel: false, showLongform: false, expanded: false, get anySelected() { return this.showReel || this.showThread || this.showCarousel || this.showLongform; } }`}
+          >
+            <!-- Card Header -->
+            <div class="flex items-start justify-between gap-3 mb-3">
+              <h3 class={`font-display font-bold text-sm leading-tight ${pack.status === 'ready' ? 'text-accent' : 'text-text'}`}>
+                {pack.topic}
+              </h3>
+              <span class={`badge text-[0.55rem] flex-shrink-0 ${
+                pack.status === 'ready' ? 'badge-lime' :
+                pack.status === 'scheduled' ? 'badge-warm' :
+                pack.status === 'published' ? 'badge-breaking' :
+                'badge-grey'
+              }`}>
+                {pack.status}
+              </span>
+            </div>
+
+            <!-- Keyword + Skill -->
+            <div class="flex items-center gap-2 mb-3">
+              {pack.keyword && <span class="badge badge-lime text-[0.55rem]">{pack.keyword}</span>}
+              {pack.skill && <span class="text-[0.6rem] text-text-secondary font-label truncate">{pack.skill}</span>}
+            </div>
+
+            <!-- Created Date -->
+            <div class="text-[0.6rem] text-text-secondary font-label mb-4">
+              {pack.created ? new Date(pack.created).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : ''}
+            </div>
+
+            <!-- Format Checkboxes -->
+            <div class="grid grid-cols-2 gap-2 mb-4">
+              <label class="lib-format-check flex items-center gap-2 cursor-pointer p-2 rounded-lg border border-border transition-all"
+                :class="showReel ? 'border-accent/50 bg-accent/5' : 'hover:border-border/80'"
+              >
+                <input type="checkbox" class="hidden" x-model="showReel" />
+                <span class="lib-check-box w-4 h-4 rounded border flex items-center justify-center text-[0.6rem] transition-all"
+                  :class="showReel ? 'bg-accent border-accent text-background' : 'border-border text-transparent'"
+                >&#10003;</span>
+                <span class="text-xs font-label font-bold" :class="showReel ? 'text-accent' : 'text-text-secondary'">Reel</span>
+              </label>
+
+              <label class="lib-format-check flex items-center gap-2 cursor-pointer p-2 rounded-lg border border-border transition-all"
+                :class="showThread ? 'border-accent/50 bg-accent/5' : 'hover:border-border/80'"
+              >
+                <input type="checkbox" class="hidden" x-model="showThread" />
+                <span class="lib-check-box w-4 h-4 rounded border flex items-center justify-center text-[0.6rem] transition-all"
+                  :class="showThread ? 'bg-accent border-accent text-background' : 'border-border text-transparent'"
+                >&#10003;</span>
+                <span class="text-xs font-label font-bold" :class="showThread ? 'text-accent' : 'text-text-secondary'">Thread</span>
+              </label>
+
+              <label class="lib-format-check flex items-center gap-2 cursor-pointer p-2 rounded-lg border border-border transition-all"
+                :class="showCarousel ? 'border-accent/50 bg-accent/5' : 'hover:border-border/80'"
+              >
+                <input type="checkbox" class="hidden" x-model="showCarousel" />
+                <span class="lib-check-box w-4 h-4 rounded border flex items-center justify-center text-[0.6rem] transition-all"
+                  :class="showCarousel ? 'bg-accent border-accent text-background' : 'border-border text-transparent'"
+                >&#10003;</span>
+                <span class="text-xs font-label font-bold" :class="showCarousel ? 'text-accent' : 'text-text-secondary'">Carousel</span>
+              </label>
+
+              <label class="lib-format-check flex items-center gap-2 cursor-pointer p-2 rounded-lg border border-border transition-all"
+                :class="showLongform ? 'border-accent/50 bg-accent/5' : 'hover:border-border/80'"
+              >
+                <input type="checkbox" class="hidden" x-model="showLongform" />
+                <span class="lib-check-box w-4 h-4 rounded border flex items-center justify-center text-[0.6rem] transition-all"
+                  :class="showLongform ? 'bg-accent border-accent text-background' : 'border-border text-transparent'"
+                >&#10003;</span>
+                <span class="text-xs font-label font-bold" :class="showLongform ? 'text-accent' : 'text-text-secondary'">Long-form</span>
+              </label>
+            </div>
+
+            <!-- View Selected Button -->
+            <button
+              x-show="anySelected"
+              x-transition
+              @click="expanded = !expanded"
+              class="w-full text-xs font-label font-bold tracking-wider uppercase py-2.5 px-3 border border-accent rounded-lg text-accent hover:bg-accent/10 transition-all"
+              x-text="expanded ? 'Hide Content' : 'View Selected'"
+            ></button>
+
+            <!-- EXPANDED CONTENT PANEL -->
+            <div
+              x-show="expanded && anySelected"
+              x-transition:enter="transition ease-out duration-200"
+              x-transition:enter-start="opacity-0 -translate-y-2"
+              x-transition:enter-end="opacity-100 translate-y-0"
+              x-transition:leave="transition ease-in duration-150"
+              x-transition:leave-start="opacity-100 translate-y-0"
+              x-transition:leave-end="opacity-0 -translate-y-2"
+              class="mt-4 space-y-4"
+            >
+
+              {/* ── REEL SCRIPT ── */}
+              {pack.reel && (
+                <div x-show="showReel" x-transition class="lib-content-section">
+                  <div class="flex items-center justify-between mb-3">
+                    <h4 class="font-display font-bold text-xs text-accent">Reel Script</h4>
+                    <button
+                      class="lib-copy-btn text-[0.6rem] font-label font-bold tracking-wider uppercase px-3 py-1 border border-accent/40 text-accent rounded-full hover:bg-accent/10 transition-all"
+                      data-content={pack.reel}
+                      @click="navigator.clipboard.writeText($el.dataset.content); $el.textContent = 'Copied!'; setTimeout(() => $el.textContent = 'Copy', 2000)"
+                    >Copy</button>
+                  </div>
+                  <div class="lib-script-block bg-surface-bright border border-border rounded-lg p-4 overflow-y-auto max-h-[400px]">
+                    <pre class="text-xs text-text-secondary font-mono whitespace-pre-wrap leading-relaxed" set:text={pack.reel} />
+                  </div>
+                </div>
+              )}
+
+              {/* ── TWITTER THREAD ── */}
+              {pack.thread && (
+                <div x-show="showThread" x-transition class="lib-content-section">
+                  <div class="flex items-center justify-between mb-3">
+                    <h4 class="font-display font-bold text-xs text-accent">Twitter Thread</h4>
+                    <button
+                      class="lib-copy-btn text-[0.6rem] font-label font-bold tracking-wider uppercase px-3 py-1 border border-accent/40 text-accent rounded-full hover:bg-accent/10 transition-all"
+                      data-content={pack.thread}
+                      @click="navigator.clipboard.writeText($el.dataset.content); $el.textContent = 'Copied!'; setTimeout(() => $el.textContent = 'Copy Thread', 2000)"
+                    >Copy Thread</button>
+                  </div>
+                  <div class="space-y-2">
+                    {pack.thread.split(/## Tweet \d+/).filter((t: string) => t.trim()).map((tweet: string, ti: number) => {
+                      const lines = tweet.trim().split('\n');
+                      const label = lines[0]?.replace(/^\(/, '').replace(/\)$/, '').trim();
+                      const body = lines.slice(1).join('\n').trim();
+                      return (
+                        <div class="lib-tweet-card bg-surface-bright border border-border rounded-lg p-3">
+                          <div class="flex items-center gap-2 mb-2">
+                            <span class="text-[0.55rem] font-label font-bold tracking-wider uppercase text-accent">Tweet {ti + 1}</span>
+                            {label && <span class="text-[0.5rem] font-label text-text-secondary">({label})</span>}
+                          </div>
+                          <p class="text-xs text-text-secondary leading-relaxed whitespace-pre-wrap" set:text={body} />
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* ── CAROUSEL SLIDES ── */}
+              {pack.carousel && (
+                <div x-show="showCarousel" x-transition class="lib-content-section">
+                  <div class="flex items-center justify-between mb-3">
+                    <h4 class="font-display font-bold text-xs text-accent">Carousel Slides</h4>
+                    <button
+                      class="lib-copy-btn text-[0.6rem] font-label font-bold tracking-wider uppercase px-3 py-1 border border-accent/40 text-accent rounded-full hover:bg-accent/10 transition-all"
+                      data-content={JSON.stringify(pack.carousel, null, 2)}
+                      @click="navigator.clipboard.writeText($el.dataset.content); $el.textContent = 'Copied!'; setTimeout(() => $el.textContent = 'Copy Slides', 2000)"
+                    >Copy Slides</button>
+                  </div>
+                  <div class="lib-carousel-scroll flex gap-3 overflow-x-auto pb-2 snap-x snap-mandatory">
+                    {pack.carousel.map((slide: any) => (
+                      <div class="lib-slide-card flex-shrink-0 w-[240px] snap-start bg-surface-bright border border-border rounded-lg p-4 flex flex-col">
+                        <div class="flex items-center gap-2 mb-2">
+                          <span class="text-[0.55rem] font-label font-bold tracking-wider uppercase text-accent">Slide {slide.slide}</span>
+                          {slide.type && <span class="badge badge-grey text-[0.45rem]">{slide.type}</span>}
+                        </div>
+                        <h5 class="font-display font-bold text-sm text-text mb-2 leading-tight">{slide.headline}</h5>
+                        {slide.body && <p class="text-[0.7rem] text-text-secondary leading-relaxed whitespace-pre-wrap flex-1">{slide.body}</p>}
+                        {slide.subtext && <p class="text-[0.65rem] text-text-secondary mt-1 italic">{slide.subtext}</p>}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* ── LONG-FORM SCRIPT ── */}
+              {pack.longform && (
+                <div x-show="showLongform" x-transition class="lib-content-section">
+                  <div class="flex items-center justify-between mb-3">
+                    <h4 class="font-display font-bold text-xs text-accent">Long-form Script</h4>
+                    <button
+                      class="lib-copy-btn text-[0.6rem] font-label font-bold tracking-wider uppercase px-3 py-1 border border-accent/40 text-accent rounded-full hover:bg-accent/10 transition-all"
+                      data-content={pack.longform}
+                      @click="navigator.clipboard.writeText($el.dataset.content); $el.textContent = 'Copied!'; setTimeout(() => $el.textContent = 'Copy Script', 2000)"
+                    >Copy Script</button>
+                  </div>
+                  <div class="lib-script-block bg-surface-bright border border-border rounded-lg p-4 overflow-y-auto max-h-[500px]">
+                    <pre class="text-xs text-text-secondary font-mono whitespace-pre-wrap leading-relaxed" set:text={pack.longform} />
+                  </div>
+                </div>
+              )}
+
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {packs.length === 0 && (
+        <div class="card p-12 text-center">
+          <p class="text-text-secondary text-sm">No content packs found.</p>
+          <p class="text-text-secondary text-xs mt-2">Generate packs from the dashboard using "Let's Go" on trending topics.</p>
+        </div>
+      )}
+
+    </div>
+  </main>
+</div>
+
+<script is:inline>
+  // Load Alpine.js
+  (function() {
+    var s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js';
+    document.body.appendChild(s);
+  })();
+</script>
+
+<style>
+  /* Carousel scroll */
+  .lib-carousel-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+  .lib-carousel-scroll::-webkit-scrollbar {
+    height: 4px;
+  }
+  .lib-carousel-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .lib-carousel-scroll::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 2px;
+  }
+
+  /* Script blocks */
+  .lib-script-block pre {
+    tab-size: 2;
+  }
+
+  /* Slide cards */
+  .lib-slide-card {
+    min-height: 200px;
+  }
+
+  /* Content section separator */
+  .lib-content-section + .lib-content-section {
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border);
+  }
+</style>
+
+</Layout>

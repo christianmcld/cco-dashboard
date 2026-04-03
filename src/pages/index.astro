@@ -1,0 +1,2012 @@
+---
+import Layout from '../layouts/Layout.astro';
+import dashboardData from '../data/dashboard-data.json';
+
+const data = dashboardData as any;
+const generatedAt = new Date(data.generated_at).toLocaleString('en-US', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  hour: 'numeric',
+  minute: '2-digit',
+  timeZoneName: 'short',
+});
+
+const hasUrgent = data.trending.urgent && data.trending.urgent.trim().length > 0;
+
+// Pre-compute summary stats for the dashboard summary cards
+const allPosts = data.outliers?.posts || [];
+const totalEngagement = allPosts.reduce((sum: number, p: any) => sum + (p.engagement || 0), 0);
+const strongOutliers = allPosts.filter((p: any) => p.outlier_ratio >= 10);
+const outlierRate = allPosts.length > 0 ? ((strongOutliers.length / allPosts.length) * 100).toFixed(1) : '0';
+
+const frameworks = data.performance?.frameworks || [];
+const topFramework = frameworks.length > 0
+  ? frameworks.reduce((best: any, f: any) => f.avg_engagement > best.avg_engagement ? f : best, frameworks[0])
+  : null;
+
+const creators = data.creator_watch?.creators || [];
+const now = new Date();
+const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+const activeCreators = creators.filter((c: any) => {
+  if (!c.last_post_date) return false;
+  return new Date(c.last_post_date) >= sevenDaysAgo;
+});
+
+function formatEngagement(n: number): string {
+  if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+  return n.toString();
+}
+---
+
+<Layout title="CMNDSHFT Trending Dashboard V2">
+
+  <div x-data="{ libraryOpen: false, libraryDetail: null, letsGoModal: null, emulateModal: null }" @open-emulate.window="emulateModal = $event.detail.post ? buildEmulateData($event.detail.post) : null">
+
+    <!-- ============================================ -->
+    <!-- CONTENT LIBRARY SIDEBAR                     -->
+    <!-- ============================================ -->
+    <aside
+      class="library-sidebar"
+      :class="{ 'library-open': libraryOpen }"
+      x-show="libraryOpen"
+      x-transition:enter="transition ease-out duration-200"
+      x-transition:enter-start="opacity-0 -translate-x-4"
+      x-transition:enter-end="opacity-100 translate-x-0"
+      x-transition:leave="transition ease-in duration-150"
+      x-transition:leave-start="opacity-100 translate-x-0"
+      x-transition:leave-end="opacity-0 -translate-x-4"
+      :style="'left: ' + (sidebarOpen ? 'var(--sidebar-width)' : 'var(--sidebar-collapsed)')"
+    >
+      <div class="p-4 border-b border-border flex items-center justify-between">
+        <h2 class="font-display font-bold text-sm tracking-tight">Content Library</h2>
+        <button @click="libraryOpen = false" class="text-text-secondary hover:text-text transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="flex-1 overflow-y-auto p-3 space-y-4">
+        <div x-data="libraryController()">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-sm">&#128230;</span>
+            <span class="section-label">Content Packs</span>
+            <span class="badge badge-lime text-[0.55rem] ml-auto" x-text="libraryData.total_packs + ' packs'"></span>
+          </div>
+
+          <template x-for="(pack, i) in libraryData.content_packs || []" :key="i">
+            <div class="library-pack-card card p-3 mb-2 cursor-pointer" @click="libraryDetail = pack">
+              <div class="flex items-start justify-between gap-2 mb-2">
+                <h4 class="font-display font-bold text-xs leading-tight text-text flex-1" x-text="pack.topic"></h4>
+                <span class="badge text-[0.5rem] flex-shrink-0"
+                  :class="{
+                    'badge-lime': pack.status === 'ready',
+                    'badge-warm': pack.status === 'scheduled',
+                    'badge-grey': pack.status === 'draft',
+                    'badge-breaking': pack.status === 'published'
+                  }"
+                  x-text="pack.status"
+                ></span>
+              </div>
+              <div class="flex items-center gap-2 mb-2">
+                <span class="library-format-dot" :class="pack.formats?.reel ? 'dot-active' : 'dot-inactive'" title="Reel">R</span>
+                <span class="library-format-dot" :class="pack.formats?.thread ? 'dot-active' : 'dot-inactive'" title="Thread">T</span>
+                <span class="library-format-dot" :class="pack.formats?.carousel ? 'dot-active' : 'dot-inactive'" title="Carousel">C</span>
+                <span class="library-format-dot" :class="pack.formats?.longform ? 'dot-active' : 'dot-inactive'" title="Long-form">L</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="badge badge-lime text-[0.5rem]" x-show="pack.keyword" x-text="pack.keyword"></span>
+                <span class="text-[0.6rem] text-text-secondary font-label ml-auto" x-text="pack.created ? new Date(pack.created).toLocaleDateString() : ''"></span>
+              </div>
+            </div>
+          </template>
+
+          <div x-show="!libraryData.content_packs || libraryData.content_packs.length === 0" class="text-xs text-text-secondary text-center py-4">
+            No content packs yet. Click "Let's Go" on a suggested idea to create one.
+          </div>
+
+          <div class="flex items-center gap-2 mb-2 mt-4">
+            <span class="text-sm">&#128221;</span>
+            <span class="section-label">Scripts</span>
+            <span class="badge badge-grey text-[0.55rem] ml-auto" x-text="libraryData.total_scripts + ' scripts'"></span>
+          </div>
+          <p class="text-[0.65rem] text-text-secondary px-1 mb-3">From Script Library batches</p>
+
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-sm">&#128295;</span>
+            <span class="section-label">Skills</span>
+            <span class="badge badge-grey text-[0.55rem] ml-auto" x-text="libraryData.total_skills + ' available'"></span>
+          </div>
+          <p class="text-[0.65rem] text-text-secondary px-1">Giveaway inventory for CTAs</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ============================================ -->
+    <!-- CONTENT PACK DETAIL MODAL                   -->
+    <!-- ============================================ -->
+    <div
+      x-show="libraryDetail"
+      x-transition:enter="transition ease-out duration-200"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="transition ease-in duration-150"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      class="fixed inset-0 z-[200] flex items-center justify-center p-4"
+      @click.self="libraryDetail = null"
+      @keydown.escape.window="libraryDetail = null"
+    >
+      <div class="fixed inset-0 bg-black/60 backdrop-blur-sm" @click="libraryDetail = null"></div>
+      <div class="relative z-10 card p-8 max-w-lg w-full max-h-[80vh] overflow-y-auto" x-show="libraryDetail" x-transition>
+        <div class="flex items-start justify-between mb-6">
+          <div>
+            <h2 class="font-display font-bold text-lg text-text" x-text="libraryDetail?.topic"></h2>
+            <span class="badge mt-2"
+              :class="{
+                'badge-lime': libraryDetail?.status === 'ready',
+                'badge-warm': libraryDetail?.status === 'scheduled',
+                'badge-grey': libraryDetail?.status === 'draft',
+                'badge-breaking': libraryDetail?.status === 'published'
+              }"
+              x-text="libraryDetail?.status"
+            ></span>
+          </div>
+          <button @click="libraryDetail = null" class="text-text-secondary hover:text-text transition-colors p-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <div class="space-y-4">
+          <div>
+            <span class="section-label">Hook</span>
+            <p class="text-sm text-text-secondary mt-1" x-text="libraryDetail?.hook"></p>
+          </div>
+          <div class="flex gap-3">
+            <div>
+              <span class="section-label">Keyword</span>
+              <span class="badge badge-lime block mt-1" x-text="libraryDetail?.keyword"></span>
+            </div>
+            <div>
+              <span class="section-label">Skill Giveaway</span>
+              <p class="text-xs text-text-secondary mt-1" x-text="libraryDetail?.skill"></p>
+            </div>
+          </div>
+
+          <div>
+            <span class="section-label">Formats</span>
+            <div class="grid grid-cols-2 gap-2 mt-2">
+              <div class="card p-3 text-center">
+                <div class="text-lg mb-1" x-text="libraryDetail?.formats?.reel ? '&#10003;' : '&#10007;'"></div>
+                <div class="section-label">Reel Script</div>
+              </div>
+              <div class="card p-3 text-center">
+                <div class="text-lg mb-1" x-text="libraryDetail?.formats?.thread ? '&#10003;' : '&#10007;'"></div>
+                <div class="section-label">Twitter Thread</div>
+              </div>
+              <div class="card p-3 text-center">
+                <div class="text-lg mb-1" x-text="libraryDetail?.formats?.carousel ? '&#10003;' : '&#10007;'"></div>
+                <div class="section-label">Carousel</div>
+              </div>
+              <div class="card p-3 text-center">
+                <div class="text-lg mb-1" x-text="libraryDetail?.formats?.longform ? '&#10003;' : '&#10007;'"></div>
+                <div class="section-label">Long-form</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <span class="section-label">Created</span>
+            <p class="text-xs text-text-secondary mt-1" x-text="libraryDetail?.created ? new Date(libraryDetail.created).toLocaleString() : 'Unknown'"></p>
+          </div>
+
+          <div class="flex gap-2 pt-4 border-t border-border">
+            <button class="flex-1 text-xs font-label font-bold tracking-wider uppercase py-2.5 px-3 border border-border rounded-lg text-text-secondary hover:text-accent hover:border-accent transition-colors"
+              onclick="alert('Coming soon')">
+              Edit
+            </button>
+            <button class="flex-1 text-xs font-label font-bold tracking-wider uppercase py-2.5 px-3 border border-border rounded-lg text-text-secondary hover:text-accent hover:border-accent transition-colors"
+              onclick="alert('Connect GHL to schedule')">
+              Schedule
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- LET'S GO COMMAND MODAL                      -->
+    <!-- ============================================ -->
+    <div
+      x-show="letsGoModal"
+      x-transition:enter="transition ease-out duration-200"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="transition ease-in duration-150"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      class="fixed inset-0 z-[200] flex items-center justify-center p-4"
+      @click.self="letsGoModal = null"
+      @keydown.escape.window="letsGoModal = null"
+    >
+      <div class="fixed inset-0 bg-black/60 backdrop-blur-sm" @click="letsGoModal = null"></div>
+      <div class="relative z-10 card p-8 max-w-2xl w-full" x-show="letsGoModal" x-transition>
+        <div class="flex items-start justify-between mb-6">
+          <div>
+            <h2 class="font-display font-bold text-lg text-accent">Let's Go!</h2>
+            <p class="text-sm text-text-secondary mt-1">Run this command to generate all content formats:</p>
+          </div>
+          <button @click="letsGoModal = null" class="text-text-secondary hover:text-text transition-colors p-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <div class="bg-background border border-border rounded-lg p-4 mb-4 overflow-x-auto">
+          <code class="text-xs text-accent font-mono whitespace-pre-wrap break-all" x-text="letsGoModal?.command || ''"></code>
+        </div>
+
+        <div class="space-y-3 mb-6">
+          <div class="flex items-center gap-2">
+            <span class="text-xs text-text-secondary font-label font-bold">Topic:</span>
+            <span class="text-xs text-text" x-text="letsGoModal?.topic || ''"></span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-xs text-text-secondary font-label font-bold">Keyword:</span>
+            <span class="badge badge-lime text-[0.55rem]" x-text="letsGoModal?.keyword || ''"></span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-xs text-text-secondary font-label font-bold">Skill:</span>
+            <span class="text-xs text-text" x-text="letsGoModal?.skill || ''"></span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 text-xs text-text-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <span>Copy and run in terminal. Rebuild dashboard data after to see the new pack.</span>
+        </div>
+
+        <button
+          class="w-full mt-4 py-2.5 px-4 bg-accent text-on-accent font-label font-bold text-xs tracking-wider uppercase rounded-lg hover:opacity-90 transition-opacity"
+          @click="navigator.clipboard.writeText(letsGoModal?.command || ''); $el.textContent = 'COPIED!'; setTimeout(() => $el.textContent = 'COPY COMMAND', 2000)"
+        >
+          Copy Command
+        </button>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- EMULATE MODAL                               -->
+    <!-- ============================================ -->
+    <div
+      x-show="emulateModal"
+      x-transition:enter="transition ease-out duration-200"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="transition ease-in duration-150"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      class="fixed inset-0 z-[200] flex items-center justify-center p-4"
+      @click.self="emulateModal = null"
+      @keydown.escape.window="emulateModal = null"
+    >
+      <div class="fixed inset-0 bg-black/60 backdrop-blur-sm" @click="emulateModal = null"></div>
+      <div class="relative z-10 emulate-modal-card p-8 max-w-3xl w-full max-h-[85vh] overflow-y-auto" x-show="emulateModal" x-transition>
+        <div class="flex items-start justify-between mb-6">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl leading-none">&#9889;</span>
+            <div>
+              <h2 class="font-display font-bold text-lg text-accent">Emulate Post</h2>
+              <p class="text-xs text-text-secondary mt-0.5">Adapt this viral outlier into a CMNDSHFT content pack</p>
+            </div>
+          </div>
+          <button @click="emulateModal = null" class="text-text-secondary hover:text-text transition-colors p-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <!-- Two Column Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+
+          <!-- LEFT: Original -->
+          <div class="emulate-col-original rounded-lg p-5">
+            <div class="flex items-center gap-2 mb-4">
+              <div class="w-2 h-2 rounded-full bg-text-secondary"></div>
+              <span class="font-label font-bold text-xs tracking-wider uppercase text-text-secondary">Original</span>
+            </div>
+
+            <div class="space-y-3">
+              <div>
+                <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">Creator</span>
+                <p class="text-sm text-text mt-0.5">
+                  <a :href="'https://instagram.com/' + emulateModal?.creator" target="_blank" rel="noopener" class="hover:text-accent transition-colors" x-text="'@' + (emulateModal?.creator || '')"></a>
+                </p>
+              </div>
+              <div>
+                <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">Hook</span>
+                <p class="text-xs text-text-secondary mt-0.5 leading-relaxed" x-text="emulateModal?.originalHook || ''"></p>
+              </div>
+              <div class="flex gap-4">
+                <div>
+                  <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">Engagement</span>
+                  <p class="text-sm font-label font-bold text-text mt-0.5" x-text="emulateModal?.engagement ? emulateModal.engagement.toLocaleString() : '0'"></p>
+                </div>
+                <div>
+                  <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">Outlier</span>
+                  <p class="text-sm font-label font-bold text-warm mt-0.5" x-text="(emulateModal?.outlierRatio || 0).toFixed(1) + 'x'"></p>
+                </div>
+              </div>
+              <div>
+                <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">Framework</span>
+                <span class="badge badge-grey mt-1 block w-fit" x-text="emulateModal?.framework || 'Unknown'"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: Your Version -->
+          <div class="emulate-col-yours rounded-lg p-5">
+            <div class="flex items-center gap-2 mb-4">
+              <div class="w-2 h-2 rounded-full bg-accent"></div>
+              <span class="font-label font-bold text-xs tracking-wider uppercase text-accent">Your Version</span>
+            </div>
+
+            <div class="space-y-3">
+              <div>
+                <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">Adapted Hook</span>
+                <p class="text-sm text-accent mt-0.5 leading-relaxed font-medium" x-text="emulateModal?.adaptedHook || ''"></p>
+              </div>
+              <div>
+                <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">CTA Keyword</span>
+                <span class="badge badge-lime mt-1 block w-fit" x-text="emulateModal?.keyword || ''"></span>
+              </div>
+              <div>
+                <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">Matched Skill</span>
+                <p class="text-xs text-text mt-0.5" x-text="emulateModal?.skill || ''"></p>
+              </div>
+              <div>
+                <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider">Emulation Source</span>
+                <p class="text-xs text-text-secondary mt-0.5 font-mono" x-text="emulateModal?.emulateFlag || ''"></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Command Block -->
+        <div class="mb-4">
+          <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider block mb-2">Generate Command</span>
+          <div class="bg-background border border-border rounded-lg p-4 overflow-x-auto">
+            <code class="text-xs text-accent font-mono whitespace-pre-wrap break-all" x-text="emulateModal?.command || ''"></code>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 text-xs text-text-secondary mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <span>Copy and run in terminal. The content pack will adapt this viral post into your voice.</span>
+        </div>
+
+        <button
+          class="w-full py-2.5 px-4 bg-accent text-on-accent font-label font-bold text-xs tracking-wider uppercase rounded-lg hover:opacity-90 transition-opacity"
+          @click="navigator.clipboard.writeText(emulateModal?.command || ''); $el.textContent = 'COPIED!'; setTimeout(() => $el.textContent = 'COPY COMMAND', 2000)"
+        >
+          Copy Command
+        </button>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SCROLL TO TOP BUTTON                        -->
+    <!-- ============================================ -->
+    <button
+      id="scrollTopBtn"
+      class="fixed bottom-6 right-6 z-[150] w-10 h-10 bg-accent text-on-accent rounded-full flex items-center justify-center shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:scale-110"
+      onclick="window.scrollTo({top:0,behavior:'smooth'})"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- ============================================ -->
+    <!-- MAIN CONTENT                                -->
+    <!-- ============================================ -->
+    <div class="main-with-sidebar" :class="{ 'sidebar-collapsed': !sidebarOpen, 'library-shifted': libraryOpen }">
+
+      <!-- Mobile sidebar toggle -->
+      <button
+        @click="mobileSidebar = !mobileSidebar"
+        class="md:hidden fixed top-4 left-4 z-[110] bg-surface border border-border p-2 rounded-lg"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+
+      <!-- Urgent Banner -->
+      {hasUrgent && (
+        <div class="bg-accent text-on-accent py-2 px-4 text-center font-label text-sm font-bold tracking-wide">
+          URGENT: {data.trending.urgent}
+        </div>
+      )}
+
+      <!-- Header — sticky frosted glass -->
+      <header class="border-b border-border bg-surface/60 backdrop-blur-xl sticky top-0 z-50" id="dashboardHeader">
+        <div class="max-w-[1440px] mx-auto px-6 py-4 flex items-center justify-between">
+          <div class="flex items-center gap-4">
+            <span class="font-display font-bold text-lg tracking-tight hidden md:inline">Trending Dashboard</span>
+            <span class="badge badge-lime">V2</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="section-label">Last updated</span>
+            <span class="text-xs text-text-secondary font-label">{generatedAt}</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- ============================================ -->
+      <!-- TIME PERIOD TABS + ALPINE CONTROLLER        -->
+      <!-- ============================================ -->
+      <div
+        x-data="dashboardController()"
+        x-init="init()"
+        class="max-w-[1440px] mx-auto px-6 py-10 space-y-16"
+      >
+
+        <!-- Tab Selector -->
+        <div class="flex items-center gap-3 flex-wrap">
+          <button
+            class="tab-button"
+            :class="{ 'active': period === 'today' }"
+            @click="switchPeriod('today')"
+          >Today</button>
+          <button
+            class="tab-button"
+            :class="{ 'active': period === 'week' }"
+            @click="switchPeriod('week')"
+          >This Week</button>
+          <button
+            class="tab-button"
+            :class="{ 'active': period === 'month' }"
+            @click="switchPeriod('month')"
+          >This Month</button>
+          <div class="ml-auto flex items-center gap-2" x-show="loading" x-transition>
+            <div class="w-4 h-4 border-2 border-accent border-t-transparent rounded-full animate-spin"></div>
+            <span class="section-label">Loading...</span>
+          </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!-- SECTION 0: DASHBOARD SUMMARY CARDS          -->
+        <!-- ============================================ -->
+        <section>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-1">
+              <div class="stat-value text-3xl">{formatEngagement(totalEngagement)}</div>
+              <div class="section-label mt-2">Total Engagement Tracked</div>
+            </div>
+            <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-2">
+              <div class="stat-value text-3xl">{outlierRate}%</div>
+              <div class="section-label mt-2">Strong Outlier Rate</div>
+            </div>
+            <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-3">
+              <div class="stat-value text-3xl">{topFramework ? topFramework.name : 'N/A'}</div>
+              <div class="section-label mt-2">Top Framework</div>
+            </div>
+            <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-4">
+              <div class="stat-value text-3xl">150-180<span class="text-lg"> WPM</span></div>
+              <div class="section-label mt-2">Sweet Spot: 30-45s</div>
+            </div>
+            <div class="card summary-card p-6 text-center animate-fade-in-up animate-delay-5">
+              <div class="stat-value text-3xl">{activeCreators.length}</div>
+              <div class="section-label mt-2">Active Creators (7d)</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- ============================================ -->
+        <!-- SECTION 1: TRENDING NOW                     -->
+        <!-- ============================================ -->
+        <section id="section-trending">
+          <div class="flex items-center gap-3 mb-6">
+            <h2 class="text-xl font-display font-bold">Trending Now</h2>
+            <span class="section-label mt-0.5" x-text="topics.length + ' topics'"></span>
+          </div>
+
+          <!-- Bubble Chart: Trending Heat Map -->
+          <div class="card p-6 mb-6">
+            <h3 class="font-display font-bold text-sm mb-1">Trending Heat Map</h3>
+            <p class="section-label mb-4">Bubble size = heat score. X = recency, Y = engagement signal</p>
+            <div class="chart-container-lg">
+              <canvas id="trendingBubbleChart"></canvas>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+            <template x-for="(topic, i) in topics" :key="i">
+              <div class="card p-5 flex flex-col gap-3 animate-fade-in-up" :style="'animation-delay:' + (i * 0.05) + 's'">
+                <!-- Heat badge + trend arrow -->
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <span class="heat-dot pulse-dot"
+                      :class="{
+                        'heat-breaking': (topic.heat_score?.total || 0) >= 80,
+                        'heat-hot': (topic.heat_score?.total || 0) >= 60 && (topic.heat_score?.total || 0) < 80,
+                        'heat-warm': (topic.heat_score?.total || 0) >= 40 && (topic.heat_score?.total || 0) < 60,
+                        'heat-emerging': (topic.heat_score?.total || 0) < 40
+                      }"
+                    ></span>
+                    <span class="badge"
+                      :class="{
+                        'badge-breaking': (topic.heat_score?.total || 0) >= 80,
+                        'badge-lime': (topic.heat_score?.total || 0) >= 60 && (topic.heat_score?.total || 0) < 80,
+                        'badge-warm': (topic.heat_score?.total || 0) >= 40 && (topic.heat_score?.total || 0) < 60,
+                        'badge-grey': (topic.heat_score?.total || 0) < 40
+                      }"
+                      x-text="(topic.heat_score?.total || 0) >= 80 ? 'BREAKING' : (topic.heat_score?.total || 0) >= 60 ? 'HOT' : (topic.heat_score?.total || 0) >= 40 ? 'WARM' : 'EMERGING'"
+                    ></span>
+                  </div>
+                  <span class="trend-arrow text-base"
+                    :class="{
+                      'trend-rising': topic.trend_status === 'rising',
+                      'trend-peaked': topic.trend_status === 'peaked',
+                      'trend-declining': topic.trend_status === 'declining',
+                      'trend-fading': topic.trend_status === 'fading'
+                    }"
+                    x-text="topic.trend_status === 'rising' ? '\u2197' : topic.trend_status === 'peaked' ? '\u2192' : topic.trend_status === 'declining' ? '\u2198' : '\u2199'"
+                  ></span>
+                </div>
+
+                <!-- Topic name -->
+                <h3 class="font-display font-bold text-sm leading-tight text-text" x-text="topic.name.replace(/^\d+\.\s*/, '')"></h3>
+
+                <!-- Sparkline SVG -->
+                <div class="sparkline-container" x-show="topic.sparkline && topic.sparkline.length > 1">
+                  <svg width="80" height="24" viewBox="0 0 80 24">
+                    <path
+                      :d="buildSparklinePath(topic.sparkline || [])"
+                      fill="none"
+                      stroke="var(--color-accent)"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      opacity="0.8"
+                    />
+                  </svg>
+                </div>
+
+                <!-- Hook angle excerpt -->
+                <p class="text-xs text-text-secondary leading-relaxed line-clamp-3"
+                  x-text="getHookAngle(topic)"
+                ></p>
+
+                <!-- Source badges -->
+                <div class="mt-auto pt-2 flex items-center gap-1.5 flex-wrap">
+                  <template x-for="s in (topic.sources || [])" :key="s">
+                    <span class="source-icon"
+                      :class="'source-' + s"
+                      x-text="sourceLabel(s)"
+                    ></span>
+                  </template>
+                  <span class="section-label ml-auto" x-text="(topic.details?.length || 0) + ' signals'"></span>
+                </div>
+
+                <!-- Heat score bar -->
+                <div class="h-1 w-full bg-surface-bright rounded-full overflow-hidden">
+                  <div class="h-full rounded-full bg-accent transition-all duration-500"
+                    :style="'width:' + Math.min(100, topic.heat_score?.total || 0) + '%'"
+                  ></div>
+                </div>
+              </div>
+            </template>
+          </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- ============================================ -->
+        <!-- SECTION 2: TOP OUTLIERS                     -->
+        <!-- ============================================ -->
+        <section id="section-outliers">
+          <div class="flex items-center gap-3 mb-6">
+            <h2 class="text-xl font-display font-bold">Top Outliers</h2>
+            <span class="section-label mt-0.5" x-text="outlierTotal + ' total analyzed'"></span>
+          </div>
+
+          <!-- Scatter Plot: Outlier Visualization -->
+          <div class="card p-6 mb-6">
+            <h3 class="font-display font-bold text-sm mb-1">Outlier Detection Scatter</h3>
+            <p class="section-label mb-4">Above the diagonal = outperforming expected. Dot size = outlier ratio. Color = hook framework.</p>
+            <div class="chart-container-lg">
+              <canvas id="outlierScatterChart"></canvas>
+            </div>
+          </div>
+
+          <div class="card overflow-hidden">
+            <div class="overflow-x-auto">
+              <table class="w-full text-sm">
+                <thead>
+                  <tr class="border-b border-border bg-surface-bright/50">
+                    <th class="section-label text-left px-4 py-3 font-semibold">#</th>
+                    <th class="section-label text-left px-4 py-3 font-semibold">Creator</th>
+                    <th class="section-label text-left px-4 py-3 font-semibold min-w-[280px]">Hook</th>
+                    <th class="section-label text-right px-4 py-3 font-semibold">Engagement</th>
+                    <th class="section-label text-right px-4 py-3 font-semibold">Outlier</th>
+                    <th class="section-label text-left px-4 py-3 font-semibold">Framework</th>
+                    <th class="section-label text-center px-4 py-3 font-semibold">Type</th>
+                    <th class="section-label text-right px-4 py-3 font-semibold">Priority</th>
+                    <th class="section-label text-center px-4 py-3 font-semibold">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <template x-for="(post, i) in outliers" :key="i">
+                    <tr class="border-b border-border/50 hover:bg-surface-bright/30 transition-colors">
+                      <td class="px-4 py-3 text-text-secondary text-xs font-label" x-text="i + 1"></td>
+                      <td class="px-4 py-3">
+                        <a :href="'https://instagram.com/' + post.creator" target="_blank" rel="noopener" class="font-label font-semibold text-sm text-text hover:text-accent transition-colors" x-text="'@' + post.creator"></a>
+                      </td>
+                      <td class="px-4 py-3">
+                        <a :href="post.url" target="_blank" rel="noopener" class="text-text-secondary text-xs hover:text-text transition-colors leading-snug block max-w-[350px] truncate" x-text="post.hook"></a>
+                      </td>
+                      <td class="px-4 py-3 text-right font-label font-bold text-sm text-text" x-text="formatNum(post.engagement)"></td>
+                      <td class="px-4 py-3 text-right font-label font-bold text-sm"
+                        :class="{
+                          'text-accent': post.outlier_ratio >= 50,
+                          'text-warm': post.outlier_ratio >= 20 && post.outlier_ratio < 50,
+                          'text-text': post.outlier_ratio >= 10 && post.outlier_ratio < 20,
+                          'text-text-secondary': post.outlier_ratio < 10
+                        }"
+                        x-text="post.outlier_ratio.toFixed(1) + 'x'"
+                      ></td>
+                      <td class="px-4 py-3">
+                        <span class="badge badge-grey" x-text="post.framework"></span>
+                      </td>
+                      <td class="px-4 py-3 text-center">
+                        <a :href="post.url" target="_blank" rel="noopener"
+                          class="inline-flex items-center gap-1 text-xs text-text-secondary hover:text-accent transition-colors">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                          <span x-text="post.media_type || 'reel'"></span>
+                        </a>
+                      </td>
+                      <td class="px-4 py-3 text-right">
+                        <span class="font-label font-bold text-sm"
+                          :class="{
+                            'text-accent': post.priority_score >= 88,
+                            'text-warm': post.priority_score >= 86 && post.priority_score < 88,
+                            'text-text-secondary': post.priority_score < 86
+                          }"
+                          x-text="post.priority_score.toFixed(1)"
+                        ></span>
+                      </td>
+                      <td class="px-4 py-3 text-center">
+                        <button
+                          class="emulate-btn inline-flex items-center gap-1 text-xs font-label font-bold tracking-wider px-2.5 py-1.5 rounded-md border transition-colors"
+                          @click="$dispatch('open-emulate', { post: post })"
+                        >
+                          <span class="text-sm leading-none">&#9889;</span>
+                          <span>Emulate</span>
+                        </button>
+                      </td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- ============================================ -->
+        <!-- SECTION 3: PIPELINE STATUS                  -->
+        <!-- ============================================ -->
+        <section id="section-pipeline">
+          <div class="flex items-center gap-3 mb-6">
+            <h2 class="text-xl font-display font-bold">Pipeline Status</h2>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="card p-6 text-center animate-fade-in-up animate-delay-1">
+              <div class="stat-value" x-text="pipelineData.total_scripts || 0"></div>
+              <div class="section-label mt-2">Total Scripts</div>
+            </div>
+            <div class="card p-6 text-center animate-fade-in-up animate-delay-2">
+              <div class="stat-value" x-text="pipelineData.skills_ready || 0"></div>
+              <div class="section-label mt-2">Skills Ready</div>
+            </div>
+            <div class="card p-6 text-center animate-fade-in-up animate-delay-3">
+              <div class="stat-value" x-text="pipelineData.creators_monitored || 0"></div>
+              <div class="section-label mt-2">Creators Monitored</div>
+            </div>
+            <div class="card p-6 text-center animate-fade-in-up animate-delay-4">
+              <div class="stat-value" x-text="(pipelineData.transcripts || 0).toLocaleString()"></div>
+              <div class="section-label mt-2">Transcripts Analyzed</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- ============================================ -->
+        <!-- SECTION 4: SUGGESTED CONTENT                -->
+        <!-- ============================================ -->
+        <section id="section-suggested">
+          <div class="flex items-center gap-3 mb-6">
+            <h2 class="text-xl font-display font-bold">Suggested Content</h2>
+            <span class="section-label mt-0.5" x-text="ideas.length + ' ideas ready'"></span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            <template x-for="(idea, i) in ideas" :key="i">
+              <div class="card p-6 flex flex-col gap-4 animate-fade-in-up" :style="'animation-delay:' + (i * 0.05) + 's'">
+                <div class="flex items-start justify-between gap-2">
+                  <h3 class="font-display font-bold text-base leading-tight text-text flex-1"
+                    x-text="cleanTitle(idea.title)"
+                  ></h3>
+                  <div class="flex-shrink-0" x-show="idea.urgency_hours">
+                    <span class="badge"
+                      :class="{
+                        'badge-breaking': idea.urgency_hours <= 12,
+                        'badge-error': idea.urgency_hours > 12 && idea.urgency_hours <= 36,
+                        'badge-warm': idea.urgency_hours > 36 && idea.urgency_hours <= 72,
+                        'badge-grey': idea.urgency_hours > 72
+                      }"
+                      x-text="idea.urgency_hours <= 24 ? idea.urgency_hours + 'h left' : Math.round(idea.urgency_hours / 24) + 'd left'"
+                    ></span>
+                  </div>
+                </div>
+
+                <div class="h-1 w-full bg-surface-bright rounded-full overflow-hidden" x-show="idea.urgency_hours">
+                  <div class="urgency-bar h-full rounded-full"
+                    :class="{
+                      'urgency-critical': idea.urgency_hours <= 12,
+                      'urgency-high': idea.urgency_hours > 12 && idea.urgency_hours <= 36,
+                      'urgency-medium': idea.urgency_hours > 36 && idea.urgency_hours <= 72,
+                      'urgency-low': idea.urgency_hours > 72
+                    }"
+                    :style="'width:' + Math.min(100, Math.max(10, 100 - (idea.urgency_hours / 96 * 100))) + '%'"
+                  ></div>
+                </div>
+
+                <p class="text-xs text-text-secondary leading-relaxed italic"
+                  x-text="cleanQuotes(idea.details?.Hook || '')"
+                ></p>
+
+                <div class="flex flex-wrap gap-2">
+                  <span class="badge badge-lime" x-show="idea.details?.['CTA keyword']"
+                    x-text="'KW: ' + (idea.details?.['CTA keyword'] || '')"
+                  ></span>
+                  <span class="badge badge-grey text-[0.6rem]" x-show="idea.details?.['Text overlay']"
+                    x-text="cleanQuotes(idea.details?.['Text overlay'] || '')"
+                  ></span>
+                </div>
+
+                <div class="mt-auto pt-2 border-t border-border/50 space-y-2">
+                  <div>
+                    <span class="section-label">Skill Giveaway</span>
+                    <p class="text-xs text-text-secondary mt-0.5" x-text="idea.details?.['Skill giveaway'] || ''"></p>
+                  </div>
+                  <div>
+                    <span class="section-label">Why now</span>
+                    <p class="text-xs text-text-secondary mt-0.5 leading-relaxed" x-text="idea.details?.['Why now'] || ''"></p>
+                  </div>
+                  <div class="flex gap-2 mt-2">
+                    <button
+                      class="flex-1 text-xs font-label font-bold tracking-wider uppercase py-2 px-3 border border-border rounded-lg text-text-secondary hover:text-accent hover:border-accent transition-colors"
+                      onclick="alert('Notion Script Library integration coming soon')"
+                    >
+                      + Script Library
+                    </button>
+                    <button
+                      class="lets-go-btn flex-1 text-xs font-label font-bold tracking-wider uppercase py-2 px-3 rounded-lg transition-all"
+                      @click="letsGoModal = buildLetsGoCommand(idea)"
+                    >
+                      Let's Go &rarr;
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </template>
+          </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- ============================================ -->
+        <!-- SECTION 5: CREATOR WATCH                    -->
+        <!-- ============================================ -->
+        <section id="section-creators" x-data="{ showAddCreator: false, creatorInput: '', parsedHandle: '', detectedPlatform: 'instagram', copied: false }">
+          <div class="flex items-center gap-3 mb-6">
+            <h2 class="text-xl font-display font-bold">Creator Watch</h2>
+            <span class="section-label mt-0.5" x-text="creators.length + ' CREATORS MONITORED'"></span>
+            <button
+              @click="showAddCreator = !showAddCreator"
+              class="add-creator-btn ml-auto"
+              :class="{ 'active': showAddCreator }"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              <span>Add Creator</span>
+            </button>
+          </div>
+
+          <!-- Add Creator inline form -->
+          <div x-show="showAddCreator" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-2" class="add-creator-panel mb-6">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-2 h-2 bg-accent rounded-full pulse-dot"></div>
+              <span class="font-label font-bold text-xs tracking-wider uppercase text-text-secondary">New Creator</span>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <div class="flex-1 relative">
+                <input
+                  x-model="creatorInput"
+                  @input="
+                    let v = creatorInput.trim();
+                    if (v.includes('tiktok.com')) { detectedPlatform = 'tiktok'; parsedHandle = v.replace(/.*tiktok\.com\/@?/, '').replace(/[\/\?].*/, '').replace('@',''); }
+                    else if (v.includes('youtube.com') || v.includes('youtu.be')) { detectedPlatform = 'youtube'; parsedHandle = v.replace(/.*youtube\.com\/(channel\/|c\/|@)?/, '').replace(/[\/\?].*/, '').replace('@',''); }
+                    else if (v.includes('instagram.com')) { detectedPlatform = 'instagram'; parsedHandle = v.replace(/.*instagram\.com\//, '').replace(/[\/\?].*/, '').replace('@',''); }
+                    else { detectedPlatform = 'instagram'; parsedHandle = v.replace('@','').replace(/[\/\?].*/, ''); }
+                  "
+                  placeholder="@handle or paste profile URL"
+                  class="add-creator-input"
+                  type="text"
+                />
+                <div x-show="parsedHandle" class="absolute right-3 top-1/2 -translate-y-1/2">
+                  <span class="badge badge-lime text-[0.6rem]" x-text="detectedPlatform === 'tiktok' ? 'TT' : detectedPlatform === 'youtube' ? 'YT' : 'IG'"></span>
+                </div>
+              </div>
+            </div>
+            <div x-show="parsedHandle" x-transition class="mt-4 space-y-3">
+              <p class="text-sm text-text-secondary">Adding: <strong class="text-accent" x-text="'@' + parsedHandle"></strong> <span class="text-text-secondary" x-text="'(' + detectedPlatform + ')'"></span></p>
+              <div class="add-creator-code-block">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="section-label">Run this command</span>
+                  <button
+                    @click="
+                      navigator.clipboard.writeText('cd ~/content-engine && uv run python3 scripts/add-creator.py ' + (creatorInput.includes('://') ? creatorInput.trim() : '@' + parsedHandle));
+                      copied = true;
+                      setTimeout(() => copied = false, 2000);
+                    "
+                    class="text-xs font-label font-bold text-text-secondary hover:text-accent transition-colors"
+                    x-text="copied ? 'Copied!' : 'Copy'"
+                  ></button>
+                </div>
+                <code class="text-xs font-mono text-accent leading-relaxed block" x-text="'cd ~/content-engine && uv run python3 scripts/add-creator.py ' + (creatorInput.includes('://') ? creatorInput.trim() : '@' + parsedHandle)"></code>
+              </div>
+              <div class="add-creator-code-block">
+                <span class="section-label mb-2 block">Or add to weekly-scrape.sh manually</span>
+                <code class="text-xs font-mono text-text-secondary leading-relaxed block" x-text="'&quot;' + parsedHandle + '&quot;'"></code>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <template x-for="(creator, i) in creators" :key="i">
+              <div class="card p-5 flex flex-col gap-3 animate-fade-in-up" :style="'animation-delay:' + (Math.min(i, 5) * 0.05) + 's'">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <a :href="'https://instagram.com/' + creator.username" target="_blank" rel="noopener" class="font-label font-bold text-sm text-text hover:text-accent transition-colors"
+                      x-text="'@' + creator.username"
+                    ></a>
+                    <span class="badge badge-new" x-show="creator.posted_recently || creator.newly_added">NEW</span>
+                  </div>
+                  <span class="text-xs text-text-secondary font-label" x-text="creator.posts + ' posts'"></span>
+                </div>
+
+                <!-- Creator engagement Chart.js mini sparkline -->
+                <div class="creator-sparkline-wrap" :id="'creatorSparkline' + i">
+                  <canvas :id="'creatorChart' + i" width="200" height="40"></canvas>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <div class="section-label mb-1">Avg Engagement</div>
+                    <div class="font-display font-bold text-accent text-lg" x-text="formatNum(creator.avg_engagement)"></div>
+                  </div>
+                  <div>
+                    <div class="section-label mb-1">Top Outlier</div>
+                    <div class="font-display font-bold text-lg"
+                      :class="{
+                        'text-accent': creator.top_outlier >= 100,
+                        'text-warm': creator.top_outlier >= 30 && creator.top_outlier < 100,
+                        'text-text': creator.top_outlier < 30
+                      }"
+                      x-text="creator.top_outlier.toFixed(1) + 'x'"
+                    ></div>
+                  </div>
+                </div>
+                <div class="pt-2 border-t border-border/50">
+                  <div class="section-label mb-1">Top Hook</div>
+                  <p class="text-xs text-text-secondary leading-relaxed line-clamp-2" x-text="creator.top_hook"></p>
+                </div>
+              </div>
+            </template>
+          </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- ============================================ -->
+        <!-- SECTION 6: PERFORMANCE INSIGHTS (Chart.js)  -->
+        <!-- ============================================ -->
+        <section id="section-performance">
+          <div class="flex items-center gap-3 mb-6">
+            <h2 class="text-xl font-display font-bold">Performance Insights</h2>
+            <span class="section-label mt-0.5" x-text="'based on ' + outlierTotal + ' transcripts'"></span>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="card p-6">
+              <h3 class="font-display font-bold text-sm mb-1">Hook Framework Performance</h3>
+              <p class="section-label mb-4">Avg engagement by framework type (count labeled)</p>
+              <div class="chart-container-lg">
+                <canvas id="frameworkChart"></canvas>
+              </div>
+            </div>
+            <div class="card p-6">
+              <h3 class="font-display font-bold text-sm mb-1">Speaking Pace vs Engagement</h3>
+              <p class="section-label mb-4">Words per minute sweet spot</p>
+              <div class="chart-container-lg">
+                <canvas id="paceChart"></canvas>
+              </div>
+            </div>
+            <div class="card p-6">
+              <h3 class="font-display font-bold text-sm mb-1">Duration vs Engagement</h3>
+              <p class="section-label mb-4">Optimal video length</p>
+              <div class="chart-container-lg">
+                <canvas id="durationChart"></canvas>
+              </div>
+            </div>
+            <div class="card p-6">
+              <h3 class="font-display font-bold text-sm mb-1">CTA Impact</h3>
+              <p class="section-label mb-4">Engagement with keyword CTA vs without</p>
+              <div class="chart-container-lg">
+                <canvas id="ctaChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+        <!-- ============================================ -->
+        <!-- SECTION 7: ENGAGEMENT DISTRIBUTION          -->
+        <!-- ============================================ -->
+        <section id="section-distribution">
+          <div class="flex items-center gap-3 mb-6">
+            <h2 class="text-xl font-display font-bold">Engagement Distribution</h2>
+            <span class="section-label mt-0.5" x-text="outlierTotal + ' posts analyzed'"></span>
+          </div>
+          <div class="card p-6">
+            <h3 class="font-display font-bold text-sm mb-1">Post Engagement Histogram</h3>
+            <p class="section-label mb-4">Distribution shows where the bulk of posts land vs outlier threshold</p>
+            <div class="chart-container-xl">
+              <canvas id="distributionChart"></canvas>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-border pt-6 pb-8 text-center">
+          <p class="section-label">CMNDSHFT Content Intelligence</p>
+          <p class="text-xs text-text-secondary mt-1">Data refreshed automatically via content-engine pipeline</p>
+        </footer>
+
+      </div><!-- end alpine controller -->
+    </div><!-- end main-with-sidebar -->
+  </div><!-- end sidebar wrapper -->
+</Layout>
+
+<script is:inline define:vars={{ initialData: data }}>
+  // ── Alpine.js Dashboard Controller ──
+  // Expose to window so Alpine can find them (define:vars wraps in IIFE)
+  window.dashboardController = dashboardController;
+  window.libraryController = libraryController;
+  window.buildEmulateData = buildEmulateData;
+
+  // ── Skills inventory for matching ──
+  var skillsInventory = [
+    'ai-seo', 'content-strategy', 'copywriting', 'cold-email', 'email-sequence',
+    'social-content', 'lead-magnets', 'free-tool-strategy', 'launch-strategy',
+    'marketing-ideas', 'marketing-psychology', 'paid-ads', 'competitor-analysis',
+    'programmatic-seo', 'schema-markup', 'seo-audit', 'site-architecture',
+    'analytics-tracking', 'churn-prevention', 'form-cro', 'page-cro',
+    'popup-cro', 'signup-flow-cro', 'pricing-strategy', 'referral-program',
+    'sales-enablement', 'revops', 'offer-k-dense-web', 'ad-creative',
+    'linkedin-writer', 'newsletter-writer', 'youtube-strategy', 'youtube-script',
+    'video-pipeline', 'video-production-workflow', 'instagram-reel-script'
+  ];
+
+  function matchSkill(topic, hook, framework) {
+    var text = (topic + ' ' + hook + ' ' + (framework || '')).toLowerCase();
+    if (text.indexOf('seo') !== -1) return 'ai-seo';
+    if (text.indexOf('email') !== -1 || text.indexOf('outreach') !== -1) return 'cold-email';
+    if (text.indexOf('ad') !== -1 || text.indexOf('creative') !== -1 || text.indexOf('ads') !== -1) return 'ad-creative';
+    if (text.indexOf('content') !== -1 || text.indexOf('post') !== -1) return 'content-strategy';
+    if (text.indexOf('video') !== -1 || text.indexOf('reel') !== -1 || text.indexOf('edit') !== -1) return 'video-pipeline';
+    if (text.indexOf('copy') !== -1 || text.indexOf('write') !== -1 || text.indexOf('writing') !== -1) return 'copywriting';
+    if (text.indexOf('lead') !== -1 || text.indexOf('funnel') !== -1) return 'lead-magnets';
+    if (text.indexOf('price') !== -1 || text.indexOf('pricing') !== -1) return 'pricing-strategy';
+    if (text.indexOf('launch') !== -1 || text.indexOf('product') !== -1) return 'launch-strategy';
+    if (text.indexOf('sale') !== -1 || text.indexOf('close') !== -1) return 'sales-enablement';
+    if (text.indexOf('linkedin') !== -1) return 'linkedin-writer';
+    if (text.indexOf('youtube') !== -1) return 'youtube-strategy';
+    if (text.indexOf('instagram') !== -1) return 'instagram-reel-script';
+    if (text.indexOf('newsletter') !== -1) return 'newsletter-writer';
+    if (text.indexOf('automat') !== -1 || text.indexOf('ai') !== -1 || text.indexOf('agent') !== -1) return 'free-tool-strategy';
+    if (text.indexOf('growth') !== -1 || text.indexOf('scale') !== -1) return 'marketing-ideas';
+    return 'content-strategy';
+  }
+
+  function adaptHook(originalHook, creator) {
+    var hook = originalHook || '';
+    // Transform common patterns into CMNDSHFT brand voice
+    if (hook.toLowerCase().indexOf('is it possible') !== -1) {
+      hook = hook.replace(/is it possible to/i, 'I just proved you can');
+    } else if (hook.toLowerCase().indexOf('how to') !== -1) {
+      hook = hook.replace(/how to/i, 'The free tool that lets you');
+    } else if (hook.toLowerCase().indexOf('stop') !== -1) {
+      hook = hook.replace(/^stop\s/i, 'Everyone is still ').replace(/\.$/, '') + '. Here\'s what to do instead.';
+    } else if (hook.toLowerCase().indexOf('replace') !== -1 || hook.toLowerCase().indexOf('agency') !== -1) {
+      hook = 'My agency charged $2K/mo. This free AI skill does what they did.';
+    } else if (hook.length > 0) {
+      // Generic adaptation — make it first person and builder-focused
+      hook = 'I tested this so you don\'t have to: ' + hook.charAt(0).toLowerCase() + hook.slice(1);
+    }
+    // Trim to reasonable length
+    if (hook.length > 120) hook = hook.substring(0, 117) + '...';
+    return hook;
+  }
+
+  function extractPostCode(url) {
+    if (!url) return '';
+    var parts = url.split('/');
+    return parts[parts.length - 1] || parts[parts.length - 2] || '';
+  }
+
+  function suggestKeyword(topic, hook) {
+    var text = (topic + ' ' + hook).toLowerCase();
+    if (text.indexOf('seo') !== -1) return 'SEO';
+    if (text.indexOf('video') !== -1 || text.indexOf('edit') !== -1) return 'VIDEO';
+    if (text.indexOf('ai') !== -1 || text.indexOf('automat') !== -1) return 'AI';
+    if (text.indexOf('free') !== -1 || text.indexOf('tool') !== -1) return 'TOOL';
+    if (text.indexOf('content') !== -1) return 'CONTENT';
+    if (text.indexOf('growth') !== -1 || text.indexOf('scale') !== -1) return 'GROWTH';
+    if (text.indexOf('money') !== -1 || text.indexOf('revenue') !== -1) return 'MONEY';
+    if (text.indexOf('email') !== -1) return 'EMAIL';
+    if (text.indexOf('agent') !== -1) return 'AGENT';
+    if (text.indexOf('lead') !== -1) return 'LEADS';
+    // Default: extract first meaningful word from topic
+    var words = (topic || 'BUILD').split(' ');
+    for (var w = 0; w < words.length; w++) {
+      if (words[w].length > 3) return words[w].toUpperCase().substring(0, 8);
+    }
+    return 'BUILD';
+  }
+
+  function buildEmulateData(post) {
+    var originalHook = post.hook || '';
+    var creator = post.creator || '';
+    var engagement = post.engagement || 0;
+    var framework = post.framework || '';
+    var outlierRatio = post.outlier_ratio || 0;
+    var postCode = extractPostCode(post.url);
+    var adaptedHook = adaptHook(originalHook, creator);
+    var adaptedTopic = originalHook.length > 60 ? originalHook.substring(0, 57) + '...' : originalHook;
+    var keyword = suggestKeyword(adaptedTopic, adaptedHook);
+    var skill = matchSkill(adaptedTopic, adaptedHook, framework);
+    var emulateFlag = creator + '@' + postCode;
+
+    var cmd = 'cd ~/content-engine && uv run python3 scripts/generate-content-pack.py --topic "' +
+      adaptedTopic.replace(/"/g, '\\"') + '" --hook "' +
+      adaptedHook.replace(/"/g, '\\"') + '" --keyword "' +
+      keyword + '" --skill "' +
+      skill.replace(/"/g, '\\"') + '" --emulate "' +
+      emulateFlag + '"';
+
+    return {
+      originalHook: originalHook,
+      creator: creator,
+      engagement: engagement,
+      framework: framework,
+      outlierRatio: outlierRatio,
+      postCode: postCode,
+      url: post.url || '',
+      adaptedHook: adaptedHook,
+      adaptedTopic: adaptedTopic,
+      keyword: keyword,
+      skill: skill,
+      emulateFlag: emulateFlag,
+      command: cmd
+    };
+  }
+
+  function dashboardController() {
+    return {
+      period: 'today',
+      loading: false,
+      currentData: null,
+
+      // Reactive arrays
+      topics: [],
+      outliers: [],
+      outlierTotal: 0,
+      ideas: [],
+      creators: [],
+      pipelineData: {},
+      performanceData: {},
+
+      // Chart instances
+      _fwChart: null,
+      _paceChart: null,
+      _durChart: null,
+      _ctaChart: null,
+      _bubbleChart: null,
+      _scatterChart: null,
+      _distChart: null,
+      _creatorCharts: [],
+
+      init() {
+        this.currentData = initialData;
+        this.hydrateFromData(this.currentData);
+        this.$nextTick(() => {
+          setTimeout(() => {
+            this.initCharts();
+            this.initCreatorSparklines();
+          }, 200);
+        });
+
+        // Scroll-to-top button visibility
+        window.addEventListener('scroll', function() {
+          var btn = document.getElementById('scrollTopBtn');
+          if (btn) {
+            if (window.scrollY > 400) {
+              btn.style.opacity = '1';
+              btn.style.pointerEvents = 'auto';
+            } else {
+              btn.style.opacity = '0';
+              btn.style.pointerEvents = 'none';
+            }
+          }
+        });
+      },
+
+      async switchPeriod(p) {
+        if (this.period === p) return;
+        this.period = p;
+        this.loading = true;
+        try {
+          var res = await fetch('/' + p + '.json');
+          if (res.ok) {
+            this.currentData = await res.json();
+            this.hydrateFromData(this.currentData);
+            this.refreshCharts();
+          }
+        } catch (e) {
+          console.error('Failed to load data for period:', p, e);
+        } finally {
+          this.loading = false;
+        }
+      },
+
+      hydrateFromData(d) {
+        this.topics = (d && d.trending && d.trending.topics) ? d.trending.topics.slice(0, 5) : [];
+        var posts = (d && d.outliers && d.outliers.posts) ? d.outliers.posts : [];
+        this.outliers = posts.slice().sort(function(a, b) { return b.priority_score - a.priority_score; }).slice(0, 15);
+        this.outlierTotal = (d && d.outliers) ? (d.outliers.total || 0) : 0;
+        this.ideas = (d && d.suggested_content && d.suggested_content.ideas) ? d.suggested_content.ideas : [];
+        var cr = (d && d.creator_watch && d.creator_watch.creators) ? d.creator_watch.creators : [];
+        this.creators = cr.slice().sort(function(a, b) { return b.avg_engagement - a.avg_engagement; });
+        this.pipelineData = (d && d.pipeline) ? d.pipeline : {};
+        this.performanceData = (d && d.performance) ? d.performance : {};
+      },
+
+      buildLetsGoCommand(idea) {
+        var title = this.cleanTitle(idea.title);
+        var hook = this.cleanQuotes(idea.details?.Hook || title);
+        var keyword = (idea.details?.['CTA keyword'] || 'AI').toUpperCase();
+        var skill = idea.details?.['Skill giveaway'] || 'AI workflow skill';
+        var cmd = 'uv run python3 scripts/generate-content-pack.py --topic "' + title + '" --hook "' + hook.replace(/"/g, '\\"') + '" --keyword "' + keyword + '" --skill "' + skill.replace(/"/g, '\\"') + '"';
+        return {
+          topic: title,
+          hook: hook,
+          keyword: keyword,
+          skill: skill,
+          command: cmd,
+        };
+      },
+
+      // ── Helpers ──
+      formatNum(n) {
+        if (!n && n !== 0) return '0';
+        if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+        if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+        return n.toLocaleString();
+      },
+
+      cleanTitle(t) {
+        return t.replace(/^Idea \d+:\s*/, '').replace(/^"/, '').replace(/"$/, '');
+      },
+
+      cleanQuotes(s) {
+        return s.replace(/^"/, '').replace(/"$/, '');
+      },
+
+      getHookAngle(topic) {
+        if (!topic.details) return '';
+        var found = '';
+        for (var j = 0; j < topic.details.length; j++) {
+          if (topic.details[j].indexOf('Suggested hook angle') !== -1) {
+            found = topic.details[j].replace('**Suggested hook angle:**', '').trim();
+            break;
+          }
+        }
+        if (!found && topic.details.length > 0) {
+          found = topic.details[0].substring(0, 140);
+        }
+        return found;
+      },
+
+      sourceLabel(s) {
+        var map = { reddit: 'R', x: 'X', hn: 'HN', yt: 'YT', ig: 'IG', news: 'N', gtrends: 'GT' };
+        return map[s] || s.toUpperCase().substring(0, 2);
+      },
+
+      // ── Sparklines (SVG — used for trending topics only) ──
+      buildSparklinePath(points) {
+        if (!points || points.length < 2) return '';
+        var w = 80, h = 24;
+        var min = Math.min.apply(null, points);
+        var max = Math.max.apply(null, points);
+        var range = max - min || 1;
+        var step = w / (points.length - 1);
+        var path = '';
+        for (var i = 0; i < points.length; i++) {
+          var x = i * step;
+          var y = h - ((points[i] - min) / range) * (h - 4) - 2;
+          path += (i === 0 ? 'M' : ' L') + x.toFixed(1) + ',' + y.toFixed(1);
+        }
+        return path;
+      },
+
+      // ── Creator Sparklines (Chart.js mini line charts) ──
+      initCreatorSparklines() {
+        if (typeof Chart === 'undefined') return;
+
+        // Destroy old charts
+        for (var k = 0; k < this._creatorCharts.length; k++) {
+          if (this._creatorCharts[k]) this._creatorCharts[k].destroy();
+        }
+        this._creatorCharts = [];
+
+        for (var i = 0; i < this.creators.length; i++) {
+          var creator = this.creators[i];
+          var el = document.getElementById('creatorChart' + i);
+          if (!el || !creator.engagement_history || creator.engagement_history.length < 2) continue;
+
+          var values = creator.engagement_history.map(function(h) { return h.engagement || 0; });
+
+          var ctx = el.getContext('2d');
+          var gradient = ctx.createLinearGradient(0, 0, 0, 40);
+          gradient.addColorStop(0, 'rgba(202,253,0,0.25)');
+          gradient.addColorStop(1, 'rgba(202,253,0,0)');
+
+          this._creatorCharts.push(new Chart(el, {
+            type: 'line',
+            data: {
+              labels: values.map(function(_, idx) { return idx; }),
+              datasets: [{
+                data: values,
+                borderColor: '#cafd00',
+                backgroundColor: gradient,
+                fill: true,
+                tension: 0.4,
+                borderWidth: 2,
+                pointRadius: 0,
+                pointHoverRadius: 3,
+                pointHoverBackgroundColor: '#cafd00',
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  enabled: true,
+                  backgroundColor: '#1a1919',
+                  titleColor: '#ffffff',
+                  bodyColor: '#cafd00',
+                  borderColor: '#333',
+                  borderWidth: 1,
+                  cornerRadius: 6,
+                  bodyFont: { family: 'Manrope', size: 10, weight: '700' },
+                  callbacks: {
+                    title: function() { return ''; },
+                    label: function(ctx) {
+                      var v = ctx.parsed.y;
+                      if (v >= 1000000) return (v / 1000000).toFixed(1) + 'M';
+                      if (v >= 1000) return (v / 1000).toFixed(1) + 'K';
+                      return v.toString();
+                    }
+                  }
+                }
+              },
+              scales: {
+                x: { display: false },
+                y: { display: false }
+              },
+              layout: { padding: 0 },
+              interaction: { intersect: false, mode: 'index' }
+            }
+          }));
+        }
+      },
+
+      // ── Chart.js Defaults ──
+      chartDefaults() {
+        return {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: '#1a1919',
+              titleColor: '#ffffff',
+              bodyColor: '#adaaaa',
+              borderColor: '#333333',
+              borderWidth: 1,
+              cornerRadius: 8,
+              titleFont: { family: 'Manrope', weight: '700' },
+              bodyFont: { family: 'Inter' },
+            }
+          },
+          scales: {
+            x: {
+              grid: { color: 'rgba(51,51,51,0.5)', drawBorder: false },
+              ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+              border: { display: false }
+            },
+            y: {
+              grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+              ticks: {
+                color: '#adaaaa',
+                font: { family: 'Manrope', size: 10, weight: '600' },
+                callback: function(val) {
+                  if (val >= 1000) return (val / 1000).toFixed(0) + 'K';
+                  return val;
+                }
+              },
+              border: { display: false }
+            }
+          }
+        };
+      },
+
+      initCharts() {
+        if (typeof Chart === 'undefined') {
+          console.warn('Chart.js not loaded yet');
+          return;
+        }
+
+        var defaults = this.chartDefaults();
+        var perf = this.performanceData;
+        var self = this;
+
+        // ── 1. Trending Bubble Chart ──
+        this.initBubbleChart();
+
+        // ── 2. Outlier Scatter Chart ──
+        this.initScatterChart();
+
+        // ── 3. Framework chart (horizontal bar, sorted) ──
+        var fwEl = document.getElementById('frameworkChart');
+        if (fwEl && perf.frameworks && perf.frameworks.length > 0) {
+          var sorted = perf.frameworks.slice().sort(function(a, b) { return b.avg_engagement - a.avg_engagement; });
+          var fwMax = sorted[0].avg_engagement;
+          this._fwChart = new Chart(fwEl, {
+            type: 'bar',
+            data: {
+              labels: sorted.map(function(f) { return f.name + ' (' + f.count + ')'; }),
+              datasets: [{
+                data: sorted.map(function(f) { return f.avg_engagement; }),
+                backgroundColor: sorted.map(function(f) {
+                  return f.avg_engagement === fwMax ? '#cafd00' : 'rgba(202,253,0,' + (0.2 + (f.avg_engagement / fwMax) * 0.5).toFixed(2) + ')';
+                }),
+                borderRadius: 4,
+                borderSkipped: false,
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              indexAxis: 'y',
+              plugins: {
+                legend: { display: false },
+                tooltip: defaults.plugins.tooltip,
+              },
+              scales: {
+                x: {
+                  grid: { color: 'rgba(51,51,51,0.5)', drawBorder: false },
+                  ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                  border: { display: false }
+                },
+                y: {
+                  grid: { display: false },
+                  ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, padding: 4 },
+                  border: { display: false }
+                }
+              }
+            }
+          });
+        }
+
+        // ── 4. Pace chart (grouped bar: count + avg engagement) ──
+        var paceEl = document.getElementById('paceChart');
+        if (paceEl && perf.pace && perf.pace.length > 0) {
+          this._paceChart = new Chart(paceEl, {
+            type: 'bar',
+            data: {
+              labels: perf.pace.map(function(p) { return p.range + ' wpm'; }),
+              datasets: [
+                {
+                  label: 'Avg Engagement',
+                  data: perf.pace.map(function(p) { return p.avg_engagement; }),
+                  backgroundColor: '#f59e0b',
+                  borderRadius: 4,
+                  borderSkipped: false,
+                  yAxisID: 'y',
+                },
+                {
+                  label: 'Post Count',
+                  data: perf.pace.map(function(p) { return p.count; }),
+                  backgroundColor: 'rgba(245,158,11,0.25)',
+                  borderRadius: 4,
+                  borderSkipped: false,
+                  yAxisID: 'y1',
+                }
+              ]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: {
+                  display: true,
+                  position: 'top',
+                  align: 'end',
+                  labels: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, boxWidth: 12, padding: 8 }
+                },
+                tooltip: defaults.plugins.tooltip,
+              },
+              scales: {
+                x: {
+                  grid: { color: 'rgba(51,51,51,0.5)', drawBorder: false },
+                  ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                  border: { display: false }
+                },
+                y: {
+                  position: 'left',
+                  grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+                  ticks: { color: '#f59e0b', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                  border: { display: false }
+                },
+                y1: {
+                  position: 'right',
+                  grid: { display: false },
+                  ticks: { color: 'rgba(245,158,11,0.5)', font: { family: 'Manrope', size: 10, weight: '600' } },
+                  border: { display: false }
+                }
+              }
+            }
+          });
+        }
+
+        // ── 5. Duration chart (grouped bar) ──
+        var durEl = document.getElementById('durationChart');
+        if (durEl && perf.duration && perf.duration.length > 0) {
+          this._durChart = new Chart(durEl, {
+            type: 'bar',
+            data: {
+              labels: perf.duration.map(function(d) { return d.range; }),
+              datasets: [
+                {
+                  label: 'Avg Engagement',
+                  data: perf.duration.map(function(d) { return d.avg_engagement; }),
+                  backgroundColor: '#ff7351',
+                  borderRadius: 4,
+                  borderSkipped: false,
+                  yAxisID: 'y',
+                },
+                {
+                  label: 'Post Count',
+                  data: perf.duration.map(function(d) { return d.count; }),
+                  backgroundColor: 'rgba(255,115,81,0.25)',
+                  borderRadius: 4,
+                  borderSkipped: false,
+                  yAxisID: 'y1',
+                }
+              ]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: {
+                  display: true,
+                  position: 'top',
+                  align: 'end',
+                  labels: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, boxWidth: 12, padding: 8 }
+                },
+                tooltip: defaults.plugins.tooltip,
+              },
+              scales: {
+                x: {
+                  grid: { color: 'rgba(51,51,51,0.5)', drawBorder: false },
+                  ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                  border: { display: false }
+                },
+                y: {
+                  position: 'left',
+                  grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+                  ticks: { color: '#ff7351', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                  border: { display: false }
+                },
+                y1: {
+                  position: 'right',
+                  grid: { display: false },
+                  ticks: { color: 'rgba(255,115,81,0.5)', font: { family: 'Manrope', size: 10, weight: '600' } },
+                  border: { display: false }
+                }
+              }
+            }
+          });
+        }
+
+        // ── 6. CTA Impact Chart ──
+        this.initCtaChart();
+
+        // ── 7. Engagement Distribution Histogram ──
+        this.initDistributionChart();
+      },
+
+      initBubbleChart() {
+        var el = document.getElementById('trendingBubbleChart');
+        if (!el || !this.topics || this.topics.length === 0) return;
+
+        var bubbleData = [];
+        for (var i = 0; i < this.topics.length; i++) {
+          var t = this.topics[i];
+          var score = t.heat_score?.total || 0;
+          var engagement = t.heat_score?.engagement || 0;
+          var velocity = t.heat_score?.velocity || 0;
+          var color = score >= 60 ? '#cafd00' : score >= 40 ? '#f59e0b' : '#6b7280';
+          bubbleData.push({
+            x: i + 1,
+            y: engagement + velocity * 2,
+            r: Math.max(8, Math.min(40, score * 0.6)),
+            label: t.name.replace(/^\d+\.\s*/, ''),
+            color: color,
+            score: score,
+          });
+        }
+
+        this._bubbleChart = new Chart(el, {
+          type: 'bubble',
+          data: {
+            datasets: [{
+              data: bubbleData,
+              backgroundColor: bubbleData.map(function(b) { return b.color + '66'; }),
+              borderColor: bubbleData.map(function(b) { return b.color; }),
+              borderWidth: 2,
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                backgroundColor: '#1a1919',
+                titleColor: '#ffffff',
+                bodyColor: '#adaaaa',
+                borderColor: '#333333',
+                borderWidth: 1,
+                cornerRadius: 8,
+                titleFont: { family: 'Manrope', weight: '700' },
+                bodyFont: { family: 'Inter' },
+                callbacks: {
+                  title: function(items) {
+                    return bubbleData[items[0].dataIndex]?.label || '';
+                  },
+                  label: function(ctx) {
+                    var bd = bubbleData[ctx.dataIndex];
+                    return 'Heat Score: ' + bd.score + ' | Signal: ' + ctx.parsed.y;
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+                ticks: {
+                  color: '#adaaaa',
+                  font: { family: 'Manrope', size: 10, weight: '600' },
+                  callback: function(val) {
+                    var labels = ['', 'Topic 1', 'Topic 2', 'Topic 3', 'Topic 4', 'Topic 5'];
+                    return labels[val] || '';
+                  }
+                },
+                border: { display: false },
+                min: 0,
+                max: 6,
+              },
+              y: {
+                grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                border: { display: false },
+                title: { display: true, text: 'Engagement Signal', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+              }
+            }
+          }
+        });
+      },
+
+      initScatterChart() {
+        var el = document.getElementById('outlierScatterChart');
+        if (!el || !this.outliers || this.outliers.length === 0) return;
+
+        var frameworkColors = {
+          'Pattern Interrupt': '#cafd00',
+          'Question': '#f59e0b',
+          'Cost Replacement': '#ff7351',
+          'Curiosity Gap': '#a78bfa',
+          'Before/After': '#14b8a6',
+          'Proof First': '#60a5fa',
+          'Contrarian': '#f472b6',
+          'Capability Reveal': '#34d399',
+          'Test/Experiment': '#fbbf24',
+        };
+
+        // Build creator median map
+        var creatorMap = {};
+        var allPosts = (this.currentData && this.currentData.outliers && this.currentData.outliers.posts) || [];
+        for (var p = 0; p < allPosts.length; p++) {
+          var post = allPosts[p];
+          if (!creatorMap[post.creator]) creatorMap[post.creator] = [];
+          creatorMap[post.creator].push(post.engagement);
+        }
+        var medians = {};
+        for (var c in creatorMap) {
+          var vals = creatorMap[c].sort(function(a, b) { return a - b; });
+          medians[c] = vals[Math.floor(vals.length / 2)] || 0;
+        }
+
+        var datasets = {};
+        for (var i = 0; i < this.outliers.length; i++) {
+          var o = this.outliers[i];
+          var fw = o.framework.split(',')[0].trim();
+          var color = frameworkColors[fw] || '#6b7280';
+          if (!datasets[fw]) {
+            datasets[fw] = {
+              label: fw,
+              data: [],
+              backgroundColor: color + '99',
+              borderColor: color,
+              borderWidth: 1,
+              pointRadius: [],
+              pointHoverRadius: [],
+            };
+          }
+          var median = medians[o.creator] || 1;
+          datasets[fw].data.push({
+            x: median,
+            y: o.engagement,
+            hook: o.hook,
+            creator: o.creator,
+            ratio: o.outlier_ratio,
+          });
+          var radius = Math.max(4, Math.min(18, Math.sqrt(o.outlier_ratio) * 2));
+          datasets[fw].pointRadius.push(radius);
+          datasets[fw].pointHoverRadius.push(radius + 3);
+        }
+
+        // Diagonal line data (expected line)
+        var maxVal = 0;
+        for (var j = 0; j < this.outliers.length; j++) {
+          if (this.outliers[j].engagement > maxVal) maxVal = this.outliers[j].engagement;
+        }
+        var diagMax = Math.max(maxVal * 1.1, 100000);
+
+        this._scatterChart = new Chart(el, {
+          type: 'scatter',
+          data: {
+            datasets: Object.values(datasets).concat([{
+              label: 'Expected (1:1)',
+              data: [{ x: 0, y: 0 }, { x: diagMax, y: diagMax }],
+              type: 'line',
+              borderColor: 'rgba(107,114,128,0.4)',
+              borderDash: [6, 4],
+              borderWidth: 1,
+              pointRadius: 0,
+              fill: false,
+            }])
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: true,
+                position: 'top',
+                align: 'end',
+                labels: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, boxWidth: 10, padding: 8, filter: function(item) { return item.text !== 'Expected (1:1)'; } }
+              },
+              tooltip: {
+                backgroundColor: '#1a1919',
+                titleColor: '#ffffff',
+                bodyColor: '#adaaaa',
+                borderColor: '#333333',
+                borderWidth: 1,
+                cornerRadius: 8,
+                titleFont: { family: 'Manrope', weight: '700' },
+                bodyFont: { family: 'Inter' },
+                callbacks: {
+                  title: function(items) {
+                    var raw = items[0].raw;
+                    return raw.creator ? '@' + raw.creator : '';
+                  },
+                  label: function(ctx) {
+                    var raw = ctx.raw;
+                    if (!raw.hook) return '';
+                    var eng = raw.y >= 1000 ? (raw.y / 1000).toFixed(1) + 'K' : raw.y;
+                    return eng + ' eng | ' + (raw.ratio || 0).toFixed(1) + 'x outlier';
+                  },
+                  afterLabel: function(ctx) {
+                    var raw = ctx.raw;
+                    return raw.hook ? raw.hook.substring(0, 60) + '...' : '';
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                border: { display: false },
+                title: { display: true, text: 'Creator Median Engagement', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+              },
+              y: {
+                grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                border: { display: false },
+                title: { display: true, text: 'Post Engagement', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+              }
+            }
+          }
+        });
+      },
+
+      initCtaChart() {
+        var el = document.getElementById('ctaChart');
+        if (!el) return;
+
+        // Analyze CTA keywords from the outlier data
+        var allPosts = (this.currentData && this.currentData.outliers && this.currentData.outliers.posts) || [];
+        var ctaKeywords = ['free', 'stop', 'how', 'secret', 'watch', 'need', 'just', 'new'];
+        var withCta = { total: 0, engagement: 0 };
+        var withoutCta = { total: 0, engagement: 0 };
+
+        for (var i = 0; i < allPosts.length; i++) {
+          var hook = (allPosts[i].hook || '').toLowerCase();
+          var hasCta = false;
+          for (var k = 0; k < ctaKeywords.length; k++) {
+            if (hook.indexOf(ctaKeywords[k]) !== -1) { hasCta = true; break; }
+          }
+          if (hasCta) {
+            withCta.total++;
+            withCta.engagement += allPosts[i].engagement || 0;
+          } else {
+            withoutCta.total++;
+            withoutCta.engagement += allPosts[i].engagement || 0;
+          }
+        }
+
+        var avgWith = withCta.total > 0 ? Math.round(withCta.engagement / withCta.total) : 0;
+        var avgWithout = withoutCta.total > 0 ? Math.round(withoutCta.engagement / withoutCta.total) : 0;
+
+        this._ctaChart = new Chart(el, {
+          type: 'bar',
+          data: {
+            labels: ['With CTA Keywords (' + withCta.total + ')', 'Without CTA Keywords (' + withoutCta.total + ')'],
+            datasets: [{
+              label: 'Avg Engagement',
+              data: [avgWith, avgWithout],
+              backgroundColor: ['#a78bfa', 'rgba(167,139,250,0.3)'],
+              borderRadius: 6,
+              borderSkipped: false,
+              barThickness: 60,
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                backgroundColor: '#1a1919',
+                titleColor: '#ffffff',
+                bodyColor: '#a78bfa',
+                borderColor: '#333333',
+                borderWidth: 1,
+                cornerRadius: 8,
+                titleFont: { family: 'Manrope', weight: '700' },
+                bodyFont: { family: 'Inter' },
+                callbacks: {
+                  label: function(ctx) {
+                    var v = ctx.parsed.y;
+                    return 'Avg: ' + (v >= 1000 ? (v/1000).toFixed(1) + 'K' : v);
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                grid: { display: false },
+                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+                border: { display: false }
+              },
+              y: {
+                grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                border: { display: false }
+              }
+            }
+          }
+        });
+      },
+
+      initDistributionChart() {
+        var el = document.getElementById('distributionChart');
+        if (!el) return;
+
+        var allPosts = (this.currentData && this.currentData.outliers && this.currentData.outliers.posts) || [];
+        // Create logarithmic buckets
+        var buckets = [
+          { label: '0-100', min: 0, max: 100, count: 0 },
+          { label: '100-500', min: 100, max: 500, count: 0 },
+          { label: '500-1K', min: 500, max: 1000, count: 0 },
+          { label: '1K-5K', min: 1000, max: 5000, count: 0 },
+          { label: '5K-10K', min: 5000, max: 10000, count: 0 },
+          { label: '10K-25K', min: 10000, max: 25000, count: 0 },
+          { label: '25K-50K', min: 25000, max: 50000, count: 0 },
+          { label: '50K-100K', min: 50000, max: 100000, count: 0 },
+          { label: '100K+', min: 100000, max: Infinity, count: 0 },
+        ];
+
+        for (var i = 0; i < allPosts.length; i++) {
+          var eng = allPosts[i].engagement || 0;
+          for (var b = 0; b < buckets.length; b++) {
+            if (eng >= buckets[b].min && eng < buckets[b].max) {
+              buckets[b].count++;
+              break;
+            }
+          }
+        }
+
+        // Find outlier threshold bucket (roughly 10x median)
+        var allEng = allPosts.map(function(p) { return p.engagement || 0; }).sort(function(a, b) { return a - b; });
+        var median = allEng.length > 0 ? allEng[Math.floor(allEng.length / 2)] : 0;
+        var outlierThreshold = median * 10;
+
+        this._distChart = new Chart(el, {
+          type: 'bar',
+          data: {
+            labels: buckets.map(function(b) { return b.label; }),
+            datasets: [{
+              label: 'Posts',
+              data: buckets.map(function(b) { return b.count; }),
+              backgroundColor: buckets.map(function(b) {
+                // Color red for outlier buckets
+                return b.min >= outlierThreshold ? 'rgba(239,68,68,0.7)' : b.min >= median ? '#cafd00' : 'rgba(202,253,0,0.3)';
+              }),
+              borderRadius: 4,
+              borderSkipped: false,
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                backgroundColor: '#1a1919',
+                titleColor: '#ffffff',
+                bodyColor: '#adaaaa',
+                borderColor: '#333333',
+                borderWidth: 1,
+                cornerRadius: 8,
+                titleFont: { family: 'Manrope', weight: '700' },
+                bodyFont: { family: 'Inter' },
+                callbacks: {
+                  label: function(ctx) {
+                    return ctx.parsed.y + ' posts';
+                  },
+                  afterLabel: function(ctx) {
+                    var bkt = buckets[ctx.dataIndex];
+                    if (bkt && bkt.min >= outlierThreshold) return 'OUTLIER ZONE';
+                    return '';
+                  }
+                }
+              },
+              annotation: undefined,
+            },
+            scales: {
+              x: {
+                grid: { display: false },
+                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                border: { display: false },
+                title: { display: true, text: 'Engagement Range (log scale)', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+              },
+              y: {
+                grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
+                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                border: { display: false },
+                title: { display: true, text: 'Number of Posts', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+              }
+            }
+          }
+        });
+      },
+
+      refreshCharts() {
+        var perf = this.performanceData;
+        if (!perf) return;
+
+        if (this._fwChart && perf.frameworks) {
+          var sorted = perf.frameworks.slice().sort(function(a, b) { return b.avg_engagement - a.avg_engagement; });
+          this._fwChart.data.labels = sorted.map(function(f) { return f.name + ' (' + f.count + ')'; });
+          this._fwChart.data.datasets[0].data = sorted.map(function(f) { return f.avg_engagement; });
+          this._fwChart.update();
+        }
+        if (this._paceChart && perf.pace) {
+          this._paceChart.data.labels = perf.pace.map(function(p) { return p.range + ' wpm'; });
+          this._paceChart.data.datasets[0].data = perf.pace.map(function(p) { return p.avg_engagement; });
+          this._paceChart.data.datasets[1].data = perf.pace.map(function(p) { return p.count; });
+          this._paceChart.update();
+        }
+        if (this._durChart && perf.duration) {
+          this._durChart.data.labels = perf.duration.map(function(d) { return d.range; });
+          this._durChart.data.datasets[0].data = perf.duration.map(function(d) { return d.avg_engagement; });
+          this._durChart.data.datasets[1].data = perf.duration.map(function(d) { return d.count; });
+          this._durChart.update();
+        }
+
+        // Reinit new charts
+        if (this._bubbleChart) { this._bubbleChart.destroy(); this._bubbleChart = null; }
+        if (this._scatterChart) { this._scatterChart.destroy(); this._scatterChart = null; }
+        if (this._ctaChart) { this._ctaChart.destroy(); this._ctaChart = null; }
+        if (this._distChart) { this._distChart.destroy(); this._distChart = null; }
+        this.initBubbleChart();
+        this.initScatterChart();
+        this.initCtaChart();
+        this.initDistributionChart();
+        this.initCreatorSparklines();
+      },
+    };
+  }
+
+  // ── Library Sidebar Controller ──
+  function libraryController() {
+    return {
+      libraryData: (initialData && initialData.library) ? initialData.library : { content_packs: [], total_packs: 0, total_scripts: 0, total_skills: 36 },
+    };
+  }
+
+  // ── Load Alpine.js AFTER controllers are defined ──
+  (function() {
+    var s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js';
+    document.body.appendChild(s);
+  })();
+</script>

@@ -1,0 +1,92 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CMNDSHFT Trending Activity Dashboard — daily content intelligence" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script is:inline src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script is:inline src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js" defer></script>
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-background text-text">
+    <!-- Dotted surface background -->
+    <div class="dotted-surface" aria-hidden="true"></div>
+
+    <!-- App layout wrapper -->
+    <div x-data="{ sidebarOpen: true, mobileSidebar: false }" x-init="sidebarOpen = window.innerWidth > 1024">
+
+      <!-- SIDEBAR NAVIGATION -->
+      <aside
+        class="sidebar"
+        :class="{ 'collapsed': !sidebarOpen, 'mobile-open': mobileSidebar }"
+      >
+        <div class="p-4 flex items-center gap-3 border-b border-border min-h-[56px]">
+          <div class="w-2 h-2 bg-accent rounded-full pulse-dot flex-shrink-0"></div>
+          <span class="font-display font-bold text-sm tracking-tight overflow-hidden whitespace-nowrap" x-show="sidebarOpen" x-transition>CMNDSHFT</span>
+        </div>
+
+        <nav class="flex-1 py-3 space-y-1">
+          <a href="/" class={`sidebar-link ${currentPath === '/' ? 'active' : ''}`}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="0"></rect><rect x="14" y="3" width="7" height="7" rx="0"></rect><rect x="3" y="14" width="7" height="7" rx="0"></rect><rect x="14" y="14" width="7" height="7" rx="0"></rect></svg>
+            <span x-show="sidebarOpen" x-transition>Dashboard</span>
+          </a>
+          <a href="/library" class={`sidebar-link ${currentPath.startsWith('/library') ? 'active' : ''}`}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            <span x-show="sidebarOpen" x-transition>Content Library</span>
+          </a>
+          <a href="/research" class={`sidebar-link ${currentPath.startsWith('/research') ? 'active' : ''}`}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <span x-show="sidebarOpen" x-transition>Competitor Research</span>
+          </a>
+          <a href="#" class="sidebar-link" onclick="return false">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"></path></svg>
+            <span x-show="sidebarOpen" x-transition>Settings</span>
+          </a>
+        </nav>
+
+        <div class="p-3 border-t border-border">
+          <button
+            @click="sidebarOpen = !sidebarOpen"
+            class="sidebar-link w-full justify-center"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" :class="{ 'rotate-180': !sidebarOpen }" class="transition-transform"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            <span x-show="sidebarOpen" x-transition class="text-xs">Collapse</span>
+          </button>
+        </div>
+      </aside>
+
+      <!-- MOBILE MENU BUTTON -->
+      <button
+        class="fixed top-4 right-4 z-[110] p-2 card lg:hidden"
+        @click="mobileSidebar = !mobileSidebar"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+
+      <!-- MAIN CONTENT -->
+      <main
+        class="main-with-sidebar min-h-screen"
+        :class="{ 'sidebar-collapsed': !sidebarOpen }"
+      >
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>
