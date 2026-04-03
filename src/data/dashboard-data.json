@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T23:21:39.043485+00:00",
+  "generated_at": "2026-04-03T23:48:49.222678+00:00",
   "trending": {
     "topics": [
       {
@@ -11,10 +11,10 @@
         ],
         "heat": "warm",
         "heat_score": {
-          "total": 61,
+          "total": 66,
           "cross_source": 56,
           "engagement": 5,
-          "velocity": 0
+          "velocity": 5
         },
         "trend_status": "rising",
         "sparkline": [
@@ -23,8 +23,8 @@
           51,
           56,
           59,
-          61,
-          64
+          65,
+          72
         ],
         "sources": [
           "reddit",
@@ -41,10 +41,10 @@
         ],
         "heat": "emerging",
         "heat_score": {
-          "total": 25,
+          "total": 30,
           "cross_source": 16,
           "engagement": 5,
-          "velocity": 4
+          "velocity": 9
         },
         "trend_status": "rising",
         "sparkline": [
@@ -53,8 +53,8 @@
           15,
           20,
           23,
-          25,
-          28
+          29,
+          36
         ],
         "sources": [
           "reddit"
@@ -69,10 +69,10 @@
         ],
         "heat": "emerging",
         "heat_score": {
-          "total": 26,
+          "total": 31,
           "cross_source": 16,
           "engagement": 10,
-          "velocity": 0
+          "velocity": 5
         },
         "trend_status": "rising",
         "sparkline": [
@@ -81,8 +81,8 @@
           16,
           21,
           24,
-          26,
-          29
+          30,
+          37
         ],
         "sources": [
           "reddit"
@@ -97,10 +97,10 @@
         ],
         "heat": "emerging",
         "heat_score": {
-          "total": 25,
+          "total": 30,
           "cross_source": 16,
           "engagement": 5,
-          "velocity": 4
+          "velocity": 9
         },
         "trend_status": "rising",
         "sparkline": [
@@ -109,8 +109,8 @@
           15,
           20,
           23,
-          25,
-          28
+          29,
+          36
         ],
         "sources": [
           "x"
@@ -127,10 +127,10 @@
         ],
         "heat": "emerging",
         "heat_score": {
-          "total": 12,
+          "total": 17,
           "cross_source": 8,
           "engagement": 0,
-          "velocity": 4
+          "velocity": 9
         },
         "trend_status": "rising",
         "sparkline": [
@@ -139,11 +139,83 @@
           2,
           7,
           10,
-          12,
-          15
+          16,
+          23
         ],
         "sources": [
           "x"
+        ]
+      },
+      {
+        "name": "1. **\"I dug through [leaked/hidden thing] and here's what I found\"** \u2014 the r/ClaudeAI leaked source post hit 5,200 upvotes. Discovery/revelation content is dominating.",
+        "details": [],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 5,
+          "cross_source": 0,
+          "engagement": 0,
+          "velocity": 5
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          0,
+          0,
+          -2,
+          4,
+          11
+        ],
+        "sources": [
+          "ig"
+        ]
+      },
+      {
+        "name": "2. **Reddit comment reaction format** \u2014 reading top Reddit comments on camera. The MIT vs. reality thread is perfect for this. Comments are getting 500-3,000 upvotes each.",
+        "details": [],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 5,
+          "cross_source": 0,
+          "engagement": 0,
+          "velocity": 5
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          0,
+          0,
+          -2,
+          4,
+          11
+        ],
+        "sources": [
+          "ig"
+        ]
+      },
+      {
+        "name": "3. **\"Got fired/disciplined for automating my job\" story arcs** \u2014 the BORU post about being investigated for automating work hit 2,350 upvotes. Real human drama + AI angle.",
+        "details": [],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 5,
+          "cross_source": 0,
+          "engagement": 0,
+          "velocity": 5
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          0,
+          0,
+          -2,
+          4,
+          11
+        ],
+        "sources": [
+          "ig"
         ]
       }
     ],
@@ -153,6 +225,20 @@
   },
   "outliers": {
     "posts": [
+      {
+        "hook": "Watch this",
+        "creator": "justyn.ai",
+        "engagement": 4342,
+        "outlier_ratio": 5.37,
+        "priority_score": 87.0,
+        "framework": "Curiosity Gap",
+        "wpm": 192.6,
+        "duration": 35.5,
+        "url": "https://www.instagram.com/p/DWmSBIVDgmV",
+        "date": "2026-04-01T17:54:42+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
       {
         "hook": "Stop listening to Trump",
         "creator": "sina.growthtech",
@@ -164,118 +250,6 @@
         "duration": 109.2,
         "url": "https://www.instagram.com/p/DWjpSg1kwLL",
         "date": "2026-03-31T17:22:08+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Is it possible to take a simple website like this and turn it into a fully edited video like this wi",
-        "creator": "cooper.simson",
-        "engagement": 41074,
-        "outlier_ratio": 17.72,
-        "priority_score": 89.7,
-        "framework": "Question, Cost Replacement",
-        "wpm": 287.3,
-        "duration": 53.7,
-        "url": "https://www.instagram.com/p/DWaHBuJCfNV",
-        "date": "2026-03-28T00:27:50+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Can you build 10,000 on our websites in two minutes with Cloud Code?",
-        "creator": "tenfoldmarc",
-        "engagement": 14494,
-        "outlier_ratio": 65.88,
-        "priority_score": 88.5,
-        "framework": "Question",
-        "wpm": 198.2,
-        "duration": 60.2,
-        "url": "https://www.instagram.com/p/DWfPNXIDDiE",
-        "date": "2026-03-30T00:15:23+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "You need to pay attention because Cloud is giving away a free AI certification that Deloitte is payi",
-        "creator": "raycfu",
-        "engagement": 51839,
-        "outlier_ratio": 27.62,
-        "priority_score": 88.3,
-        "framework": "Cost Replacement",
-        "wpm": 268.1,
-        "duration": 48.6,
-        "url": "https://www.instagram.com/p/DWQB0hWDy4F",
-        "date": "2026-03-24T02:30:13+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Is it possible to redesign ugly rooms like my office and awesome spaces like this with AI, so you do",
-        "creator": "cooper.simson",
-        "engagement": 24941,
-        "outlier_ratio": 10.76,
-        "priority_score": 88.2,
-        "framework": "Question, Pattern Interrupt",
-        "wpm": 305.1,
-        "duration": 54.5,
-        "url": "https://www.instagram.com/p/DWXpROeDEZC",
-        "date": "2026-03-27T01:45:21+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Here's what almost everyone missed in Claude's latest update, and while I'll never use Canva again",
-        "creator": "artem.novitckii",
-        "engagement": 125648,
-        "outlier_ratio": 117.76,
-        "priority_score": 87.7,
-        "framework": "Pattern Interrupt",
-        "wpm": 218.2,
-        "duration": 56.9,
-        "url": "https://www.instagram.com/p/DWBaRqwDFWy",
-        "date": "2026-03-18T10:15:54+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Nobody talks about this, but there's a team running 20 AI agents inside Cloud Code to generate their",
-        "creator": "raycfu",
-        "engagement": 10958,
-        "outlier_ratio": 5.84,
-        "priority_score": 87.4,
-        "framework": "Cost Replacement",
-        "wpm": 271.5,
-        "duration": 67.8,
-        "url": "https://www.instagram.com/p/DWdN1EwDxWp",
-        "date": "2026-03-29T05:27:22+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Most people don't realize that there's over 60,000 plot skills",
-        "creator": "raycfu",
-        "engagement": 35917,
-        "outlier_ratio": 19.14,
-        "priority_score": 87.1,
-        "framework": "Pattern Interrupt",
-        "wpm": 254.6,
-        "duration": 58.9,
-        "url": "https://www.instagram.com/p/DWNXK9Sj3ZH",
-        "date": "2026-03-23T01:39:03+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Most people don't realize that people are building simple cloud plugins and selling them for more th",
-        "creator": "raycfu",
-        "engagement": 19436,
-        "outlier_ratio": 10.35,
-        "priority_score": 87.1,
-        "framework": "Cost Replacement",
-        "wpm": 274.7,
-        "duration": 59.4,
-        "url": "https://www.instagram.com/p/DWXcv2ljy0q",
-        "date": "2026-03-26T23:39:59+00:00",
         "thumbnail": "",
         "media_type": "reel"
       },
@@ -294,62 +268,6 @@
         "media_type": "reel"
       },
       {
-        "hook": "5 cloud code skills I wish I had installed on day one",
-        "creator": "justyn.ai",
-        "engagement": 9146,
-        "outlier_ratio": 11.31,
-        "priority_score": 87.0,
-        "framework": "Test/Experiment",
-        "wpm": 241.9,
-        "duration": 62.0,
-        "url": "https://www.instagram.com/p/DWekRCmjjBO",
-        "date": "2026-03-29T18:03:39+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Watch this",
-        "creator": "justyn.ai",
-        "engagement": 4342,
-        "outlier_ratio": 5.37,
-        "priority_score": 87.0,
-        "framework": "Curiosity Gap",
-        "wpm": 192.6,
-        "duration": 35.5,
-        "url": "https://www.instagram.com/p/DWmSBIVDgmV",
-        "date": "2026-04-01T17:54:42+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Cloud Code just killed the website designers",
-        "creator": "tenfoldmarc",
-        "engagement": 88640,
-        "outlier_ratio": 402.91,
-        "priority_score": 86.9,
-        "framework": "Curiosity Gap",
-        "wpm": 169.3,
-        "duration": 67.0,
-        "url": "https://www.instagram.com/p/DWCPx0PkQzA",
-        "date": "2026-03-18T18:03:00+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "I wish someone told me the sooner, but you can actually use a cloth skill to bid out prediction mark",
-        "creator": "raycfu",
-        "engagement": 226883,
-        "outlier_ratio": 120.88,
-        "priority_score": 86.7,
-        "framework": "Cost Replacement",
-        "wpm": 261.4,
-        "duration": 69.1,
-        "url": "https://www.instagram.com/p/DVxEG05D8HL",
-        "date": "2026-03-12T01:55:04+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
         "hook": "Is it just me or Claude has gone to absolute shit like now I hit my limit super fast where I before ",
         "creator": "tenfoldmarc",
         "engagement": 4111,
@@ -364,44 +282,58 @@
         "media_type": "reel"
       },
       {
-        "hook": "This is how to safely install Cloud Code completely for free",
-        "creator": "charliehills",
-        "engagement": 25054,
-        "outlier_ratio": 28.57,
-        "priority_score": 85.9,
-        "framework": "Cost Replacement",
-        "wpm": 226.5,
-        "duration": 43.4,
-        "url": "https://www.instagram.com/p/DWMLIw7lMBG",
-        "date": "2026-03-22T14:35:30+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Everybody's talking about how you can use Cloud Code to build your new app for free, but nobody is s",
+        "hook": "Can you build 10,000 on our websites in two minutes with Cloud Code?",
         "creator": "tenfoldmarc",
-        "engagement": 12884,
-        "outlier_ratio": 58.56,
-        "priority_score": 85.8,
-        "framework": "Cost Replacement",
-        "wpm": 213.6,
-        "duration": 59.0,
-        "url": "https://www.instagram.com/p/DWSdERaDHnW",
-        "date": "2026-03-25T01:06:20+00:00",
+        "engagement": 14494,
+        "outlier_ratio": 65.88,
+        "priority_score": 88.5,
+        "framework": "Question",
+        "wpm": 198.2,
+        "duration": 60.2,
+        "url": "https://www.instagram.com/p/DWfPNXIDDiE",
+        "date": "2026-03-30T00:15:23+00:00",
         "thumbnail": "",
         "media_type": "reel"
       },
       {
-        "hook": "Most people don't realize that people are actually making a lot of money from just using OpenClaw ag",
+        "hook": "5 cloud code skills I wish I had installed on day one",
+        "creator": "justyn.ai",
+        "engagement": 9146,
+        "outlier_ratio": 11.31,
+        "priority_score": 87.0,
+        "framework": "Test/Experiment",
+        "wpm": 241.9,
+        "duration": 62.0,
+        "url": "https://www.instagram.com/p/DWekRCmjjBO",
+        "date": "2026-03-29T18:03:39+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Nobody talks about this, but there's a team running 20 AI agents inside Cloud Code to generate their",
         "creator": "raycfu",
-        "engagement": 112754,
-        "outlier_ratio": 60.07,
-        "priority_score": 85.6,
-        "framework": "Curiosity Gap",
-        "wpm": 258.0,
-        "duration": 56.3,
-        "url": "https://www.instagram.com/p/DVzhP3Cj8ZL",
-        "date": "2026-03-13T00:48:09+00:00",
+        "engagement": 10958,
+        "outlier_ratio": 5.84,
+        "priority_score": 87.4,
+        "framework": "Cost Replacement",
+        "wpm": 271.5,
+        "duration": 67.8,
+        "url": "https://www.instagram.com/p/DWdN1EwDxWp",
+        "date": "2026-03-29T05:27:22+00:00",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Is it possible to take a simple website like this and turn it into a fully edited video like this wi",
+        "creator": "cooper.simson",
+        "engagement": 41074,
+        "outlier_ratio": 17.72,
+        "priority_score": 89.7,
+        "framework": "Question, Cost Replacement",
+        "wpm": 287.3,
+        "duration": 53.7,
+        "url": "https://www.instagram.com/p/DWaHBuJCfNV",
+        "date": "2026-03-28T00:27:50+00:00",
         "thumbnail": "",
         "media_type": "reel"
       },
@@ -420,16 +352,16 @@
         "media_type": "reel"
       },
       {
-        "hook": "CloudCode just killed Zapier, Make, and N&N",
-        "creator": "justyn.ai",
-        "engagement": 16905,
-        "outlier_ratio": 20.9,
-        "priority_score": 85.0,
-        "framework": "Curiosity Gap",
-        "wpm": 265.3,
-        "duration": 60.2,
-        "url": "https://www.instagram.com/p/DWMeby9Djm1",
-        "date": "2026-03-22T17:26:12+00:00",
+        "hook": "Is it possible to redesign ugly rooms like my office and awesome spaces like this with AI, so you do",
+        "creator": "cooper.simson",
+        "engagement": 24941,
+        "outlier_ratio": 10.76,
+        "priority_score": 88.2,
+        "framework": "Question, Pattern Interrupt",
+        "wpm": 305.1,
+        "duration": 54.5,
+        "url": "https://www.instagram.com/p/DWXpROeDEZC",
+        "date": "2026-03-27T01:45:21+00:00",
         "thumbnail": "",
         "media_type": "reel"
       }
@@ -910,126 +842,6 @@
         ],
         "last_post_date": "2026-04-01T17:54:42+00:00",
         "posted_recently": false
-      },
-      {
-        "username": "sina.growthtech",
-        "posts": 50,
-        "avg_engagement": 1920,
-        "top_outlier": 56.46,
-        "total_engagement": 95987,
-        "top_hook": "Stop listening to Trump",
-        "engagement_history": [
-          {
-            "date": "2026-03-23T22:14:41+00:00",
-            "engagement": 536
-          },
-          {
-            "date": "2026-03-24T20:21:52+00:00",
-            "engagement": 1059
-          },
-          {
-            "date": "2026-03-24T23:13:47+00:00",
-            "engagement": 1238
-          },
-          {
-            "date": "2026-03-27T01:49:28+00:00",
-            "engagement": 2929
-          },
-          {
-            "date": "2026-03-31T17:22:08+00:00",
-            "engagement": 31617
-          },
-          {
-            "date": "2026-03-31T20:42:05+00:00",
-            "engagement": 1470
-          },
-          {
-            "date": "2026-04-01T02:30:36+00:00",
-            "engagement": 444
-          }
-        ],
-        "last_post_date": "2026-04-01T02:30:36+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "techbible.ai",
-        "posts": 27,
-        "avg_engagement": 885,
-        "top_outlier": 31.86,
-        "total_engagement": 23897,
-        "top_hook": "Did you go to law school?",
-        "engagement_history": [
-          {
-            "date": "2026-03-06T14:36:15+00:00",
-            "engagement": 1960
-          },
-          {
-            "date": "2026-03-10T18:13:47+00:00",
-            "engagement": 6661
-          },
-          {
-            "date": "2026-03-15T15:30:24+00:00",
-            "engagement": 238
-          },
-          {
-            "date": "2026-03-16T16:12:32+00:00",
-            "engagement": 156
-          },
-          {
-            "date": "2026-03-17T12:09:09+00:00",
-            "engagement": 277
-          },
-          {
-            "date": "2026-03-20T17:29:44+00:00",
-            "engagement": 7582
-          },
-          {
-            "date": "2026-03-31T12:09:16+00:00",
-            "engagement": 232
-          }
-        ],
-        "last_post_date": "2026-03-31T12:09:16+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "tom__youngs",
-        "posts": 37,
-        "avg_engagement": 284,
-        "top_outlier": 15.12,
-        "total_engagement": 10509,
-        "top_hook": "I am fucking sick of seeing all these fucking nerds talking about claw code but ",
-        "engagement_history": [
-          {
-            "date": "2026-03-19T11:58:24+00:00",
-            "engagement": 173
-          },
-          {
-            "date": "2026-03-24T10:29:34+00:00",
-            "engagement": 111
-          },
-          {
-            "date": "2026-03-26T14:35:20+00:00",
-            "engagement": 442
-          },
-          {
-            "date": "2026-03-27T15:04:42+00:00",
-            "engagement": 124
-          },
-          {
-            "date": "2026-03-31T18:02:36+00:00",
-            "engagement": 339
-          },
-          {
-            "date": "2026-04-01T06:38:14+00:00",
-            "engagement": 20
-          },
-          {
-            "date": "2026-04-01T08:19:30+00:00",
-            "engagement": 1678
-          }
-        ],
-        "last_post_date": "2026-04-01T08:19:30+00:00",
-        "posted_recently": false
       }
     ]
   },
@@ -1187,5 +999,16 @@
     "total_packs": 3,
     "total_scripts": 60,
     "total_skills": 36
+  },
+  "period": "today",
+  "summary": {
+    "total_engagement": 152992,
+    "outlier_count": 10,
+    "strong_outliers": 6,
+    "topic_count": 8,
+    "idea_count": 5,
+    "creator_count": 10,
+    "period": "today",
+    "outlier_rate": 60.0
   }
 }

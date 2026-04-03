@@ -55,24 +55,7 @@ const activeAdsTotal = entries.reduce((sum, e) => sum + (e.ads?.filter((a: any) 
 ---
 
 <Layout title="Competitor Research | CMNDSHFT">
-  <!-- Header -->
-  <header class="border-b border-border bg-surface/50 backdrop-blur-sm sticky top-0 z-50">
-    <div class="max-w-[1440px] mx-auto px-6 py-4 flex items-center justify-between">
-      <div class="flex items-center gap-4">
-        <a href="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <div class="w-2 h-2 bg-accent rounded-full pulse-dot"></div>
-          <span class="font-display font-bold text-lg tracking-tight">CMNDSHFT</span>
-        </a>
-        <div class="h-5 w-px bg-border"></div>
-        <span class="font-label text-sm text-accent font-bold tracking-wide">Competitor Research</span>
-      </div>
-      <a href="/" class="text-xs text-text-secondary hover:text-accent transition-colors font-label font-bold tracking-wide">
-        &larr; BACK TO DASHBOARD
-      </a>
-    </div>
-  </header>
-
-  <main class="max-w-[1440px] mx-auto px-6 py-8 space-y-10" x-data="researchApp()">
+  <div class="max-w-[1440px] mx-auto px-6 py-8 space-y-10" x-data="researchApp()">
 
     <!-- ============================================ -->
     <!-- HERO / TITLE SECTION                         -->
@@ -276,10 +259,8 @@ const activeAdsTotal = entries.reduce((sum, e) => sum + (e.ads?.filter((a: any) 
         Powered by content-engine research pipeline
       </p>
     </footer>
-  </main>
+  </div>
 </Layout>
-
-<script is:inline src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js" defer></script>
 
 <script is:inline>
   function researchApp() {
