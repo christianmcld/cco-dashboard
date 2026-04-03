@@ -42,53 +42,6 @@ const totalAssets = packs.reduce((sum, p) => {
 
 <Layout title="Content Library — CMNDSHFT">
 
-<div x-data="{ sidebarOpen: true, mobileSidebar: false }" x-init="sidebarOpen = window.innerWidth > 1024">
-
-  <!-- SIDEBAR NAVIGATION -->
-  <aside
-    class="sidebar"
-    :class="{ 'collapsed': !sidebarOpen, 'mobile-open': mobileSidebar }"
-  >
-    <div class="p-4 flex items-center gap-3 border-b border-border min-h-[56px]">
-      <div class="w-2 h-2 bg-accent rounded-full pulse-dot flex-shrink-0"></div>
-      <span class="font-display font-bold text-sm tracking-tight overflow-hidden whitespace-nowrap" x-show="sidebarOpen" x-transition>CMNDSHFT</span>
-    </div>
-
-    <nav class="flex-1 py-3 space-y-1">
-      <a href="/" class="sidebar-link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="0"></rect><rect x="14" y="3" width="7" height="7" rx="0"></rect><rect x="3" y="14" width="7" height="7" rx="0"></rect><rect x="14" y="14" width="7" height="7" rx="0"></rect></svg>
-        <span x-show="sidebarOpen" x-transition>Dashboard</span>
-      </a>
-      <a href="/library" class="sidebar-link active">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-        <span x-show="sidebarOpen" x-transition>Content Library</span>
-      </a>
-      <a href="#" class="sidebar-link" onclick="return false">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <span x-show="sidebarOpen" x-transition>Competitor Research</span>
-      </a>
-      <a href="#" class="sidebar-link" onclick="return false">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"></path></svg>
-        <span x-show="sidebarOpen" x-transition>Settings</span>
-      </a>
-    </nav>
-
-    <div class="p-3 border-t border-border">
-      <button
-        @click="sidebarOpen = !sidebarOpen"
-        class="sidebar-link w-full justify-center"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" :class="{ 'rotate-180': !sidebarOpen }" class="transition-transform"><polyline points="15 18 9 12 15 6"></polyline></svg>
-        <span x-show="sidebarOpen" x-transition class="text-xs">Collapse</span>
-      </button>
-    </div>
-  </aside>
-
-  <!-- MAIN CONTENT -->
-  <main
-    class="main-with-sidebar min-h-screen"
-    :class="{ 'sidebar-collapsed': !sidebarOpen }"
-  >
     <div class="p-6 lg:p-10 max-w-[1400px] mx-auto">
 
       <!-- HEADER -->
@@ -100,19 +53,7 @@ const totalAssets = packs.reduce((sum, p) => {
             <span class="text-accent font-bold">{totalAssets}</span> total assets
           </p>
         </div>
-        <a href="/" class="text-xs font-label font-bold tracking-wider uppercase text-text-secondary hover:text-accent transition-colors flex items-center gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-          Back to Dashboard
-        </a>
       </div>
-
-      <!-- MOBILE MENU BUTTON -->
-      <button
-        class="fixed top-4 right-4 z-[110] p-2 card lg:hidden"
-        @click="mobileSidebar = !mobileSidebar"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-      </button>
 
       <!-- PACK GRID -->
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
