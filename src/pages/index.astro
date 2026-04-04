@@ -511,7 +511,7 @@ function formatEngagement(n: number): string {
             </div>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             <template x-for="(topic, i) in topics" :key="i">
               <div class="card p-5 flex flex-col gap-3 animate-fade-in-up" :style="'animation-delay:' + (i * 0.05) + 's'">
                 <!-- Heat badge + trend arrow -->
@@ -1138,6 +1138,7 @@ function formatEngagement(n: number): string {
       _creatorCharts: [],
 
       init() {
+        this._rawData = initialData;
         this.currentData = initialData;
         this.hydrateFromData(this.currentData);
         this.$nextTick(() => {
@@ -1169,9 +1170,13 @@ function formatEngagement(n: number): string {
         try {
           var res = await fetch('/data/' + p + '.json');
           if (res.ok) {
-            this.currentData = await res.json();
-            this.hydrateFromData(this.currentData);
-            this.refreshCharts();
+            var rawData = await res.json();
+            // Store a plain (non-proxied) copy for Chart.js
+            this._rawData = rawData;
+            this.hydrateFromData(rawData);
+            this.$nextTick(() => {
+              this.refreshCharts();
+            });
           }
         } catch (e) {
           console.error('Failed to load data for period:', p, e);
@@ -1209,6 +1214,11 @@ function formatEngagement(n: number): string {
             period: d ? (d.period || 'today') : 'today',
           };
         }
+      },
+
+      // Strip Alpine proxy — prevents Chart.js infinite recursion
+      _toRaw(obj) {
+        try { return JSON.parse(JSON.stringify(obj)); } catch(e) { return obj; }
       },
 
       buildLetsGoCommand(idea) {
@@ -1289,8 +1299,9 @@ function formatEngagement(n: number): string {
         }
         this._creatorCharts = [];
 
-        for (var i = 0; i < this.creators.length; i++) {
-          var creator = this.creators[i];
+        var rawCreators = this._toRaw(this.creators);
+        for (var i = 0; i < rawCreators.length; i++) {
+          var creator = rawCreators[i];
           var el = document.getElementById('creatorChart' + i);
           if (!el || !creator.engagement_history || creator.engagement_history.length < 2) continue;
 
@@ -1400,7 +1411,7 @@ function formatEngagement(n: number): string {
         }
 
         var defaults = this.chartDefaults();
-        var perf = this.performanceData;
+        var perf = this._toRaw(this.performanceData);
         var self = this;
 
         // ── 1. Trending Bubble Chart ──
@@ -1410,6 +1421,7 @@ function formatEngagement(n: number): string {
         this.initScatterChart();
 
         // ── 3. Framework chart (horizontal bar, sorted) ──
+        if (this._fwChart) { this._fwChart.destroy(); this._fwChart = null; }
         var fwEl = document.getElementById('frameworkChart');
         if (fwEl && perf.frameworks && perf.frameworks.length > 0) {
           var sorted = perf.frameworks.slice().sort(function(a, b) { return b.avg_engagement - a.avg_engagement; });
@@ -1452,6 +1464,7 @@ function formatEngagement(n: number): string {
         }
 
         // ── 4. Pace chart (grouped bar: count + avg engagement) ──
+        if (this._paceChart) { this._paceChart.destroy(); this._paceChart = null; }
         var paceEl = document.getElementById('paceChart');
         if (paceEl && perf.pace && perf.pace.length > 0) {
           this._paceChart = new Chart(paceEl, {
@@ -1513,6 +1526,7 @@ function formatEngagement(n: number): string {
         }
 
         // ── 5. Duration chart (grouped bar) ──
+        if (this._durChart) { this._durChart.destroy(); this._durChart = null; }
         var durEl = document.getElementById('durationChart');
         if (durEl && perf.duration && perf.duration.length > 0) {
           this._durChart = new Chart(durEl, {
@@ -1583,10 +1597,13 @@ function formatEngagement(n: number): string {
       initBubbleChart() {
         var el = document.getElementById('trendingBubbleChart');
         if (!el || !this.topics || this.topics.length === 0) return;
+        // Destroy existing chart if any
+        if (this._bubbleChart) { this._bubbleChart.destroy(); this._bubbleChart = null; }
 
+        var rawTopics = this._toRaw(this.topics);
         var bubbleData = [];
-        for (var i = 0; i < this.topics.length; i++) {
-          var t = this.topics[i];
+        for (var i = 0; i < rawTopics.length; i++) {
+          var t = rawTopics[i];
           var score = t.heat_score?.total || 0;
           var engagement = t.heat_score?.engagement || 0;
           var velocity = t.heat_score?.velocity || 0;
@@ -1665,6 +1682,8 @@ function formatEngagement(n: number): string {
       initScatterChart() {
         var el = document.getElementById('outlierScatterChart');
         if (!el || !this.outliers || this.outliers.length === 0) return;
+        // Destroy existing chart if any
+        if (this._scatterChart) { this._scatterChart.destroy(); this._scatterChart = null; }
 
         var frameworkColors = {
           'Pattern Interrupt': '#cafd00',
@@ -1678,9 +1697,10 @@ function formatEngagement(n: number): string {
           'Test/Experiment': '#fbbf24',
         };
 
-        // Build creator median map
+        // Build creator median map - use raw data to avoid proxy issues
         var creatorMap = {};
-        var allPosts = (this.currentData && this.currentData.outliers && this.currentData.outliers.posts) || [];
+        var rawData = this._rawData || this._toRaw(this.currentData);
+        var allPosts = (rawData && rawData.outliers && rawData.outliers.posts) || [];
         for (var p = 0; p < allPosts.length; p++) {
           var post = allPosts[p];
           if (!creatorMap[post.creator]) creatorMap[post.creator] = [];
@@ -1693,8 +1713,9 @@ function formatEngagement(n: number): string {
         }
 
         var datasets = {};
-        for (var i = 0; i < this.outliers.length; i++) {
-          var o = this.outliers[i];
+        var rawOutliers = this._toRaw(this.outliers);
+        for (var i = 0; i < rawOutliers.length; i++) {
+          var o = rawOutliers[i];
           var fw = o.framework.split(',')[0].trim();
           var color = frameworkColors[fw] || '#6b7280';
           if (!datasets[fw]) {
@@ -1800,9 +1821,11 @@ function formatEngagement(n: number): string {
       initCtaChart() {
         var el = document.getElementById('ctaChart');
         if (!el) return;
+        if (this._ctaChart) { this._ctaChart.destroy(); this._ctaChart = null; }
 
-        // Analyze CTA keywords from the outlier data
-        var allPosts = (this.currentData && this.currentData.outliers && this.currentData.outliers.posts) || [];
+        // Analyze CTA keywords from the outlier data - use raw data
+        var rawData = this._rawData || this._toRaw(this.currentData);
+        var allPosts = (rawData && rawData.outliers && rawData.outliers.posts) || [];
         var ctaKeywords = ['free', 'stop', 'how', 'secret', 'watch', 'need', 'just', 'new'];
         var withCta = { total: 0, engagement: 0 };
         var withoutCta = { total: 0, engagement: 0 };
@@ -1879,8 +1902,10 @@ function formatEngagement(n: number): string {
       initDistributionChart() {
         var el = document.getElementById('distributionChart');
         if (!el) return;
+        if (this._distChart) { this._distChart.destroy(); this._distChart = null; }
 
-        var allPosts = (this.currentData && this.currentData.outliers && this.currentData.outliers.posts) || [];
+        var rawData = this._rawData || this._toRaw(this.currentData);
+        var allPosts = (rawData && rawData.outliers && rawData.outliers.posts) || [];
         // Create logarithmic buckets
         var buckets = [
           { label: '0-100', min: 0, max: 100, count: 0 },
@@ -1970,37 +1995,18 @@ function formatEngagement(n: number): string {
       },
 
       refreshCharts() {
-        var perf = this.performanceData;
-        if (!perf) return;
+        // Destroy ALL chart instances
+        var charts = ['_fwChart', '_paceChart', '_durChart', '_bubbleChart', '_scatterChart', '_ctaChart', '_distChart'];
+        for (var c = 0; c < charts.length; c++) {
+          if (this[charts[c]]) { this[charts[c]].destroy(); this[charts[c]] = null; }
+        }
+        for (var k = 0; k < this._creatorCharts.length; k++) {
+          if (this._creatorCharts[k]) this._creatorCharts[k].destroy();
+        }
+        this._creatorCharts = [];
 
-        if (this._fwChart && perf.frameworks) {
-          var sorted = perf.frameworks.slice().sort(function(a, b) { return b.avg_engagement - a.avg_engagement; });
-          this._fwChart.data.labels = sorted.map(function(f) { return f.name + ' (' + f.count + ')'; });
-          this._fwChart.data.datasets[0].data = sorted.map(function(f) { return f.avg_engagement; });
-          this._fwChart.update();
-        }
-        if (this._paceChart && perf.pace) {
-          this._paceChart.data.labels = perf.pace.map(function(p) { return p.range + ' wpm'; });
-          this._paceChart.data.datasets[0].data = perf.pace.map(function(p) { return p.avg_engagement; });
-          this._paceChart.data.datasets[1].data = perf.pace.map(function(p) { return p.count; });
-          this._paceChart.update();
-        }
-        if (this._durChart && perf.duration) {
-          this._durChart.data.labels = perf.duration.map(function(d) { return d.range; });
-          this._durChart.data.datasets[0].data = perf.duration.map(function(d) { return d.avg_engagement; });
-          this._durChart.data.datasets[1].data = perf.duration.map(function(d) { return d.count; });
-          this._durChart.update();
-        }
-
-        // Reinit new charts
-        if (this._bubbleChart) { this._bubbleChart.destroy(); this._bubbleChart = null; }
-        if (this._scatterChart) { this._scatterChart.destroy(); this._scatterChart = null; }
-        if (this._ctaChart) { this._ctaChart.destroy(); this._ctaChart = null; }
-        if (this._distChart) { this._distChart.destroy(); this._distChart = null; }
-        this.initBubbleChart();
-        this.initScatterChart();
-        this.initCtaChart();
-        this.initDistributionChart();
+        // Recreate all charts from scratch with raw data
+        this.initCharts();
         this.initCreatorSparklines();
       },
     };
