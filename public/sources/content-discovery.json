@@ -1,0 +1,2181 @@
+{
+  "source": "content_discovery",
+  "collected_at": "2026-04-04T01:08:51.952557+00:00",
+  "items": [
+    {
+      "title": "Shared across hackernews",
+      "url": "https://tomrenner.com/posts/llm-inevitabilism",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.951988+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "tomrenner.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 3401,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952093+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "www.anthropic.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 3377,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952116+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "theshamblog.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 3297,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://bun.com/blog/bun-joins-anthropic",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952148+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "bun.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 3265,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952166+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "www.anthropic.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 3183,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://twitter.com/fried_rice/status/2038894956459290963",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952182+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "twitter.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 3097,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952229+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "www.anthropic.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 3090,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://openai.com/index/learning-to-reason-with-llms",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952247+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "openai.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2915,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://bbycroft.net/llm",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952261+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "bbycroft.net",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2696,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952282+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "www.anthropic.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2572,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://twitter.com/secwar/status/2027507717469049070",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952297+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "twitter.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2447,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952312+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "arxiv.org",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2407,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952325+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "www.anthropic.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2371,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952339+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "burkeholland.github.io",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2232,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952353+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "www.anthropic.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2189,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://www.anthropic.com/news/1m-context",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952367+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "www.anthropic.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 2016,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://www.anthropic.com/news/web-search",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952380+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "www.anthropic.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 1959,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952393+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "alex000kim.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 1933,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://opencode.ai",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952406+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "opencode.ai",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 1895,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "Shared across hackernews",
+      "url": "https://claude.com/blog/cowork-research-preview",
+      "score": 100,
+      "source_detail": "cross_platform",
+      "date": "2026-04-04T01:08:51.952421+00:00",
+      "highlights": [],
+      "text_preview": "",
+      "search_category": "cross_platform",
+      "search_label": "Most Shared",
+      "author": "",
+      "domain": "claude.com",
+      "cross_platform_sources": [
+        "hackernews"
+      ],
+      "cross_platform_engagement": 1863,
+      "discovery_method": "cross_platform_analysis"
+    },
+    {
+      "title": "2026: The year enterprise AI finally gets to work - TechRadar",
+      "url": "https://www.techradar.com/pro/2026-the-year-enterprise-ai-finally-gets-to-work",
+      "score": 95,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-03T09:00:20.227Z",
+      "highlights": [
+        "2026: The year enterprise AI finally gets to work | TechRadar \n\n \n\n## Useful links - Best VPN\n- Best Free VPN\n- Best Web Hosting Service\n- Best Website Builder - Best Laptops\n- Best Gaming Laptops\n- Best Gaming PC\n- Best PC Gaming Chair - Best Phone\n- Best TV\n- Best Oled TVs\n- Best Smartwatch\n\n- Best Turntables\n- Best Noise Cancelling Headphones"
+      ],
+      "text_preview": "2026: The year enterprise AI finally gets to work | TechRadar \n\n \n\n## Useful links\n\n- Best VPN\n- Best Free VPN\n- Best Web Hosting Service\n- Best Website Builder\n\n- Best Laptops\n- Best Gaming Laptops\n- Best Gaming PC\n- Best PC Gaming Chair\n\n- Best Phone\n- Best TV\n- Best Oled TVs\n- Best Smartwatch\n\n- ",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "Opinion \n \n \nBy\n Yacob Berhane   \n \npublished\n \n3 April 2026",
+      "domain": "www.techradar.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Microsoft releases open-source toolkit to govern autonomous AI agents - Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Microsoft releases open-source toolkit to govern autonomous AI agents - Help Net Security Help Net Security newsletters: Daily and weekly news, cybersecurity jobs, open source projects, breaking news \u2013 subscribe here! Please turn on your JavaScript for this page to function normally. # Microsoft releases open-source toolkit to govern autonomous AI agents AI agents can book travel, execute financial transactions, write and run code, and manage infrastructure without human"
+      ],
+      "text_preview": "Microsoft releases open-source toolkit to govern autonomous AI agents - Help Net Security \n\nHelp Net Security newsletters: Daily and weekly news, cybersecurity jobs, open source projects, breaking news \u2013 subscribe here!\n\nPlease turn on your JavaScript for this page to function normally.\n\n# Microsoft",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "Anamarija Pogorelec",
+      "domain": "www.helpnetsecurity.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Google Introduces Gemma 4 with Agentic AI and Multi-Step Reasoning Power",
+      "url": "https://coincentral.com/google-introduces-gemma-4-with-agentic-ai-and-multi-step-reasoning-power/",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Close Menu \n\n Facebook   X (Twitter)   Instagram   YouTube \n\n Facebook   X (Twitter)   Instagram   YouTube Home / Contact\n\n \n\n \n\n\n\nAI Tools\n\n# Google Introduces Gemma 4 with Agentic AI and Multi-Step Reasoning Power Gemma 4 brings efficient AI reasoning, agent workflows, and flexible deployment"
+      ],
+      "text_preview": " Close Menu \n\n Facebook   X (Twitter)   Instagram   YouTube \n\n Facebook   X (Twitter)   Instagram   YouTube \n\n \n\n \n\nHome / Contact\n\n \n\n \n\n\n\nAI Tools\n\n# Google Introduces Gemma 4 with Agentic AI and Multi-Step Reasoning Power\n\nGemma 4 brings efficient AI reasoning, agent workflows, and flexible deplo",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "Yasmin Werner",
+      "domain": "coincentral.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Microsoft and Google Release New AI Models on the Same Day: Featuring Voice, Image, and Local Open-Source Capabilities",
+      "url": "https://longbridge.com/news/281581173",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "> Supported Languages: \u7b80\u4f53\u4e2d\u6587 | \u7e41\u9ad4\u4e2d\u6587 # Microsoft and Google Release New AI Models on the Same Day: Featuring Voice, Image, and Local Open-Source Capabilities Microsoft and Google both announced new AI models on Thursday, but with notable differences: Microsoft released its new foundational model, MAI, available only through its Azure Foundry and the US-only MAI Playground platform; whereas Google launched its entirely new Gemma 4 open-source model, capable of running locally."
+      ],
+      "text_preview": "> Supported Languages: \u7b80\u4f53\u4e2d\u6587 | \u7e41\u9ad4\u4e2d\u6587\n\n# Microsoft and Google Release New AI Models on the Same Day: Featuring Voice, Image, and Local Open-Source Capabilities\n\nMicrosoft and Google both announced new AI models on Thursday, but with notable differences: Microsoft released its new foundational model, MA",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "",
+      "domain": "longbridge.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Google Launches Gemma 4 Open Models For Agentic Workflow, Expands Google Vids With AI Video & Music Tools",
+      "url": "https://www.etvbharat.com/en/technology/google-launches-gemma-4-open-models-with-agentic-workflow-adds-free-video-generation-in-google-vids-enn26040303998",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Google Launches Gemma 4 Open Models For Agentic Workflow, Expands Google Vids With AI Video & Music Tools ETV Bharat/ technology # Google Launches Gemma 4 Open Models For Agentic Workflow, Expands Google Vids With AI Video & Music Tools ## Google unveiled Gemma 4 open models with enhanced reasoning and added AI video, music, and publishing tools to Google Vids. Gemma 4 Open Models arrive with agentic workflow, Google Vids receives new features ( Google)\n\nBy ETV Bharat Tech Team"
+      ],
+      "text_preview": "Google Launches Gemma 4 Open Models For Agentic Workflow, Expands Google Vids With AI Video & Music Tools\n\nETV Bharat/ technology\n\n# Google Launches Gemma 4 Open Models For Agentic Workflow, Expands Google Vids With AI Video & Music Tools\n\n## Google unveiled Gemma 4 open models with enhanced reasoni",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "ETV Bharat",
+      "domain": "www.etvbharat.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Google launches Gemma 4 open-source AI models",
+      "url": "https://www.resultsense.com/news/2026-04-03-google-gemma-4-open-source-ai-models",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Google launches Gemma 4 open-source AI models \n\n \n\n \n\n \n\n \n\n \n\n \n\n## TL;DR Google has released Gemma 4, its most capable open-source model family, in four sizes ranging from 2 billion to 31 billion parameters. The models ship under an Apache 2.0 licence \u2014 a shift from previous, more restrictive terms \u2014 and include native vision, audio input, and support for over 140 languages. ## Four models for different hardware\n\nThe Gemma 4 family comprises four variants designed for"
+      ],
+      "text_preview": "Google launches Gemma 4 open-source AI models \n\n \n\n \n\n \n\n \n\n \n\n \n\n## TL;DR\n\nGoogle has released Gemma 4, its most capable open-source model family, in four sizes ranging from 2 billion to 31 billion parameters. The models ship under an Apache 2.0 licence \u2014 a shift from previous, more restrictive ter",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "",
+      "domain": "www.resultsense.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Google releases Gemma 4, a family of open models built off of Gemini 3",
+      "url": "https://tech.yahoo.com/ai/gemini/articles/google-releases-gemma-4-family-160000516.html",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-02T00:00:00.000Z",
+      "highlights": [
+        "Google releases Gemma 4, a family of open models built off of Gemini 3\n\nAdvertisement\n\nAdvertisement\n\nAdvertisement When Google released Gemini 3 Pro at the end of last year, it was a significant step forward for the company's proprietary large language models. Now, the company is bringing some of the same technology and research that made those models possible to the open source community with the release of its new family of Gemma 4 open-weight models. Google is offering four different"
+      ],
+      "text_preview": "Google releases Gemma 4, a family of open models built off of Gemini 3\n\nAdvertisement\n\nAdvertisement\n\nAdvertisement\n\nWhen Google released Gemini 3 Pro at the end of last year, it was a significant step forward for the company's proprietary large language models. Now, the company is bringing some of ",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "",
+      "domain": "tech.yahoo.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Anthropic launches Claude computer use on Windows, this is how it works - India Today",
+      "url": "https://www.indiatoday.in/amp/technology/news/story/claude-computer-use-now-on-windows-ai-can-build-apps-run-tests-and-fix-bugs-itself-2890974-2026-04-03",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Anthropic launches Claude computer use on Windows, this is how it works - India Today - India Today\n- Aaj Tak\n- India Today Hindi\n- NewsTak\n- GNTTV\n- Lallantop\n- Business Today\n- Bangla\n- Malayalam - Northeast\n- BT Bazaar\n- Harper's Bazaar\n- Sports Tak\n- Crime Tak\n- Astro Tak\n- Gaming\n- Brides Today"
+      ],
+      "text_preview": "Anthropic launches Claude computer use on Windows, this is how it works - India Today \n\n- India Today\n- Aaj Tak\n- India Today Hindi\n- NewsTak\n- GNTTV\n- Lallantop\n- Business Today\n- Bangla\n- Malayalam\n- Northeast\n- BT Bazaar\n- Harper's Bazaar\n- Sports Tak\n- Crime Tak\n- Astro Tak\n- Gaming\n- Brides Tod",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "",
+      "domain": "www.indiatoday.in",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Google's $20 per month AI Pro plan just got a big storage boost",
+      "url": "https://tech.yahoo.com/ai/gemini/articles/googles-20-per-month-ai-044502794.html",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-02T00:00:00.000Z",
+      "highlights": [
+        "Google's $20 per month AI Pro plan just got a big storage boost\n\nAdvertisement\n\nAdvertisement\n\nAdvertisement Google's $20 per month AI Pro plan, which includes Gemini, Veo and Nano Banana, got a big storage boost and some other new perks. Users of the plan (also available for $200 per year) will see their cloud space jump from 2TB to 5TB at no extra cost. That extra storage can be used not only for AI but also Gmail, Google Drive and Google Photos backups. Gemini can now"
+      ],
+      "text_preview": "Google's $20 per month AI Pro plan just got a big storage boost\n\nAdvertisement\n\nAdvertisement\n\nAdvertisement\n\nGoogle's $20 per month AI Pro plan, which includes Gemini, Veo and Nano Banana, got a big storage boost and some other new perks. Users of the plan (also available for $200 per year) will se",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "",
+      "domain": "tech.yahoo.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "New Cursor 3 ditches the classic IDE layout for an \"agent-first\" interface built around parallel AI fleets",
+      "url": "https://the-decoder.com/new-cursor-3-ditches-the-classic-ide-layout-for-an-agent-first-interface-built-around-parallel-ai-fleets/",
+      "score": 90,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "New Cursor 3 ditches the classic IDE layout for an \"agent-first\" interface built around parallel AI fleets # New Cursor 3 ditches the classic IDE layout for an \"agent-first\" interface built around parallel AI fleets Matthias Bastian\n\nApr 3, 2026\n\n \n\n \n\n## Key Points - Cursor released version 3 of their AI coding tool, featuring a completely rebuilt interface centered around AI agents that are designed to write most of the code, with developers able to run multiple"
+      ],
+      "text_preview": "New Cursor 3 ditches the classic IDE layout for an \"agent-first\" interface built around parallel AI fleets \n\n \n\n \n\n \n\n \n\n \n\n# New Cursor 3 ditches the classic IDE layout for an \"agent-first\" interface built around parallel AI fleets\n\n \n\nMatthias Bastian\n\nApr 3, 2026\n\n \n\n \n\n## Key Points\n\n- Cursor re",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "Matthias Bastian",
+      "domain": "the-decoder.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Box consolidates AI tools, adds 'super agent' for complex tasks | TechTarget",
+      "url": "https://www.techtarget.com/searchcontentmanagement/news/366640993/Box-consolidates-AI-tools-adds-super-agent-for-complex-tasks",
+      "score": 90,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-02T00:00:00.000Z",
+      "highlights": [
+        "Box consolidates AI tools, adds 'super agent' for complex tasks | TechTarget \n\n \n\n \n\n \n\nsdecoret - stock.adobe.com By\n\n- Don Fluckinger, Senior News Writer\n\nPublished: 02 Apr 2026 Box released an AI super agent to premium subscribers, which can gather data and create new files in formats including PDF and Microsoft 365 docs, spreadsheets and slide decks. Enterprise Plus and Enterprise Advanced users now have access to Box Agent, which can interpret plain-language questions to"
+      ],
+      "text_preview": "Box consolidates AI tools, adds 'super agent' for complex tasks | TechTarget \n\n \n\n \n\n \n\nsdecoret - stock.adobe.com\n\n \n\n \n\nBy\n\n- Don Fluckinger, Senior News Writer\n\nPublished: 02 Apr 2026\n\nBox released an AI super agent to premium subscribers, which can gather data and create new files in formats inc",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "By:  Don\u00a0Fluckinger",
+      "domain": "www.techtarget.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Cortex Code Updates: Faster AI Data Engineering on Snowflake",
+      "url": "http://snowflake.com/en/blog/cortex-code-snowsight/",
+      "score": 90,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-02T00:00:00.000Z",
+      "highlights": [
+        "Cortex Code Updates: Faster AI Data Engineering on Snowflake \n\nProduct and Technology\n\nMAR 26, 2026|6 min read # Build Faster with Cortex Code \u2014 Now More Widely Available and Ready for Bigger Tasks Cortex Code, Snowflake\u2019s AI coding agent, is evolving rapidly and becoming part of the day-to-day workflow for more data practitioners across every team. From seasoned engineers to less technical builders, it helps teams bring ideas to life faster, put them into production and scale them"
+      ],
+      "text_preview": "Cortex Code Updates: Faster AI Data Engineering on Snowflake \n\nProduct and Technology\n\nMAR 26, 2026|6 min read\n\n# Build Faster with Cortex Code \u2014 Now More Widely Available and Ready for Bigger Tasks\n\nCortex Code, Snowflake\u2019s AI coding agent, is evolving rapidly and becoming part of the day-to-day wo",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "snowflake.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Claude Code Q1 2026 Update Roundup: Every Feature That Actually Matters | MindStudio",
+      "url": "https://www.mindstudio.ai/blog/claude-code-q1-2026-update-roundup",
+      "score": 90,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-02T00:00:00.000Z",
+      "highlights": [
+        "Claude Code Q1 2026 Update Roundup: Every Feature That Actually Matters | MindStudio \n\n \n\n \n\nProduct AI Models AI Media Workbench Agent Skills Plugin Workflow Capabilities\n\nPricing\n\nLearn University Bootcamps Documentation\n\nBlog About\n\nLog in Get Started\n\nMy Workspace ## What Q1 2026 Actually Changed About Claude Code\n\nClaude Code has shipped"
+      ],
+      "text_preview": "Claude Code Q1 2026 Update Roundup: Every Feature That Actually Matters | MindStudio \n\n \n\n \n\nProduct\n\nAI Models AI Media Workbench Agent Skills Plugin Workflow Capabilities\n\nPricing\n\nLearn\n\nUniversity Bootcamps Documentation\n\nBlog About\n\nLog in Get Started\n\nMy Workspace\n\n## What Q1 2026 Actually Cha",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "www.mindstudio.ai",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Cursor unveils new AI agent to take on Claude Code and OpenAI Codex: What it can do",
+      "url": "https://www.digit.in/news/general/cursor-unveils-new-ai-agent-to-take-on-claude-code-and-openai-codex-what-it-can-do.html",
+      "score": 90,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Cursor unveils new AI agent to take on Claude Code and OpenAI Codex: What it can do # Cursor unveils new AI agent to take on Claude Code and OpenAI Codex: What it can do\n\nAdd DIGIT as a preferred source Follow Us\n\n \n\nHIGHLIGHTS ## Cursor 3 introduces AI agents that can complete coding tasks automatically using simple text instructions. ## The new Agents Window lets developers run and track multiple coding tasks across projects at the same time. ## Cursor"
+      ],
+      "text_preview": "Cursor unveils new AI agent to take on Claude Code and OpenAI Codex: What it can do \n\n \n\n \n\n \n\n \n\n \n\n# Cursor unveils new AI agent to take on Claude Code and OpenAI Codex: What it can do\n\nAdd DIGIT as a preferred source\n\nFollow Us\n\n \n\nHIGHLIGHTS\n\n## Cursor 3 introduces AI agents that can complete co",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "www.digit.in",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Cursor refreshes its vibe coding platform with focus on AI agents - SiliconANGLE",
+      "url": "https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/",
+      "score": 90,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Cursor refreshes its vibe coding platform with focus on AI agents - SiliconANGLE \n\n \n\nSHARE\n\n- AWARDS UPDATED 20:26 EDT / APRIL 02 2026\n\nAI\n\n### Cursor refreshes its vibe coding platform with focus on AI agents\n\n \n\nSHARE Startup Cursor today debuted a new version of its popular artificial intelligence coding platform. The release includes features that will make it easier for developers to automate programming tasks using AI agents. It also introduces improvements in other"
+      ],
+      "text_preview": "Cursor refreshes its vibe coding platform with focus on AI agents - SiliconANGLE \n\n \n\nSHARE\n\n- AWARDS\n\nUPDATED 20:26 EDT / APRIL 02 2026\n\nAI\n\n### Cursor refreshes its vibe coding platform with focus on AI agents\n\n \n\nSHARE\n\nStartup Cursor today debuted a new version of its popular artificial intellig",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "Maria Deutscher",
+      "domain": "siliconangle.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Cursor 3 announced with AI coding agents to automate developer tasks, what will humans do? - India Today",
+      "url": "https://www.indiatoday.in/amp/technology/news/story/cursor-3-announced-with-ai-coding-agents-to-automate-developer-tasks-what-will-humans-do-2891019-2026-04-03",
+      "score": 90,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Cursor 3 announced with AI coding agents to automate developer tasks, what will humans do? - India Today - India Today\n- Aaj Tak\n- India Today Hindi\n- NewsTak\n- GNTTV\n- Lallantop\n- Business Today\n- Bangla\n- Malayalam - Northeast\n- BT Bazaar\n- Harper's Bazaar\n- Sports Tak\n- Crime Tak\n- Astro Tak\n- Gaming\n-"
+      ],
+      "text_preview": "Cursor 3 announced with AI coding agents to automate developer tasks, what will humans do? - India Today \n\n- India Today\n- Aaj Tak\n- India Today Hindi\n- NewsTak\n- GNTTV\n- Lallantop\n- Business Today\n- Bangla\n- Malayalam\n- Northeast\n- BT Bazaar\n- Harper's Bazaar\n- Sports Tak\n- Crime Tak\n- Astro Tak\n- ",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "www.indiatoday.in",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Cursor 3 introduces AI agents to handle coding tasks: Why AI coding agents are changing software development - Storyboard18",
+      "url": "https://www.storyboard18.com/brand-marketing/cursor-3-introduces-ai-agents-to-handle-coding-tasks-why-ai-coding-agents-are-changing-software-development-94105.htm",
+      "score": 90,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Cursor 3 introduces AI agents to handle coding tasks: Why AI coding agents are changing software development - Storyboard18 - Contact Us\n- Global Pioneers Summit\n- Storyboard18 Awards For Creativity\n- The Visionaries\n- Power of Purpose - Share the Spotlight\n- Digital Entertainment Summit\n- DNPA # Cursor 3 introduces AI agents to handle coding tasks: Why AI coding agents are changing software development"
+      ],
+      "text_preview": "Cursor 3 introduces AI agents to handle coding tasks: Why AI coding agents are changing software development - Storyboard18\n\n- Contact Us\n- Global Pioneers Summit\n- Storyboard18 Awards For Creativity\n- The Visionaries\n- Power of Purpose\n- Share the Spotlight\n- Digital Entertainment Summit\n- DNPA\n\n# ",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "www.storyboard18.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Claude Code Source Code Leak: What the Unshipped Features Tell ...",
+      "url": "https://www.mindstudio.ai/blog/claude-code-source-code-leak-unshipped-features-2",
+      "score": 90,
+      "source_detail": "exa_anthropic",
+      "date": "2026-04-02T01:00:26.875Z",
+      "highlights": [
+        "Claude Code Source Code Leak: What the Unshipped Features Tell Us About Anthropic's Roadmap | MindStudio \n\n \n\n \n\nProduct AI Models AI Media Workbench Agent Skills Plugin Workflow Capabilities\n\nPricing\n\nLearn University Bootcamps Documentation\n\nBlog About\n\nLog in Get Started\n\nMy Workspace\n\n## Anthropic\u2019s Accidental Reveal When developers started"
+      ],
+      "text_preview": "Claude Code Source Code Leak: What the Unshipped Features Tell Us About Anthropic's Roadmap | MindStudio \n\n \n\n \n\nProduct\n\nAI Models AI Media Workbench Agent Skills Plugin Workflow Capabilities\n\nPricing\n\nLearn\n\nUniversity Bootcamps Documentation\n\nBlog About\n\nLog in Get Started\n\nMy Workspace\n\n## Anthr",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "",
+      "domain": "www.mindstudio.ai",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Here's what that Claude Code source leak reveals about Anthropic's ...",
+      "url": "https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/",
+      "score": 90,
+      "source_detail": "exa_anthropic",
+      "date": "2026-04-02T01:00:26.875Z",
+      "highlights": [
+        "Here's what that Claude Code source leak reveals about Anthropic's plans - Ars Technica \n\n \n\nText settings Story text\n\nSize Small Standard Large Width * Standard Wide Links Standard Orange\n\n* Subscribers only Learn more Minimize to nav Yesterday\u2019s surprise leak of the source code for Anthropic\u2019s Claude Code revealed a lot about the vibe-coding scaffolding the company has built around its proprietary Claude model. But observers digging through over 512,000 lines of code"
+      ],
+      "text_preview": "Here's what that Claude Code source leak reveals about Anthropic's plans - Ars Technica \n\n \n\nText settings\n\n \n\nStory text\n\nSize Small Standard Large Width * Standard Wide Links Standard Orange\n\n* Subscribers only Learn more\n\nMinimize to nav\n\nYesterday\u2019s surprise leak of the source code for Anthropic",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "",
+      "domain": "arstechnica.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Claude Code Q1 2026 Update Roundup: Every Feature That Actually Matters | MindStudio",
+      "url": "https://www.mindstudio.ai/blog/claude-code-q1-2026-update-roundup-2",
+      "score": 90,
+      "source_detail": "exa_anthropic",
+      "date": "2026-04-02T00:00:00.000Z",
+      "highlights": [
+        "Claude Code Q1 2026 Update Roundup: Every Feature That Actually Matters | MindStudio \n\n \n\n \n\nProduct AI Models AI Media Workbench Agent Skills Plugin Workflow Capabilities\n\nPricing\n\nLearn University Bootcamps Documentation\n\nBlog About\n\nLog in Get Started\n\nMy Workspace ## What Actually Shipped in Claude Code This Quarter\n\nQ1 2026 was a busy"
+      ],
+      "text_preview": "Claude Code Q1 2026 Update Roundup: Every Feature That Actually Matters | MindStudio \n\n \n\n \n\nProduct\n\nAI Models AI Media Workbench Agent Skills Plugin Workflow Capabilities\n\nPricing\n\nLearn\n\nUniversity Bootcamps Documentation\n\nBlog About\n\nLog in Get Started\n\nMy Workspace\n\n## What Actually Shipped in ",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "",
+      "domain": "www.mindstudio.ai",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "7 New Claude Features That Turn It Into an AI Agent Powerhouse",
+      "url": "https://www.youtube.com/watch?v=0MoEODBf3_I",
+      "score": 90,
+      "source_detail": "exa_anthropic",
+      "date": "2026-04-03T01:00:26.875Z",
+      "highlights": [
+        "- YouTube About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features - YouTube\n\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & Safety"
+      ],
+      "text_preview": "- YouTube\n\nAbout Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features\n\n- YouTube\n\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy &amp; Safety",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "",
+      "domain": "www.youtube.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Anthropic Brings Claude Computer Use to Windows - Thurrott.com",
+      "url": "https://www.thurrott.com/a-i/anthropic/334498/anthropic-brings-claude-computer-use-to-windows",
+      "score": 90,
+      "source_detail": "exa_anthropic",
+      "date": "2026-04-03T00:00:00.000Z",
+      "highlights": [
+        "Anthropic Brings Claude Computer Use to Windows - Thurrott.com One week after it launched this feature on the Mac, Anthropic has brought computer use to Windows in Claude Cowork and and Claude Code. This feature is currently in research preview and it requires a Claude Pro or Max subscription. \u201cComputer use is now available on Windows in Claude Cowork and Claude Code,\u201d an Anthropic representative told me. \u201cWhen enabled, Claude can open your apps, navigate your browser, work on your"
+      ],
+      "text_preview": "Anthropic Brings Claude Computer Use to Windows - Thurrott.com \n\nOne week after it launched this feature on the Mac, Anthropic has brought computer use to Windows in Claude Cowork and and Claude Code. This feature is currently in research preview and it requires a Claude Pro or Max subscription.\n\n\u201cC",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "Paul Thurrott",
+      "domain": "www.thurrott.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Codex Plugin Transforms Claude Code Development",
+      "url": "https://aidailypost.com/news/openai-launches-codex-plugin-claude-code-local-settings-review-gate",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Codex Plugin Transforms Claude Code Development Editorial illustration for OpenAI launches Codex plugin for Claude Code with local settings and Review Gate Share OpenAI\u2019s newest offering plugs its Codex engine directly into Anthropic\u2019s Claude Code, turning the latter into a front\u2011end for an already\u2011installed model. The move sidesteps the need for a separate cloud call, letting developers keep their existing configurations, keys and environment"
+      ],
+      "text_preview": "OpenAI Codex Plugin Transforms Claude Code Development \n\n \n\n \n\nEditorial illustration for OpenAI launches Codex plugin for Claude Code with local settings and Review Gate\n\n \n\n \n\nShare\n\n \n\n \n\n \n\nOpenAI\u2019s newest offering plugs its Codex engine directly into Anthropic\u2019s Claude Code, turning the latter ",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "AI Daily Post Editorial Team",
+      "domain": "aidailypost.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "You can now run OpenAI\u2019s Codex inside Claude Code: Here\u2019s how",
+      "url": "https://www.digit.in/features/general/you-can-now-run-openais-codex-inside-claude-code-heres-how.html",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "You can now run OpenAI\u2019s Codex inside Claude Code: Here\u2019s how # You can now run OpenAI\u2019s Codex inside Claude Code: Here\u2019s how\n\nAdd DIGIT as a preferred source\n\nFollow Us Vyom Ramani\n\n31-Mar-2026 OpenAI took the coding agent rivalry to Claude\u2019s coding terminal. OpenAI has developed a plugin to run its Codex agent inside Claude Code, the coding agent developed by Anthropic. OpenAI has published the plugin, named codex-plugin-cc"
+      ],
+      "text_preview": "You can now run OpenAI\u2019s Codex inside Claude Code: Here\u2019s how \n\n \n\n \n\n \n\n \n\n \n\n# You can now run OpenAI\u2019s Codex inside Claude Code: Here\u2019s how\n\nAdd DIGIT as a preferred source\n\nFollow Us\n\n \n\nVyom Ramani\n\n31-Mar-2026\n\n \n\nOpenAI took the coding agent rivalry to Claude\u2019s coding terminal. OpenAI has dev",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "www.digit.in",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI launches a Codex plugin that runs inside Anthropic's Claude Code",
+      "url": "https://the-decoder.com/openai-launches-a-codex-plugin-that-runs-inside-anthropics-claude-code/",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "OpenAI launches a Codex plugin that runs inside Anthropic's Claude Code # OpenAI launches a Codex plugin that runs inside Anthropic's Claude Code\n\n \n\nMaximilian Schreiner\n\nMar 31, 2026 Nano Banana Pro prompted by THE DECODER\n\n \n\n## Key Points - OpenAI released a plugin that embeds its coding assistant Codex directly into Anthropic's Claude Code, offering standard code review, adversarial review, and background task handoff. - Claude Code dominates the market,"
+      ],
+      "text_preview": "OpenAI launches a Codex plugin that runs inside Anthropic's Claude Code \n\n \n\n \n\n \n\n \n\n \n\n# OpenAI launches a Codex plugin that runs inside Anthropic's Claude Code\n\n \n\nMaximilian Schreiner\n\nMar 31, 2026\n\n \n\n \n\nNano Banana Pro prompted by THE DECODER\n\n \n\n## Key Points\n\n- OpenAI released a plugin that ",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Maximilian Schreiner",
+      "domain": "the-decoder.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI has released a Codex plugin for Claude Code, allowing users to call Codex from within Claude Code to perform code reviews and task delegation. - GIGAZINE",
+      "url": "https://gigazine.net/gsc_news/en/20260331-claude-code-codex-plugin/",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "OpenAI has released a Codex plugin for Claude Code, allowing users to call Codex from within Claude Code to perform code reviews and task delegation. - GIGAZINE Mar 31, 2026 13:10:00 # OpenAI has released a Codex plugin for Claude Code, allowing users to call Codex from within Claude Code to perform code reviews and task delegation. OpenAI officially released a plugin on March 31, 2026, that allows users to directly utilize OpenAI Codex within the Claude Code workflow for code reviews and"
+      ],
+      "text_preview": "OpenAI has released a Codex plugin for Claude Code, allowing users to call Codex from within Claude Code to perform code reviews and task delegation. - GIGAZINE \n\n Mar 31, 2026 13:10:00\n\n# OpenAI has released a Codex plugin for Claude Code, allowing users to call Codex from within Claude Code to per",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "gigazine.net",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Launches Codex Plugin for Rival Anthropic's Claude Code | Technobezz",
+      "url": "https://technobezz.com/news/openai-launches-codex-plugin-for-rival-anthropics-claude-code",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Launches Codex Plugin for Rival Anthropic's Claude Code | Technobezz\n\n### Don't Miss the Good Stuff Get tech news that matters delivered weekly. Join 50,000+ readers.\n\nSubscribe OpenAI is embedding its Codex coding assistant directly inside rival Anthropic's Claude Code platform through a new open-source plugin released March 30-31, 2026. The move positions Codex as a complementary tool within the market-leading development environment rather than competing head-to-head. You can also set us as a preferred source in Google Search/News by clicking the button."
+      ],
+      "text_preview": "OpenAI Launches Codex Plugin for Rival Anthropic's Claude Code | Technobezz\n\n### Don't Miss the Good Stuff\n\nGet tech news that matters delivered weekly. Join 50,000+ readers.\n\nSubscribe\n\nOpenAI is embedding its Codex coding assistant directly inside rival Anthropic's Claude Code platform through a n",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "technobezz.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Releases Codex Plugin That Runs Inside Anthropic\u2019s Claude Code \u2013 Unite.AI",
+      "url": "https://www.unite.ai/openai-releases-codex-plugin-that-runs-inside-anthropics-claude-code/",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Releases Codex Plugin That Runs Inside Anthropic\u2019s Claude Code \u2013 Unite.AI OpenAI published a Codex plugin on March 30 that installs directly inside Anthropic\u2019s Claude Code, letting developers run code reviews and delegate tasks to Codex without leaving their existing workflow. The open-source plugin, released under an Apache 2.0 license, is the first official OpenAI integration designed to run inside a rival\u2019s coding environment. The plugin provides six slash commands."
+      ],
+      "text_preview": "OpenAI Releases Codex Plugin That Runs Inside Anthropic\u2019s Claude Code \u2013 Unite.AI \n\n \n\n \n\n \n\nOpenAI published a Codex plugin on March 30 that installs directly inside Anthropic\u2019s Claude Code, letting developers run code reviews and delegate tasks to Codex without leaving their existing workflow. The ",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Alex McFarland",
+      "domain": "www.unite.ai",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Ships Codex Plugin for Claude Code, Putting Its Agent Inside a Rival's Tool",
+      "url": "https://noqta.tn/en/news/openai-codex-plugin-claude-code-rival-integration-2026",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Ships Codex Plugin for Claude Code, Putting Its Agent Inside a Rival's Tool - AI\n- Open Source\n- Product Launch\n\nBy AI Bot\u00b7 March 31, 2026\n\n---\n\nLoading the Text to Speech Audio Player... OpenAI has released an official open-source plugin that allows developers to run its Codex coding agent directly inside Anthropic's Claude Code command-line interface. The move, announced on March 30, 2026, marks a rare instance of a major AI company building native tooling for"
+      ],
+      "text_preview": "OpenAI Ships Codex Plugin for Claude Code, Putting Its Agent Inside a Rival's Tool\n\n \n\n- AI\n- Open Source\n- Product Launch\n\nBy AI Bot\u00b7 March 31, 2026\n\n---\n\nLoading the Text to Speech Audio Player...\n\nOpenAI has released an official open-source plugin that allows developers to run its Codex coding ag",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "noqta.tn",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Adds Codex Plugins to Automate Workflows and Expand Beyond Coding - gHacks Tech News",
+      "url": "https://www.ghacks.net/2026/03/29/openai-adds-codex-plugins-to-automate-workflows-and-expand-beyond-coding/",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-29T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Adds Codex Plugins to Automate Workflows and Expand Beyond Coding - gHacks Tech News OpenAI has added new plugins to its Codex development tool, enabling users to package skills and app integrations into shareable, installable bundles. This update broadens Codex's role, turning it into more than just a code generation tool and bringing it closer to the capabilities of Claude Code, which has offered similar packaging features for some time. ## What Codex Plugins Do"
+      ],
+      "text_preview": "OpenAI Adds Codex Plugins to Automate Workflows and Expand Beyond Coding - gHacks Tech News\n\nOpenAI has added new plugins to its Codex development tool, enabling users to package skills and app integrations into shareable, installable bundles. This update broadens Codex's role, turning it into more ",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Arthur Kay",
+      "domain": "www.ghacks.net",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Just Built a Plugin for Its Biggest Rival. How Does It Affect Enterprise AI Strategy.",
+      "url": "https://beam.ai/es/agentic-insights/openai-just-built-a-plugin-for-its-biggest-rival-heres-what-that-means-for-enterprise-ai-strategy",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "31 mar 2026\n\n5 min leer\n\n# OpenAI Just Built a Plugin for Its Biggest Rival. How Does It Affect Enterprise AI Strategy. por Fredrik Falk OpenAI just released a first-party plugin that lets its Codex agent run inside Anthropic's Claude Code. Not a workaround. Not a community hack. OpenAI's own team built it, open-sourced it, and announced it publicly. Romain Huet, Head of Developer Experience at OpenAI, said it directly: \"We've seen Claude Code users bring in Codex for"
+      ],
+      "text_preview": "31 mar 2026\n\n5 min leer\n\n# OpenAI Just Built a Plugin for Its Biggest Rival. How Does It Affect Enterprise AI Strategy.\n\npor Fredrik Falk\n\nOpenAI just released a first-party plugin that lets its Codex agent run inside Anthropic's Claude Code. Not a workaround. Not a community hack. OpenAI's own team",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "beam.ai",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Built a Plugin for Claude Code. Why It Matters.",
+      "url": "https://beam.ai/agentic-insights/openai-just-built-a-plugin-for-its-biggest-rival-heres-what-that-means-for-enterprise-ai-strategy",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Mar 31, 2026\n\n5 min read\n\n# OpenAI Just Built a Plugin for Its Biggest Rival. How Does It Affect Enterprise AI Strategy. by Fredrik Falk OpenAI just released a first-party plugin that lets its Codex agent run inside Anthropic's Claude Code. Not a workaround. Not a community hack. OpenAI's own team built it, open-sourced it, and announced it publicly. Romain Huet, Head of Developer Experience at OpenAI, said it directly: \"We've seen Claude Code users bring in Codex for"
+      ],
+      "text_preview": "Mar 31, 2026\n\n5 min read\n\n# OpenAI Just Built a Plugin for Its Biggest Rival. How Does It Affect Enterprise AI Strategy.\n\nby Fredrik Falk\n\nOpenAI just released a first-party plugin that lets its Codex agent run inside Anthropic's Claude Code. Not a workaround. Not a community hack. OpenAI's own team",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "beam.ai",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Codex Adds Claude Code CLI Integration in Cross-Platform Move",
+      "url": "https://aigazine.com/llms/openai-codex-adds-claude-code-cli-integration-in-crossplatform-move--a",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Codex Adds Claude Code CLI Integration in Cross-Platform Move \n\nSign In - AI Models\n- Benchmarks\n- Industry\n- Markets\n- Trends\n- Startups\n- Stories\n- Opinions\n- Press Releases\n- Contacts - About & Editorial - AI Models\n- Benchmarks\n- Industry\n- Markets\n- Trends\n- Startups\n- Stories"
+      ],
+      "text_preview": "OpenAI Codex Adds Claude Code CLI Integration in Cross-Platform Move \n\nSign In\n\n- AI Models\n- Benchmarks\n- Industry\n- Markets\n- Trends\n- Startups\n- Stories\n- Opinions\n- Press Releases\n- Contacts\n- About & Editorial\n\n- AI Models\n- Benchmarks\n- Industry\n- Markets\n- Trends\n- Startups\n- Stories",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "aigazine.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Claude Code Auto Mode: AI Now Decides Its Own Permissions | aiHola",
+      "url": "https://aihola.com/article/claude-code-auto-mode-launch",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Anthropic released auto mode for Claude Code on March 24, 2026, a feature that hands permission decisions to the AI itself. Instead of approving every file write and shell command, a classifier now evaluates each action before it runs, greenlighting safe operations and blocking risky ones. It's available as a research preview for Team plan users, with Enterprise and API access rolling out within days. The feature exists because of a flag called`--dangerously-skip-permissions`. That name is doing"
+      ],
+      "text_preview": "\n\nAnthropic released auto mode for Claude Code on March 24, 2026, a feature that hands permission decisions to the AI itself. Instead of approving every file write and shell command, a classifier now evaluates each action before it runs, greenlighting safe operations and blocking risky ones. It's av",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Oliver Senti",
+      "domain": "aihola.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Computer use feature now available in Claude Code CLI - The Tech Outlook",
+      "url": "https://www.thetechoutlook.com/new-release/software-apps/computer-use-feature-now-available-in-claude-code-cli/",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Computer use feature now available in Claude Code CLI - The Tech Outlook Daily Tech News, Interviews, Reviews and Updates\n\n# Computer use feature now available in Claude Code CLI Software & Apps Last week, it was revealed that Claude users can now enable Claude to use their computer to complete tasks. This feature was in research preview and was made available for Claude Cowork and Claude Code. It is now announced that users can enable computer use in the Claude Code"
+      ],
+      "text_preview": "Computer use feature now available in Claude Code CLI - The Tech Outlook\n\nDaily Tech News, Interviews, Reviews and Updates\n\n# Computer use feature now available in Claude Code CLI\n\nSoftware & Apps\n\nLast week, it was revealed that Claude users can now enable Claude to use their computer to complete t",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Estuti Bajpai",
+      "domain": "www.thetechoutlook.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Anthropic Engineers Let Claude AI Build Its Own Next Versions \u2014 And the Results Are Staggering",
+      "url": "https://aitoolsrecap.com/Blog/anthropic-engineers-claude-ai-build-next-versions-2026",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Anthropic Engineers Let Claude AI Build Its Own Next Versions \u2014 And the Results Are Staggering \n\n \n\nSAT, APRIL 04, 2026 Sign In| Join as Reviewer| List Your Tool \u2605\n\n \n\nIndependent \u00b7 In\u2011Depth \u00b7 Unsponsored The Journal of Artificial Intelligence Tools\n\nSign In Join as Reviewer List Your Tool \u2605\n\n \n\n \n\n \n\n\u270e News # Anthropic Engineers Let Claude AI Build Its Own Next Versions \u2014 And the Results Are Staggering\n\nCEO Dario"
+      ],
+      "text_preview": "Anthropic Engineers Let Claude AI Build Its Own Next Versions \u2014 And the Results Are Staggering \n\n \n\nSAT, APRIL 04, 2026\n\nSign In| Join as Reviewer| List Your Tool \u2605\n\n \n\nIndependent \u00b7 In\u2011Depth \u00b7 Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nSign In Join as Reviewer List Your Tool \u2605\n\n \n\n ",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "AIToolsRecap",
+      "domain": "aitoolsrecap.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Inside Claude Code's leaked source: swarms, daemons, and 44 features Anthropic kept behind flags - The New Stack",
+      "url": "https://thenewstack.io/claude-code-source-leak/",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Inside Claude Code's leaked source: swarms, daemons, and 44 features Anthropic kept behind flags - The New Stack \n\nTNS OK\n\nVOXPOP\n\nAs a JavaScript developer, what non-React tools do you use most often?\n\n\u2713\n\nAngular\n\n0%\n\n\u2713\n\nAstro\n\n0%\n\n\u2713 Svelte\n\n0%\n\n\u2713\n\nVue.js\n\n0%\n\n\u2713\n\nOther\n\n0%\n\n\u2713\n\nI only use React\n\n0%\n\n\u2713\n\nI don't use JavaScript\n\n0%\n\nSUBMIT NEW! Try Stackie AI\n\nARCHITECTURE\n\nCloud Native Ecosystem Containers Databases Edge Computing Infrastructure as Code"
+      ],
+      "text_preview": "Inside Claude Code's leaked source: swarms, daemons, and 44 features Anthropic kept behind flags - The New Stack \n\nTNS\n\nOK\n\nVOXPOP\n\nAs a JavaScript developer, what non-React tools do you use most often?\n\n\u2713\n\nAngular\n\n0%\n\n\u2713\n\nAstro\n\n0%\n\n\u2713\n\nSvelte\n\n0%\n\n\u2713\n\nVue.js\n\n0%\n\n\u2713\n\nOther\n\n0%\n\n\u2713\n\nI only use React\n\n0",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Janakiram MSV",
+      "domain": "thenewstack.io",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Which AI Coding Tools Do Developers Actually Use at Work? | The Research Blog",
+      "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Which AI Coding Tools Do Developers Actually Use at Work? | The Research Blog \n\n## JetBrains Research Research is crucial for progress and innovation, which is why at JetBrains we are passionate about both scientific and market research About JetBrains Research\n\n# Which AI Coding Tools Do Developers Actually Use at Work?\n\nMikhail Bogdanov\n\nApril 2, 2026 The reality beyond the hype, featuring evidence from large-scale, globally representative developer surveys.\n\nIf you\u2019"
+      ],
+      "text_preview": "Which AI Coding Tools Do Developers Actually Use at Work? | The Research Blog \n\n## JetBrains Research\n\nResearch is crucial for progress and innovation, which is why at JetBrains we are passionate about both scientific and market research\n\nAbout JetBrains Research\n\n# Which AI Coding Tools Do Develope",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Anton Yalyshev \n                     March 26, 2026",
+      "domain": "blog.jetbrains.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Claude Code users hitting usage limits 'way faster than expected'",
+      "url": "https://www.bbc.com/news/articles/ce8l2q5yq51o",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Claude Code users hitting usage limits 'way faster than expected'\n\nSkip to content\n\nHome\n\nNews\n\nSport\n\nBusiness Technology\n\nHealth\n\nCulture\n\nArts\n\nTravel\n\nEarth\n\nAudio\n\nVideo\n\nLive\n\nDocumentaries\n\nWeather\n\nNewsletters\n\nWatch Live # Claude Code users hitting usage limits 'way faster than expected'\n\n2 days ago\n\nShareSave\n\nAdd as preferred on Google Richard MorrisTechnology reporter\n\nGetty Images\n\nAnthropic says"
+      ],
+      "text_preview": "Claude Code users hitting usage limits 'way faster than expected'\n\nSkip to content\n\nHome\n\nNews\n\nSport\n\nBusiness\n\nTechnology\n\nHealth\n\nCulture\n\nArts\n\nTravel\n\nEarth\n\nAudio\n\nVideo\n\nLive\n\nDocumentaries\n\nWeather\n\nNewsletters\n\nWatch Live\n\n# Claude Code users hitting usage limits 'way faster than expected'\n",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "www.bbc.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Anthropic admits Claude Code quotas running out too fast \u2022 The Register",
+      "url": "https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/",
+      "score": 85,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Anthropic admits Claude Code quotas running out too fast \u2022 The Register \n\n#### Devops # Anthropic admits Claude Code users hitting usage limits 'way faster than expected' ## Unexpected quota drain prompts complaints, breaks automated workflows\n\nTue 31 Mar 2026 // 11:45 UTC Users of Claude Code, Anthropic's AI-powered coding assistant, are experiencing high token usage and early quota exhaustion, disrupting their work. Anthropic has acknowledged the issue, stating that \"people are"
+      ],
+      "text_preview": "Anthropic admits Claude Code quotas running out too fast \u2022 The Register \n\n#### Devops\n\n# Anthropic admits Claude Code users hitting usage limits 'way faster than expected'\n\n## Unexpected quota drain prompts complaints, breaks automated workflows\n\nTue 31 Mar 2026 // 11:45 UTC\n\nUsers of Claude Code, A",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Tim Anderson",
+      "domain": "www.theregister.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Celigo Launches Ora AI Copilot and Agent Builder",
+      "url": "https://www.celigo.com/articles/celigo-ora-agent-builder-launch/",
+      "score": 85,
+      "source_detail": "exa_ai_business",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Celigo Launches Ora AI Copilot and Agent Builder # Celigo Ora and Agent Builder Bring the Power of Enterprise-Grade Automation to Every Team Through Natural Language New capabilities provide a governed path from simple integrations to adaptive AI agents to drive faster business impact on a single platform Redwood City, California \u2014 March 31, 2026 \u2014 Celigo, the intelligent automation platform built for AI, today announced Celigo Ora, a first-of-its-kind natural language interface that gives every"
+      ],
+      "text_preview": "Celigo Launches Ora AI Copilot and Agent Builder \n\n# Celigo Ora and Agent Builder Bring the Power of Enterprise-Grade Automation to Every Team Through Natural Language\n\nNew capabilities provide a governed path from simple integrations to adaptive AI agents to drive faster business impact on a single",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "",
+      "domain": "www.celigo.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Slack adds 30 AI features to Slackbot, its most ambitious update since the Salesforce acquisition | VentureBeat",
+      "url": "https://venturebeat.com/orchestration/slack-adds-30-ai-features-to-slackbot-its-most-ambitious-update-since-the",
+      "score": 85,
+      "source_detail": "exa_ai_business",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Slack adds 30 AI features to Slackbot, its most ambitious update since the Salesforce acquisition | VentureBeat Michael Nu\u00f1ez March 31, 2026\n\nCredit: VentureBeat made with Midjourney Slack today announced more than 30 new capabilities for Slackbot, its AI-powered personal agent, in what amounts to the most sweeping overhaul of the workplace messaging platform since Salesforce acquired it for $27.7 billion in 2021. The update transforms Slackbot"
+      ],
+      "text_preview": "Slack adds 30 AI features to Slackbot, its most ambitious update since the Salesforce acquisition | VentureBeat\n\n \n\nMichael Nu\u00f1ez March 31, 2026\n\nCredit: VentureBeat made with Midjourney\n\nSlack today announced more than 30 new capabilities for Slackbot, its AI-powered personal agent, in what amounts",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "",
+      "domain": "venturebeat.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Holo3: Breaking the Computer Use Frontier",
+      "url": "https://huggingface.co/blog/Hcompany/holo3",
+      "score": 85,
+      "source_detail": "exa_ai_business",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Holo3: Breaking the Computer Use Frontier \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n Back to Articles # Holo3: Breaking the Computer Use Frontier \n\n  Team Article Published April 1, 2026 \n\n \n\n \n\n \n\n Upvote 38 - \n- \n- \n- \n- \n- \n- \n- \n- +32 \n- \n\n \n\n \n\n \n\n \n\n \n\nRamzi De Coster ramzidecoster Follow\n\n Hcompany Pierre-Louis Cedoz plcedoz38 Follow\n\n Hcompany \n\n \n\nTony Wu h-tonywu Follow\n\n Hcompany"
+      ],
+      "text_preview": "Holo3: Breaking the Computer Use Frontier \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n Back to Articles\n\n# Holo3: Breaking the Computer Use Frontier \n\n  Team Article Published April 1, 2026 \n\n \n\n \n\n \n\n Upvote 38 \n\n- \n- \n- \n- \n- \n- \n- \n- \n- +32 \n- \n\n \n\n \n\n \n\n \n\n \n\nRamzi De Coster ramzidecoster Follow\n\n Hcompany ",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "",
+      "domain": "huggingface.co",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Microsoft Copilot Cowork takes on multi-step AI automation - Techzine Global",
+      "url": "https://www.techzine.eu/news/applications/140060/microsoft-copilot-cowork-takes-on-multi-step-ai-automation/",
+      "score": 85,
+      "source_detail": "exa_ai_business",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Microsoft Copilot Cowork takes on multi-step AI automation - Techzine Global Microsoft has launched Copilot Cowork within the Microsoft 365 Frontier program, enabling autonomous, multi-step task execution across applications such as Excel, Outlook, and SharePoint. The system is grounded in Anthropic\u2019s Cowork technology and uses a multi-model approach combining OpenAI\u2019s GPT and Anthropic\u2019s Claude for more accurate research outputs. The new capability is designed to handle long-running, multi-step"
+      ],
+      "text_preview": "Microsoft Copilot Cowork takes on multi-step AI automation - Techzine Global \n\nMicrosoft has launched Copilot Cowork within the Microsoft 365 Frontier program, enabling autonomous, multi-step task execution across applications such as Excel, Outlook, and SharePoint. The system is grounded in Anthrop",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "Erik van Klinken March 30, 2026 3:16 pm March 30, 2026",
+      "domain": "www.techzine.eu",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Copilot\u00a0Cowork\u00a0debuts in Microsoft 365 Frontier program | Microsoft Signal Blog | Microsoft",
+      "url": "https://news.microsoft.com/signal/articles/copilot-cowork-debuts-in-microsoft-365-frontier-program/",
+      "score": 85,
+      "source_detail": "exa_ai_business",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Copilot Cowork debuts in Microsoft 365 Frontier program | Microsoft Signal Blog | Microsoft Redirecting to: https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/"
+      ],
+      "text_preview": "Copilot Cowork debuts in Microsoft 365 Frontier program | Microsoft Signal Blog | Microsoft \n\nRedirecting to: https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "Microsoft Signal",
+      "domain": "news.microsoft.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Agentic Workflow Automation: 2026 Guide for Industrial IT - Opsima",
+      "url": "https://opsima.com/blog/industry-insights/agentic-workflow-automation-industrial-it/",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-01T01:00:20.227Z",
+      "highlights": [
+        "Agentic Workflow Automation: 2026 Guide for Industrial IT\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nIndustry Insights # Agentic Workflow Automation for Industrial IT: The 2026 Guide Agentic workflow automation lets industrial IT teams deliver integrations and apps in days. Here is how it works in 2026. 13 min read\n\n \n\nAlon Gozlan Co\u2011Founder\n\n \n\n \n\nMar 31, 2026\n\n13 min read Your IT backlog has 50 open tickets. The oldest is 18 months old. Three are integration requests from"
+      ],
+      "text_preview": "Agentic Workflow Automation: 2026 Guide for Industrial IT\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\nIndustry Insights\n\n \n\n# Agentic Workflow Automation for Industrial IT: The 2026 Guide\n\n \n\n \n\nAgentic workflow automation lets industrial IT teams deliver integrations and apps in days. Here is how it works in 2026.\n\n \n\n1",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "Alon Gozlan",
+      "domain": "opsima.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "10 Best AI Task Automation Tools for 2026 - GPT for Work",
+      "url": "https://gptforwork.com/blog/best-ai-task-automation-tools",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-01T01:00:20.227Z",
+      "highlights": [
+        "10 Best AI Task Automation Tools for 2026\n\n# 10 Best AI Task Automation Tools for 2026\n\nApril 1st 2026 \u2022 13 min read Copy link to this page\n\n### TABLE OF CONTENTS\n\n Click to enlarge Every team has that one block of work nobody wants to do. Tagging 300 support tickets before lunch. Copying CRM data into a spreadsheet because two apps refuse to talk to each other. Translating product descriptions one row at a time. It follows the same pattern every single time, but someone still sits there clicking"
+      ],
+      "text_preview": "10 Best AI Task Automation Tools for 2026\n\n# 10 Best AI Task Automation Tools for 2026\n\nApril 1st 2026 \u2022 13 min read\n\nCopy link to this page\n\n### TABLE OF CONTENTS\n\n Click to enlarge\n\nEvery team has that one block of work nobody wants to do. Tagging 300 support tickets before lunch. Copying CRM data",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "Stanislas Marion",
+      "domain": "gptforwork.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "What\u2019s new in Copilot Studio: Updates to multi-agent systems | Microsoft Copilot Blog",
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "What\u2019s new in Copilot Studio: Updates to multi-agent systems | Microsoft Copilot Blog Learn what's new in Copilot Studio: Multi-agent systems are now generally available, plus recent updates to the Prompt Editor and governance controls. Microsoft Copilot Studio helps organizations move beyond isolated AI experiences and build connected systems of agents that can scale, adapt, and deliver real business value. Recent enhancements focus on making it easier for agents to work together"
+      ],
+      "text_preview": "What\u2019s new in Copilot Studio: Updates to multi-agent systems | Microsoft Copilot Blog \n\nLearn what's new in Copilot Studio: Multi-agent systems are now generally available, plus recent updates to the Prompt Editor and governance controls.\n\nMicrosoft Copilot Studio helps organizations move beyond iso",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "www.microsoft.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Upstage AI Launches AI-Powered Agentic Workflow Solution for Document-Heavy Processes",
+      "url": "https://www.prnewswire.com/news-releases/upstage-ai-launches-ai-powered-agentic-workflow-solution-for-document-heavy-processes-302730567.html",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Upstage AI Launches AI-Powered Agentic Workflow Solution for Document-Heavy Processes Accessibility Statement Skip Navigation SAN JOSE, Calif., April 1, 2026 /PRNewswire/ -- Upstage AI, an enterprise AI company, today announced its official rollout of Upstage Studio, its agentic AI document processing solution. Studio deploys AI agents that extract, validate, and deliver high-fidelity data from complex documents in seconds. The solution allows clients to customize agents,"
+      ],
+      "text_preview": "Upstage AI Launches AI-Powered Agentic Workflow Solution for Document-Heavy Processes Accessibility Statement Skip Navigation\n\nSAN JOSE, Calif., April 1, 2026 /PRNewswire/ -- Upstage AI, an enterprise AI company, today announced its official rollout of Upstage Studio, its agentic AI document process",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "Upstage AI",
+      "domain": "www.prnewswire.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Agentic AI in 2026: How Autonomous AI Systems Are Reshaping ...",
+      "url": "https://readitquik.com/ai/agentic-ai-in-2026-how-autonomous-ai-systems-are-reshaping-enterprise-workflows/",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-30T01:00:20.227Z",
+      "highlights": [
+        "Agentic AI in 2026: How Autonomous AI Systems Are Reshaping Enterprise Workflows ###### Agentic AI in 2026: How Autonomous AI Systems Are Reshaping Enterprise Workflows ###### Human-in-the-Loop vs Fully Autonomous AI: What\u2019s Realistic in 2026? ###### AI Governance in 2026: How Enterprises Can Scale Without Losing Control\n\nNews # Agentic AI in 2026: How Autonomous AI Systems Are Reshaping Enterprise Workflows\n\nMohana Chandorkar\n\nMarch 30, 2026 2min read\n\nArtificial Intelligence inside enterprises"
+      ],
+      "text_preview": "Agentic AI in 2026: How Autonomous AI Systems Are Reshaping Enterprise Workflows \n\n \n\n###### Agentic AI in 2026: How Autonomous AI Systems Are Reshaping Enterprise Workflows\n\n###### Human-in-the-Loop vs Fully Autonomous AI: What\u2019s Realistic in 2026?\n\n###### AI Governance in 2026: How Enterprises Can",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "Mohana Chandorkar",
+      "domain": "readitquik.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "How AI Agents Are Powering Enterprise Automation in 2026 - LinkedIn",
+      "url": "https://www.linkedin.com/pulse/how-ai-agents-powering-enterprise-automation-2026-kanerika-ebouc",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-31T01:00:20.227Z",
+      "highlights": [
+        "How AI Agents Are Powering Enterprise Automation in 2026 \n\nAgree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. ` `` `` `` `` `` `` `\n\n \n\n \n\n \n\n` `` `` `` `` `` `` ` \n\n \n\n ` `` `` `` ` As enterprises race toward digital transformation, AI agents have emerged as powerful enablers of intelligent automation. Unlike traditional rule-based bots, AI agents combine perception,"
+      ],
+      "text_preview": "How AI Agents Are Powering Enterprise Automation in 2026 \n\nAgree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy.\n\n` `` `` `` `` `` `` `\n\n \n\n \n\n \n\n` `` `` `` `` `` `` ` \n\n \n\n ` `` `` `` `\n\n \n\n \n\n \n\n \n\nAs enterprises ",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "www.linkedin.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "CREAO launches Super Agent for AI-powered workflow apps",
+      "url": "https://www.testingcatalog.com/creao-launches-super-agent-for-ai-powered-workflow-apps/",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "CREAO launches Super Agent for AI-powered workflow apps \n\nLog in Subscribe - ChatGPT\n- Gemini\n- Perplexity\n- Claude\n- Grok CREAO has launched its Super Agent platform, now publicly available at creao.ai, aimed at developers, solo builders, and B2B teams who want AI-built workflows to keep running after the conversation ends. 0:00\n\n/1:00\n\n1\u00d7\n\nA user describes a task to the Super Agent in plain language, scraping competitor"
+      ],
+      "text_preview": "CREAO launches Super Agent for AI-powered workflow apps \n\nLog in Subscribe\n\n- ChatGPT\n- Gemini\n- Perplexity\n- Claude\n- Grok\n\nCREAO has launched its Super Agent platform, now publicly available at creao.ai, aimed at developers, solo builders, and B2B teams who want AI-built workflows to keep running ",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "www.testingcatalog.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "The 10 Best AI Agent Tools in 2026 Compared - Chatarmin",
+      "url": "https://chatarmin.com/en/blog/best-ai-agent-tools",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-01T01:00:20.227Z",
+      "highlights": [
+        "The 10 Best AI Agent Tools in 2026 Compared | Chatarmin \n\nBlog/AI & Automation # The 10 Best AI Agent Tools in 2026 Compared The best AI agent tools in 2026 are autonomous systems like Salesforce Agentforce, Cursor, Sierra, and Chatarmin (ArminCX) that execute complex workflows independently. Unlike chatbots, they operate across platform boundaries, make their own decisions, and directly access CRM, shop, and support systems. By Johannes Mansbart\n\nCEO & Co-Founder, chatarmin."
+      ],
+      "text_preview": "The 10 Best AI Agent Tools in 2026 Compared | Chatarmin \n\nBlog/AI & Automation\n\n# The 10 Best AI Agent Tools in 2026 Compared\n\nThe best AI agent tools in 2026 are autonomous systems like Salesforce Agentforce, Cursor, Sierra, and Chatarmin (ArminCX) that execute complex workflows independently. Unli",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "chatarmin.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Top 5 AI Agent Frameworks 2026: LangGraph, CrewAI & More | Intuz",
+      "url": "https://www.intuz.com/blog/top-5-ai-agent-frameworks-2025",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-29T01:00:20.227Z",
+      "highlights": [
+        "Top 5 AI Agent Frameworks 2026: LangGraph, CrewAI & More | Intuz\n\nInsights Top AI Agent Frameworks in 2026 # Top AI Agent Frameworks in 2026\n\nUpdated 30 Mar 2026\n\nPratik Rupareliya Wondering which AI agent framework is right for your business in 2026? We break down the 5 best options\u2014comparing features, strengths, and real-world use cases. With expert insights from Intuz, you\u2019ll get clarity on what works best for SMBs and how to actually put it into action. Whether you'"
+      ],
+      "text_preview": "Top 5 AI Agent Frameworks 2026: LangGraph, CrewAI & More | Intuz\n\nInsights Top AI Agent Frameworks in 2026\n\n# Top AI Agent Frameworks in 2026\n\nUpdated 30 Mar 2026\n\nPratik Rupareliya\n\nWondering which AI agent framework is right for your business in 2026? We break down the 5 best options\u2014comparing fea",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "www.intuz.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Make your AI agent think out loud in Slack | Slack Developers",
+      "url": "https://slack.dev/slack-thinking-steps-ai-agents/",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Make your AI agent think out loud in Slack | Slack Developers \n\n< Blog\n\n## Make your AI agent think out loud in Slack - Blog\n- Maria Jose Hernandez | Sr Manager Developer Advocacy @ Slack\n\nShare\n\n## When AI feels like a black box You\u2019ve seen it before. You send a message to an AI agent, and then\u2026 nothing. A spinner. A blank screen. And then \u2014 after what feels like forever \u2014 a fully formed response appears out of thin air. It works, technically. But it doesn\u2019t feel great."
+      ],
+      "text_preview": "Make your AI agent think out loud in Slack | Slack Developers \n\n< Blog\n\n## Make your AI agent think out loud in Slack\n\n- Blog\n- Maria Jose Hernandez | Sr Manager Developer Advocacy @ Slack\n\nShare\n\n## When AI feels like a black box\n\nYou\u2019ve seen it before. You send a message to an AI agent, and then\u2026 ",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "Maria Jose Hernandez | Sr Manager Developer Advocacy @ Slack",
+      "domain": "slack.dev",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Salesforce Turns Slackbot Into an AI Agent, Cuts Case Resolution",
+      "url": "https://www.cxtoday.com/contact-center/salesforce-slackbot-ai-agent-customer-service/",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Salesforce Turns Slackbot Into an AI Agent, Cuts Case Resolution # Salesforce Declares Slack the New Home for AI-Powered Customer Service With 30+ new Slackbot capabilities, Salesforce is betting that where AI lives determines whether teams actually use it 3\n\nAI & Automation in CX Contact Center & Omnichannel\u200b News\n\nPublished: March 31, 2026\n\nRhys Fisher Salesforce has announced more than 30 new Slackbot capabilities, repositioning Slack as"
+      ],
+      "text_preview": "Salesforce Turns Slackbot Into an AI Agent, Cuts Case Resolution \n\n \n\n# Salesforce Declares Slack the New Home for AI-Powered Customer Service\n\nWith 30+ new Slackbot capabilities, Salesforce is betting that where AI lives determines whether teams actually use it\n\n 3\n\nAI & Automation in CX Contact Ce",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "Rhys Fisher",
+      "domain": "www.cxtoday.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Celigo Launches Ora and Agent Builder for Enterprise-Grade Automation via Natural Language",
+      "url": "https://techintelpro.com/news/ai/agentic-ai/celigo-launches-ora-and-agent-builder-for-enterprise-grade-automation-via-natural-language",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Celigo Launches Ora and Agent Builder for Enterprise-Grade Automation via Natural Language - Home\n- /\n- News\n- /\n- AI\n- /\n- Agentic AI\n- / - Celigo Launches Ora and Agent Builder for Enterprise-Grade Automation via Natural Language - Agentic AI\n\n# Celigo Launches Ora and Agent Builder for Enterprise-Grade Automation via Natural Language\n\n--- - by:\n- |\n- April 1, 2026\n\n---\n\nCeligo has announced Celigo Ora,"
+      ],
+      "text_preview": "Celigo Launches Ora and Agent Builder for Enterprise-Grade Automation via Natural Language \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n- Home\n- /\n- News\n- /\n- AI\n- /\n- Agentic AI\n- /\n- Celigo Launches Ora and Agent Builder for Enterprise-Grade Automation via Natural Language\n\n- Agentic AI\n\n# Celigo Launches Ora an",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "techintelpro.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "My favorite AI agents in 2026 sorted by use case : r/automation",
+      "url": "https://www.reddit.com/r/automation/comments/1s73adp/my_favorite_ai_agents_in_2026_sorted_by_use_case/",
+      "score": 85,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-30T01:00:20.227Z",
+      "highlights": [
+        "My favorite AI agents in 2026 sorted by use case : r/automation Skip to main content My favorite AI agents in 2026 sorted by use case : r/automation Go to automation \n\nr/automation 2d ago \n\nItchy-Drawing # My favorite AI agents in 2026 sorted by use case I used 20+ agents in 2026 so far. These are my favorites broken down by what they're actually good at (in no particular order) Browser agents (one-off tasks)\n\nOpenAI Operator - The big name entry."
+      ],
+      "text_preview": "My favorite AI agents in 2026 sorted by use case : r/automation Skip to main content My favorite AI agents in 2026 sorted by use case : r/automation \n\n \n\n \n\n \n\nGo to automation \n\nr/automation 2d ago \n\nItchy-Drawing \n\n \n\n# My favorite AI agents in 2026 sorted by use case\n\nI used 20+ agents in 2026 so",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "",
+      "domain": "www.reddit.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Research, plan, and code with Copilot cloud agent - GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent",
+      "score": 85,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Research, plan, and code with Copilot cloud agent - GitHub Changelog \n\nBack to changelog Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work. ## More control over when you open a pull request Up until now, working with Copilot cloud agent meant opening a pull request. Now Copilot can work on a branch without creating one, giving you more flexibility over how and when"
+      ],
+      "text_preview": "Research, plan, and code with Copilot cloud agent - GitHub Changelog \n\nBack to changelog\n\n \n\nCopilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work.\n\n## More control over when you open a pu",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "github.blog",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Run multiple agents at once with /fleet in Copilot CLI - The GitHub Blog",
+      "url": "https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/",
+      "score": 85,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Run multiple agents at once with /fleet in Copilot CLI - The GitHub Blog \n\n&\n\nApril 1, 2026\n\n| 5 minutes\n\n- Share: What if GitHub Copilot CLI could work on five files at the same time instead of one? That\u2019s where`/fleet` comes in. `/fleet` is a slash command in Copilot CLI that enables Copilot to simultaneously work with multiple subagents in parallel. Instead of working through tasks sequentially, Copilot now has a behind the scenes orchestrator that plans and breaks your objective into independent"
+      ],
+      "text_preview": "Run multiple agents at once with /fleet in Copilot CLI - The GitHub Blog \n\n&\n\nApril 1, 2026\n\n| 5 minutes\n\n- Share:\n\n \n\nWhat if GitHub Copilot CLI could work on five files at the same time instead of one? That\u2019s where`/fleet` comes in.\n\n`/fleet` is a slash command in Copilot CLI that enables Copilot ",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "Matt Nigh, Brian LaFlamme",
+      "domain": "github.blog",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Visual Studio March  2026 Update Brings Custom Copilot Agents to the Forefront",
+      "url": "https://www.magnetismsolutions.com/news/visual-studio-march-2026-update-brings-custom-copilot-agents-to-the-forefront",
+      "score": 85,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Visual Studio March 2026 Update Brings Custom Copilot Agents to the Forefront Visual Studio\u2019s March 2026 update introduces a major shift toward customizable AI-driven development with the ability to build your own Copilot agents. Developers can now create specialized agents tailored to their workflows, integrating internal tools, knowledge sources, and automation capabilities directly into the IDE. The release also brings enhancements in diagnostics, performance profiling, and security, further"
+      ],
+      "text_preview": "Visual Studio March 2026 Update Brings Custom Copilot Agents to the Forefront \n\n \n\nVisual Studio\u2019s March 2026 update introduces a major shift toward customizable AI-driven development with the ability to build your own Copilot agents. Developers can now create specialized agents tailored to their wo",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "Nolaine Puig",
+      "domain": "www.magnetismsolutions.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI has announced a plugin for its coding assistance AI tool 'Codex,' enabling integration with over 20 services including Gmail, Google Drive, GitHub, Figma, Notion, Slack, Cloudflare, and Box. - GIGAZINE",
+      "url": "https://gigazine.net/gsc_news/en/20260330-openai-codex-plugins/",
+      "score": 85,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "OpenAI has announced a plugin for its coding assistance AI tool 'Codex,' enabling integration with over 20 services including Gmail, Google Drive, GitHub, Figma, Notion, Slack, Cloudflare, and Box. - GIGAZINE Mar 30, 2026 16:00:00 # OpenAI has announced a plugin for its coding assistance AI tool 'Codex,' enabling integration with over 20 services including Gmail, Google Drive, GitHub, Figma, Notion, Slack, Cloudflare, and Box. OpenAI has announced numerous plugins for Codex, its AI coding"
+      ],
+      "text_preview": "OpenAI has announced a plugin for its coding assistance AI tool 'Codex,' enabling integration with over 20 services including Gmail, Google Drive, GitHub, Figma, Notion, Slack, Cloudflare, and Box. - GIGAZINE \n\n Mar 30, 2026 16:00:00\n\n# OpenAI has announced a plugin for its coding assistance AI tool",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "gigazine.net",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java\n            \n            \n            - Google Developers Blog",
+      "url": "https://developers.googleblog.com/en/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/",
+      "score": 85,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java - Google Developers Blog # Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java\n\nMARCH 30, 2026 Guillaume Laforge Developer Advocate\n\nShare\n\n- Facebook\n- Twitter\n- LinkedIn\n- Mail The fields of AI and agents are evolving so fast, and we\u2019ve always wanted all developers to feel productive for authoring their smart creations. That\u2019s why Google has"
+      ],
+      "text_preview": "Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java - Google Developers Blog \n\n# Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java\n\nMARCH 30, 2026\n\nGuillaume Laforge Developer Advocate\n\nShare\n\n- Facebook\n- Twitter\n- LinkedIn\n- Mail\n\nThe fields of AI and agen",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "developers.googleblog.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Rider 2026.1: More AI Choice, Stronger .NET Tooling, and Expanded Game Dev Support | The .NET Tools Blog",
+      "url": "https://blog.jetbrains.com/dotnet/2026/03/30/rider-2026-1-released/",
+      "score": 85,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Rider 2026.1: More AI Choice, Stronger .NET Tooling, and Expanded Game Dev Support | The .NET Tools Blog \n\n## .NET Tools Essential productivity kit for .NET and game developers\n\nFollow\n\nGet Tools\n\n.NET Tools Releases Rider # Rider 2026.1: More AI Choice, Stronger .NET Tooling, and Expanded Game Dev Support\n\nSasha Ivanova\n\nMarch 30, 2026 Rider 2026.1 is here, bringing improvements across the areas that matter most: .NET development, game"
+      ],
+      "text_preview": "Rider 2026.1: More AI Choice, Stronger .NET Tooling, and Expanded Game Dev Support | The .NET Tools Blog \n\n## .NET Tools\n\nEssential productivity kit for .NET and game developers\n\nFollow\n\nGet Tools\n\n.NET Tools Releases Rider\n\n# Rider 2026.1: More AI Choice, Stronger .NET Tooling, and Expanded Game De",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "Alexey Totin \n                     March 31, 2026",
+      "domain": "blog.jetbrains.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Visual Studio March Update - Build Your Own Custom Agents - Visual Studio Blog",
+      "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/",
+      "score": 85,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Visual Studio March Update - Build Your Own Custom Agents - Visual Studio Blog We use optional cookies to improve your experience on our websites, such as through social media connections, and to display personalized advertising based on your online activity. If you reject optional cookies, only cookies necessary to provide you the services will be used. You may change your selection by clicking \u201cManage Cookies\u201d at the bottom of the page. Privacy Statement Third-Party Cookies"
+      ],
+      "text_preview": "Visual Studio March Update - Build Your Own Custom Agents - Visual Studio Blog \n\n \n\n \n\nWe use optional cookies to improve your experience on our websites, such as through social media connections, and to display personalized advertising based on your online activity. If you reject optional cookies, ",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "Mark Downie",
+      "domain": "devblogs.microsoft.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "ADK Go 1.0 Arrives!\n            \n            \n            - Google Developers Blog",
+      "url": "http://developers.googleblog.com/adk-go-10-arrives/",
+      "score": 85,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "ADK Go 1.0 Arrives! - Google Developers Blog \n\n# ADK Go 1.0 Arrives!\n\nMARCH 31, 2026 Toni Klopfenstein Developer Relations Engineer ADK Developer Relations\n\nShare\n\n- Facebook\n- Twitter\n- LinkedIn\n- Mail AI agents are transitioning from experimental scripts to production services. For developers, this shift requires systems that are observable, secure, and extensible. Nineteen years after Golang was first created at Google, we are thrilled"
+      ],
+      "text_preview": "ADK Go 1.0 Arrives! - Google Developers Blog \n\n# ADK Go 1.0 Arrives!\n\nMARCH 31, 2026\n\nToni Klopfenstein Developer Relations Engineer ADK Developer Relations\n\nShare\n\n- Facebook\n- Twitter\n- LinkedIn\n- Mail\n\nAI agents are transitioning from experimental scripts to production services. For developers, t",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "developers.googleblog.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Klaviyo (KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/klaviyo-kvyo-ai-tool-helps-175010420.html",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Klaviyo (KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt Oops, something went wrong # Klaviyo (KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt\n\nKVYO Klaviyo, Inc. (NYSE: KVYO) is included in our list of the 10 stocks insiders are buying now. Klaviyo (KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt On March 24, 2026, Klaviyo, Inc. (NYSE:KVYO) announced"
+      ],
+      "text_preview": "Klaviyo (KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt \n\n \n\nOops, something went wrong\n\n \n\n# Klaviyo (KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt\n\nKVYO\n\n Klaviyo, Inc. (NYSE: KVYO) is included in our list of the 10 stocks inside",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "Faheem Tahir      Tue, March 31, 2026 at 7:50 PM GMT+2   2 min read",
+      "domain": "finance.yahoo.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Optimove Adds AI Capabilities to Speed Content Lifecycle",
+      "url": "https://martech360.com/news/media-growth/optimove-announces-new-ai-powered-capabilities-to-improve-and-accelerate-the-content-lifecycle/",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "Optimove Adds AI Capabilities to Speed Content Lifecycle # Optimove Announces New AI\u2013Powered Capabilities to Improve and Accelerate the Content Lifecycle\n\nMedia & Growth News Share Optimove, the creator of Positionless Marketing, announced new AI agents and AI-powered capabilities that improve and accelerate the entire content lifecycle. The announcement reflects Optimove\u2019s continued investment in empowering marketers with the tools for content creation,"
+      ],
+      "text_preview": "Optimove Adds AI Capabilities to Speed Content Lifecycle \n\n \n\n \n\n \n\n \n\n \n\n# Optimove Announces New AI\u2013Powered Capabilities to Improve and Accelerate the Content Lifecycle\n\nMedia & Growth News\n\nShare\n\nOptimove, the creator of Positionless Marketing, announced new AI agents and AI-powered capabilities",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "News Desk",
+      "domain": "martech360.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Klaviyo\u00a0(KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt - Insider Monkey",
+      "url": "https://www.insidermonkey.com/blog/klaviyo-kvyos-new-ai-tool-helps-marketers-create-full-campaigns-from-one-single-prompt-1729223/",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Klaviyo (KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt - Insider Monkey Companies 0 See All\n\nHedge Funds 0 See All\n\nInsiders 0 See All\n\nInstitutional Investors 0 See All Click here to see all results for Sorry, no results has been found matching your query.\n\n### Share\n\n- Sign Up Klaviyo, Inc. (NYSE: KVYO) is included in our list of the 10 stocks insiders are buying now"
+      ],
+      "text_preview": "Klaviyo (KVYO)\u2019s New AI Tool Helps Marketers Create Full Campaigns from One Single Prompt - Insider Monkey\n\nCompanies 0 See All\n\nHedge Funds 0 See All\n\nInsiders 0 See All\n\nInstitutional Investors 0 See All\n\nClick here to see all results for Sorry, no results has been found matching your query.\n\n### ",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "",
+      "domain": "www.insidermonkey.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "The World's First Agentic CMS Just Got Smarter: Kontent.ai Launches Expert Agents |\n                                    Newswire",
+      "url": "https://www.newswire.com/news/the-world-s-first-agentic-cms-just-got-smarter-kontent-ai-launches-expert-agents",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "The World's First Agentic CMS Just Got Smarter: Kontent.ai Launches Expert Agents | Newswire \n\n \n\n \n\nBack to Media Room Kontent.ai, the team behind the world's first Agentic CMS, today announced the launch of Expert Agents: purpose-built AI agents that bring deep, specialized intelligence to the content operations teams manage every day. Expert Agents work continuously across content workflows, handling everything that doesn't require human judgment. They can be configured by anyone"
+      ],
+      "text_preview": "The World's First Agentic CMS Just Got Smarter: Kontent.ai Launches Expert Agents | Newswire \n\n \n\n \n\nBack to Media Room\n\nKontent.ai, the team behind the world's first Agentic CMS, today announced the launch of Expert Agents: purpose-built AI agents that bring deep, specialized intelligence to the co",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "",
+      "domain": "www.newswire.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "LILT Unveils LILT Assist, an Autonomous AI AgentMartechvibe | Where Technology Powers Marketing",
+      "url": "https://martechvibe.com/article/lilt-unveils-lilt-assist-an-autonomous-ai-agent",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "LILT Unveils LILT Assist, an Autonomous AI AgentMartechvibe | Where Technology Powers Marketing \n\n \n\n#### Topics\n\n- News Subscribe Share\n\n##### Share\n\n### LILT Unveils LILT Assist, an Autonomous AI Agent LILT, the enterprise multilingual AI platform, has announced the launch of LILT Assist, an autonomous AI agent that manages the end-to-end production of multilingual content. While legacy \u201cco-pilots\u201d require constant human steering, Assist functions as a"
+      ],
+      "text_preview": "LILT Unveils LILT Assist, an Autonomous AI AgentMartechvibe | Where Technology Powers Marketing \n\n \n\n#### Topics\n\n- News\n\nSubscribe Share\n\n##### Share\n\n### LILT Unveils LILT Assist, an Autonomous AI Agent\n\n \n\nLILT, the enterprise multilingual AI platform, has announced the launch of LILT Assist, an ",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "",
+      "domain": "martechvibe.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Raptive Launches Duet, an AI Workflow Tool to Help Creators Compete...",
+      "url": "https://cientemartech.io/marketing-software/raptive-launches-duet-an-ai-workflow-tool-to-help-creators-compete-in-the-age-of-ai/",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Raptive Launches Duet, an AI Workflow Tool to Help Creators Compete...\n\nClose Menu\n\nFacebook LinkedIn Facebook Twitter LinkedIn\n\nShare\n\nFacebook Twitter LinkedIn\n\n--- New tool helps creators work more efficiently, repurpose existing content, and expand their reach across the open internet NEW YORK, March 25, 2026 /PRNewswire/ \u2014 Raptive, the top 10 global digital media company, today announced the launch"
+      ],
+      "text_preview": "Raptive Launches Duet, an AI Workflow Tool to Help Creators Compete...\n\nClose Menu\n\nFacebook LinkedIn\n\nFacebook Twitter LinkedIn\n\nShare\n\nFacebook Twitter LinkedIn\n\n---\n\nNew tool helps creators work more efficiently, repurpose existing content, and expand their reach across the open internet\n\nNEW YOR",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "PRNEWSWIRE",
+      "domain": "cientemartech.io",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "The Godfather of Martech on How AI Agents Are Rewriting the Rules of Marketing",
+      "url": "https://www.cmswire.com/digital-experience/scott-brinker-the-four-ai-agents-every-marketing-team-needs-to-know/",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "The Godfather of Martech on How AI Agents Are Rewriting the Rules of Marketing\n\nMarketing & CX Leadership CMSWire's Marketing & Customer Experience Leadership channel is the go-to hub for actionable research, editorial and opinion for CMOs, aspiring CMOs and today's customer experience innovators. Our dedicated editorial and research teams focus on bringing you the data and information you need to navigate today's complex customer, organizational and technical landscapes. We've got you covered."
+      ],
+      "text_preview": "The Godfather of Martech on How AI Agents Are Rewriting the Rules of Marketing\n\nMarketing & CX Leadership\n\nCMSWire's Marketing & Customer Experience Leadership channel is the go-to hub for actionable research, editorial and opinion for CMOs, aspiring CMOs and today's customer experience innovators. ",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "Dom Nicastro",
+      "domain": "www.cmswire.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "New Invoca AI Agents Give Marketers Unprecedented Power to Convert Demand Into Revenue",
+      "url": "https://www.prnewswire.com/news-releases/new-invoca-ai-agents-give-marketers-unprecedented-power-to-convert-demand-into-revenue-302729564.html",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "New Invoca AI Agents Give Marketers Unprecedented Power to Convert Demand Into Revenue Accessibility Statement Skip Navigation Marketers can now engage, qualify, and convert high-intent buyers through AI-powered conversations across every channel SANTA BARBARA, Calif., March 31, 2026 /PRNewswire/ -- Invoca, the AI-powered leader in revenue execution, today announced its expanded AI agent capabilities, including the first AI voice agent powered by the full buyer"
+      ],
+      "text_preview": "New Invoca AI Agents Give Marketers Unprecedented Power to Convert Demand Into Revenue Accessibility Statement Skip Navigation\n\nMarketers can now engage, qualify, and convert high-intent buyers through AI-powered conversations across every channel\n\nSANTA BARBARA, Calif., March 31, 2026 /PRNewswire/ ",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "Invoca",
+      "domain": "www.prnewswire.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "CMOs\u2019 \u201cAI Creative Leap\u201d: From Making Ads To Designing Meaning",
+      "url": "https://www.forrester.com/blogs/the-cmo-ai-andcreative-making-ads-to-designing-meaning/",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "CMOs\u2019 \u201cAI Creative Leap\u201d: From Making Ads To Designing Meaning ### AI doesn\u2019t replace creative \u2014 it reveals what matters Advertising \u201ccreatives,\u201d the humans, have always evolved alongside the tools, media, and economics of their time. What AI is doing now isn\u2019t breaking creativity (v.) \u2014 it is revealing what an advertising and marketing \u201ccreative\u201d (n.) is about in the first place. In the earliest days of advertising, there were no \u201ccreatives.\u201d Agencies existed to place announcements, not"
+      ],
+      "text_preview": "CMOs\u2019 \u201cAI Creative Leap\u201d: From Making Ads To Designing Meaning \n\n \n\n### AI doesn\u2019t replace creative \u2014 it reveals what matters\n\nAdvertising \u201ccreatives,\u201d the humans, have always evolved alongside the tools, media, and economics of their time. What AI is doing now isn\u2019t breaking creativity (v.) \u2014 it is",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "Keith Johnston",
+      "domain": "www.forrester.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "AI in Marketing Has a Sequencing Problem \u2014 Not a Technology Problem",
+      "url": "https://www.cmswire.com/digital-marketing/the-maze-of-ai-in-marketing-what-should-we-do-first/",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "AI in Marketing Has a Sequencing Problem \u2014 Not a Technology Problem\n\nMarketing & CX Leadership CMSWire's Marketing & Customer Experience Leadership channel is the go-to hub for actionable research, editorial and opinion for CMOs, aspiring CMOs and today's customer experience innovators. Our dedicated editorial and research teams focus on bringing you the data and information you need to navigate today's complex customer, organizational and technical landscapes. We've got you covered. SPONSORED"
+      ],
+      "text_preview": "AI in Marketing Has a Sequencing Problem \u2014 Not a Technology Problem\n\nMarketing & CX Leadership\n\nCMSWire's Marketing & Customer Experience Leadership channel is the go-to hub for actionable research, editorial and opinion for CMOs, aspiring CMOs and today's customer experience innovators. Our dedicat",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "Brian Riback, 2025 Contributor of the Year",
+      "domain": "www.cmswire.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "The Top Marketing Trends and Technologies for 2026:\u00a0Marketing\u2019s Age of AI Has Arrived, Now Comes the Hard Part",
+      "url": "https://www.destinationcrm.com/Articles/Editorial/Magazine-Features/The-Top-Marketing-Trends-and-Technologies-for-2026%C2%A0Marketings-Age-of-AI-Has-Arrived-Now-Comes-the-Hard-Part-174149.aspx",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-04-01T00:00:00.000Z",
+      "highlights": [
+        "The Top Marketing Trends and Technologies for 2026: Marketing\u2019s Age of AI Has Arrived, Now Comes the Hard Part \n\n --> Get CRM Media in your inbox - Sign up for free\n\n \n\n toggle menu - April 1, 2026\n- By Linda Pophal, business journalist and content marketer # The Top Marketing Trends and Technologies for 2026: Marketing\u2019s Age of AI Has Arrived, Now Comes the Hard Part Three months into 2026, the verdict is in: Artificial intelligence is no longer a pilot program. It\u2019"
+      ],
+      "text_preview": "The Top Marketing Trends and Technologies for 2026: Marketing\u2019s Age of AI Has Arrived, Now Comes the Hard Part \n\n -->\n\n \n\nGet CRM Media in your inbox - Sign up for free\n\n \n\n toggle menu\n\n- April 1, 2026\n- By Linda Pophal, business journalist and content marketer\n\n# The Top Marketing Trends and Techn",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "",
+      "domain": "www.destinationcrm.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "The AI Marketing Team That Never Sleeps, Never Bills, and Never Misses: JustAd Launches an AI That Runs an Entire Advertising Operation From a Single Prompt | Markets Insider",
+      "url": "https://markets.businessinsider.com/news/stocks/the-ai-marketing-team-that-never-sleeps-never-bills-and-never-misses-justad-launches-an-ai-that-runs-an-entire-advertising-operation-from-a-single-prompt-1035980056",
+      "score": 85,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "The AI Marketing Team That Never Sleeps, Never Bills, and Never Misses: JustAd Launches an AI That Runs an Entire Advertising Operation From a Single Prompt | Markets Insider # The AI Marketing Team That Never Sleeps, Never Bills, and Never Misses: JustAd Launches an AI That Runs an Entire Advertising Operation From a Single Prompt PRESS RELEASE Plentisoft\n\nMar. 31, 2026, 07:17 AM From building landing pages and installing tracking pixels to planning media budgets and presenting"
+      ],
+      "text_preview": "The AI Marketing Team That Never Sleeps, Never Bills, and Never Misses: JustAd Launches an AI That Runs an Entire Advertising Operation From a Single Prompt | Markets Insider \n\n \n\n \n\n# The AI Marketing Team That Never Sleeps, Never Bills, and Never Misses: JustAd Launches an AI That Runs an Entire A",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "United States, March 31, 2026",
+      "domain": "markets.businessinsider.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "While Everyone Was Chasing Claude Code's Hidden Features, I ...",
+      "url": "https://www.reddit.com/r/Anthropic/comments/1s8zhzk/while_everyone_was_chasing_claude_codes_hidden/",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-04-01T01:00:26.875Z",
+      "highlights": [
+        "While Everyone Was Chasing Claude Code's Hidden Features, I Turned the Leak Into 4 Practical Technical Docs You Can Actually Learn From : r/Anthropic Skip to main content While Everyone Was Chasing Claude Code's Hidden Features, I Turned the Leak Into 4 Practical Technical Docs You Can Actually Learn From : r/Anthropic Go to Anthropic \n\nr/Anthropic 4h ago \n\nMarketingNetMind # While Everyone Was Chasing Claude Code's Hidden Features, I Turned the"
+      ],
+      "text_preview": "While Everyone Was Chasing Claude Code's Hidden Features, I Turned the Leak Into 4 Practical Technical Docs You Can Actually Learn From : r/Anthropic Skip to main content While Everyone Was Chasing Claude Code's Hidden Features, I Turned the Leak Into 4 Practical Technical Docs You Can Actually Lear",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "",
+      "domain": "www.reddit.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Everyone Analyzed Claude Code's Features. Nobody ... - Medium",
+      "url": "https://medium.com/data-science-collective/everyone-analyzed-claude-codes-features-nobody-analyzed-its-architecture-1173470ab622",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-04-01T01:00:26.875Z",
+      "highlights": [
+        "Everyone Analyzed Claude Code\u2019s Features. Nobody Analyzed Its Architecture. | by Han HELOIR YAN, Ph.D. \u2615\ufe0f | Mar, 2026 | Medium Sitemap\n\nOpen in app\n\nSign up\n\nSign in\n\nMedium Logo\n\nGet app\n\nWrite\n\nSearch\n\nSign up\n\nSign in\n\nMember-only story # Everyone Analyzed Claude Code\u2019s Features. Nobody Analyzed Its Architecture. ## Five hundred thousand lines of leaked source code reveal that the moat in AI coding tools is"
+      ],
+      "text_preview": "Everyone Analyzed Claude Code\u2019s Features. Nobody Analyzed Its Architecture. | by Han HELOIR YAN, Ph.D. \u2615\ufe0f | Mar, 2026 | Medium\n\nSitemap\n\nOpen in app\n\nSign up\n\nSign in\n\nMedium Logo\n\nGet app\n\nWrite\n\nSearch\n\nSign up\n\nSign in\n\nMember-only story\n\n# Everyone Analyzed Claude Code\u2019s Features. Nobody Analyze",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "Han HELOIR YAN, Ph.D. \u2615\ufe0f",
+      "domain": "medium.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "A complete list of Claude's new features - by Khe Hy",
+      "url": "https://khemaridh.substack.com/p/a-complete-list-of-claudes-new-features",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-30T01:00:26.875Z",
+      "highlights": [
+        "A complete list of Claude's new features - by Khe Hy\n\n# Future-Proof Your Career with AI\n\nSubscribeSign in # A complete list of Claude's new features ### AI Weekly Round-Up #26: Ken Griffin on AI in investing and a primer on Agent Skills\n\nKhe Hy\n\nMar 29, 2026\n\n11\n\n3 Share\n\nIn AI land, they say that Anthropic is \u201ccooking\u201d with all its new upgrades. Is this pace of innovation what happens when AI starts its \u201crecursive self-improvement loop?\u201d To be fair, this growth has not come without"
+      ],
+      "text_preview": "A complete list of Claude's new features - by Khe Hy\n\n# Future-Proof Your Career with AI\n\nSubscribeSign in\n\n# A complete list of Claude's new features\n\n### AI Weekly Round-Up #26: Ken Griffin on AI in investing and a primer on Agent Skills\n\nKhe Hy\n\nMar 29, 2026\n\n11\n\n3\n\nShare\n\nIn AI land, they say th",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "Khe Hy",
+      "domain": "khemaridh.substack.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Everything Claude Has Shipped in 2026. And How to Actually Use It",
+      "url": "https://www.the-ai-corner.com/p/everything-claude-shipped-2026-complete-guide",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-29T01:00:26.875Z",
+      "highlights": [
+        "Everything Claude Shipped in 2026: The Complete Guide\n\n# The AI Corner\n\nSubscribeSign in # Everything Claude Has Shipped in 2026. And How to Actually Use It ### Anthropic shipped a major release roughly every two weeks since January. Here\u2019s what\u2019s live, what matters, and exactly how to set each thing up Ruben Dominguez\n\nMar 28, 2026\n\n\u2219 Paid\n\n81\n\n7\n\nShare\n\nI\u2019ll be honest with you. Keeping up with Anthropic this year has been genuinely hard. A new release almost every day. A major"
+      ],
+      "text_preview": "Everything Claude Shipped in 2026: The Complete Guide\n\n# The AI Corner\n\nSubscribeSign in\n\n# Everything Claude Has Shipped in 2026. And How to Actually Use It\n\n### Anthropic shipped a major release roughly every two weeks since January. Here\u2019s what\u2019s live, what matters, and exactly how to set each th",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "Ruben Dominguez",
+      "domain": "www.the-ai-corner.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously",
+      "url": "https://www.thehansindia.com/tech/claudes-new-computer-use-feature-lets-ai-build-test-and-fix-apps-autonomously-1061334",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously \n\nTechnology # Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously - Created On: 31 March 2026 1:35 PM IST\n\nBy Kahekashan\n\n##### Share :\n\n \n\n \n\n \n\n \n\nX Anthropic\u2019s Claude now independently builds, tests, and fixes software, bringing a new level of autonomous AI interaction to desktop computing. Anthropic has introduced a significant upgrade to its AI assistant"
+      ],
+      "text_preview": "Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously \n\nTechnology\n\n# Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously\n\n- Created On: 31 March 2026 1:35 PM IST\n\nBy Kahekashan\n\n##### Share :\n\n \n\n \n\n \n\n \n\nX\n\nAnthropic\u2019s Claude now independ",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "Kahekashan",
+      "domain": "www.thehansindia.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously",
+      "url": "https://assets.thehansindia.com/tech/claudes-new-computer-use-feature-lets-ai-build-test-and-fix-apps-autonomously-1061334",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously \n\nTechnology # Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously - Created On: 31 March 2026 1:35 PM IST\n\nBy Kahekashan\n\n##### Share :\n\n \n\n \n\n \n\n \n\nX Anthropic\u2019s Claude now independently builds, tests, and fixes software, bringing a new level of autonomous AI interaction to desktop computing. Anthropic has introduced a significant upgrade to its AI assistant"
+      ],
+      "text_preview": "Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously \n\nTechnology\n\n# Claude\u2019s New \u2018Computer Use\u2019 Feature Lets AI Build, Test, and Fix Apps Autonomously\n\n- Created On: 31 March 2026 1:35 PM IST\n\nBy Kahekashan\n\n##### Share :\n\n \n\n \n\n \n\n \n\nX\n\nAnthropic\u2019s Claude now independ",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "Kahekashan",
+      "domain": "assets.thehansindia.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "AI Takes the Wheel: Anthropic\u2019s Claude Now Operates Your Computer",
+      "url": "https://www.dagens.com/news/ai-takes-the-wheel-anthropics-claude-now-operates-your-computer",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "AI Takes the Wheel: Anthropic\u2019s Claude Now Operates Your Computer Homepage News AI Takes the Wheel: Anthropic\u2019s Claude Now Operates Your Computer # AI Takes the Wheel: Anthropic\u2019s Claude Now Operates Your Computer\n\nAsger Risom\u2022 Thrive Studios ID / Shutterstock.com Anthropic has unveiled a new capability for its Claude AI model, allowing it to use a user\u2019s computer to perform tasks automatically as the race to build autonomous AI agents accelerates. ## Others"
+      ],
+      "text_preview": "AI Takes the Wheel: Anthropic\u2019s Claude Now Operates Your Computer \n\nHomepage News AI Takes the Wheel: Anthropic\u2019s Claude Now Operates Your Computer\n\n# AI Takes the Wheel: Anthropic\u2019s Claude Now Operates Your Computer\n\nAsger Risom\u2022\n\nThrive Studios ID / Shutterstock.com\n\nAnthropic has unveiled a new c",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "",
+      "domain": "www.dagens.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Microsoft research tools uses Anthropic and OpenAI models",
+      "url": "https://www.axios.com/2026/03/31/microsoft-critique-anthropic-openai",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-31T00:00:00.000Z",
+      "highlights": [
+        "Microsoft research tools uses Anthropic and OpenAI models\n\nMar 31, 2026 - Technology\n\n# One AI isn't enough anymore - Ina Fried\n\nAdd Axios on Google\n\nAdd Axios as your preferred source to\n\nsee more of our stories on Google. Add Axios on Google\n\nIllustration: Allie Carl/Axios Microsoft said Monday it has revamped one of its AI research tools to use models from both OpenAI and Anthropic, the clearest sign yet that the future of AI may be multi-model."
+      ],
+      "text_preview": "Microsoft research tools uses Anthropic and OpenAI models\n\nMar 31, 2026 - Technology\n\n# One AI isn't enough anymore\n\n- Ina Fried\n\nAdd Axios on Google\n\nAdd Axios as your preferred source to\n\nsee more of our stories on Google.\n\nAdd Axios on Google\n\nIllustration: Allie Carl/Axios\n\nMicrosoft said Monday",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "Ina Fried",
+      "domain": "www.axios.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Microsoft's Researcher AI Agent Can Now Make GPT and Claude Models Work Together",
+      "url": "https://www.thurrott.com/a-i/334334/microsofts-researcher-ai-agent-can-now-make-gpt-and-claude-models-work-together",
+      "score": 85,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-30T00:00:00.000Z",
+      "highlights": [
+        "Microsoft's Researcher AI Agent Can Now Make GPT and Claude Models Work Together Microsoft\u2019s Researcher AI agent is getting a new \u2018Critique\u2019 feature that uses OpenAI\u2019s GPT and Anthropic\u2019s Claude models together to improve the quality of its responses. A new Council model in Researcher can also be used to compare responses from different AI models side by side. Claude models became available in Researcher as an alternative to GPT models back in September. With the new Critique"
+      ],
+      "text_preview": "Microsoft's Researcher AI Agent Can Now Make GPT and Claude Models Work Together \n\nMicrosoft\u2019s Researcher AI agent is getting a new \u2018Critique\u2019 feature that uses OpenAI\u2019s GPT and Anthropic\u2019s Claude models together to improve the quality of its responses. A new Council model in Researcher can also be ",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "Laurent Giret",
+      "domain": "www.thurrott.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Adds Plugin Marketplace and MCP Support to Codex, Matching Claude Code's Agent Infrastructure",
+      "url": "https://newclawtimes.com/articles/openai-codex-plugins-mcp-claude-code-agent-framework-race/",
+      "score": 75,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Adds Plugin Marketplace and MCP Support to Codex, Matching Claude Code's Agent Infrastructure OpenAI has shipped plugin support for Codex, its CLI-based coding agent, in version 0.117.0 released on March 26. The update adds a searchable plugin directory with over a dozen prepackaged connectors \u2014 GitHub, Gmail, Google Drive, Box, Cloudflare, Vercel \u2014 along with native MCP (Model Context Protocol) server integration and shareable skills bundles. The feature set closely"
+      ],
+      "text_preview": "OpenAI Adds Plugin Marketplace and MCP Support to Codex, Matching Claude Code's Agent Infrastructure \n\n \n\n \n\n \n\nOpenAI has shipped plugin support for Codex, its CLI-based coding agent, in version 0.117.0 released on March 26. The update adds a searchable plugin directory with over a dozen prepackage",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "",
+      "domain": "newclawtimes.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Brings Plugins to Codex, Narrowing the Gap with Claude Code",
+      "url": "https://technochat.in/openai-brings-plugins-to-codex-narrowing-the-gap-with-claude-code/",
+      "score": 75,
+      "source_detail": "exa_claude_code",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Brings Plugins to Codex, Narrowing the Gap with Claude Code OpenAI has quietly expanded Codex\u2019s capabilities by adding a plugins system \u2014 a move that makes the coding assistant feel less like a standalone tool and more like a configurable platform. On the surface, these plugins are collections that can include workflow \u201cskills,\u201d integrations with external applications, and connections to MCP (Model Context Protocol) servers. For users, the most immediate value is convenience: functionality"
+      ],
+      "text_preview": "OpenAI Brings Plugins to Codex, Narrowing the Gap with Claude Code \n\n \n\n \n\nOpenAI has quietly expanded Codex\u2019s capabilities by adding a plugins system \u2014 a move that makes the coding assistant feel less like a standalone tool and more like a configurable platform. On the surface, these plugins are co",
+      "search_category": "claude_code",
+      "search_label": "Claude Code",
+      "author": "Saugata Datta",
+      "domain": "technochat.in",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET",
+      "url": "https://cnet.com/tech/services-and-software/claude-control-your-computer-to-perform-tasks/",
+      "score": 75,
+      "source_detail": "exa_ai_business",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET\n\n \n\n \n\n \n\nX - ai atlas\n- \n- Tech\n- Services & Software\n- AI\n- # Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You Anthropic brings Claude into the agentic, OpenClaw-like fold. \n\n Blake Stimac Writer Blake has over a decade of experience writing for the web, with a focus on mobile phones, where he covered the smartphone boom of the"
+      ],
+      "text_preview": "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET\n\n \n\n \n\n \n\nX\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n- ai atlas\n- \n- Tech\n- Services & Software\n- AI\n- \n\n \n\n \n\n# Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You\n\n \n\nAnthropic brings Claude into the agentic, OpenClaw-li",
+      "search_category": "ai_business",
+      "search_label": "AI Business Tools",
+      "author": "See full bio",
+      "domain": "cnet.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code - The Economic Times",
+      "url": "https://economictimes.indiatimes.com/tech/technology/what-is-agent-smith-googles-internal-ai-tool-for-operations-that-helps-engineers-code/articleshow/129868907.cms",
+      "score": 75,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code - The Economic Times Business News Tech Tech & Internet What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code # What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code ETtechLast Updated: Mar 28, 2026, 10:29:19 PM IST\n\nFollow us\n\nShare\n\nFont Size\n\nAbcSmall\n\nAbcMedium\n\nAbcLarge\n\nSave Print"
+      ],
+      "text_preview": "What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code - The Economic Times\n\nBusiness News Tech Tech & Internet What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code\n\n \n\n# What is Agent Smith? Google\u2019s internal AI tool for operations",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "ET",
+      "domain": "economictimes.indiatimes.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "GPT-5.4 Thinking Model: OpenAI's March 2026 Update for Smarter AI Workflows",
+      "url": "https://theagencyjournal.com/openais-gpt-5-4-the-thinking-model-thats-got-me-scribbling-notes-like-a-mad-woman/",
+      "score": 75,
+      "source_detail": "exa_ai_agents",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "GPT-5.4 Thinking Model: OpenAI's March 2026 Update for Smarter AI Workflows \n\n \n\nSearch The Agency JournalSmart Takes on a Fast World.\n\n \n\n \n\nLiberty CaseSmart Takes on a Fast World.\n\n \n\nSearch AI & Automation\n\n1 min.Read\n\n# OpenAI\u2019s GPT-5.4: The Thinking Model That\u2019s Got Me Scribbling Notes Like a Mad Woman By Mia Gallagher\n\nMarch 29, 2026\n\n \n\nFacebook\n\nTwitter\n\nPinterest\n\nWhatsApp\n\n# OpenAI\u2019s"
+      ],
+      "text_preview": "GPT-5.4 Thinking Model: OpenAI's March 2026 Update for Smarter AI Workflows \n\n \n\nSearch\n\nThe Agency JournalSmart Takes on a Fast World.\n\n \n\n \n\nLiberty CaseSmart Takes on a Fast World.\n\n \n\nSearch\n\n \n\nAI & Automation\n\n1 min.Read\n\n# OpenAI\u2019s GPT-5.4: The Thinking Model That\u2019s Got Me Scribbling Notes Li",
+      "search_category": "ai_agents",
+      "search_label": "AI Agents",
+      "author": "Mia Gallagher",
+      "domain": "theagencyjournal.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "OpenAI Unveils GPT-6 With Autonomous Agent Capabilities That Can Build Full Applications | Headlines Orbit",
+      "url": "https://www.headlinesorbit.com/technology/openai-unveils-gpt-6-autonomous-agent",
+      "score": 75,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "OpenAI Unveils GPT-6 With Autonomous Agent Capabilities That Can Build Full Applications | Headlines Orbit Harold's Quick Summary AI OpenAI has launched GPT-6, which can autonomously write, debug, and deploy complete software applications. The system was demonstrated building an e-commerce platform in 45 minutes from a paragraph description, marking a significant leap in AI development capabilities. AI-generated summary claude-sonnet-4-20250514 Mar 28, 2026\n\n Next-gen AI prototype"
+      ],
+      "text_preview": "OpenAI Unveils GPT-6 With Autonomous Agent Capabilities That Can Build Full Applications | Headlines Orbit \n\n \n\n \n\n \n\n \n\n \n\nHarold's Quick Summary AI\n\nOpenAI has launched GPT-6, which can autonomously write, debug, and deploy complete software applications. The system was demonstrated building an e-",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "www.headlinesorbit.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code - The Economic Times",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/what-is-agent-smith-googles-internal-ai-tool-for-operations-that-helps-engineers-code/articleshow/129868893.cms",
+      "score": 75,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code - The Economic Times Business News Tech AI What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code # What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code ETtechLast Updated: Mar 29, 2026, 04:41:08 PM IST\n\nFollow us\n\nShare\n\nFont Size\n\nAbcSmall\n\nAbcMedium\n\nAbcLarge\n\nSave Print\n\n###"
+      ],
+      "text_preview": "What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code - The Economic Times\n\nBusiness News Tech AI What is Agent Smith? Google\u2019s internal AI tool for operations that helps engineers code\n\n \n\n# What is Agent Smith? Google\u2019s internal AI tool for operations that helps e",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "ET",
+      "domain": "economictimes.indiatimes.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "The Verge",
+      "url": "https://link.theverge.com/command-line-newsletter/668251/chatgpt-is-getting-an-ai-coding-agent",
+      "score": 75,
+      "source_detail": "exa_dev_tools",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "The Verge\n\nThe Verge logo.\n\nTop StoriesFollowing\n\nThe Verge logo.\n\nElon Musk is about to be a very busy boy! I\u2019m sure he\u2019d call it \u2018freaking epic.\u2019\n\nElizabeth LopattoApr 2\n\n## Top Stories\n\n1 The ABS Challenge System is exposing the worst umpire in baseball\n\nTerrence O'BrienApr 2 The ABS Challenge System is exposing the worst umpire in baseball\n\nTerrence O'BrienApr 2\n\n2 A jury says Meta and Google hurt a kid. What now?\n\nNilay PatelApr 2\n\nA jury says Meta and Google hurt a kid. What now?"
+      ],
+      "text_preview": "The Verge\n\nThe Verge logo.\n\nTop StoriesFollowing\n\nThe Verge logo.\n\nElon Musk is about to be a very busy boy!\n\nI\u2019m sure he\u2019d call it \u2018freaking epic.\u2019\n\nElizabeth LopattoApr 2\n\n## Top Stories\n\n1\n\nThe ABS Challenge System is exposing the worst umpire in baseball\n\nTerrence O'BrienApr 2\n\nThe ABS Challenge",
+      "search_category": "dev_tools",
+      "search_label": "Developer AI Tools",
+      "author": "",
+      "domain": "link.theverge.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "AI Cuts Content Workflow Steps by 37%, From 8 to 5 on Average",
+      "url": "https://aigazine.com/industry/ai-cuts-content-workflow-steps-by-37-from-8-to-5-on-average--ms",
+      "score": 75,
+      "source_detail": "exa_content_ai",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "AI Cuts Content Workflow Steps by 37%, From 8 to 5 on Average \n\nSign In - AI Models\n- Benchmarks\n- Industry\n- Markets\n- Trends\n- Startups\n- Stories\n- Opinions\n- Press Releases\n- Contacts - About & Editorial - AI Models\n- Benchmarks\n- Industry\n- Markets\n- Trends\n- Startups\n- Stories"
+      ],
+      "text_preview": "AI Cuts Content Workflow Steps by 37%, From 8 to 5 on Average \n\nSign In\n\n- AI Models\n- Benchmarks\n- Industry\n- Markets\n- Trends\n- Startups\n- Stories\n- Opinions\n- Press Releases\n- Contacts\n- About & Editorial\n\n- AI Models\n- Benchmarks\n- Industry\n- Markets\n- Trends\n- Startups\n- Stories",
+      "search_category": "content_ai",
+      "search_label": "Content AI",
+      "author": "",
+      "domain": "aigazine.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Claude Sonnet 4.6 Launches with 1M Token Context and Expanded Computer Use \u2013 MegaOne AI",
+      "url": "https://megaoneai.com/spotlight/claude-sonnet-4-6-enhanced-computer-skills/",
+      "score": 75,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "Claude Sonnet 4.6 Launches with 1M Token Context and Expanded Computer Use \u2013 MegaOne AI\n\nEngine Score 9/10 \u2014 Critical This is a primary announcement of a significant update to a widely used AI model, offering high actionability for developers and substantial industry impact. Its direct source ensures maximum reliability and timeliness. Anthropic released Claude Sonnet 4.6 on February 17, 2026, describing it as the company\u2019s \u201cmost capable Sonnet model yet.\u201d The upgrade covers six capability areas"
+      ],
+      "text_preview": "Claude Sonnet 4.6 Launches with 1M Token Context and Expanded Computer Use \u2013 MegaOne AI\n\nEngine Score 9/10 \u2014 Critical\n\nThis is a primary announcement of a significant update to a widely used AI model, offering high actionability for developers and substantial industry impact. Its direct source ensur",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "",
+      "domain": "megaoneai.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks ...",
+      "url": "https://www.cnet.com/tech/services-and-software/claude-control-your-computer-to-perform-tasks/",
+      "score": 75,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-28T01:00:26.875Z",
+      "highlights": [
+        "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET\n\n \n\n \n\n \n\nX - ai atlas\n- \n- Tech\n- Services & Software\n- AI\n- # Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You Anthropic brings Claude into the agentic, OpenClaw-like fold. \n\n Blake Stimac Writer Blake has over a decade of experience writing for the web, with a focus on mobile phones, where he covered the smartphone boom of the"
+      ],
+      "text_preview": "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET\n\n \n\n \n\n \n\nX\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n- ai atlas\n- \n- Tech\n- Services & Software\n- AI\n- \n\n \n\n \n\n# Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You\n\n \n\nAnthropic brings Claude into the agentic, OpenClaw-li",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "See full bio",
+      "domain": "www.cnet.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET",
+      "url": "https://forums.cnet.com/tech/services-and-software/claude-control-your-computer-to-perform-tasks/",
+      "score": 75,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET\n\n \n\n \n\n \n\nX - ai atlas\n- \n- Tech\n- Services & Software\n- AI\n- # Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You Anthropic brings Claude into the agentic, OpenClaw-like fold. \n\n Blake Stimac Writer Blake has over a decade of experience writing for the web, with a focus on mobile phones, where he covered the smartphone boom of the"
+      ],
+      "text_preview": "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET\n\n \n\n \n\n \n\nX\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n- ai atlas\n- \n- Tech\n- Services & Software\n- AI\n- \n\n \n\n \n\n# Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You\n\n \n\nAnthropic brings Claude into the agentic, OpenClaw-li",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "See full bio",
+      "domain": "forums.cnet.com",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    },
+    {
+      "title": "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET",
+      "url": "https://news.bensbites.co/posts/61808-anthropic-rolls-out-a-computer-use-feature-for-claude-cowork-and-the-claude-code-desktop-app-in-research-preview-on-macos-for-pro-and-max-subscribers/out",
+      "score": 75,
+      "source_detail": "exa_anthropic",
+      "date": "2026-03-28T00:00:00.000Z",
+      "highlights": [
+        "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET\n\n \n\n \n\n \n\nX - ai atlas\n- \n- Tech\n- Services & Software\n- AI\n- # Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You Anthropic brings Claude into the agentic, OpenClaw-like fold. \n\n Blake Stimac Writer Blake has over a decade of experience writing for the web, with a focus on mobile phones, where he covered the smartphone boom of the"
+      ],
+      "text_preview": "Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You - CNET\n\n \n\n \n\n \n\nX\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n- ai atlas\n- \n- Tech\n- Services & Software\n- AI\n- \n\n \n\n \n\n# Anthropic's Claude Can Now Take Over Your Computer to Do Tasks for You\n\n \n\nAnthropic brings Claude into the agentic, OpenClaw-li",
+      "search_category": "anthropic",
+      "search_label": "Anthropic/Claude",
+      "author": "See full bio",
+      "domain": "news.bensbites.co",
+      "cross_platform_sources": [],
+      "cross_platform_engagement": 0,
+      "discovery_method": "exa_search"
+    }
+  ],
+  "summary": {
+    "total_discovered": 120,
+    "from_exa_search": 100,
+    "from_cross_platform": 20,
+    "from_similar": 0,
+    "search_queries": [
+      "Claude Code",
+      "AI Business Tools",
+      "AI Agents",
+      "Developer AI Tools",
+      "Content AI",
+      "Anthropic/Claude"
+    ],
+    "lookback_days": 7
+  }
+}

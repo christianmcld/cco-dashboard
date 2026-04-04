@@ -1,6 +1,6 @@
 {
   "source": "socialblade",
-  "collected_at": "2026-04-04T00:43:47.485521+00:00",
+  "collected_at": "2026-04-04T01:08:42.496149+00:00",
   "items": [
     {
       "title": "@openai",
@@ -8,7 +8,7 @@
       "score": 0,
       "url": "https://www.instagram.com/openai/",
       "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T00:42:45.751180+00:00",
+      "date": "2026-04-04T01:07:42.469246+00:00",
       "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
     },
     {
@@ -17,7 +17,7 @@
       "score": 0,
       "url": "https://www.instagram.com/anthropicai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:42:49.012402+00:00",
+      "date": "2026-04-04T01:07:46.191364+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -26,7 +26,7 @@
       "score": 0,
       "url": "https://www.instagram.com/googleai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:42:52.225882+00:00",
+      "date": "2026-04-04T01:07:49.610383+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -35,7 +35,7 @@
       "score": 0,
       "url": "https://www.instagram.com/nvidia/",
       "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T00:42:56.276991+00:00",
+      "date": "2026-04-04T01:07:52.744094+00:00",
       "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
     },
     {
@@ -44,7 +44,7 @@
       "score": 0,
       "url": "https://www.instagram.com/huggingface/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:00.424593+00:00",
+      "date": "2026-04-04T01:07:55.979506+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -53,7 +53,7 @@
       "score": 0,
       "url": "https://www.instagram.com/ycombinator/",
       "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T00:43:05.402319+00:00",
+      "date": "2026-04-04T01:07:59.380221+00:00",
       "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
     },
     {
@@ -62,7 +62,7 @@
       "score": 0,
       "url": "https://www.instagram.com/techmeme/",
       "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T00:43:09.621885+00:00",
+      "date": "2026-04-04T01:08:02.534011+00:00",
       "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
     },
     {
@@ -71,7 +71,7 @@
       "score": 0,
       "url": "https://www.instagram.com/firstround/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:13.165543+00:00",
+      "date": "2026-04-04T01:08:06.241361+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -80,7 +80,7 @@
       "score": 0,
       "url": "https://www.instagram.com/a16z/",
       "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T00:43:16.769163+00:00",
+      "date": "2026-04-04T01:08:09.107529+00:00",
       "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
     },
     {
@@ -89,7 +89,7 @@
       "score": 0,
       "url": "https://www.instagram.com/sequoia/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:20.066323+00:00",
+      "date": "2026-04-04T01:08:12.179684+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -98,7 +98,7 @@
       "score": 0,
       "url": "https://www.instagram.com/productschool/",
       "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T00:43:23.681142+00:00",
+      "date": "2026-04-04T01:08:16.185151+00:00",
       "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
     },
     {
@@ -107,7 +107,7 @@
       "score": 0,
       "url": "https://www.instagram.com/reaborneai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:26.721092+00:00",
+      "date": "2026-04-04T01:08:19.803348+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -116,7 +116,7 @@
       "score": 0,
       "url": "https://www.instagram.com/sababorneai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:29.829070+00:00",
+      "date": "2026-04-04T01:08:23.338354+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -125,7 +125,7 @@
       "score": 0,
       "url": "https://www.instagram.com/ericsiu/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:32.884665+00:00",
+      "date": "2026-04-04T01:08:26.787106+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -134,7 +134,7 @@
       "score": 0,
       "url": "https://www.instagram.com/garyvee/",
       "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T00:43:35.897796+00:00",
+      "date": "2026-04-04T01:08:29.971984+00:00",
       "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
     },
     {
@@ -143,7 +143,7 @@
       "score": 0,
       "url": "https://www.instagram.com/dhaborneai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:38.888002+00:00",
+      "date": "2026-04-04T01:08:33.507057+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -152,7 +152,7 @@
       "score": 0,
       "url": "https://www.instagram.com/commandshift.ai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:42.560595+00:00",
+      "date": "2026-04-04T01:08:37.282493+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -161,7 +161,7 @@
       "score": 0,
       "url": "https://www.instagram.com/christianmccloud/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T00:43:45.480317+00:00",
+      "date": "2026-04-04T01:08:40.490035+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     }
   ],
