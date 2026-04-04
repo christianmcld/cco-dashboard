@@ -1,0 +1,169 @@
+{
+  "source": "socialblade",
+  "collected_at": "2026-04-04T00:43:47.485521+00:00",
+  "items": [
+    {
+      "title": "@openai",
+      "username": "openai",
+      "score": 0,
+      "url": "https://www.instagram.com/openai/",
+      "source_detail": "socialblade_scrape",
+      "date": "2026-04-04T00:42:45.751180+00:00",
+      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+    },
+    {
+      "title": "@anthropicai",
+      "username": "anthropicai",
+      "score": 0,
+      "url": "https://www.instagram.com/anthropicai/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:42:49.012402+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@googleai",
+      "username": "googleai",
+      "score": 0,
+      "url": "https://www.instagram.com/googleai/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:42:52.225882+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@nvidia",
+      "username": "nvidia",
+      "score": 0,
+      "url": "https://www.instagram.com/nvidia/",
+      "source_detail": "socialblade_scrape",
+      "date": "2026-04-04T00:42:56.276991+00:00",
+      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+    },
+    {
+      "title": "@huggingface",
+      "username": "huggingface",
+      "score": 0,
+      "url": "https://www.instagram.com/huggingface/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:00.424593+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@ycombinator",
+      "username": "ycombinator",
+      "score": 0,
+      "url": "https://www.instagram.com/ycombinator/",
+      "source_detail": "socialblade_scrape",
+      "date": "2026-04-04T00:43:05.402319+00:00",
+      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+    },
+    {
+      "title": "@techmeme",
+      "username": "techmeme",
+      "score": 0,
+      "url": "https://www.instagram.com/techmeme/",
+      "source_detail": "socialblade_scrape",
+      "date": "2026-04-04T00:43:09.621885+00:00",
+      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+    },
+    {
+      "title": "@firstround",
+      "username": "firstround",
+      "score": 0,
+      "url": "https://www.instagram.com/firstround/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:13.165543+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@a16z",
+      "username": "a16z",
+      "score": 0,
+      "url": "https://www.instagram.com/a16z/",
+      "source_detail": "socialblade_scrape",
+      "date": "2026-04-04T00:43:16.769163+00:00",
+      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+    },
+    {
+      "title": "@sequoia",
+      "username": "sequoia",
+      "score": 0,
+      "url": "https://www.instagram.com/sequoia/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:20.066323+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@productschool",
+      "username": "productschool",
+      "score": 0,
+      "url": "https://www.instagram.com/productschool/",
+      "source_detail": "socialblade_scrape",
+      "date": "2026-04-04T00:43:23.681142+00:00",
+      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+    },
+    {
+      "title": "@reaborneai",
+      "username": "reaborneai",
+      "score": 0,
+      "url": "https://www.instagram.com/reaborneai/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:26.721092+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@sababorneai",
+      "username": "sababorneai",
+      "score": 0,
+      "url": "https://www.instagram.com/sababorneai/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:29.829070+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@ericsiu",
+      "username": "ericsiu",
+      "score": 0,
+      "url": "https://www.instagram.com/ericsiu/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:32.884665+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@garyvee",
+      "username": "garyvee",
+      "score": 0,
+      "url": "https://www.instagram.com/garyvee/",
+      "source_detail": "socialblade_scrape",
+      "date": "2026-04-04T00:43:35.897796+00:00",
+      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+    },
+    {
+      "title": "@dhaborneai",
+      "username": "dhaborneai",
+      "score": 0,
+      "url": "https://www.instagram.com/dhaborneai/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:38.888002+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@commandshift.ai",
+      "username": "commandshift.ai",
+      "score": 0,
+      "url": "https://www.instagram.com/commandshift.ai/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:42.560595+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    },
+    {
+      "title": "@christianmccloud",
+      "username": "christianmccloud",
+      "score": 0,
+      "url": "https://www.instagram.com/christianmccloud/",
+      "source_detail": "unavailable",
+      "date": "2026-04-04T00:43:45.480317+00:00",
+      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+    }
+  ],
+  "api_method": "fallback"
+}
