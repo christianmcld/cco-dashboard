@@ -1,42 +1,62 @@
 {
   "source": "socialblade",
-  "collected_at": "2026-04-04T01:08:42.496149+00:00",
+  "collected_at": "2026-04-05T18:55:50.164922+00:00",
   "items": [
     {
       "title": "@openai",
       "username": "openai",
-      "score": 0,
+      "score": 4566769,
       "url": "https://www.instagram.com/openai/",
-      "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T01:07:42.469246+00:00",
-      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:54:55.625801+00:00",
+      "followers": 4566769,
+      "following": 4,
+      "media_count": 1706,
+      "full_name": "OpenAI",
+      "biography": "OpenAI\u2019s mission is to ensure artificial intelligence benefits all of humanity. Proud parent of @cha",
+      "is_verified": true
     },
     {
       "title": "@anthropicai",
       "username": "anthropicai",
-      "score": 0,
+      "score": 893,
       "url": "https://www.instagram.com/anthropicai/",
-      "source_detail": "unavailable",
-      "date": "2026-04-04T01:07:46.191364+00:00",
-      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:54:58.082705+00:00",
+      "followers": 893,
+      "following": 0,
+      "media_count": 0,
+      "full_name": "Anthropic",
+      "biography": "",
+      "is_verified": false
     },
     {
       "title": "@googleai",
       "username": "googleai",
-      "score": 0,
+      "score": 13,
       "url": "https://www.instagram.com/googleai/",
-      "source_detail": "unavailable",
-      "date": "2026-04-04T01:07:49.610383+00:00",
-      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:00.781537+00:00",
+      "followers": 13,
+      "following": 0,
+      "media_count": 1,
+      "full_name": "Google AI",
+      "biography": "Making AI helpful for everyone.",
+      "is_verified": false
     },
     {
       "title": "@nvidia",
       "username": "nvidia",
-      "score": 0,
+      "score": 2572359,
       "url": "https://www.instagram.com/nvidia/",
-      "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T01:07:52.744094+00:00",
-      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:04.084596+00:00",
+      "followers": 2572359,
+      "following": 34,
+      "media_count": 2230,
+      "full_name": "NVIDIA",
+      "biography": "NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Our work is trans",
+      "is_verified": true
     },
     {
       "title": "@huggingface",
@@ -44,62 +64,92 @@
       "score": 0,
       "url": "https://www.instagram.com/huggingface/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T01:07:55.979506+00:00",
+      "date": "2026-04-05T18:55:07.309497+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
       "title": "@ycombinator",
       "username": "ycombinator",
-      "score": 0,
+      "score": 582059,
       "url": "https://www.instagram.com/ycombinator/",
-      "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T01:07:59.380221+00:00",
-      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:11.414938+00:00",
+      "followers": 582059,
+      "following": 154,
+      "media_count": 834,
+      "full_name": "Y Combinator",
+      "biography": "Funding startups since 2005",
+      "is_verified": true
     },
     {
       "title": "@techmeme",
       "username": "techmeme",
-      "score": 0,
+      "score": 186,
       "url": "https://www.instagram.com/techmeme/",
-      "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T01:08:02.534011+00:00",
-      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:14.006034+00:00",
+      "followers": 186,
+      "following": 13,
+      "media_count": 1,
+      "full_name": "Techmeme",
+      "biography": "Techmeme shares news and commentary for technology's leaders, from all around the web.",
+      "is_verified": false
     },
     {
       "title": "@firstround",
       "username": "firstround",
-      "score": 0,
+      "score": 22,
       "url": "https://www.instagram.com/firstround/",
-      "source_detail": "unavailable",
-      "date": "2026-04-04T01:08:06.241361+00:00",
-      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:16.535152+00:00",
+      "followers": 22,
+      "following": 0,
+      "media_count": 0,
+      "full_name": "",
+      "biography": "",
+      "is_verified": false
     },
     {
       "title": "@a16z",
       "username": "a16z",
-      "score": 0,
+      "score": 127000,
       "url": "https://www.instagram.com/a16z/",
-      "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T01:08:09.107529+00:00",
-      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:20.124361+00:00",
+      "followers": 127000,
+      "following": 42,
+      "media_count": 373,
+      "full_name": "Andreessen Horowitz",
+      "biography": "We invest in software eating the world.",
+      "is_verified": false
     },
     {
       "title": "@sequoia",
       "username": "sequoia",
-      "score": 0,
+      "score": 938,
       "url": "https://www.instagram.com/sequoia/",
-      "source_detail": "unavailable",
-      "date": "2026-04-04T01:08:12.179684+00:00",
-      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:23.072573+00:00",
+      "followers": 938,
+      "following": 768,
+      "media_count": 164,
+      "full_name": "Sequoia",
+      "biography": "I\u2019ll take a double Prosecco on the rocks",
+      "is_verified": false
     },
     {
       "title": "@productschool",
       "username": "productschool",
-      "score": 0,
+      "score": 80383,
       "url": "https://www.instagram.com/productschool/",
-      "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T01:08:16.185151+00:00",
-      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:26.565053+00:00",
+      "followers": 80383,
+      "following": 380,
+      "media_count": 2011,
+      "full_name": "Product School",
+      "biography": "Global leader in AI training for product teams\nHelping professionals and organizations unlock AI-dri",
+      "is_verified": false
     },
     {
       "title": "@reaborneai",
@@ -107,7 +157,7 @@
       "score": 0,
       "url": "https://www.instagram.com/reaborneai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T01:08:19.803348+00:00",
+      "date": "2026-04-05T18:55:29.826948+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -116,7 +166,7 @@
       "score": 0,
       "url": "https://www.instagram.com/sababorneai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T01:08:23.338354+00:00",
+      "date": "2026-04-05T18:55:33.203895+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -124,18 +174,28 @@
       "username": "ericsiu",
       "score": 0,
       "url": "https://www.instagram.com/ericsiu/",
-      "source_detail": "unavailable",
-      "date": "2026-04-04T01:08:26.787106+00:00",
-      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:35.642126+00:00",
+      "followers": 0,
+      "following": 0,
+      "media_count": 2,
+      "full_name": "",
+      "biography": "",
+      "is_verified": false
     },
     {
       "title": "@garyvee",
       "username": "garyvee",
-      "score": 0,
+      "score": 11355233,
       "url": "https://www.instagram.com/garyvee/",
-      "source_detail": "socialblade_scrape",
-      "date": "2026-04-04T01:08:29.971984+00:00",
-      "note": "Limited data \u2014 scrape fallback. Add SocialBlade API creds for full data."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:39.377953+00:00",
+      "followers": 11355233,
+      "following": 7397,
+      "media_count": 10615,
+      "full_name": "Gary Vay-Ner-Chuk",
+      "biography": "\u2708\ufe0fCEO/Chairman @vaynermedia\n\ud83d\udc08\u200d\u2b1bCEO/Founder   @veefriends\n\ud83d\udd2eInvestor FB,Venmo,Twitter,Liquid Death\n\ud83d\udcf2Te",
+      "is_verified": true
     },
     {
       "title": "@dhaborneai",
@@ -143,7 +203,7 @@
       "score": 0,
       "url": "https://www.instagram.com/dhaborneai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T01:08:33.507057+00:00",
+      "date": "2026-04-05T18:55:42.416421+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
@@ -152,17 +212,22 @@
       "score": 0,
       "url": "https://www.instagram.com/commandshift.ai/",
       "source_detail": "unavailable",
-      "date": "2026-04-04T01:08:37.282493+00:00",
+      "date": "2026-04-05T18:55:45.557763+00:00",
       "note": "Could not fetch data. SocialBlade API or Instagram login required."
     },
     {
       "title": "@christianmccloud",
       "username": "christianmccloud",
-      "score": 0,
+      "score": 4,
       "url": "https://www.instagram.com/christianmccloud/",
-      "source_detail": "unavailable",
-      "date": "2026-04-04T01:08:40.490035+00:00",
-      "note": "Could not fetch data. SocialBlade API or Instagram login required."
+      "source_detail": "instagram_public_api",
+      "date": "2026-04-05T18:55:48.161079+00:00",
+      "followers": 4,
+      "following": 4,
+      "media_count": 5,
+      "full_name": "Christian McCloud",
+      "biography": "",
+      "is_verified": false
     }
   ],
   "api_method": "fallback"

@@ -1,43 +1,41 @@
 {
-  "generated_at": "2026-04-04T01:14:05.008815+00:00",
+  "generated_at": "2026-04-05T19:03:31.828030+00:00",
   "trending": {
     "topics": [
       {
-        "name": "1. The Claude Code Source Leak & Aftermath",
+        "name": "1. Anthropic Cuts Off OpenClaw \u2014 The AI Platform War Heats Up",
         "details": [
-          "**What's happening:** Biggest accidental source code leak in AI history. Reddit threads hitting 5,000+ upvotes across r/ClaudeAI, r/vibecoding, r/ClaudeCode. VentureBeat, TechCrunch, The Register, Hacker News, CyberNews all running stories. Users on r/ClaudeAI are finding and patching bugs in Anthropic's own code and posting fixes publicly.",
-          "**Why it matters for content:** This is a once-in-a-year event. Every AI creator will cover it. The question is WHO covers it with the most useful angle for builders.",
-          "**Suggested hook angle:** Skip the outrage take. Go practical: \"Here's what the leak ACTUALLY revealed about how Claude Code works under the hood \u2014 and what it means for how you should be using it.\" Focus on KAIROS (daemon mode), the 44 unreleased features, and the Auto-dream memory system."
+          "**What's happening:** Anthropic blocked third-party agent frameworks from using Claude subscriptions, starting with OpenClaw. Users now pay per-use or switch to API keys. Thousands of developers' workflows are broken overnight. Coverage across TNW, Digital Trends, Geeky Gadgets, Hacker News, beincrypto, and Bitcoin News (crypto agents heavily used OpenClaw).",
+          "**Why it matters for content:** This is a platform governance story that affects every AI builder. The \"walled garden vs. open ecosystem\" debate is back \u2014 except now it's about AI agents, not app stores.",
+          "**Suggested hook angle:** \"Anthropic just broke thousands of AI automations overnight. Here's why \u2014 and what to do about it.\" Explain the OpenClaw situation, then show that native Claude Code skills are unaffected. Position yourself as the safe path."
         ],
-        "heat": "warm",
+        "heat": "emerging",
         "heat_score": {
-          "total": 66,
-          "cross_source": 56,
+          "total": 26,
+          "cross_source": 8,
           "engagement": 5,
-          "velocity": 5
+          "velocity": 13
         },
         "trend_status": "rising",
         "sparkline": [
-          36,
-          43,
-          51,
-          56,
-          59,
-          65,
-          72
+          0,
+          3,
+          11,
+          16,
+          19,
+          25,
+          32
         ],
         "sources": [
-          "reddit",
-          "hn",
-          "news"
+          "hn"
         ]
       },
       {
-        "name": "2. Claude Code /dream and Auto-Memory 2.0",
+        "name": "2. The $1B One-Person Company Narrative Goes Mainstream",
         "details": [
-          "**What's happening:** Claude Code quietly shipped a \"dream\" feature \u2014 a REM-sleep-inspired subagent that consolidates short-term memory into long-term storage between sessions. It runs a 4-phase process: Orientation, Gather Signal, Consolidation, Prune & Index. The r/ClaudeCode thread hit 2,400 upvotes. Top comment: \"OK well now we need /acid to handle all of its hallucinations.\"",
-          "**Why it matters for content:** This is Claude Code becoming a persistent AI employee, not just a session-based tool. Directly tied to the CMNDSHFT narrative of \"AI employees.\"",
-          "**Suggested hook angle:** \"Your AI just learned how to sleep. Here's why that changes everything about how you work with Claude Code.\" Demo the /dream command live, show the before/after of memory files."
+          "**What's happening:** Multiple viral X posts this week (@usmaanbuildsAI, @Sabrina_Ramonov, @ZavionDaDon, @raindog_kitetu) are all pushing the same stack: Claude Code + n8n + Stripe + AI agents = run a business solo. @raindog_kitetu claims $0 payroll, $1.14/month infra. The \"solo AI founder\" archetype is crystallizing.",
+          "**Why it matters for content:** This IS the CMNDSHFT pitch. Every one of these posts validates the \"AI employees\" positioning. The difference: Christian actually shows HOW, not just WHAT.",
+          "**Suggested hook angle:** \"Everyone's posting their $0 AI stack. Here's what they're not telling you.\" Show the real complexity behind the viral tweets \u2014 the skills, the memory architecture, the edge cases. Honest take > hype take."
         ],
         "heat": "emerging",
         "heat_score": {
@@ -57,15 +55,72 @@
           36
         ],
         "sources": [
-          "reddit"
+          "x"
         ]
       },
       {
-        "name": "3. MIT Study: \"AI Replacing Engineers\" Narrative Debunked (Sort Of)",
+        "name": "3. Claude Code Skills Marketplace Emerging",
         "details": [
-          "**What's happening:** MIT published research showing AI isn't replacing software engineers \u2014 but the Reddit comments tell a different story. Top comment (593 upvotes): \"We downsized our team by a third while everyone is getting 20-30% more work done using Claude Code.\" IBM reportedly told managers to stop hiring and use AI instead.",
-          "**Why it matters for content:** The tension between the academic take and the real-world layoff data is pure content gold. Both sides have ammunition.",
-          "**Suggested hook angle:** \"MIT says AI won't replace engineers. The comments say otherwise. Here's what's ACTUALLY happening.\" Read the top Reddit comments on camera. Let the audience decide."
+          "**What's happening:** Open-source skill packs for marketing, sales, SEO, and content are being shared across X and GitHub. @ihtesham2005's marketing agency skill drop (1,595 likes) keeps spreading. @ericosiu amplified it. @will_bender1 mapped 7 ways creators monetize Claude Code. Plugin executables (v2.1.92) now let skills ship binaries under bin/.",
+          "**Why it matters for content:** Skills are becoming the new \"templates\" \u2014 the currency of the AI creator economy. First movers who build reputation around high-quality skills win.",
+          "**Suggested hook angle:** \"Claude Code skills are the new SaaS. Here's how to build and sell them.\" Walk through the skill structure, show a real skill being installed and run, then tease the CMNDSHFT skill giveaway funnel."
+        ],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 18,
+          "cross_source": 8,
+          "engagement": 5,
+          "velocity": 5
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          3,
+          8,
+          11,
+          17,
+          24
+        ],
+        "sources": [
+          "x"
+        ]
+      },
+      {
+        "name": "4. Claude Code Source Leak Aftermath Continues",
+        "details": [
+          "**What's happening:** The March 31 source leak story (512K lines, 44 hidden feature flags, KAIROS daemon mode) continues to generate content. Users on r/ClaudeAI are still finding bugs in Anthropic's code and posting fixes. The \"claw-code\" clean-room rewrite hit 100K stars. Trojanized versions are still circulating (Help Net Security, The Register reporting malware angle).",
+          "**Why it matters for content:** The leak story is transitioning from \"breaking news\" to \"analysis phase.\" There's still room for practical breakdowns, especially connecting leaked features to real workflows.",
+          "**Suggested hook angle:** \"5 things from the Claude Code leak that actually matter for your workflow.\" Skip the drama, focus on what builders can use: KAIROS implications, the /dream memory system, and the feature flags that hint at what's shipping next."
+        ],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 25,
+          "cross_source": 16,
+          "engagement": 0,
+          "velocity": 9
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          2,
+          10,
+          15,
+          18,
+          24,
+          31
+        ],
+        "sources": [
+          "reddit",
+          "news"
+        ]
+      },
+      {
+        "name": "5. AI Automation Backlash: \"Got Fired for Automating My Job\"",
+        "details": [
+          "**What's happening:** The BORU (Best of Redditor Updates) post about someone being investigated for automating work hit 2,354 upvotes. The MIT \"AI won't replace engineers\" study generated a counter-narrative in comments (top comment: \"We downsized by a third, everyone does 30% more with Claude Code\"). IBM reportedly told managers to stop hiring. The tension between \"AI won't replace you\" and \"AI already replaced your coworkers\" is the conversation.",
+          "**Why it matters for content:** This is emotional content that drives shares. Real stories about real consequences of AI automation.",
+          "**Suggested hook angle:** \"This guy got investigated for automating his own job. Here's what actually happened.\" Read the Reddit story on camera, then pivot: \"The lesson isn't don't automate \u2014 it's automate correctly.\""
         ],
         "heat": "emerging",
         "heat_score": {
@@ -89,139 +144,83 @@
         ]
       },
       {
-        "name": "4. Open-Source Claude Code Skills for Marketing Going Viral",
-        "details": [
-          "**What's happening:** A marketing agency open-sourced their entire Claude Code skill set for growth experiments, sales pipeline, content ops, outbound, and SEO. The X post from @ihtesham2005 pulled 1,574 likes. Multiple creators (Eric Siu, Sabrina Ramonov, others) are sharing their Claude Code stacks publicly.",
-          "**Why it matters for content:** This validates the entire CMNDSHFT model \u2014 skills as the new currency. People are literally giving away what you're selling.",
-          "**Suggested hook angle:** \"A marketing agency just open-sourced skills that replace $8K/month in hires. Here's how to actually use them.\" Walk through the skill set, show how to install and customize for your own business."
-        ],
+        "name": "- **v2.1.92** (latest)",
+        "details": [],
         "heat": "emerging",
         "heat_score": {
-          "total": 30,
-          "cross_source": 16,
-          "engagement": 5,
-          "velocity": 9
+          "total": 5,
+          "cross_source": 0,
+          "engagement": 0,
+          "velocity": 5
         },
         "trend_status": "rising",
         "sparkline": [
           0,
-          7,
-          15,
-          20,
-          23,
-          29,
-          36
+          0,
+          0,
+          0,
+          -2,
+          4,
+          11
         ],
         "sources": [
-          "x"
+          "ig"
         ]
       },
       {
-        "name": "5. \"Chaos Culture\" Dominates Instagram \u2014 Raw Over Polished",
+        "name": "- **v2.1.91**",
+        "details": [],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 5,
+          "cross_source": 0,
+          "engagement": 0,
+          "velocity": 5
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          0,
+          0,
+          -2,
+          4,
+          11
+        ],
+        "sources": [
+          "ig"
+        ]
+      },
+      {
+        "name": "- **v2.1.90**",
         "details": [
-          "**What's happening:** The shift from polished, edited content to raw, spontaneous, imperfect posts is accelerating. Younger audiences reward authenticity over production value. AI-generated memes are the fastest-spreading content format. Faceless Reels with AI voiceovers are getting massive reach.",
-          "**Why it matters for content:** This plays directly into the \"film it from your desk\" format Christian already uses. No excuse not to post \u2014 imperfect IS the trend.",
-          "**Suggested hook angle:** \"Stop editing your Reels. Here's why ugly content is outperforming polished content in 2026.\" Show the data, then demonstrate by posting a raw take.",
-          "**`/loop` command gaining traction** \u2014 @JulianGoldieSEO on X: \"The underrated Claude Code feature nobody is talking about. Run once = automation. Run in a loop = system.\"",
-          "**Monetization patterns crystallizing** \u2014 7 ways creators are making money with Claude Code: build-to-sell workflows, custom AI assistants, Gumroad skill packs, consulting, content automation"
+          "**`/loop` gaining traction** \u2014 @JulianGoldieSEO: \"Run once = automation. Run in a loop = system.\" The persistent agent use case is the next frontier."
         ],
         "heat": "emerging",
         "heat_score": {
-          "total": 17,
+          "total": 13,
           "cross_source": 8,
           "engagement": 0,
-          "velocity": 9
+          "velocity": 5
         },
         "trend_status": "rising",
         "sparkline": [
           0,
           0,
-          2,
-          7,
-          10,
-          16,
-          23
+          0,
+          3,
+          6,
+          12,
+          19
         ],
         "sources": [
           "x"
-        ]
-      },
-      {
-        "name": "1. **\"I dug through [leaked/hidden thing] and here's what I found\"** \u2014 the r/ClaudeAI leaked source post hit 5,200 upvotes. Discovery/revelation content is dominating.",
-        "details": [],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 0,
-          "engagement": 0,
-          "velocity": 5
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          -2,
-          4,
-          11
-        ],
-        "sources": [
-          "ig"
-        ]
-      },
-      {
-        "name": "2. **Reddit comment reaction format** \u2014 reading top Reddit comments on camera. The MIT vs. reality thread is perfect for this. Comments are getting 500-3,000 upvotes each.",
-        "details": [],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 0,
-          "engagement": 0,
-          "velocity": 5
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          -2,
-          4,
-          11
-        ],
-        "sources": [
-          "ig"
-        ]
-      },
-      {
-        "name": "3. **\"Got fired/disciplined for automating my job\" story arcs** \u2014 the BORU post about being investigated for automating work hit 2,350 upvotes. Real human drama + AI angle.",
-        "details": [],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 0,
-          "engagement": 0,
-          "velocity": 5
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          -2,
-          4,
-          11
-        ],
-        "sources": [
-          "ig"
         ]
       }
     ],
     "urgent": "",
-    "date": "2026-04-03-trends",
-    "file": "/Users/christianmcleod/content-engine/docs/daily-trends/2026-04-03-trends.md"
+    "date": "2026-04-05-trends",
+    "file": "/Users/christianmcleod/content-engine/docs/daily-trends/2026-04-05-trends.md"
   },
   "outliers": {
     "posts": [
@@ -385,59 +384,64 @@
   "suggested_content": {
     "ideas": [
       {
-        "title": "Idea 1: \"Claude Code's Source Just Leaked \u2014 Here's What They Were Hiding\"",
+        "title": "Idea 1: \"Anthropic Just Broke Thousands of AI Automations\"",
         "details": {
-          "Hook": "\"Anthropic accidentally leaked 512,000 lines of Claude Code's source code. And what's inside is wild.\"",
-          "Text overlay": "\"CLAUDE CODE LEAKED: 44 Hidden Features Found\"",
-          "CTA keyword": "LEAK",
-          "Skill giveaway": "Claude Code CLAUDE.md memory optimization skill",
-          "Why now": "Story broke March 31, mainstream coverage is peaking TODAY (April 3). TechCrunch, VentureBeat, The Register all running pieces. 48-72 hour window before it's old news."
+          "Title": "Anthropic Killed OpenClaw Access \u2014 What It Means for Your AI Stack",
+          "Hook (spoken)": "\"Anthropic just cut off 247,000 developers from using Claude through their favorite tool. If you're using AI automations, this affects you.\"",
+          "Text overlay": "\"CLAUDE JUST BLOCKED OPENCLAW \u2014 Are Your Automations Safe?\"",
+          "CTA keyword": "SAFE",
+          "Skill giveaway": "Claude Code migration skill \u2014 moves any OpenClaw workflow into native Claude Code skills in 5 minutes",
+          "Why now": "Story broke April 4, mainstream coverage is peaking TODAY. TNW, Digital Trends, Hacker News all running it. Developers are panicking and looking for alternatives. **This is a 24-hour window** before every tech YouTuber covers it."
         },
         "urgency_hours": 12
       },
       {
-        "title": "Idea 2: \"Your AI Just Learned How to Sleep\"",
+        "title": "Idea 2: \"The $0 AI Stack Everyone's Posting Is Missing Something\"",
         "details": {
-          "Hook": "\"Claude Code can now dream. No, literally \u2014 they built a feature called /dream that consolidates your AI's memory while you're away.\"",
-          "Text overlay": "\"Claude Code /dream = AI Memory on Autopilot\"",
-          "CTA keyword": "DREAM",
-          "Skill giveaway": "Auto-dream setup walkthrough skill (show MEMORY.md before/after)",
-          "Why now": "/dream discovery post hit 2,400 upvotes on r/ClaudeCode. Most creators haven't covered this yet because the leak story overshadowed it. Be the one who connects it to practical use."
+          "Title": "What They're NOT Telling You About the $0 AI Stack",
+          "Hook (spoken)": "\"Every AI creator on X is posting their zero-dollar stack right now. Claude Code, n8n, Stripe, done. Here's what none of them are showing you.\"",
+          "Text overlay": "\"The $0 AI Stack They Won't Show You\"",
+          "CTA keyword": "STACK",
+          "Skill giveaway": "CMNDSHFT starter skill pack \u2014 5 battle-tested skills for content, SEO, lead gen, audit, and proposal writing",
+          "Why now": "4+ viral X posts this week all pushing the solo AI founder stack. The trend is peaking. Christian can ride the wave while adding genuine substance \u2014 show the CLAUDE.md, the memory architecture, the skill dependencies that make it actually work."
         },
-        "urgency_hours": 96
+        "urgency_hours": 12
       },
       {
-        "title": "Idea 3: \"MIT Says AI Won't Replace Engineers. The Comments Disagree.\"",
+        "title": "Idea 3: \"Claude Code Skills Are the New SaaS\"",
         "details": {
-          "Hook": "\"MIT just published a study saying AI won't replace software engineers. Then I read the comments.\"",
-          "Text overlay": "\"'We downsized by a third. Everyone does 30% more with Claude Code.'\"",
-          "CTA keyword": "TRUTH",
-          "Skill giveaway": "AI workflow audit skill \u2014 assess what in your job can be automated",
-          "Why now": "The Reddit thread is 2 days old and still getting engagement. The IBM \"stop hiring, use AI\" angle just broke. The tension between academic research and real-world reports is peak engagement bait."
-        },
-        "urgency_hours": 36
-      },
-      {
-        "title": "Idea 4: \"A Marketing Agency Just Open-Sourced Their Entire AI Playbook\"",
-        "details": {
-          "Hook": "\"A marketing agency generating millions in revenue just open-sourced their entire Claude Code skill set. Growth experiments, sales pipeline, content ops, SEO \u2014 all of it. Free.\"",
-          "Text overlay": "\"FREE: AI Skills That Replace $8K/Month in Hires\"",
+          "Title": "How Creators Are Making Money Selling Claude Code Skills",
+          "Hook (spoken)": "\"A marketing agency just open-sourced skills that replace eight thousand dollars a month in hires. And some creators are now SELLING these for recurring revenue. This is the new SaaS.\"",
+          "Text overlay": "\"CLAUDE CODE SKILLS = The New SaaS Business Model\"",
           "CTA keyword": "SKILLS",
-          "Skill giveaway": "Curated starter pack of 5 best skills from the open-source drop",
-          "Why now": "The @ihtesham2005 X post hit 1,574 likes and is still spreading. Eric Siu amplified it. The \"free AI tools replacing expensive hires\" narrative is red hot."
+          "Skill giveaway": "Skill builder template \u2014 blank skill scaffold with SKILL.md, hooks, and example commands pre-configured",
+          "Why now": "@ihtesham2005's post (1,595 likes) is still circulating. @will_bender1 mapped 7 monetization paths. Claude Code v2.1.92 just shipped plugin executables (skills can now bundle binaries). The infrastructure for a skill marketplace is forming in real time."
         },
         "urgency_hours": 72
       },
       {
-        "title": "Idea 5: \"The Claude Code Feature Nobody Is Talking About\"",
+        "title": "Idea 4: \"This Guy Got Investigated for Automating His Job\"",
         "details": {
-          "Hook": "\"Everyone is talking about the Claude Code leak. Nobody is talking about /loop. Run once, it's automation. Run in a loop, it's a system.\"",
-          "Text overlay": "\"/loop = Turn Claude Code Into a 24/7 Employee\"",
-          "CTA keyword": "LOOP",
-          "Skill giveaway": "/loop monitoring skill \u2014 set up Claude Code to watch your community and auto-draft responses",
-          "Why now": "@JulianGoldieSEO posted this TODAY (April 2). The concept of Claude Code as a persistent system (not a one-shot tool) directly reinforces the CMNDSHFT \"AI employee\" positioning. Film it while the leak gives you a natural segue."
+          "Title": "He Automated His Job. Then HR Called.",
+          "Hook (spoken)": "\"A guy in England automated ninety percent of his work using company-approved tools. His reward? A disciplinary investigation.\"",
+          "Text overlay": "\"AUTOMATED HIS JOB \u2192 NEARLY FIRED\"",
+          "CTA keyword": "AUTOMATE",
+          "Skill giveaway": "AI workflow audit skill \u2014 identifies which parts of your job can be automated (and which you should keep quiet about)",
+          "Why now": "The BORU post (2,354 upvotes) is still generating engagement. The MIT study comments are still being shared. IBM's \"stop hiring\" directive just leaked. The \"should you automate quietly?\" question is the water cooler conversation of the week."
         },
-        "urgency_hours": 12
+        "urgency_hours": 72
+      },
+      {
+        "title": "Idea 5: \"5 Hidden Features From the Claude Code Leak That Actually Matter\"",
+        "details": {
+          "Title": "The Claude Code Leak Revealed 5 Features Nobody's Talking About",
+          "Hook (spoken)": "\"Everyone covered the drama of Claude Code's source leak. Nobody covered the five features buried in the code that will change how you use it.\"",
+          "Text overlay": "\"5 HIDDEN FEATURES Found in Claude Code's Leaked Source\"",
+          "CTA keyword": "HIDDEN",
+          "Skill giveaway": "CLAUDE.md memory optimization skill \u2014 sets up the /dream memory system with best-practice templates",
+          "Why now": "The leak story is 5 days old, moving from \"breaking news\" to \"analysis\" phase. Most creators covered the drama (DMCA, malware). Almost nobody has done the practical \"here's what you should actually care about\" breakdown. The /dream feature (2,408 upvotes), KAIROS daemon mode, and the 44 feature flags are still under-covered from a builder's perspective."
+        },
+        "urgency_hours": 72
       }
     ]
   },
