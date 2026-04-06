@@ -1,126 +1,125 @@
 {
-  "generated_at": "2026-04-05T19:03:31.828030+00:00",
+  "generated_at": "2026-04-06T22:07:37.463119+00:00",
   "trending": {
     "topics": [
       {
-        "name": "1. Anthropic Cuts Off OpenClaw \u2014 The AI Platform War Heats Up",
+        "name": "1. Claude Goes Down on a Monday \u2014 Single-Provider Risk Is Real",
         "details": [
-          "**What's happening:** Anthropic blocked third-party agent frameworks from using Claude subscriptions, starting with OpenClaw. Users now pay per-use or switch to API keys. Thousands of developers' workflows are broken overnight. Coverage across TNW, Digital Trends, Geeky Gadgets, Hacker News, beincrypto, and Bitcoin News (crypto agents heavily used OpenClaw).",
-          "**Why it matters for content:** This is a platform governance story that affects every AI builder. The \"walled garden vs. open ecosystem\" debate is back \u2014 except now it's about AI agents, not app stores.",
-          "**Suggested hook angle:** \"Anthropic just broke thousands of AI automations overnight. Here's why \u2014 and what to do about it.\" Explain the OpenClaw situation, then show that native Claude Code skills are unaffected. Position yourself as the safe path."
+          "**What's happening:** Major global outage on April 6 hit Claude.ai, desktop, mobile, voice mode, and Claude Code login. ~2,700 reports on Downdetector. Two-hour outage resolved by 2:27 PM ET. Coverage across TechRadar, Tom's Guide, Android Authority, IBTimes.",
+          "**Why it matters for content:** Every person who built their workflow around Claude just had a wake-up call. The \"what's your backup?\" conversation is happening right now in every AI community.",
+          "**Suggested hook angle:** \"Claude went down today. Here's what I did instead.\" Show the resilience of a well-built AI stack \u2014 local fallbacks, cached outputs, pre-generated content queues. Position CMNDSHFT skills as infrastructure that degrades gracefully."
         ],
         "heat": "emerging",
         "heat_score": {
-          "total": 23,
-          "cross_source": 13,
-          "engagement": 5,
+          "total": 10,
+          "cross_source": 5,
+          "engagement": 0,
           "velocity": 5
         },
         "trend_status": "rising",
         "sparkline": [
           0,
-          4,
-          10,
-          15,
-          18,
-          21,
-          24
-        ],
-        "sources": [
-          "hn"
-        ]
-      },
-      {
-        "name": "2. The $1B One-Person Company Narrative Goes Mainstream",
-        "details": [
-          "**What's happening:** Multiple viral X posts this week (@usmaanbuildsAI, @Sabrina_Ramonov, @ZavionDaDon, @raindog_kitetu) are all pushing the same stack: Claude Code + n8n + Stripe + AI agents = run a business solo. @raindog_kitetu claims $0 payroll, $1.14/month infra. The \"solo AI founder\" archetype is crystallizing.",
-          "**Why it matters for content:** This IS the CMNDSHFT pitch. Every one of these posts validates the \"AI employees\" positioning. The difference: Christian actually shows HOW, not just WHAT.",
-          "**Suggested hook angle:** \"Everyone's posting their $0 AI stack. Here's what they're not telling you.\" Show the real complexity behind the viral tweets \u2014 the skills, the memory architecture, the edge cases. Honest take > hype take."
-        ],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 27,
-          "cross_source": 21,
-          "engagement": 5,
-          "velocity": 1
-        },
-        "trend_status": "rising",
-        "sparkline": [
           0,
-          7,
-          14,
-          19,
-          22,
-          25,
-          28
+          1,
+          3,
+          5,
+          8,
+          11
         ],
         "sources": [
-          "x"
+          "ig"
         ]
       },
       {
-        "name": "3. Claude Code Skills Marketplace Emerging",
+        "name": "2. OpenClaw Ban Aftermath \u2014 The Platform War Continues",
         "details": [
-          "**What's happening:** Open-source skill packs for marketing, sales, SEO, and content are being shared across X and GitHub. @ihtesham2005's marketing agency skill drop (1,595 likes) keeps spreading. @ericosiu amplified it. @will_bender1 mapped 7 ways creators monetize Claude Code. Plugin executables (v2.1.92) now let skills ship binaries under bin/.",
-          "**Why it matters for content:** Skills are becoming the new \"templates\" \u2014 the currency of the AI creator economy. First movers who build reputation around high-quality skills win.",
-          "**Suggested hook angle:** \"Claude Code skills are the new SaaS. Here's how to build and sell them.\" Walk through the skill structure, show a real skill being installed and run, then tease the CMNDSHFT skill giveaway funnel."
+          "**What's happening:** Anthropic's April 4 ban on third-party agent frameworks (OpenClaw) from Claude subscriptions continues to dominate. TechCrunch, Benzinga, The AI Insider, UCStrategies all running stories. Developers forced to pay-per-use or switch to API keys. Boris Cherny confirmed the policy, offering one-time credits. The narrative has shifted from \"breaking news\" to \"what do we do now.\"",
+          "**Why it matters for content:** The OpenClaw ban + today's outage creates a compounding narrative: Anthropic is simultaneously restricting access AND failing on reliability. That's a potent story for builders evaluating their AI stack.",
+          "**Suggested hook angle:** \"Anthropic cut off OpenClaw on Friday. Then Claude went down on Monday. Here's the lesson nobody wants to hear.\" Build the case for native skills over third-party wrappers, and multi-provider resilience over single-vendor loyalty."
         ],
         "heat": "emerging",
         "heat_score": {
           "total": 18,
           "cross_source": 13,
-          "engagement": 5,
-          "velocity": 0
+          "engagement": 0,
+          "velocity": 5
         },
         "trend_status": "rising",
         "sparkline": [
           0,
-          1,
-          4,
-          7,
+          2,
+          6,
           10,
           13,
-          16
+          16,
+          19
         ],
         "sources": [
-          "x"
+          "news"
         ]
       },
       {
-        "name": "4. Claude Code Source Leak Aftermath Continues",
+        "name": "3. Amazon's 16,000 AI Layoffs Hit Phase 2 \u2014 Real-World Impact",
         "details": [
-          "**What's happening:** The March 31 source leak story (512K lines, 44 hidden feature flags, KAIROS daemon mode) continues to generate content. Users on r/ClaudeAI are still finding bugs in Anthropic's code and posting fixes. The \"claw-code\" clean-room rewrite hit 100K stars. Trojanized versions are still circulating (Help Net Security, The Register reporting malware angle).",
-          "**Why it matters for content:** The leak story is transitioning from \"breaking news\" to \"analysis phase.\" There's still room for practical breakdowns, especially connecting leaked features to real workflows.",
-          "**Suggested hook angle:** \"5 things from the Claude Code leak that actually matter for your workflow.\" Skip the drama, focus on what builders can use: KAIROS implications, the /dream memory system, and the feature flags that hint at what's shipping next."
+          "**What's happening:** Amazon's \"Project Dawn\" layoffs (16,000 positions) separations begin April 28, bringing the four-month total to 30,000 jobs. CEO Jassy explicitly tied cuts to AI/automation. Dow Inc. separately announced 4,500 AI-driven cuts. Tech layoffs in 2026 have hit 59,000 across Amazon, Meta, and Block. IBTimes, CNN, ABC News, Fortune, Salesforce Ben all covering.",
+          "**Why it matters for content:** This is the \"AI is actually replacing people\" data point that makes the abstract concrete. Unlike the MIT \"AI won't replace engineers\" study (still circulating), these are real layoff numbers from the world's second-largest employer.",
+          "**Suggested hook angle:** \"Amazon just fired 16,000 people because of AI. Here's what they're not telling you about which jobs survived.\" Break down which roles got cut vs. which got more AI tools. The answer: the people who knew how to direct AI kept their jobs."
         ],
         "heat": "emerging",
         "heat_score": {
-          "total": 22,
-          "cross_source": 21,
+          "total": 6,
+          "cross_source": 5,
           "engagement": 0,
           "velocity": 1
         },
         "trend_status": "rising",
         "sparkline": [
           0,
+          0,
+          0,
+          0,
+          2,
           4,
-          9,
-          14,
-          17,
-          20,
-          23
+          7
         ],
         "sources": [
-          "reddit",
+          "ig"
+        ]
+      },
+      {
+        "name": "4. Claude Code Security Vulnerability \u2014 Deny Rules Bypassed",
+        "details": [
+          "**What's happening:** Critical flaw (CVE-2026-21852) where Claude Code's deny rules silently failed when commands contained 50+ subcommands. The performance optimization that capped security analysis at 50 entries meant attackers could pad malicious commands past blocked operations. Patched in v2.1.90. Adversa.ai, CybersecurityNews, The Register, GBHackers, Check Point Research all reporting.",
+          "**Why it matters for content:** Security content performs exceptionally well because it's both urgent AND educational. Builders who use deny rules (enterprise, CI/CD) need to know immediately.",
+          "**Suggested hook angle:** \"Your Claude Code security rules might not be working. Here's the one-minute check.\" Walk through the deny rule config, show how the bypass worked, confirm the patch is applied. Fast, useful, builds trust."
+        ],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 13,
+          "cross_source": 13,
+          "engagement": 0,
+          "velocity": 0
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          1,
+          3,
+          5,
+          8,
+          11
+        ],
+        "sources": [
           "news"
         ]
       },
       {
-        "name": "5. AI Automation Backlash: \"Got Fired for Automating My Job\"",
+        "name": "5. The $0 AI Stack Trend Peaks \u2014 Solo Founder Archetype Goes Mainstream",
         "details": [
-          "**What's happening:** The BORU (Best of Redditor Updates) post about someone being investigated for automating work hit 2,354 upvotes. The MIT \"AI won't replace engineers\" study generated a counter-narrative in comments (top comment: \"We downsized by a third, everyone does 30% more with Claude Code\"). IBM reportedly told managers to stop hiring. The tension between \"AI won't replace you\" and \"AI already replaced your coworkers\" is the conversation.",
-          "**Why it matters for content:** This is emotional content that drives shares. Real stories about real consequences of AI automation.",
-          "**Suggested hook angle:** \"This guy got investigated for automating his own job. Here's what actually happened.\" Read the Reddit story on camera, then pivot: \"The lesson isn't don't automate \u2014 it's automate correctly.\""
+          "**What's happening:** Multiple viral X posts this week from @usmaanbuildsAI, @Sabrina_Ramonov, @ZavionDaDon, @raindog_kitetu all pushing Claude Code + n8n + Stripe + AI agents = solo business. @will_bender1 mapped 7 monetization paths for Claude Code. @RONiNmedia000 running a public challenge building content automation systems. The \"solo AI founder\" narrative is crystallizing into a defined archetype.",
+          "**Why it matters for content:** This IS the CMNDSHFT origin story. The difference is Christian has been doing this since before it was trending. The opportunity is to ride the wave while showing the complexity that viral posts leave out.",
+          "**Suggested hook angle:** \"Everyone's posting their $0 AI stack. Here's what year two actually looks like.\" Skip the hype, show the maintenance \u2014 memory management, skill versioning, error handling, the stuff nobody tweets about."
         ],
         "heat": "emerging",
         "heat_score": {
@@ -140,61 +139,87 @@
           29
         ],
         "sources": [
-          "reddit"
+          "x"
         ]
       },
       {
-        "name": "- **v2.1.92** (latest)",
-        "details": [],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 5,
-          "engagement": 0,
-          "velocity": 0
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          3
-        ],
-        "sources": [
-          "ig"
-        ]
-      },
-      {
-        "name": "- **v2.1.91**",
-        "details": [],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 5,
-          "engagement": 0,
-          "velocity": 0
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          3
-        ],
-        "sources": [
-          "ig"
-        ]
-      },
-      {
-        "name": "- **v2.1.90**",
+        "name": "- **v2.1.90 security patch** for CVE-2026-21852 \u2014 deny rule bypass when commands exceed 50 subcommands. Restored proper enforcement in auto-approve/CI modes.",
         "details": [
-          "**`/loop` gaining traction** \u2014 @JulianGoldieSEO: \"Run once = automation. Run in a loop = system.\" The persistent agent use case is the next frontier."
+          "**Claude.ai global outage** \u2014 10:30 AM to 2:27 PM ET. Login, chat, voice mode, Claude Code login all affected. ~2,700 Downdetector reports."
+        ],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 5,
+          "cross_source": 5,
+          "engagement": 0,
+          "velocity": 0
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3
+        ],
+        "sources": [
+          "ig"
+        ]
+      },
+      {
+        "name": "- **v2.1.92** \u2014 MCP tool result persistence override (500K chars), plugin executables (skills can ship binaries under `bin/`), Write tool diff 60% faster, `disableSkillShellExecution` setting",
+        "details": [],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 5,
+          "cross_source": 5,
+          "engagement": 0,
+          "velocity": 0
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3
+        ],
+        "sources": [
+          "ig"
+        ]
+      },
+      {
+        "name": "- **v2.1.91** \u2014 MCP tool result persistence via `_meta[\"anthropic/maxResultSizeChars\"]` annotation",
+        "details": [],
+        "heat": "emerging",
+        "heat_score": {
+          "total": 5,
+          "cross_source": 5,
+          "engagement": 0,
+          "velocity": 0
+        },
+        "trend_status": "rising",
+        "sparkline": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3
+        ],
+        "sources": [
+          "ig"
+        ]
+      },
+      {
+        "name": "- **v2.1.90** \u2014 `/powerup` interactive lessons (18 topics), fixed `--resume` cache miss with deferred tools, `.husky` protected directory, fixed auto mode boundary ignoring",
+        "details": [
+          "**`/loop` gaining traction** \u2014 @JulianGoldieSEO: \"Run once = automation. Run in a loop = system.\""
         ],
         "heat": "emerging",
         "heat_score": {
@@ -218,7 +243,7 @@
         ]
       },
       {
-        "name": "1. **\"[Company] just [did controversial thing]\" reaction format** \u2014 The OpenClaw ban is the perfect vehicle. Controversy + explainer + \"what to do now\" three-act structure.",
+        "name": "1. **\"[Platform] is down / broke / betrayed users\" reaction format** \u2014 Today's outage + Friday's OpenClaw ban are both perfect vehicles. Controversy + explainer + \"here's what to do now\" three-act structure continues to perform.",
         "details": [],
         "heat": "emerging",
         "heat_score": {
@@ -242,7 +267,7 @@
         ]
       },
       {
-        "name": "2. **\"Here's your free [stack/toolkit]\" posts** \u2014 @Sabrina_Ramonov's free solo AI builder stack, @ihtesham2005's open-sourced skills. Generous giveaway posts continue to pull engagement.",
+        "name": "2. **\"Chaos culture\" over polish** \u2014 The movement away from polished, heavily edited content toward raw, spontaneous posts. Younger audiences prioritize authenticity. Raw voiceover with no background music still performs well for tech content.",
         "details": [],
         "heat": "emerging",
         "heat_score": {
@@ -266,9 +291,10 @@
         ]
       },
       {
-        "name": "4. **Reddit comment reaction format** \u2014 reading top comments on camera still works. The MIT study thread and the OpenClaw HN thread both have gold-tier comments.",
+        "name": "3. **\"Here's your free [stack/toolkit]\" posts** \u2014 @Sabrina_Ramonov, @ihtesham2005's open-source skills, @WritSop's $9.99 automation toolkit. Generous giveaway format continues pulling engagement.",
         "details": [
-          "Dollar amounts in hooks: \"$0 payroll\", \"$1.14/month infra\", \"$8K in hires\", \"50x cost increase\"",
+          "Dollar amounts in hooks: \"$0 payroll\", \"$1.14/month infra\", \"16,000 layoffs\", \"50x cost increase\"",
+          "Security urgency: \"Your [tool] has a flaw. Check this NOW.\"",
           "Contrarian: \"Stop [common practice]. Here's why [unexpected truth].\""
         ],
         "heat": "emerging",
@@ -373,38 +399,11 @@
         "sources": [
           "ig"
         ]
-      },
-      {
-        "name": "Vibe coding / no-code AI apps",
-        "details": [
-          "Riley Brown: 1M followers from this angle. \"Build apps without coding\" movement.",
-          "**Suggested hook angle:** \"Build business tools with AI, not developers\""
-        ],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 5,
-          "engagement": 0,
-          "velocity": 0
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          3
-        ],
-        "sources": [
-          "ig"
-        ]
       }
     ],
     "urgent": "",
-    "date": "2026-04-05-trends",
-    "file": "/Users/christianmcleod/content-engine/docs/daily-trends/2026-04-05-trends.md"
+    "date": "2026-04-06-trends",
+    "file": "/Users/christianmcleod/content-engine/docs/daily-trends/2026-04-06-trends.md"
   },
   "outliers": {
     "posts": [
@@ -708,64 +707,64 @@
   "suggested_content": {
     "ideas": [
       {
-        "title": "Idea 1: \"Anthropic Just Broke Thousands of AI Automations\"",
+        "title": "Idea 1: \"Claude Went Down Today. Here's My Backup Plan.\"",
         "details": {
-          "Title": "Anthropic Killed OpenClaw Access \u2014 What It Means for Your AI Stack",
-          "Hook (spoken)": "\"Anthropic just cut off 247,000 developers from using Claude through their favorite tool. If you're using AI automations, this affects you.\"",
-          "Text overlay": "\"CLAUDE JUST BLOCKED OPENCLAW \u2014 Are Your Automations Safe?\"",
-          "CTA keyword": "SAFE",
-          "Skill giveaway": "Claude Code migration skill \u2014 moves any OpenClaw workflow into native Claude Code skills in 5 minutes",
-          "Why now": "Story broke April 4, mainstream coverage is peaking TODAY. TNW, Digital Trends, Hacker News all running it. Developers are panicking and looking for alternatives. **This is a 24-hour window** before every tech YouTuber covers it."
+          "Title": "Claude Just Went Down for 2 Hours \u2014 Are Your AI Automations Fragile?",
+          "Hook (spoken)": "\"Claude went down globally this morning. Thousands of AI builders lost access to their entire workflow. I didn't skip a beat. Here's why.\"",
+          "Text overlay": "\"CLAUDE IS DOWN -- Is Your AI Stack Fragile?\"",
+          "CTA keyword": "BACKUP",
+          "Skill giveaway": "AI resilience audit skill \u2014 checks your workflow for single-provider dependencies and suggests fallback layers",
+          "Why now": "The outage happened TODAY. Every AI builder is talking about it right now. This is a same-day reactive window \u2014 film within hours, not days. TechRadar, Tom's Guide, and Android Authority are all running live coverage. The comment sections are full of people asking \"what do I do when this happens?\""
         },
         "urgency_hours": 12
       },
       {
-        "title": "Idea 2: \"The $0 AI Stack Everyone's Posting Is Missing Something\"",
+        "title": "Idea 2: \"Claude Code Had a Security Flaw Nobody Told You About\"",
         "details": {
-          "Title": "What They're NOT Telling You About the $0 AI Stack",
-          "Hook (spoken)": "\"Every AI creator on X is posting their zero-dollar stack right now. Claude Code, n8n, Stripe, done. Here's what none of them are showing you.\"",
-          "Text overlay": "\"The $0 AI Stack They Won't Show You\"",
-          "CTA keyword": "STACK",
-          "Skill giveaway": "CMNDSHFT starter skill pack \u2014 5 battle-tested skills for content, SEO, lead gen, audit, and proposal writing",
-          "Why now": "4+ viral X posts this week all pushing the solo AI founder stack. The trend is peaking. Christian can ride the wave while adding genuine substance \u2014 show the CLAUDE.md, the memory architecture, the skill dependencies that make it actually work."
+          "Title": "Your Claude Code Deny Rules Were Silently Broken \u2014 Check This Now",
+          "Hook (spoken)": "\"A security researcher just proved that your Claude Code deny rules \u2014 the ones protecting your SSH keys and API tokens \u2014 could be completely bypassed with one simple trick.\"",
+          "Text overlay": "\"CLAUDE CODE SECURITY FLAW -- Check Your Deny Rules NOW\"",
+          "CTA keyword": "SECURE",
+          "Skill giveaway": "Claude Code security hardening skill \u2014 audits your deny rules, checks version, validates CI/CD configurations",
+          "Why now": "Patch dropped today (v2.1.90). CybersecurityNews, The Register, Check Point Research, and GBHackers all published. Security content has long shelf life and high share rate. Enterprise builders (your highest-value audience) will share this immediately."
         },
         "urgency_hours": 12
       },
       {
-        "title": "Idea 3: \"Claude Code Skills Are the New SaaS\"",
+        "title": "Idea 3: \"Anthropic Cut Off OpenClaw. Then Claude Went Down. See the Pattern?\"",
         "details": {
-          "Title": "How Creators Are Making Money Selling Claude Code Skills",
-          "Hook (spoken)": "\"A marketing agency just open-sourced skills that replace eight thousand dollars a month in hires. And some creators are now SELLING these for recurring revenue. This is the new SaaS.\"",
-          "Text overlay": "\"CLAUDE CODE SKILLS = The New SaaS Business Model\"",
-          "CTA keyword": "SKILLS",
-          "Skill giveaway": "Skill builder template \u2014 blank skill scaffold with SKILL.md, hooks, and example commands pre-configured",
-          "Why now": "@ihtesham2005's post (1,595 likes) is still circulating. @will_bender1 mapped 7 monetization paths. Claude Code v2.1.92 just shipped plugin executables (skills can now bundle binaries). The infrastructure for a skill marketplace is forming in real time."
+          "Title": "Anthropic's Worst Week \u2014 OpenClaw Ban + Global Outage + Security Flaw",
+          "Hook (spoken)": "\"On Friday, Anthropic cut off 247,000 developers from using Claude through OpenClaw. On Monday, Claude went down globally. Also on Monday, they patched a critical security flaw. This is what happens when the platform you depend on starts breaking.\"",
+          "Text overlay": "\"ANTHROPIC'S WORST WEEK -- 3 Crises in 3 Days\"",
+          "CTA keyword": "SHIFT",
+          "Skill giveaway": "Multi-provider AI stack builder \u2014 sets up Claude + fallback workflows so you never lose a day of work",
+          "Why now": "Three separate Anthropic stories converging in a 72-hour window creates a narrative that's bigger than any individual story. This is the \"pattern recognition\" content that thought leaders make \u2014 connecting dots that others report separately. Time-sensitive: the pattern only holds while all three stories are fresh."
+        },
+        "urgency_hours": 96
+      },
+      {
+        "title": "Idea 4: \"Amazon Just Fired 16,000 People Because of AI\"",
+        "details": {
+          "Title": "Amazon's AI Layoffs Start April 28 \u2014 Which Jobs Survived?",
+          "Hook (spoken)": "\"Amazon just announced 16,000 people are getting laid off starting April 28th. Their CEO said it's because of AI. But here's the part nobody's reporting \u2014 which jobs DIDN'T get cut, and what they have in common.\"",
+          "Text overlay": "\"16,000 FIRED -- Amazon CEO Blames AI\"",
+          "CTA keyword": "SURVIVE",
+          "Skill giveaway": "AI job security audit skill \u2014 analyzes your role against the patterns of which positions survived vs. got automated at Amazon, Dow, Meta, and Block",
+          "Why now": "Separations begin April 28 \u2014 this is the last window before the story becomes stale. Combined with the MIT \"AI won't replace engineers\" study (still generating debate at 2,312 upvotes) and the IBM \"stop hiring\" directive, there's a three-way tension: academia says safe, corporations say fired, builders say \"learn to direct AI.\" Christian can own the builder angle."
         },
         "urgency_hours": 72
       },
       {
-        "title": "Idea 4: \"This Guy Got Investigated for Automating His Job\"",
+        "title": "Idea 5: \"The $0 AI Stack Everyone's Posting Is a Lie\"",
         "details": {
-          "Title": "He Automated His Job. Then HR Called.",
-          "Hook (spoken)": "\"A guy in England automated ninety percent of his work using company-approved tools. His reward? A disciplinary investigation.\"",
-          "Text overlay": "\"AUTOMATED HIS JOB \u2192 NEARLY FIRED\"",
-          "CTA keyword": "AUTOMATE",
-          "Skill giveaway": "AI workflow audit skill \u2014 identifies which parts of your job can be automated (and which you should keep quiet about)",
-          "Why now": "The BORU post (2,354 upvotes) is still generating engagement. The MIT study comments are still being shared. IBM's \"stop hiring\" directive just leaked. The \"should you automate quietly?\" question is the water cooler conversation of the week."
+          "Title": "What Nobody Tells You About Running a Business With AI Employees",
+          "Hook (spoken)": "\"Every AI creator on X is posting their zero-dollar stack this week. Claude Code, n8n, Stripe, done. They're showing you month one. I'll show you month twelve.\"",
+          "Text overlay": "\"The $0 AI Stack Is a LIE -- Here's Year Two\"",
+          "CTA keyword": "REAL",
+          "Skill giveaway": "CMNDSHFT starter skill pack \u2014 5 production-tested skills for content, SEO, lead gen, audit, and proposal writing. The stuff that survives past month one.",
+          "Why now": "@usmaanbuildsAI, @Sabrina_Ramonov, @ZavionDaDon, @raindog_kitetu all posted viral $0 stack content THIS WEEK. The trend is peaking. Everyone is showing the setup \u2014 nobody is showing the maintenance, the errors, the memory architecture that keeps it running. Today's Claude outage is the PERFECT proof point: \"What happened to everyone's $0 stack when Claude went down this morning?\""
         },
-        "urgency_hours": 72
-      },
-      {
-        "title": "Idea 5: \"5 Hidden Features From the Claude Code Leak That Actually Matter\"",
-        "details": {
-          "Title": "The Claude Code Leak Revealed 5 Features Nobody's Talking About",
-          "Hook (spoken)": "\"Everyone covered the drama of Claude Code's source leak. Nobody covered the five features buried in the code that will change how you use it.\"",
-          "Text overlay": "\"5 HIDDEN FEATURES Found in Claude Code's Leaked Source\"",
-          "CTA keyword": "HIDDEN",
-          "Skill giveaway": "CLAUDE.md memory optimization skill \u2014 sets up the /dream memory system with best-practice templates",
-          "Why now": "The leak story is 5 days old, moving from \"breaking news\" to \"analysis\" phase. Most creators covered the drama (DMCA, malware). Almost nobody has done the practical \"here's what you should actually care about\" breakdown. The /dream feature (2,408 upvotes), KAIROS daemon mode, and the 44 feature flags are still under-covered from a builder's perspective."
-        },
-        "urgency_hours": 72
+        "urgency_hours": 12
       },
       {
         "title": "Opportunity #1: Agency Replacement Hook Series",

@@ -1,163 +1,163 @@
 {
   "source": "google_trends",
-  "collected_at": "2026-04-05T18:54:06.331039+00:00",
+  "collected_at": "2026-04-06T21:59:36.515832+00:00",
   "items": [
     {
-      "title": "suns vs bulls",
+      "title": "jack nicklaus",
       "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=suns+vs+bulls&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=jack+nicklaus&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:40:00 -0700",
+      "date": "Mon, 6 Apr 2026 14:40:00 -0700",
       "approximate_traffic": "1000+",
       "related_news": [
-        "Game Preview: Suns aim to bounce back against the Bulls in Chicago",
-        "4/5/2026 Suns @ Bulls Game Preview",
-        "Phoenix Suns at Chicago Bulls (2:30 CT) \u2013 Prediction, Lineups, Injury Report"
+        "Jim Nantz: 40 years ago, Jack Nicklaus stunned the world and this first-year announcer",
+        "Forty years ago this week, Seve Ballesteros walked to the first tee at Augusta National",
+        "Seve\u2019s collapse and Jack\u2019s \u2018lightning in a bottle\u2019 \u2014 Augusta epic 40 years on"
       ],
-      "ai_relevant": true,
+      "ai_relevant": false,
       "rank": 1
     },
     {
-      "title": "grizzlies vs bucks",
-      "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=grizzlies+vs+bucks&geo=US",
+      "title": "unicorn frappuccino",
+      "score": 200,
+      "url": "https://trends.google.com/trends/explore?q=unicorn+frappuccino&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:40:00 -0700",
-      "approximate_traffic": "500+",
+      "date": "Mon, 6 Apr 2026 14:30:00 -0700",
+      "approximate_traffic": "200+",
       "related_news": [
-        "Memphis Grizzlies vs Milwaukee Bucks Odds - Sunday April 5 2026",
-        "Clayton, Jackson & Coward's status for Grizzlies-Bucks: Injuries, Odds & How to Watch",
-        "How to watch Grizzlies vs. Bucks: TV channel and streaming options for April 5"
+        "Starbucks joins Coachella 2026 as official sponsor",
+        "Starbucks brings back two viral drinks not seen in nearly a decade",
+        "Starbucks to Offer Unicorn Frappuccino Exclusively at Coachella 2026"
       ],
       "ai_relevant": false,
       "rank": 2
     },
     {
-      "title": "wizards vs nets",
+      "title": "royals vs guardians",
       "score": 2000,
-      "url": "https://trends.google.com/trends/explore?q=wizards+vs+nets&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=royals+vs+guardians&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:40:00 -0700",
+      "date": "Mon, 6 Apr 2026 14:20:00 -0700",
       "approximate_traffic": "2000+",
       "related_news": [
-        "Nets vs. Wizards preview: A matinee at Barclays",
-        "Wizards, Nets clash while draft lottery positioning looms large",
-        "Anthony Davis, Trae Young headline lengthy Wizards injury report for Easter tank-off vs. Nets"
+        "Royals-Guardians game time for Tuesday changed to 1:10 p.m. ET due to weather",
+        "Cleveland Guardians change Tuesday\u2019s game time due to weather",
+        "Guardians series preview: Bundle up!"
       ],
       "ai_relevant": false,
       "rank": 3
     },
     {
-      "title": "kyle harrison",
-      "score": 200,
-      "url": "https://trends.google.com/trends/explore?q=kyle+harrison&geo=US",
+      "title": "carolina panthers",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=carolina+panthers&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:40:00 -0700",
-      "approximate_traffic": "200+",
+      "date": "Mon, 6 Apr 2026 14:20:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "Harrison helped by Contreras' no-nonsense feedback in strong Brewers debut",
-        "Milwaukee Brewers' Kyle Harrison shakes off homer for strong first start",
-        "Pitcher Red Sox Traded Away For Caleb Durbin Shines In Brewers Debut"
+        "2026 NFL mock draft: How Carolina Panthers could address remaining roster needs",
+        "Reacts Results: Priorities split ahead of 2026 NFL Draft",
+        "Panthers walking a dangerous line after Dan Morgan's daring offseason gamble"
       ],
-      "ai_relevant": false,
+      "ai_relevant": true,
       "rank": 4
     },
     {
-      "title": "jose ramirez",
-      "score": 200,
-      "url": "https://trends.google.com/trends/explore?q=jose+ramirez&geo=US",
+      "title": "dune 3 70mm imax tickets",
+      "score": 5000,
+      "url": "https://trends.google.com/trends/explore?q=dune+3+70mm+imax+tickets&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:40:00 -0700",
-      "approximate_traffic": "200+",
+      "date": "Mon, 6 Apr 2026 14:10:00 -0700",
+      "approximate_traffic": "5000+",
       "related_news": [
-        "Jose Ramirez living the dream in Cleveland",
-        "Ramirez nears Cleveland record, prepares to play in 1,619th game",
-        "Jose Ramirez on cusp of glorious Guardians record in remarkable career | Jeff Schudel"
+        "\u2018Dune: Part Three\u2019 Imax Tickets Begin to Go On Sale",
+        "\u2018Dune: Part Three\u2019 Tickets Go On Sale For Early IMAX 70mm Screenings",
+        "'Dune: Part Three' IMAX 70mm a hot ticket in Indianapolis"
       ],
       "ai_relevant": false,
       "rank": 5
     },
     {
-      "title": "wilyer abreu",
-      "score": 200,
-      "url": "https://trends.google.com/trends/explore?q=wilyer+abreu&geo=US",
+      "title": "nasdaq composite",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=nasdaq+composite&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:40:00 -0700",
-      "approximate_traffic": "200+",
+      "date": "Mon, 6 Apr 2026 14:10:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "Wilyer Abreu is off to a hot start, and the Red Sox hope it\u2019s a sign that 2026 could be a breakout season",
-        "Do Red Sox have a 30-home run slugger in 26-year-old; \u2018Hopefully\u2019",
-        "Outfielder\u2019s hot start could mean an answer to power issues for Red Sox"
+        "Stock Market News From April 1, 2026: Nasdaq Adds to Its Rally",
+        "Oracle and other AI-related stocks are leading the gains on Wall Street",
+        "Chart of the day: US100 jumps 1% amid rising Middle East de-escalation hopes (31.03.2026)"
       ],
-      "ai_relevant": false,
+      "ai_relevant": true,
       "rank": 6
     },
     {
-      "title": "raptors vs celtics",
-      "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=raptors+vs+celtics&geo=US",
+      "title": "marvel zombies season 2",
+      "score": 2000,
+      "url": "https://trends.google.com/trends/explore?q=marvel+zombies+season+2&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:30:00 -0700",
-      "approximate_traffic": "1000+",
+      "date": "Mon, 6 Apr 2026 14:10:00 -0700",
+      "approximate_traffic": "2000+",
       "related_news": [
-        "Raptors at Celtics preview: Boston looks for another hot start",
-        "GAMEDAY PREVIEW: TORONTO RAPTORS VS. BOSTON CELTICS APR.5",
-        "Celtics vs. Raptors odds, prediction, spread, time: 2026 NBA picks for Sunday, April 5 from advanced model"
+        "Marvel Disney+ TV Show Receives Promising Season 2 Update",
+        "Another MCU Show is Officially Returning for Season 2 (After 6 Months of Silence)",
+        "Marvel Zombies Officially Returning For Season 2"
       ],
-      "ai_relevant": true,
+      "ai_relevant": false,
       "rank": 7
     },
     {
-      "title": "curacao",
-      "score": 200,
-      "url": "https://trends.google.com/trends/explore?q=curacao&geo=US",
+      "title": "american horror story season 13",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=american+horror+story+season+13&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:30:00 -0700",
-      "approximate_traffic": "200+",
+      "date": "Mon, 6 Apr 2026 14:10:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "Canada Increases PR and Citizenship Fees in 2026",
-        "Federal 30-Day Passport Guarantee Now Implemented",
-        "Pixie Honeymoons Recognized as One of the Best Sandals Travel Agencies in the United States for Honeymoon and Couples Vacations"
+        "Jessica Lange Returns to \u2018American Horror Story\u2019 After 8 Years in Season 13 Set Photos as Filming Begins",
+        "Jessica Lange Returns To \u2018American Horror Story\u2019 As Season 13 Begins Filming",
+        "American Horror Story Season 13 Confirms New Coven Witches Return As Jessica Lange First Look Is Finally Revealed"
       ],
       "ai_relevant": false,
       "rank": 8
     },
     {
-      "title": "m\u00f3naco - marsella",
-      "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=m%C3%B3naco+-+marsella&geo=US",
+      "title": "alabama texas softball rankings",
+      "score": 200,
+      "url": "https://trends.google.com/trends/explore?q=alabama+texas+softball+rankings&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:20:00 -0700",
-      "approximate_traffic": "500+",
+      "date": "Mon, 6 Apr 2026 14:10:00 -0700",
+      "approximate_traffic": "200+",
       "related_news": [
-        "Inter-Roma, en directo: Serie A, hoy en vivo",
-        "LAFC - Orlando City en vivo hoy: goles y minuto a minuto desde el BMO Stadium, MLS 2026",
-        "Gallos Blancos 1-0 Toluca: resultado, resumen y goles"
+        "Super 16 college softball rankings: NiJaree Canady, Texas Tech move take over at No. 1",
+        "Super 16 college softball rankings: NiJaree Canady, Texas Tech move take over at No. 1",
+        "Super 16 college softball rankings: Texas stays No. 1, Tennessee tumbles"
       ],
-      "ai_relevant": false,
+      "ai_relevant": true,
       "rank": 9
     },
     {
-      "title": "gary sanchez",
+      "title": "junior caminero",
       "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=gary+sanchez&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=junior+caminero&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Sun, 5 Apr 2026 11:20:00 -0700",
+      "date": "Mon, 6 Apr 2026 14:00:00 -0700",
       "approximate_traffic": "500+",
       "related_news": [
-        "Game Thread: April showers bring Rays Powers",
-        "Rays can thank Fortes' father for game-winning hit",
-        "Rays 3, Brewers 2: Two-out walk by Trevor Megill proves costly"
+        "Junior Caminero's solo home run (2)",
+        "Junior Caminero hits first homer of season Sunday",
+        "Junior Caminero's first home run of 2026"
       ],
       "ai_relevant": false,
       "rank": 10
@@ -168,7 +168,7 @@
       "url": "https://trends.google.com/trends/explore?q=Claude+Code&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-05T18:54:06.330918+00:00",
+      "date": "2026-04-06T21:59:36.515705+00:00",
       "keyword": "Claude Code"
     },
     {
@@ -177,7 +177,7 @@
       "url": "https://trends.google.com/trends/explore?q=AI+automation&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-05T18:54:06.330988+00:00",
+      "date": "2026-04-06T21:59:36.515777+00:00",
       "keyword": "AI automation"
     },
     {
@@ -186,7 +186,7 @@
       "url": "https://trends.google.com/trends/explore?q=AI+tools&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-05T18:54:06.330999+00:00",
+      "date": "2026-04-06T21:59:36.515794+00:00",
       "keyword": "AI tools"
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://trends.google.com/trends/explore?q=Claude&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-05T18:54:06.331007+00:00",
+      "date": "2026-04-06T21:59:36.515803+00:00",
       "keyword": "Claude"
     },
     {
@@ -204,7 +204,7 @@
       "url": "https://trends.google.com/trends/explore?q=Anthropic&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-05T18:54:06.331015+00:00",
+      "date": "2026-04-06T21:59:36.515810+00:00",
       "keyword": "Anthropic"
     },
     {
@@ -213,13 +213,13 @@
       "url": "https://trends.google.com/trends/explore?q=AI+agent&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-05T18:54:06.331022+00:00",
+      "date": "2026-04-06T21:59:36.515818+00:00",
       "keyword": "AI agent"
     }
   ],
   "summary": {
     "total_daily_trends": 10,
-    "ai_relevant_trends": 2,
+    "ai_relevant_trends": 3,
     "seed_keywords_tracked": 6
   }
 }
