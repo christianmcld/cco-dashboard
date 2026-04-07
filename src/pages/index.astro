@@ -987,9 +987,17 @@ function formatEngagement(n: number): string {
   </div><!-- end page-level x-data wrapper -->
 </Layout>
 
-<script is:inline define:vars={{ initialData: data }}>
+<script is:inline define:vars={{ initialDataJson: JSON.stringify(data) }}>
+  // Bridge Astro server data to client-side
+  window.__DASHBOARD_DATA__ = JSON.parse(initialDataJson);
+</script>
+
+<script is:inline>
   // ── Alpine.js Dashboard Controller ──
-  // Expose to window so Alpine can find them (define:vars wraps in IIFE)
+  // Read data from the bridge (set by define:vars script above)
+  var initialData = window.__DASHBOARD_DATA__ || {};
+
+  // Expose controllers to window for Alpine x-data
   window.dashboardController = dashboardController;
   window.libraryController = libraryController;
   window.buildEmulateData = buildEmulateData;
@@ -1137,15 +1145,24 @@ function formatEngagement(n: number): string {
       _distChart: null,
       _creatorCharts: [],
 
+      // Strip Alpine proxy for Chart.js compatibility
+      _toRaw(obj) {
+        try { return JSON.parse(JSON.stringify(obj)); } catch(e) { return obj; }
+      },
+
       init() {
-        this._rawData = initialData;
-        this.currentData = initialData;
+        this._rawData = JSON.parse(JSON.stringify(initialData));
+        this.currentData = this._rawData;
         this.hydrateFromData(this.currentData);
         this.$nextTick(() => {
           setTimeout(() => {
-            this.initCharts();
-            this.initCreatorSparklines();
-          }, 200);
+            try {
+              this.initCharts();
+              this.initCreatorSparklines();
+            } catch(e) {
+              console.error('Chart init error:', e);
+            }
+          }, 500);
         });
 
         // Scroll-to-top button visibility
@@ -1331,6 +1348,7 @@ function formatEngagement(n: number): string {
             options: {
               responsive: true,
               maintainAspectRatio: false,
+              animation: false,
               plugins: {
                 legend: { display: false },
                 tooltip: {
@@ -1369,6 +1387,7 @@ function formatEngagement(n: number): string {
         return {
           responsive: true,
           maintainAspectRatio: false,
+          animation: false,
           plugins: {
             legend: { display: false },
             tooltip: {
@@ -1442,6 +1461,7 @@ function formatEngagement(n: number): string {
             options: {
               responsive: true,
               maintainAspectRatio: false,
+              animation: false,
               indexAxis: 'y',
               plugins: {
                 legend: { display: false },
@@ -1493,6 +1513,7 @@ function formatEngagement(n: number): string {
             options: {
               responsive: true,
               maintainAspectRatio: false,
+              animation: false,
               plugins: {
                 legend: {
                   display: true,
@@ -1555,6 +1576,7 @@ function formatEngagement(n: number): string {
             options: {
               responsive: true,
               maintainAspectRatio: false,
+              animation: false,
               plugins: {
                 legend: {
                   display: true,
@@ -1631,6 +1653,7 @@ function formatEngagement(n: number): string {
           options: {
             responsive: true,
             maintainAspectRatio: false,
+            animation: false,
             plugins: {
               legend: { display: false },
               tooltip: {
@@ -1766,6 +1789,7 @@ function formatEngagement(n: number): string {
           options: {
             responsive: true,
             maintainAspectRatio: false,
+            animation: false,
             plugins: {
               legend: {
                 display: true,
@@ -1864,6 +1888,7 @@ function formatEngagement(n: number): string {
           options: {
             responsive: true,
             maintainAspectRatio: false,
+            animation: false,
             plugins: {
               legend: { display: false },
               tooltip: {
@@ -1952,6 +1977,7 @@ function formatEngagement(n: number): string {
           options: {
             responsive: true,
             maintainAspectRatio: false,
+            animation: false,
             plugins: {
               legend: { display: false },
               tooltip: {
