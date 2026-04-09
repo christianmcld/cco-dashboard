@@ -1,166 +1,198 @@
 {
   "source": "google_trends",
-  "collected_at": "2026-04-08T16:00:16.895826+00:00",
+  "collected_at": "2026-04-09T16:03:06.568357+00:00",
   "items": [
     {
-      "title": "justin rose",
-      "score": 200,
-      "url": "https://trends.google.com/trends/explore?q=justin+rose&geo=US",
+      "title": "diddy",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=diddy&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 08:30:00 -0700",
-      "approximate_traffic": "200+",
+      "date": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "2026 Masters: The tournament record players believe won't ever be broken",
-        "Justin Rose says Masters tournament record of 63 could fall one day. It would take near perfection",
-        "2026 Masters is 40th anniversary of Nick Price's Augusta National course record"
+        "Diddy to ask for immediate release in appeal hearing",
+        "Federal appeals court hears arguments about overturning Sean 'Diddy' Combs\u2019 conviction",
+        "Sean 'Diddy' Combs' lawyer urges appeals court to overturn conviction, sentence"
       ],
       "ai_relevant": false,
       "rank": 1
     },
     {
-      "title": "china supercomputer",
-      "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=china+supercomputer&geo=US",
+      "title": "mcallen tx",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=mcallen+tx&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 08:20:00 -0700",
-      "approximate_traffic": "1000+",
+      "date": "Thu, 9 Apr 2026 08:30:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "China supercomputing hub hit by massive, alleged data breach",
-        "Hacker claims 10PB theft from China\u2019s NSCC supercomputer, experts warn of security risks",
-        "Massive Data Breach Hits Chinese Supercomputer Center"
+        "Hector Rodriguez Obituary (2026) - McAllen, TX - McAllen Funeral Home",
+        "Downtown McAllen Hosts Final Market on Main of the Season, April 11th",
+        "GLARE release VHS of last year's Texas show, 'Sunset Funeral: Live In McAllen'"
       ],
       "ai_relevant": true,
       "rank": 2
     },
     {
-      "title": "goldie hawn",
-      "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=goldie+hawn&geo=US",
+      "title": "mexico\u2013united states border wall",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=mexico%E2%80%93united+states+border+wall&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 08:10:00 -0700",
-      "approximate_traffic": "1000+",
+      "date": "Thu, 9 Apr 2026 08:20:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "Kurt Russell says 'The Madison' love story 'hit me really hard' because of his romance with Goldie Hawn",
-        "Goldie Hawn's relationship with Kurt Russell inspires new TV drama, he reveals emotional reaction",
-        "Kurt Russell: 'The Madison is the first role that reflects my own life and love'"
+        "The United States damages millennia-old archaeological site with explosives to build the border wall",
+        "Border wall rises near Mount Cristo Rey in Sunland Park",
+        "North America: US detonations to build border wall damaged an archaeological and ceremonial site belonging to binational indigenous community"
       ],
       "ai_relevant": false,
       "rank": 3
     },
     {
-      "title": "james patterson",
-      "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=james+patterson&geo=US",
+      "title": "amzn",
+      "score": 1000,
+      "url": "https://trends.google.com/trends/explore?q=amzn&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 08:10:00 -0700",
-      "approximate_traffic": "500+",
+      "date": "Thu, 9 Apr 2026 08:10:00 -0700",
+      "approximate_traffic": "1000+",
       "related_news": [
-        "The world\u2019s best-selling author James Patterson will give this year\u2019s Spring Commencement keynote",
-        "James Patterson Presents $15,000 Prize to Debut Author as \u2018Gem of a Novel\u2019 Wins Inaugural Award",
-        "The Winner of the First \u200dJames Patterson & Bookshop.org Prize Is One of Last Year's Buzziest Titles"
+        "CEO Andy Jassy\u2019s 2025 Letter to Shareholders",
+        "Amazon CEO Jassy says company could sell AI chips, raising stakes for Nvidia, AMD",
+        "Amazon CEO Presses His Case for Big AI Spending"
       ],
-      "ai_relevant": false,
+      "ai_relevant": true,
       "rank": 4
     },
     {
-      "title": "anastasia potapova",
-      "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=anastasia+potapova&geo=US",
+      "title": "fireball meteor over northeast",
+      "score": 2000,
+      "url": "https://trends.google.com/trends/explore?q=fireball+meteor+over+northeast&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 08:10:00 -0700",
-      "approximate_traffic": "500+",
+      "date": "Thu, 9 Apr 2026 08:00:00 -0700",
+      "approximate_traffic": "2000+",
       "related_news": [
-        "WTA Linz Best Bets Including Anastasia Potapova vs Shuai Zhang",
-        "Anastasia Potapova Faces Shuai Zhang at WTA Linz on April 8, 2026",
-        "Zhang vs. Potapova Odds & Predictions (Apr. 7, 2026)"
+        "Another day, another meteor. 5 states report fireball sighting.",
+        "NASA confirms fireball seen over Philly region skies was a meteor on Tuesday",
+        "NASA releases report on fireball spotted in the Northeast, including Pennsylvania, New Jersey and Delaware"
       ],
-      "ai_relevant": true,
+      "ai_relevant": false,
       "rank": 5
     },
     {
-      "title": "blue bloods",
-      "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=blue+bloods&geo=US",
+      "title": "splendora high school",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=splendora+high+school&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 08:00:00 -0700",
-      "approximate_traffic": "1000+",
+      "date": "Thu, 9 Apr 2026 07:50:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "How Tom Selleck Feels About The Blue Bloods Spin-Off, According To Donnie Wahlberg",
-        "Are Blue Bloods\u2019 Tom Selleck & Donnie Wahlberg REALLY Friends? [98a070]",
-        "How Tom Selleck Feels About The Blue Bloods Spin-Off, According To Donnie Wahlberg"
+        "Heavy police presence seen at Splendora High School on Thursday afternoon",
+        "Splendora High School on secure hold after reported student-staff fight",
+        "Splendora High School placed on \u2018Secure Hold\u2019 after fight between student, staff member in Montgomery County"
       ],
       "ai_relevant": false,
       "rank": 6
     },
     {
-      "title": "social security april 8",
-      "score": 2000,
-      "url": "https://trends.google.com/trends/explore?q=social+security+april+8&geo=US",
+      "title": "liudmila samsonova",
+      "score": 200,
+      "url": "https://trends.google.com/trends/explore?q=liudmila+samsonova&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 07:40:00 -0700",
-      "approximate_traffic": "2000+",
+      "date": "Thu, 9 Apr 2026 07:50:00 -0700",
+      "approximate_traffic": "200+",
       "related_news": [
-        "Here's when April Social Security checks are set to arrive",
-        "Here's who gets Social Security payments this week on April 8",
-        "Social Security Latest: Payments of Up to $5,181 Coming This Week"
+        "Tagger vs. Samsonova Prediction at the Upper Austria Ladies Linz \u2013 Thursday, April 9",
+        "Tagger - Samsonova: will the Russian tennis player break the series of defeats?",
+        "Lilli Tagger vs Liudmila Samsonova Prediction & Picks - WTA Linz"
       ],
       "ai_relevant": false,
       "rank": 7
     },
     {
-      "title": "air new zealand reduces flights",
-      "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=air+new+zealand+reduces+flights&geo=US",
+      "title": "prince harry",
+      "score": 200,
+      "url": "https://trends.google.com/trends/explore?q=prince+harry&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 07:40:00 -0700",
-      "approximate_traffic": "1000+",
+      "date": "Thu, 9 Apr 2026 07:50:00 -0700",
+      "approximate_traffic": "200+",
       "related_news": [
-        "Airlines cut flights and hike fares as fuel prices surge",
-        "Long-haul flights may face cuts if jet fuel price crisis drags on",
-        "Could your holiday flight be cancelled due to fuel shortages or prices \u2013 and will you have to pay extra?"
+        "Prince Harry, Meghan Markle caused \u2018unforgivable\u2019 stress for Queen Elizabeth in final years: author",
+        "Prince Harry Was Given Ultimatum by Queen Elizabeth Before He Left Royal Life",
+        "Queen Elizabeth Reportedly Refused to Answer Prince Harry's Phone Calls Without a Witness Present"
       ],
-      "ai_relevant": true,
+      "ai_relevant": false,
       "rank": 8
     },
     {
-      "title": "retirement",
+      "title": "alex de minaur",
       "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=retirement&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=alex+de+minaur&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 07:30:00 -0700",
+      "date": "Thu, 9 Apr 2026 07:40:00 -0700",
       "approximate_traffic": "1000+",
       "related_news": [
-        "Americans expect to delay retirement by 4 years as cost of living rises, study finds",
-        "The retirement crisis can\u2019t wait \u2014 and neither should Congress",
-        "Everyone but Gen Z is saving less for retirement. What's happening?"
+        "2026 Rolex Monte-Carlo Masters: Blockx [91st] vs. de Minaur [6th] Prediction, Odds and Match Preview",
+        "Blox - De Minaur: will the Belgian create problems for Alex?",
+        "Alexander Blockx vs. Alex de Minaur prediction, odds, picks for ATP Monte-Carlo Masters 2026"
       ],
-      "ai_relevant": true,
+      "ai_relevant": false,
       "rank": 9
     },
     {
-      "title": "berke buyuktuncel",
+      "title": "jack white tour",
       "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=berke+buyuktuncel&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=jack+white+tour&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Wed, 8 Apr 2026 07:30:00 -0700",
+      "date": "Thu, 9 Apr 2026 07:40:00 -0700",
       "approximate_traffic": "1000+",
       "related_news": [
-        "Nebraska basketball standout entering transfer portal",
-        "Report: Lincoln native, Husker men's basketball player enters transfer portal",
-        "Nebraska guard Quentin Rhymes enters the NCAA Transfer Portal"
+        "Jack White to play one of few Metro Detroit venues he's never played",
+        "Jack White Extends 2026 Tour",
+        "Jack White to play the new Citizens Live at the Wylie this fall"
       ],
       "ai_relevant": false,
       "rank": 10
+    },
+    {
+      "title": "the miz",
+      "score": 200,
+      "url": "https://trends.google.com/trends/explore?q=the+miz&geo=",
+      "source_detail": "google_trends_global_rss",
+      "category": "daily_trending",
+      "date": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "approximate_traffic": "200+",
+      "related_news": [
+        "WWE's The Miz to Officiate Five 'WWEddings' in Las Vegas Ahead of WrestleMania",
+        "The Miz To Officiate Five Weddings During WrestleMania 42 Week As Part Of WWE/ESPN Partnership",
+        "WWE\u2019s The Miz Is Officiating Vegas Weddings Before WrestleMania \u2014 How To Register"
+      ],
+      "ai_relevant": false,
+      "rank": 2
+    },
+    {
+      "title": "nyt strands hints",
+      "score": 2000,
+      "url": "https://trends.google.com/trends/explore?q=nyt+strands+hints&geo=",
+      "source_detail": "google_trends_global_rss",
+      "category": "daily_trending",
+      "date": "Thu, 9 Apr 2026 08:20:00 -0700",
+      "approximate_traffic": "2000+",
+      "related_news": [
+        "NYT Strands Hints for April 9, 2026",
+        "NYT Strands hints, answers for April 9, 2026",
+        "Today's NYT Strands Hints, Answers and Help for April 8 #766"
+      ],
+      "ai_relevant": false,
+      "rank": 5
     },
     {
       "title": "Claude Code",
@@ -168,7 +200,7 @@
       "url": "https://trends.google.com/trends/explore?q=Claude+Code&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-08T16:00:16.895650+00:00",
+      "date": "2026-04-09T16:03:06.543673+00:00",
       "keyword": "Claude Code"
     },
     {
@@ -177,7 +209,7 @@
       "url": "https://trends.google.com/trends/explore?q=AI+automation&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-08T16:00:16.895750+00:00",
+      "date": "2026-04-09T16:03:06.545516+00:00",
       "keyword": "AI automation"
     },
     {
@@ -186,7 +218,7 @@
       "url": "https://trends.google.com/trends/explore?q=AI+tools&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-08T16:00:16.895767+00:00",
+      "date": "2026-04-09T16:03:06.545534+00:00",
       "keyword": "AI tools"
     },
     {
@@ -195,7 +227,7 @@
       "url": "https://trends.google.com/trends/explore?q=Claude&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-08T16:00:16.895780+00:00",
+      "date": "2026-04-09T16:03:06.546044+00:00",
       "keyword": "Claude"
     },
     {
@@ -204,7 +236,7 @@
       "url": "https://trends.google.com/trends/explore?q=Anthropic&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-08T16:00:16.895792+00:00",
+      "date": "2026-04-09T16:03:06.546471+00:00",
       "keyword": "Anthropic"
     },
     {
@@ -213,13 +245,13 @@
       "url": "https://trends.google.com/trends/explore?q=AI+agent&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-08T16:00:16.895804+00:00",
+      "date": "2026-04-09T16:03:06.568075+00:00",
       "keyword": "AI agent"
     }
   ],
   "summary": {
     "total_daily_trends": 10,
-    "ai_relevant_trends": 4,
+    "ai_relevant_trends": 2,
     "seed_keywords_tracked": 6
   }
 }
