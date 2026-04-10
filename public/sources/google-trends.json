@@ -1,198 +1,166 @@
 {
   "source": "google_trends",
-  "collected_at": "2026-04-09T16:03:06.568357+00:00",
+  "collected_at": "2026-04-10T16:04:07.642619+00:00",
   "items": [
     {
-      "title": "diddy",
+      "title": "valentin vacherot",
       "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=diddy&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=valentin+vacherot&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "date": "Fri, 10 Apr 2026 08:40:00 -0700",
       "approximate_traffic": "500+",
       "related_news": [
-        "Diddy to ask for immediate release in appeal hearing",
-        "Federal appeals court hears arguments about overturning Sean 'Diddy' Combs\u2019 conviction",
-        "Sean 'Diddy' Combs' lawyer urges appeals court to overturn conviction, sentence"
+        "Vacherot: 'Your partner is really, really important'",
+        "Hurkacz vs. Vacherot Odds & Predictions (Apr. 9, 2026)",
+        "Valentin Vacherot vs Kamil Majchrzak Preview & Prediction | 2026 Monte-Carlo Masters | First Round"
       ],
       "ai_relevant": false,
       "rank": 1
     },
     {
-      "title": "mcallen tx",
+      "title": "evening news ratings march 30",
       "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=mcallen+tx&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=evening+news+ratings+march+30&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 08:30:00 -0700",
+      "date": "Fri, 10 Apr 2026 08:30:00 -0700",
       "approximate_traffic": "500+",
       "related_news": [
-        "Hector Rodriguez Obituary (2026) - McAllen, TX - McAllen Funeral Home",
-        "Downtown McAllen Hosts Final Market on Main of the Season, April 11th",
-        "GLARE release VHS of last year's Texas show, 'Sunset Funeral: Live In McAllen'"
+        "CNN, MS NOW & Fox News\u2019 Latest Ratings Show Big Swings",
+        "Week of March 30 Cable News Ratings: Wednesday\u2019s Live Events Lift Cable Networks",
+        "FOX NEWS DELIVERS RECORD-SETTING QUARTER ON YOUTUBE BESTING ALL NEWS BRANDS WITH 1.5 BILLION VIDEO VIEWS"
       ],
-      "ai_relevant": true,
+      "ai_relevant": false,
       "rank": 2
     },
     {
-      "title": "mexico\u2013united states border wall",
+      "title": "alex de minaur",
       "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=mexico%E2%80%93united+states+border+wall&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=alex+de+minaur&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 08:20:00 -0700",
+      "date": "Fri, 10 Apr 2026 08:30:00 -0700",
       "approximate_traffic": "500+",
       "related_news": [
-        "The United States damages millennia-old archaeological site with explosives to build the border wall",
-        "Border wall rises near Mount Cristo Rey in Sunland Park",
-        "North America: US detonations to build border wall damaged an archaeological and ceremonial site belonging to binational indigenous community"
+        "Hurkacz vs. Vacherot Odds & Predictions (Apr. 9, 2026)",
+        "Valentin Vacherot vs Kamil Majchrzak Preview & Prediction | 2026 Monte-Carlo Masters | First Round",
+        "Hubert Hurkacz Advances to Monte Carlo Quarterfinals"
       ],
       "ai_relevant": false,
       "rank": 3
     },
     {
-      "title": "amzn",
-      "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=amzn&geo=US",
+      "title": "chuck schumer",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=chuck+schumer&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 08:10:00 -0700",
-      "approximate_traffic": "1000+",
+      "date": "Fri, 10 Apr 2026 08:10:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "CEO Andy Jassy\u2019s 2025 Letter to Shareholders",
-        "Amazon CEO Jassy says company could sell AI chips, raising stakes for Nvidia, AMD",
-        "Amazon CEO Presses His Case for Big AI Spending"
+        "Is Chuck Schumer leaving his top candidate recruit twisting in the wind?",
+        "New York polls are full of warnings for Chuck Schumer",
+        "In Key Senate Races, Schumer Willing to Help Candidates Who Want Him Gone"
       ],
-      "ai_relevant": true,
+      "ai_relevant": false,
       "rank": 4
     },
     {
-      "title": "fireball meteor over northeast",
-      "score": 2000,
-      "url": "https://trends.google.com/trends/explore?q=fireball+meteor+over+northeast&geo=US",
+      "title": "bridgerton",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=bridgerton&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 08:00:00 -0700",
-      "approximate_traffic": "2000+",
+      "date": "Fri, 10 Apr 2026 08:00:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "Another day, another meteor. 5 states report fireball sighting.",
-        "NASA confirms fireball seen over Philly region skies was a meteor on Tuesday",
-        "NASA releases report on fireball spotted in the Northeast, including Pennsylvania, New Jersey and Delaware"
+        "\u2018Bridgerton\u2019 Season 5 Sets New Cast Members, Including Tega Alexander as Lord Anderson\u2019s Son",
+        "'Bridgerton' Adds 3 To Cast For Francesca-Michaela Stirling Season 5",
+        "Bridgerton Season 5 Cast Adds 3 New Members to the Ton"
       ],
       "ai_relevant": false,
       "rank": 5
     },
     {
-      "title": "splendora high school",
-      "score": 500,
-      "url": "https://trends.google.com/trends/explore?q=splendora+high+school&geo=US",
+      "title": "yosemite national park",
+      "score": 1000,
+      "url": "https://trends.google.com/trends/explore?q=yosemite+national+park&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 07:50:00 -0700",
-      "approximate_traffic": "500+",
+      "date": "Fri, 10 Apr 2026 07:50:00 -0700",
+      "approximate_traffic": "1000+",
       "related_news": [
-        "Heavy police presence seen at Splendora High School on Thursday afternoon",
-        "Splendora High School on secure hold after reported student-staff fight",
-        "Splendora High School placed on \u2018Secure Hold\u2019 after fight between student, staff member in Montgomery County"
+        "This Is The Easiest Peak To Summit In Yosemite",
+        "GHOSTED AT THE GATE?",
+        "Yosemite National Park Generates Concern As New Signs At Entrances Show Employees Were Right All Along"
       ],
       "ai_relevant": false,
       "rank": 6
     },
     {
-      "title": "liudmila samsonova",
-      "score": 200,
-      "url": "https://trends.google.com/trends/explore?q=liudmila+samsonova&geo=US",
+      "title": "nathan fillion the rookie spinoff",
+      "score": 500,
+      "url": "https://trends.google.com/trends/explore?q=nathan+fillion+the+rookie+spinoff&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 07:50:00 -0700",
-      "approximate_traffic": "200+",
+      "date": "Fri, 10 Apr 2026 07:50:00 -0700",
+      "approximate_traffic": "500+",
       "related_news": [
-        "Tagger vs. Samsonova Prediction at the Upper Austria Ladies Linz \u2013 Thursday, April 9",
-        "Tagger - Samsonova: will the Russian tennis player break the series of defeats?",
-        "Lilli Tagger vs Liudmila Samsonova Prediction & Picks - WTA Linz"
+        "Nathan Fillion\u2019s The Rookie Spin-off Gets Exciting Update Ahead of Series Order",
+        "ABC Greenlights Pilot for 'The Rookie: North' Spinoff",
+        "Nathan Fillion's 8-Season Crime Thriller Gets Major Spinoff Update As Pilot Order Confirmation Nears"
       ],
       "ai_relevant": false,
       "rank": 7
     },
     {
-      "title": "prince harry",
+      "title": "susan lucci",
       "score": 200,
-      "url": "https://trends.google.com/trends/explore?q=prince+harry&geo=US",
+      "url": "https://trends.google.com/trends/explore?q=susan+lucci&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 07:50:00 -0700",
+      "date": "Fri, 10 Apr 2026 07:50:00 -0700",
       "approximate_traffic": "200+",
       "related_news": [
-        "Prince Harry, Meghan Markle caused \u2018unforgivable\u2019 stress for Queen Elizabeth in final years: author",
-        "Prince Harry Was Given Ultimatum by Queen Elizabeth Before He Left Royal Life",
-        "Queen Elizabeth Reportedly Refused to Answer Prince Harry's Phone Calls Without a Witness Present"
+        "Susan Lucci Thought She Would Never \u2018Go in Front of a Camera Again\u2019 After Her Husband\u2019s Death (Exclusive)",
+        "Susan Lucci Returns to Acting in Jonah Hill's 'Outcome' After Husband's Passing",
+        "Susan Lucci makes emotional comeback in Jonah Hill\u2019s Outcome on Apple TV"
       ],
-      "ai_relevant": false,
+      "ai_relevant": true,
       "rank": 8
     },
     {
-      "title": "alex de minaur",
-      "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=alex+de+minaur&geo=US",
+      "title": "carlos alcaraz",
+      "score": 5000,
+      "url": "https://trends.google.com/trends/explore?q=carlos+alcaraz&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 07:40:00 -0700",
-      "approximate_traffic": "1000+",
+      "date": "Fri, 10 Apr 2026 07:30:00 -0700",
+      "approximate_traffic": "5000+",
       "related_news": [
-        "2026 Rolex Monte-Carlo Masters: Blockx [91st] vs. de Minaur [6th] Prediction, Odds and Match Preview",
-        "Blox - De Minaur: will the Belgian create problems for Alex?",
-        "Alexander Blockx vs. Alex de Minaur prediction, odds, picks for ATP Monte-Carlo Masters 2026"
+        "Alcaraz se deshace de Bublik y ya est\u00e1 en semifinales de Montecarlo",
+        "Alcaraz - Bublik: resultado, estad\u00edsticas y resumen del partido de cuartos de final de Montercarlo",
+        "Alcaraz suma 300 victorias ATP camino a SF de Montecarlo"
       ],
       "ai_relevant": false,
       "rank": 9
     },
     {
-      "title": "jack white tour",
-      "score": 1000,
-      "url": "https://trends.google.com/trends/explore?q=jack+white+tour&geo=US",
+      "title": "crwd stock",
+      "score": 200,
+      "url": "https://trends.google.com/trends/explore?q=crwd+stock&geo=US",
       "source_detail": "google_trends_daily_rss",
       "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 07:40:00 -0700",
-      "approximate_traffic": "1000+",
-      "related_news": [
-        "Jack White to play one of few Metro Detroit venues he's never played",
-        "Jack White Extends 2026 Tour",
-        "Jack White to play the new Citizens Live at the Wylie this fall"
-      ],
-      "ai_relevant": false,
-      "rank": 10
-    },
-    {
-      "title": "the miz",
-      "score": 200,
-      "url": "https://trends.google.com/trends/explore?q=the+miz&geo=",
-      "source_detail": "google_trends_global_rss",
-      "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "date": "Fri, 10 Apr 2026 07:30:00 -0700",
       "approximate_traffic": "200+",
       "related_news": [
-        "WWE's The Miz to Officiate Five 'WWEddings' in Las Vegas Ahead of WrestleMania",
-        "The Miz To Officiate Five Weddings During WrestleMania 42 Week As Part Of WWE/ESPN Partnership",
-        "WWE\u2019s The Miz Is Officiating Vegas Weddings Before WrestleMania \u2014 How To Register"
+        "CrowdStrike Stock, Other Cybersecurity Shares Get Crushed as Anthropic Bump Fades",
+        "CrowdStrike (CRWD) Falls, But Here\u2019s Why Wall Street Sees 15% Upside",
+        "PANW, CRWD, NET: Here\u2019s Why Cybersecurity Stocks Sank on 4/9/26"
       ],
-      "ai_relevant": false,
-      "rank": 2
-    },
-    {
-      "title": "nyt strands hints",
-      "score": 2000,
-      "url": "https://trends.google.com/trends/explore?q=nyt+strands+hints&geo=",
-      "source_detail": "google_trends_global_rss",
-      "category": "daily_trending",
-      "date": "Thu, 9 Apr 2026 08:20:00 -0700",
-      "approximate_traffic": "2000+",
-      "related_news": [
-        "NYT Strands Hints for April 9, 2026",
-        "NYT Strands hints, answers for April 9, 2026",
-        "Today's NYT Strands Hints, Answers and Help for April 8 #766"
-      ],
-      "ai_relevant": false,
-      "rank": 5
+      "ai_relevant": true,
+      "rank": 10
     },
     {
       "title": "Claude Code",
@@ -200,7 +168,7 @@
       "url": "https://trends.google.com/trends/explore?q=Claude+Code&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-09T16:03:06.543673+00:00",
+      "date": "2026-04-10T16:04:07.642363+00:00",
       "keyword": "Claude Code"
     },
     {
@@ -209,7 +177,7 @@
       "url": "https://trends.google.com/trends/explore?q=AI+automation&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-09T16:03:06.545516+00:00",
+      "date": "2026-04-10T16:04:07.642532+00:00",
       "keyword": "AI automation"
     },
     {
@@ -218,7 +186,7 @@
       "url": "https://trends.google.com/trends/explore?q=AI+tools&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-09T16:03:06.545534+00:00",
+      "date": "2026-04-10T16:04:07.642546+00:00",
       "keyword": "AI tools"
     },
     {
@@ -227,7 +195,7 @@
       "url": "https://trends.google.com/trends/explore?q=Claude&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-09T16:03:06.546044+00:00",
+      "date": "2026-04-10T16:04:07.642563+00:00",
       "keyword": "Claude"
     },
     {
@@ -236,7 +204,7 @@
       "url": "https://trends.google.com/trends/explore?q=Anthropic&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-09T16:03:06.546471+00:00",
+      "date": "2026-04-10T16:04:07.642573+00:00",
       "keyword": "Anthropic"
     },
     {
@@ -245,7 +213,7 @@
       "url": "https://trends.google.com/trends/explore?q=AI+agent&geo=US",
       "source_detail": "seed_keyword_tracker",
       "category": "tracked_keyword",
-      "date": "2026-04-09T16:03:06.568075+00:00",
+      "date": "2026-04-10T16:04:07.642581+00:00",
       "keyword": "AI agent"
     }
   ],
