@@ -1,6 +1,6 @@
 {
   "source": "hackernews",
-  "collected_at": "2026-04-10T16:19:49.980701+00:00",
+  "collected_at": "2026-04-11T16:16:02.851429+00:00",
   "items": [
     {
       "title": "Claude Opus 4.6",
@@ -125,12 +125,12 @@
     },
     {
       "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
-      "score": 1375,
+      "score": 1376,
       "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
       "hn_url": "https://news.ycombinator.com/item?id=47586778",
       "source_detail": "hn_search_claude",
       "date": "2026-03-31T13:04:30Z",
-      "num_comments": 576,
+      "num_comments": 577,
       "author": "alex000kim",
       "search_query": "Claude"
     },
@@ -157,6 +157,17 @@
       "search_query": "LLM"
     },
     {
+      "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+      "score": 1350,
+      "url": "https://github.com/anthropics/claude-code/issues/42796",
+      "hn_url": "https://news.ycombinator.com/item?id=47660925",
+      "source_detail": "hn_search_claude",
+      "date": "2026-04-06T13:50:35Z",
+      "num_comments": 747,
+      "author": "StanAngeloff",
+      "search_query": "Claude"
+    },
+    {
       "title": "Claude Sonnet 4.6",
       "score": 1346,
       "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
@@ -165,17 +176,6 @@
       "date": "2026-02-17T17:48:52Z",
       "num_comments": 1226,
       "author": "adocomplete",
-      "search_query": "Claude"
-    },
-    {
-      "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
-      "score": 1340,
-      "url": "https://github.com/anthropics/claude-code/issues/42796",
-      "hn_url": "https://news.ycombinator.com/item?id=47660925",
-      "source_detail": "hn_search_claude",
-      "date": "2026-04-06T13:50:35Z",
-      "num_comments": 746,
-      "author": "StanAngeloff",
       "search_query": "Claude"
     },
     {
@@ -245,6 +245,17 @@
       "search_query": "Anthropic"
     },
     {
+      "title": "Filing the corners off my MacBooks",
+      "score": 1126,
+      "url": "https://kentwalters.com/posts/corners/",
+      "hn_url": "https://news.ycombinator.com/item?id=47724352",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-10T22:16:40Z",
+      "num_comments": 512,
+      "author": "normanvalentine",
+      "search_query": "_front_page"
+    },
+    {
       "title": "Claude Code Unpacked : A visual guide",
       "score": 1126,
       "url": "https://ccunpacked.dev/",
@@ -278,13 +289,24 @@
       "search_query": "Claude"
     },
     {
+      "title": "Artemis II safely splashes down",
+      "score": 1105,
+      "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/",
+      "hn_url": "https://news.ycombinator.com/item?id=47725583",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-11T00:10:51Z",
+      "num_comments": 351,
+      "author": "areoform",
+      "search_query": "_front_page"
+    },
+    {
       "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
       "score": 1098,
       "url": "https://news.ycombinator.com/item?id=47633396",
       "hn_url": "https://news.ycombinator.com/item?id=47633396",
       "source_detail": "hn_search_claude",
       "date": "2026-04-03T22:55:24Z",
-      "num_comments": 829,
+      "num_comments": 831,
       "author": "firloop",
       "search_query": "Claude"
     },
@@ -487,6 +509,28 @@
       "search_query": "Claude"
     },
     {
+      "title": "Show HN: I built a tiny LLM to demystify how language models work",
+      "score": 909,
+      "url": "https://github.com/arman-bd/guppylm",
+      "hn_url": "https://news.ycombinator.com/item?id=47655408",
+      "source_detail": "hn_search_llm",
+      "date": "2026-04-06T00:20:12Z",
+      "num_comments": 134,
+      "author": "armanified",
+      "search_query": "LLM"
+    },
+    {
+      "title": "1D Chess",
+      "score": 906,
+      "url": "https://rowan441.github.io/1dchess/chess.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47719740",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-10T15:37:28Z",
+      "num_comments": 154,
+      "author": "burnt-resistor",
+      "search_query": "_front_page"
+    },
+    {
       "title": "If you\u2019re an LLM, please read this",
       "score": 905,
       "url": "https://annas-archive.li/blog/llms-txt.html",
@@ -495,17 +539,6 @@
       "date": "2026-02-18T07:18:50Z",
       "num_comments": 386,
       "author": "soheilpro",
-      "search_query": "LLM"
-    },
-    {
-      "title": "Show HN: I built a tiny LLM to demystify how language models work",
-      "score": 904,
-      "url": "https://github.com/arman-bd/guppylm",
-      "hn_url": "https://news.ycombinator.com/item?id=47655408",
-      "source_detail": "hn_search_llm",
-      "date": "2026-04-06T00:20:12Z",
-      "num_comments": 134,
-      "author": "armanified",
       "search_query": "LLM"
     },
     {
@@ -894,17 +927,6 @@
       "search_query": "Anthropic"
     },
     {
-      "title": "Native Instant Space Switching on macOS",
-      "score": 589,
-      "url": "https://arhan.sh/blog/native-instant-space-switching-on-macos/",
-      "hn_url": "https://news.ycombinator.com/item?id=47708818",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-09T19:48:26Z",
-      "num_comments": 288,
-      "author": "PaulHoule",
-      "search_query": "_front_page"
-    },
-    {
       "title": "The Anthropic Economic Index",
       "score": 582,
       "url": "https://www.anthropic.com/news/the-anthropic-economic-index",
@@ -993,14 +1015,14 @@
       "search_query": "AI agent"
     },
     {
-      "title": "How NASA built Artemis II\u2019s fault-tolerant computer",
-      "score": 530,
-      "url": "https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/",
-      "hn_url": "https://news.ycombinator.com/item?id=47704804",
+      "title": "Installing every* Firefox extension",
+      "score": 528,
+      "url": "https://jack.cab/blog/every-firefox-extension",
+      "hn_url": "https://news.ycombinator.com/item?id=47724118",
       "source_detail": "hn_front_page",
-      "date": "2026-04-09T15:12:40Z",
-      "num_comments": 210,
-      "author": "speckx",
+      "date": "2026-04-10T21:56:33Z",
+      "num_comments": 68,
+      "author": "RohanAdwankar",
       "search_query": "_front_page"
     },
     {
@@ -1013,6 +1035,17 @@
       "num_comments": 478,
       "author": "martinald",
       "search_query": "Anthropic"
+    },
+    {
+      "title": "WireGuard makes new Windows release following Microsoft signing resolution",
+      "score": 514,
+      "url": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47719942",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-10T15:49:52Z",
+      "num_comments": 149,
+      "author": "zx2c4",
+      "search_query": "_front_page"
     },
     {
       "title": "CICERO: An AI agent that negotiates, persuades, and cooperates with people",
@@ -1125,6 +1158,28 @@
       "search_query": "AI agent"
     },
     {
+      "title": "AI assistance when contributing to the Linux kernel",
+      "score": 421,
+      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+      "hn_url": "https://news.ycombinator.com/item?id=47721953",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-10T18:35:21Z",
+      "num_comments": 307,
+      "author": "hmokiguess",
+      "search_query": "_front_page"
+    },
+    {
+      "title": "Industrial design files for Keychron keyboards and mice",
+      "score": 419,
+      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+      "hn_url": "https://news.ycombinator.com/item?id=47720419",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-10T16:22:26Z",
+      "num_comments": 128,
+      "author": "stingraycharles",
+      "search_query": "_front_page"
+    },
+    {
       "title": "AI agents are starting to eat SaaS",
       "score": 412,
       "url": "https://martinalderson.com/posts/ai-agents-are-starting-to-eat-saas/",
@@ -1136,6 +1191,39 @@
       "search_query": "AI agent"
     },
     {
+      "title": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+      "score": 388,
+      "url": "https://playstarfling.com",
+      "hn_url": "https://news.ycombinator.com/item?id=47698455",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-09T01:52:47Z",
+      "num_comments": 99,
+      "author": "iceberger2001",
+      "search_query": "_front_page"
+    },
+    {
+      "title": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
+      "score": 381,
+      "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
+      "hn_url": "https://news.ycombinator.com/item?id=47722333",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-10T19:10:22Z",
+      "num_comments": 228,
+      "author": "neversaydie",
+      "search_query": "_front_page"
+    },
+    {
+      "title": "CPU-Z and HWMonitor compromised",
+      "score": 375,
+      "url": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/",
+      "hn_url": "https://news.ycombinator.com/item?id=47717847",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-10T13:29:20Z",
+      "num_comments": 96,
+      "author": "pashadee",
+      "search_query": "_front_page"
+    },
+    {
       "title": "Crush: Glamourous AI coding agent for your favourite terminal",
       "score": 367,
       "url": "https://github.com/charmbracelet/crush",
@@ -1145,28 +1233,6 @@
       "num_comments": 235,
       "author": "nateb2022",
       "search_query": "AI agent"
-    },
-    {
-      "title": "OpenAI backs Illinois bill that would limit when AI labs can be held liable",
-      "score": 358,
-      "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/",
-      "hn_url": "https://news.ycombinator.com/item?id=47717587",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-10T13:08:43Z",
-      "num_comments": 254,
-      "author": "smurda",
-      "search_query": "_front_page"
-    },
-    {
-      "title": "I still prefer MCP over skills",
-      "score": 357,
-      "url": "https://david.coffee/i-still-prefer-mcp-over-skills/",
-      "hn_url": "https://news.ycombinator.com/item?id=47712718",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-10T02:01:48Z",
-      "num_comments": 299,
-      "author": "gmays",
-      "search_query": "_front_page"
     },
     {
       "title": "Signal leaders warn agentic AI is an insecure, unreliable surveillance risk",
@@ -1191,25 +1257,14 @@
       "search_query": "AI agent"
     },
     {
-      "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
-      "score": 341,
-      "url": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
-      "hn_url": "https://news.ycombinator.com/item?id=47716490",
+      "title": "Helium is hard to replace",
+      "score": 342,
+      "url": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
+      "hn_url": "https://news.ycombinator.com/item?id=47719274",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T11:29:04Z",
-      "num_comments": 165,
-      "author": "01-_-",
-      "search_query": "_front_page"
-    },
-    {
-      "title": "DRAM has a design flaw from 1966. I bypassed it [video]",
-      "score": 341,
-      "url": "https://www.youtube.com/watch?v=KKbgulTp3FE",
-      "hn_url": "https://news.ycombinator.com/item?id=47680005",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-07T19:14:32Z",
-      "num_comments": 122,
-      "author": "surprisetalk",
+      "date": "2026-04-10T15:06:51Z",
+      "num_comments": 237,
+      "author": "JumpCrisscross",
       "search_query": "_front_page"
     },
     {
@@ -1290,25 +1345,36 @@
       "search_query": "AI agent"
     },
     {
-      "title": "Charcuterie \u2013 Visual similarity Unicode explorer",
-      "score": 283,
-      "url": "https://charcuterie.elastiq.ch/",
-      "hn_url": "https://news.ycombinator.com/item?id=47709158",
+      "title": "JSON formatter Chrome plugin now closed and injecting adware",
+      "score": 258,
+      "url": "https://github.com/callumlocke/json-formatter",
+      "hn_url": "https://news.ycombinator.com/item?id=47721946",
       "source_detail": "hn_front_page",
-      "date": "2026-04-09T20:12:07Z",
-      "num_comments": 66,
-      "author": "rickcarlino",
+      "date": "2026-04-10T18:34:55Z",
+      "num_comments": 125,
+      "author": "jkl5xx",
       "search_query": "_front_page"
     },
     {
-      "title": "We've raised $17M to build what comes after Git",
-      "score": 248,
-      "url": "https://blog.gitbutler.com/series-a",
-      "hn_url": "https://news.ycombinator.com/item?id=47712656",
+      "title": "France's government is ditching Windows for Linux, says US tech a strategic risk",
+      "score": 253,
+      "url": "https://www.xda-developers.com/frances-government-ditching-windows-for-linux/",
+      "hn_url": "https://news.ycombinator.com/item?id=47728653",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T01:52:58Z",
-      "num_comments": 540,
-      "author": "ellieh",
+      "date": "2026-04-11T08:25:14Z",
+      "num_comments": 143,
+      "author": "pabs3",
+      "search_query": "_front_page"
+    },
+    {
+      "title": "Volunteers turn a fan's recordings of 10K concerts into an online treasure trove",
+      "score": 228,
+      "url": "https://apnews.com/article/aadam-jacobs-collection-concerts-internet-archive-chicago-b1c9c4466a2db409a83523ad84b79d62",
+      "hn_url": "https://news.ycombinator.com/item?id=47687443",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-08T09:11:10Z",
+      "num_comments": 37,
+      "author": "geox",
       "search_query": "_front_page"
     },
     {
@@ -1323,28 +1389,6 @@
       "search_query": "AI automation"
     },
     {
-      "title": "Generative art over the years",
-      "score": 207,
-      "url": "https://blog.veitheller.de/Generative_art_over_the_years.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47675906",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-07T14:25:23Z",
-      "num_comments": 56,
-      "author": "evakhoury",
-      "search_query": "_front_page"
-    },
-    {
-      "title": "A new trick brings stability to quantum operations",
-      "score": 197,
-      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47713495",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-10T04:04:57Z",
-      "num_comments": 46,
-      "author": "joko42",
-      "search_query": "_front_page"
-    },
-    {
       "title": "N8n \u2013 Flexible AI workflow automation for technical teams",
       "score": 195,
       "url": "https://n8n.io/",
@@ -1354,6 +1398,28 @@
       "num_comments": 99,
       "author": "XCSme",
       "search_query": "AI automation"
+    },
+    {
+      "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+      "score": 180,
+      "url": "https://news.ycombinator.com/item?id=47727960",
+      "hn_url": "https://news.ycombinator.com/item?id=47727960",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-11T06:19:25Z",
+      "num_comments": 64,
+      "author": "vidluther",
+      "search_query": "_front_page"
+    },
+    {
+      "title": "Optimal Strategy for Connect 4",
+      "score": 178,
+      "url": "https://2swap.github.io/WeakC4/explanation/",
+      "hn_url": "https://news.ycombinator.com/item?id=47695213",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-08T19:37:50Z",
+      "num_comments": 23,
+      "author": "marvinborner",
+      "search_query": "_front_page"
     },
     {
       "title": "Lightpanda: Headless browser designed for AI and automation",
@@ -1389,80 +1455,102 @@
       "search_query": "AI automation"
     },
     {
-      "title": "Intel 486 CPU announced April 10, 1989",
-      "score": 115,
-      "url": "https://dfarq.homeip.net/intel-486-cpu-announced-april-10-1989/",
-      "hn_url": "https://news.ycombinator.com/item?id=47716809",
+      "title": "Bevy game development tutorials and in-depth resources",
+      "score": 121,
+      "url": "https://taintedcoders.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=47698111",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T12:03:34Z",
-      "num_comments": 110,
-      "author": "jnord",
+      "date": "2026-04-09T00:58:47Z",
+      "num_comments": 29,
+      "author": "GenericCanadian",
       "search_query": "_front_page"
     },
     {
-      "title": "France to ditch Windows for Linux to reduce reliance on US tech",
-      "score": 97,
-      "url": "https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/",
-      "hn_url": "https://news.ycombinator.com/item?id=47719486",
+      "title": "Cirrus Labs to join OpenAI",
+      "score": 120,
+      "url": "https://cirruslabs.org/",
+      "hn_url": "https://news.ycombinator.com/item?id=47730194",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T15:20:48Z",
-      "num_comments": 35,
-      "author": "Teever",
+      "date": "2026-04-11T13:01:34Z",
+      "num_comments": 48,
+      "author": "seekdeep",
       "search_query": "_front_page"
     },
     {
-      "title": "Penguin 'Toxicologists' Find PFAS Chemicals in Remote Patagonia",
-      "score": 93,
-      "url": "https://www.ucdavis.edu/health/news/penguin-toxicologists-find-pfas-chemicals-remote-patagonia",
-      "hn_url": "https://news.ycombinator.com/item?id=47714273",
+      "title": "Polymarket gamblers betting millions on war",
+      "score": 113,
+      "url": "https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth",
+      "hn_url": "https://news.ycombinator.com/item?id=47729994",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T06:15:46Z",
-      "num_comments": 39,
-      "author": "giuliomagnifico",
+      "date": "2026-04-11T12:28:04Z",
+      "num_comments": 76,
+      "author": "sandebert",
       "search_query": "_front_page"
     },
     {
-      "title": "Model-Based Testing for Dungeons & Dragons",
-      "score": 87,
-      "url": "https://www.loskutoff.com/blog/model-based-testing-dnd/",
-      "hn_url": "https://news.ycombinator.com/item?id=47674894",
+      "title": "Bitcoin miners are losing on every coin produced as difficulty drops",
+      "score": 112,
+      "url": "https://www.coindesk.com/markets/2026/03/22/bitcoin-miners-are-losing-usd19-000-on-every-btc-produced-as-difficulty-drops-7-8",
+      "hn_url": "https://news.ycombinator.com/item?id=47730370",
       "source_detail": "hn_front_page",
-      "date": "2026-04-07T13:15:41Z",
-      "num_comments": 51,
-      "author": "Firfi",
+      "date": "2026-04-11T13:22:25Z",
+      "num_comments": 108,
+      "author": "PaulHoule",
       "search_query": "_front_page"
     },
     {
-      "title": "Show HN: Marimo pair \u2013 Reactive Python notebooks as environments for agents",
-      "score": 85,
-      "url": "https://github.com/marimo-team/marimo-pair",
-      "hn_url": "https://news.ycombinator.com/item?id=47678844",
+      "title": "South Korea introduces universal basic mobile data access",
+      "score": 109,
+      "url": "https://www.theregister.com/2026/04/10/south_korea_data_access_universal/",
+      "hn_url": "https://news.ycombinator.com/item?id=47730407",
       "source_detail": "hn_front_page",
-      "date": "2026-04-07T17:47:46Z",
-      "num_comments": 19,
-      "author": "manzt",
+      "date": "2026-04-11T13:27:16Z",
+      "num_comments": 29,
+      "author": "saikatsg",
       "search_query": "_front_page"
     },
     {
-      "title": "Code is run more than read (2023)",
-      "score": 70,
-      "url": "https://olano.dev/blog/code-is-run-more-than-read/",
-      "hn_url": "https://news.ycombinator.com/item?id=47718470",
+      "title": "Italo Calvino: A traveller in a world of uncertainty",
+      "score": 107,
+      "url": "https://www.historytoday.com/archive/portrait-author-historian/italo-calvino-traveller-world-uncertainty",
+      "hn_url": "https://news.ycombinator.com/item?id=47725403",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T14:12:48Z",
-      "num_comments": 25,
-      "author": "facundo_olano",
+      "date": "2026-04-10T23:48:07Z",
+      "num_comments": 20,
+      "author": "lermontov",
       "search_query": "_front_page"
     },
     {
-      "title": "Mysteries of Dropbox: Testing of a Distributed Sync Service (2016) [pdf]",
-      "score": 67,
-      "url": "https://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf",
-      "hn_url": "https://news.ycombinator.com/item?id=47676174",
+      "title": "How Passive Radar Works",
+      "score": 86,
+      "url": "https://www.passiveradar.com/how-passive-radar-works/",
+      "hn_url": "https://news.ycombinator.com/item?id=47702890",
       "source_detail": "hn_front_page",
-      "date": "2026-04-07T14:41:08Z",
-      "num_comments": 15,
-      "author": "JackeJR",
+      "date": "2026-04-09T12:35:24Z",
+      "num_comments": 30,
+      "author": "surprisetalk",
+      "search_query": "_front_page"
+    },
+    {
+      "title": "Productive Procrastination",
+      "score": 83,
+      "url": "https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/",
+      "hn_url": "https://news.ycombinator.com/item?id=47727659",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-11T05:21:21Z",
+      "num_comments": 29,
+      "author": "maxvij",
+      "search_query": "_front_page"
+    },
+    {
+      "title": "The Future of Everything Is Lies, I Guess: Annoyances",
+      "score": 64,
+      "url": "https://aphyr.com/posts/415-the-future-of-everything-is-lies-i-guess-annoyances",
+      "hn_url": "https://news.ycombinator.com/item?id=47730981",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-11T14:32:39Z",
+      "num_comments": 14,
+      "author": "aphyr",
       "search_query": "_front_page"
     },
     {
@@ -1488,69 +1576,25 @@
       "search_query": "AI automation"
     },
     {
-      "title": "You can't trust macOS Privacy and Security settings",
-      "score": 59,
-      "url": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
-      "hn_url": "https://news.ycombinator.com/item?id=47719602",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-10T15:28:24Z",
-      "num_comments": 11,
-      "author": "zdw",
-      "search_query": "_front_page"
-    },
-    {
-      "title": "Show HN: Keeper \u2013 embedded secret store for Go (help me break it)",
-      "score": 52,
-      "url": "https://github.com/agberohq/keeper",
-      "hn_url": "https://news.ycombinator.com/item?id=47715339",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-10T08:53:33Z",
-      "num_comments": 27,
-      "author": "babawere",
-      "search_query": "_front_page"
-    },
-    {
-      "title": "US summons bank bosses over cyber risks from Anthropic's latest AI model",
-      "score": 43,
-      "url": "https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model",
-      "hn_url": "https://news.ycombinator.com/item?id=47718114",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-10T13:47:17Z",
-      "num_comments": 20,
-      "author": "ascold",
-      "search_query": "_front_page"
-    },
-    {
-      "title": "Helium Is Hard to Replace",
+      "title": "How Much Linear Memory Access Is Enough?",
       "score": 35,
-      "url": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
-      "hn_url": "https://news.ycombinator.com/item?id=47719274",
+      "url": "https://solidean.com/blog/2026/how-much-linear-memory-access-is-enough/",
+      "hn_url": "https://news.ycombinator.com/item?id=47689793",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T15:06:51Z",
-      "num_comments": 14,
-      "author": "JumpCrisscross",
+      "date": "2026-04-08T13:16:19Z",
+      "num_comments": 2,
+      "author": "PhilipTrettner",
       "search_query": "_front_page"
     },
     {
-      "title": "CPU-Z and HWMonitor compromised",
-      "score": 30,
-      "url": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/",
-      "hn_url": "https://news.ycombinator.com/item?id=47717847",
+      "title": "The Problem That Built an Industry",
+      "score": 31,
+      "url": "https://ajitem.com/blog/iron-core-part-1-the-problem-that-built-an-industry/",
+      "hn_url": "https://news.ycombinator.com/item?id=47730712",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T13:29:20Z",
-      "num_comments": 22,
-      "author": "pashadee",
-      "search_query": "_front_page"
-    },
-    {
-      "title": "Supply chain nightmare: How Rust will be attacked and what we can do to mitigate",
-      "score": 29,
-      "url": "https://kerkour.com/rust-supply-chain-nightmare",
-      "hn_url": "https://news.ycombinator.com/item?id=47718891",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-10T14:42:04Z",
-      "num_comments": 11,
-      "author": "fanf2",
+      "date": "2026-04-11T14:03:03Z",
+      "num_comments": 12,
+      "author": "ShaggyHotDog",
       "search_query": "_front_page"
     },
     {
@@ -1565,25 +1609,36 @@
       "search_query": "AI automation"
     },
     {
-      "title": "\"Negative\" views of Broadcom driving VMware migrations, rival says",
-      "score": 26,
-      "url": "https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers/",
-      "hn_url": "https://news.ycombinator.com/item?id=47718694",
+      "title": "Cooperative Vectors Introduction",
+      "score": 24,
+      "url": "https://www.evolvebenchmark.com/blog-posts/cooperative-vectors-introduction",
+      "hn_url": "https://news.ycombinator.com/item?id=47717690",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T14:27:29Z",
-      "num_comments": 4,
-      "author": "breve",
+      "date": "2026-04-10T13:16:12Z",
+      "num_comments": 0,
+      "author": "JasperBekkers",
       "search_query": "_front_page"
     },
     {
-      "title": "WireGuard makes new Windows release following Microsoft signing resolution",
-      "score": 20,
-      "url": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47719942",
+      "title": "Surelock: Deadlock-Free Mutexes for Rust",
+      "score": 21,
+      "url": "https://notes.brooklynzelenka.com/Blog/Surelock",
+      "hn_url": "https://news.ycombinator.com/item?id=47693559",
       "source_detail": "hn_front_page",
-      "date": "2026-04-10T15:49:52Z",
-      "num_comments": 6,
-      "author": "zx2c4",
+      "date": "2026-04-08T17:36:19Z",
+      "num_comments": 4,
+      "author": "codetheweb",
+      "search_query": "_front_page"
+    },
+    {
+      "title": "Sybilproof reputation mechanisms (2005) [pdf]",
+      "score": 19,
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1080192.1080202",
+      "hn_url": "https://news.ycombinator.com/item?id=47676890",
+      "source_detail": "hn_front_page",
+      "date": "2026-04-07T15:29:35Z",
+      "num_comments": 0,
+      "author": "perfmode",
       "search_query": "_front_page"
     },
     {
@@ -1596,17 +1651,6 @@
       "num_comments": 0,
       "author": "surprisetalk",
       "search_query": "AI automation"
-    },
-    {
-      "title": "1D Chess",
-      "score": 17,
-      "url": "https://rowan441.github.io/1dchess/chess.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47719740",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-10T15:37:28Z",
-      "num_comments": 2,
-      "author": "burnt-resistor",
-      "search_query": "_front_page"
     },
     {
       "title": "Show HN: VectorShift \u2013 AI automation no-code builder and Python SDK",
@@ -1631,17 +1675,6 @@
       "search_query": "AI automation"
     },
     {
-      "title": "Conway's Game of Life, in real life",
-      "score": 12,
-      "url": "https://lcamtuf.coredump.cx/blog/conway/",
-      "hn_url": "https://news.ycombinator.com/item?id=47439821",
-      "source_detail": "hn_front_page",
-      "date": "2026-03-19T14:11:56Z",
-      "num_comments": 1,
-      "author": "ahlCVA",
-      "search_query": "_front_page"
-    },
-    {
       "title": "Ask HN: What will be the effects of the upcoming rise of AI and Automation?",
       "score": 12,
       "url": "https://news.ycombinator.com/item?id=12471490",
@@ -1653,17 +1686,6 @@
       "search_query": "AI automation"
     },
     {
-      "title": "Deterministic Primality Testing for Limited Bit Width",
-      "score": 11,
-      "url": "https://www.jeremykun.com/2026/04/07/deterministic-miller-rabin/",
-      "hn_url": "https://news.ycombinator.com/item?id=47690609",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-08T14:19:39Z",
-      "num_comments": 0,
-      "author": "ibobev",
-      "search_query": "_front_page"
-    },
-    {
       "title": "How I Eat for Free in NYC using Python, Automation, AI, and Instagram",
       "score": 11,
       "url": "https://medium.com/@chrisbuetti/how-i-eat-for-free-in-nyc-using-python-automation-artificial-intelligence-and-instagram-a5ed8a1e2a10",
@@ -1673,28 +1695,6 @@
       "num_comments": 0,
       "author": "mgh2",
       "search_query": "AI automation"
-    },
-    {
-      "title": "C++: Freestanding Standard Library",
-      "score": 9,
-      "url": "https://www.sandordargo.com/blog/2026/04/08/cpp-freestanding",
-      "hn_url": "https://news.ycombinator.com/item?id=47686431",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-08T07:10:02Z",
-      "num_comments": 1,
-      "author": "ingve",
-      "search_query": "_front_page"
-    },
-    {
-      "title": "Show HN: I rewrote my 2012 self-signed cert generator in Go \u2013 cert-depot.com",
-      "score": 9,
-      "url": "https://news.ycombinator.com/item?id=47613622",
-      "hn_url": "https://news.ycombinator.com/item?id=47613622",
-      "source_detail": "hn_front_page",
-      "date": "2026-04-02T12:36:10Z",
-      "num_comments": 1,
-      "author": "dimastopel",
-      "search_query": "_front_page"
     },
     {
       "title": "One-fifth of the jobs at your company could disappear as AI automation takes off",
