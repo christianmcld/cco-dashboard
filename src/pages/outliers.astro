@@ -93,7 +93,26 @@ const lastUpdated = generatedAt
             open: false,
             done: false,
             init() { try { this.done = localStorage.getItem('cco-done-${o.source_url}') === '1'; } catch(e){} },
-            markDone() { this.done = !this.done; try { localStorage.setItem('cco-done-${o.source_url}', this.done ? '1' : '0'); } catch(e){} }
+            markDone() { this.done = !this.done; try { localStorage.setItem('cco-done-${o.source_url}', this.done ? '1' : '0'); } catch(e){} },
+            addToLib() {
+              var item = ${JSON.stringify({
+                id: o.source_url,
+                headline: o.headline || (o.my_hooks && o.my_hooks[0]) || o.recommended_angle || 'Idea',
+                angle: o.recommended_angle || '',
+                hooks: o.my_hooks || [],
+                talking_points: o.my_talking_points || [],
+                body_copy: o.my_body_copy || '',
+                script: scriptBeats(o.my_script_summary),
+                guidance: o.production_guidance || [],
+                source: '@' + o.source_account,
+                framework: o.hook_framework || '',
+              })};
+              var lib = []; try { lib = JSON.parse(localStorage.getItem('cco-library')||'[]'); } catch(e){}
+              if(!lib.some(function(x){ return (x.headline||x.title) === item.headline; })){
+                item.added = Date.now(); lib.unshift(item);
+                try { localStorage.setItem('cco-library', JSON.stringify(lib)); } catch(e){}
+              }
+            }
           }`}
           x-bind:class="done ? 'opacity-55' : ''"
         >
@@ -148,6 +167,7 @@ const lastUpdated = generatedAt
           <!-- actions -->
           <div class="mt-4 flex items-center gap-2 flex-wrap">
             <button class="lets-go-btn px-4 py-2 text-sm" @click="open = !open" x-text="open ? 'Hide hooks & script' : 'Get hooks & script'"></button>
+            <button class="tab-button" @click="addToLib(); $el.textContent='✓ Added'; setTimeout(()=>$el.textContent='Add to Library',2000)">Add to Library</button>
             <a href={o.source_url} target="_blank" rel="noopener" class="emulate-btn px-4 py-2 text-sm border rounded-full">Watch original</a>
             <button class="tab-button" @click="markDone()" x-text="done ? '✓ Recorded' : 'Mark recorded'"></button>
           </div>

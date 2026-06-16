@@ -43,7 +43,30 @@ function formatEngagement(n: number): string {
 
 <Layout title="Dashboard · FieldWork Content Engine">
 
-  <div x-data="{ libraryOpen: false, libraryDetail: null, letsGoModal: null, emulateModal: null }" @open-emulate.window="emulateModal = $event.detail.post ? buildEmulateData($event.detail.post) : null">
+  <div x-data="{
+    libraryOpen: false, libraryDetail: null, letsGoModal: null, emulateModal: null,
+    libraryText(idea){
+      if(!idea) return '';
+      var t = idea.headline || idea.title || '';
+      var lines = [t];
+      if(idea.angle) lines.push('', idea.angle);
+      if(idea.hooks && idea.hooks.length){ lines.push('', 'HOOKS:'); idea.hooks.forEach(function(h){ lines.push('- '+h); }); }
+      if(idea.talking_points && idea.talking_points.length){ lines.push('', 'WHAT TO SAY:'); idea.talking_points.forEach(function(t){ lines.push('- '+t); }); }
+      if(idea.body_copy){ lines.push('', 'WORD-FOR-WORD:', idea.body_copy); }
+      else if(idea.script && idea.script.length){ lines.push('', 'SCRIPT:'); idea.script.forEach(function(b){ lines.push('- '+b); }); }
+      if(idea.guidance && idea.guidance.length){ lines.push('', 'HOW TO SHOOT:'); idea.guidance.forEach(function(g){ lines.push('- '+g); }); }
+      return lines.join('\n');
+    },
+    saveToLibrary(idea){
+      if(!idea) return;
+      var head = idea.headline || idea.title || 'Idea';
+      var lib = []; try { lib = JSON.parse(localStorage.getItem('cco-library')||'[]'); } catch(e){}
+      if(!lib.some(function(x){ return (x.headline||x.title) === head; })){
+        lib.unshift({ id: idea.url || idea.source_url || head, headline: head, angle: idea.angle, hooks: idea.hooks, talking_points: idea.talking_points, body_copy: idea.body_copy, script: idea.script, guidance: idea.guidance, source: idea.source, framework: idea.framework, added: Date.now() });
+        try { localStorage.setItem('cco-library', JSON.stringify(lib)); } catch(e){}
+      }
+    }
+  }" @open-emulate.window="emulateModal = $event.detail.post ? buildEmulateData($event.detail.post) : null">
 
     <!-- ============================================ -->
     <!-- CONTENT LIBRARY SIDEBAR                     -->
@@ -231,47 +254,44 @@ function formatEngagement(n: number): string {
       @keydown.escape.window="letsGoModal = null"
     >
       <div class="fixed inset-0 bg-black/60 backdrop-blur-sm" @click="letsGoModal = null"></div>
-      <div class="relative z-10 card p-8 max-w-2xl w-full" x-show="letsGoModal" x-transition>
-        <div class="flex items-start justify-between mb-6">
+      <div class="relative z-10 card p-8 max-w-2xl w-full max-h-[85vh] overflow-y-auto" x-show="letsGoModal" x-transition>
+        <div class="flex items-start justify-between mb-4">
           <div>
-            <h2 class="font-display font-bold text-lg text-accent">Let's Go!</h2>
-            <p class="text-sm text-text-secondary mt-1">Run this command to generate all content formats:</p>
+            <h2 class="font-display font-bold text-lg">Ready to record</h2>
+            <p class="text-sm text-text-secondary mt-1" x-text="letsGoModal?.source ? 'Modeled on '+letsGoModal.source : ''"></p>
           </div>
           <button @click="letsGoModal = null" class="text-text-secondary hover:text-text transition-colors p-1">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
           </button>
         </div>
 
-        <div class="bg-background border border-border rounded-lg p-4 mb-4 overflow-x-auto">
-          <code class="text-xs text-accent font-mono whitespace-pre-wrap break-all" x-text="letsGoModal?.command || ''"></code>
-        </div>
+        <h3 class="font-display font-semibold text-base mb-2" x-text="letsGoModal?.title || ''"></h3>
+        <p class="text-sm text-text-secondary mb-5" x-show="letsGoModal?.angle" x-text="letsGoModal?.angle || ''"></p>
 
-        <div class="space-y-3 mb-6">
-          <div class="flex items-center gap-2">
-            <span class="text-xs text-text-secondary font-label font-bold">Topic:</span>
-            <span class="text-xs text-text" x-text="letsGoModal?.topic || ''"></span>
-          </div>
-          <div class="flex items-center gap-2">
-            <span class="text-xs text-text-secondary font-label font-bold">Keyword:</span>
-            <span class="badge badge-lime text-[0.55rem]" x-text="letsGoModal?.keyword || ''"></span>
-          </div>
-          <div class="flex items-center gap-2">
-            <span class="text-xs text-text-secondary font-label font-bold">Skill:</span>
-            <span class="text-xs text-text" x-text="letsGoModal?.skill || ''"></span>
-          </div>
-        </div>
+        <p class="section-label mb-2">Hooks</p>
+        <ul class="space-y-2 mb-5">
+          <template x-for="(h, hi) in (letsGoModal?.hooks || [])" :key="hi">
+            <li class="text-sm flex gap-2"><span class="text-accent font-bold flex-shrink-0">&rarr;</span><span x-text="h"></span></li>
+          </template>
+        </ul>
 
-        <div class="flex items-center gap-2 text-xs text-text-secondary">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-          <span>Copy and run in terminal. Rebuild dashboard data after to see the new pack.</span>
-        </div>
+        <p class="section-label mb-2">Script outline</p>
+        <ol class="space-y-2 mb-6">
+          <template x-for="(b, bi) in (letsGoModal?.script || [])" :key="bi">
+            <li class="text-sm flex gap-2"><span class="text-text-secondary flex-shrink-0 text-xs mt-0.5">&bull;</span><span x-text="b"></span></li>
+          </template>
+        </ol>
 
-        <button
-          class="w-full mt-4 py-2.5 px-4 bg-accent text-on-accent font-label font-bold text-xs tracking-wider uppercase rounded-lg hover:opacity-90 transition-opacity"
-          @click="navigator.clipboard.writeText(letsGoModal?.command || ''); $el.textContent = 'COPIED!'; setTimeout(() => $el.textContent = 'COPY COMMAND', 2000)"
-        >
-          Copy Command
-        </button>
+        <div class="flex gap-2">
+          <button
+            class="lets-go-btn flex-1 py-2.5 px-4 font-label font-bold text-xs tracking-wider uppercase rounded-full"
+            @click="saveToLibrary(letsGoModal); $el.textContent = '✓ Added to Library'; setTimeout(() => $el.textContent = 'Add to Library', 2000)"
+          >Add to Library</button>
+          <button
+            class="tab-button"
+            @click="navigator.clipboard.writeText(libraryText(letsGoModal)); $el.textContent = 'Copied!'; setTimeout(() => $el.textContent = 'Copy all', 2000)"
+          >Copy all</button>
+        </div>
       </div>
     </div>
 
@@ -372,25 +392,16 @@ function formatEngagement(n: number): string {
 
         </div>
 
-        <!-- Command Block -->
-        <div class="mb-4">
-          <span class="text-[0.6rem] font-label font-bold text-text-secondary uppercase tracking-wider block mb-2">Generate Command</span>
-          <div class="bg-background border border-border rounded-lg p-4 overflow-x-auto">
-            <code class="text-xs text-accent font-mono whitespace-pre-wrap break-all" x-text="emulateModal?.command || ''"></code>
-          </div>
+        <div class="flex gap-2 mt-2">
+          <button
+            class="lets-go-btn flex-1 py-2.5 px-4 font-label font-bold text-xs tracking-wider uppercase rounded-full"
+            @click="saveToLibrary(emulateModal); $el.textContent = '✓ Added to Library'; setTimeout(() => $el.textContent = 'Add to Library', 2000)"
+          >Add to Library</button>
+          <button
+            class="tab-button"
+            @click="navigator.clipboard.writeText(libraryText(emulateModal)); $el.textContent = 'Copied!'; setTimeout(() => $el.textContent = 'Copy all', 2000)"
+          >Copy all</button>
         </div>
-
-        <div class="flex items-center gap-2 text-xs text-text-secondary mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-          <span>Copy and run in terminal. The content pack will adapt this viral post into your voice.</span>
-        </div>
-
-        <button
-          class="w-full py-2.5 px-4 bg-accent text-on-accent font-label font-bold text-xs tracking-wider uppercase rounded-lg hover:opacity-90 transition-opacity"
-          @click="navigator.clipboard.writeText(emulateModal?.command || ''); $el.textContent = 'COPIED!'; setTimeout(() => $el.textContent = 'COPY COMMAND', 2000)"
-        >
-          Copy Command
-        </button>
       </div>
     </div>
 
@@ -789,7 +800,7 @@ function formatEngagement(n: number): string {
                     </button>
                     <button
                       class="lets-go-btn flex-1 text-xs font-label font-bold tracking-wider uppercase py-2 px-3 rounded-lg transition-all"
-                      @click="letsGoModal = buildLetsGoCommand(idea)"
+                      @click="letsGoModal = idea"
                     >
                       Let's Go &rarr;
                     </button>
@@ -1115,7 +1126,17 @@ function formatEngagement(n: number): string {
       keyword: keyword,
       skill: skill,
       emulateFlag: emulateFlag,
-      command: cmd
+      command: cmd,
+      // generated content pack (for Add to Library)
+      headline: post.headline || adaptedTopic,
+      angle: post.angle || '',
+      hooks: post.hooks || [],
+      talking_points: post.talking_points || [],
+      body_copy: post.body_copy || '',
+      script: post.script || [],
+      guidance: post.guidance || [],
+      source: '@' + creator,
+      outlier_score: outlierRatio
     };
   }
 

@@ -22,8 +22,9 @@
   h1 em{font-style:italic;color:var(--tan);font-weight:500}
   .sub{color:var(--muted);margin-bottom:2rem}
   label{display:block;font-family:'Geist';font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:1.1rem 0 .4rem}
-  input[type=text],input[type=url],input[type=number]{width:100%;padding:.8rem 1rem;background:var(--surface);border:1px solid var(--divider);border-radius:12px;font-family:'Geist';font-size:1rem;color:var(--ink);outline:none}
-  input:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+  input[type=text],input[type=url],input[type=number],input[type=email],textarea{width:100%;padding:.8rem 1rem;background:var(--surface);border:1px solid var(--divider);border-radius:12px;font-family:'Geist';font-size:1rem;color:var(--ink);outline:none}
+  textarea{resize:none;line-height:1.5}
+  input:focus,textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
   .hint{font-size:.8rem;color:var(--faint);margin-top:.35rem}
   .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;width:100%;padding:1rem;border:none;border-radius:999px;background:var(--green);color:#fff;font-family:'Geist';font-weight:600;font-size:1rem;cursor:pointer;margin-top:1.8rem;transition:transform .1s}
   .btn:hover{transform:translateY(-1px)} .btn:active{transform:translateY(0)}
@@ -52,6 +53,9 @@
   .score-card .l{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:.3rem}
   .accent{color:var(--accent)} .wordmark{font-family:'Caveat';font-size:1.5rem}
   .badge{display:inline-block;border:1px solid var(--divider);border-radius:999px;padding:.3rem .8rem;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  .callout{background:var(--warm);border:1px solid var(--divider);border-radius:14px;padding:1rem 1.2rem;margin-top:1.4rem;font-size:.95rem;color:var(--muted)}
+  .callout b{color:var(--ink)}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}
 </style>
 </head>
 <body>
@@ -62,36 +66,74 @@
     <span class="mono" x-text="'Step '+step+' of '+maxStep"></span>
   </div>
 
-  <!-- STEP 1 -->
+  <!-- STEP 1 · Basics -->
   <template x-if="step===1">
     <div>
       <h1>Welcome to <em>FieldWork.</em></h1>
       <p class="sub">First, the basics. This takes about three minutes, and it is what lets us prove how much of your life we give back.</p>
-      <label>Your name</label>
-      <input type="text" x-model="d.name" placeholder="Christian McLeod" />
+      <label>What should we call you?</label>
+      <input type="text" x-model="d.name" placeholder="Christian" />
+      <label>The email linked to your FieldWork account</label>
+      <input type="email" x-model="d.email" placeholder="you@example.com" />
+      <p class="hint">Use the same email you enrolled with, so we can link everything to your profile.</p>
       <label>Your website</label>
       <input type="url" x-model="d.website" placeholder="https://" />
       <button class="btn" @click="next()">Continue</button>
     </div>
   </template>
 
-  <!-- STEP 2 -->
+  <!-- STEP 2 · Your brand -->
   <template x-if="step===2">
     <div>
       <h1>Where you <em>show up.</em></h1>
-      <p class="sub">Your channels, so we can track what is working. All optional.</p>
+      <p class="sub">Your platforms, so we can track what is working and measure your growth from day one.</p>
+
+      <label>Your main platform right now</label>
+      <div class="chips">
+        <template x-for="p in platforms" :key="p">
+          <span class="chip" :class="d.primary===p?'on':''" @click="d.primary=p" x-text="p"></span>
+        </template>
+      </div>
+
+      <label style="margin-top:1.4rem">Your handles (all optional)</label>
       <div class="socials">
         <template x-for="p in platforms" :key="p">
           <div class="row"><span class="plat" x-text="p"></span><input type="text" x-model="d.socials[p]" placeholder="@yourhandle" /></div>
         </template>
       </div>
+
+      <label>Total following across platforms today</label>
+      <input type="number" x-model.number="d.followers" placeholder="2500" />
+      <p class="hint">Your honest baseline. This is the number we grow together.</p>
+
+      <label>How would you describe yourself?</label>
+      <div class="chips">
+        <template x-for="l in levels" :key="l">
+          <span class="chip" :class="d.level===l?'on':''" @click="d.level=l" x-text="l"></span>
+        </template>
+      </div>
+
       <button class="btn" @click="next()">Continue</button>
       <button class="btn ghost" @click="back()">Back</button>
     </div>
   </template>
 
-  <!-- STEP 3 -->
+  <!-- STEP 3 · Goals -->
   <template x-if="step===3">
+    <div>
+      <h1>What you are <em>building toward.</em></h1>
+      <p class="sub">We point every system at your goals. Be honest and specific, it helps us tailor your plan.</p>
+      <label>Your biggest goal before the end of this year</label>
+      <textarea rows="2" x-model="d.goalYear" placeholder="Hit $10k months, or grow to 50k followers, or launch my first product."></textarea>
+      <label>What are you planning to do immediately to make it more likely?</label>
+      <textarea rows="2" x-model="d.goalAction" placeholder="Post daily, ship my offer, finally start that YouTube channel."></textarea>
+      <button class="btn" @click="next()">Continue</button>
+      <button class="btn ghost" @click="back()">Back</button>
+    </div>
+  </template>
+
+  <!-- STEP 4 · Time audit -->
+  <template x-if="step===4">
     <div>
       <h1>Your <em>time audit.</em></h1>
       <p class="sub">Roughly how many hours a week do you spend on each of these right now? These are the tethered hours we are going to give back.</p>
@@ -107,8 +149,8 @@
     </div>
   </template>
 
-  <!-- STEP 4 -->
-  <template x-if="step===4">
+  <!-- STEP 5 · Time worth -->
+  <template x-if="step===5">
     <div>
       <h1>What your <em>time is worth.</em></h1>
       <p class="sub">So we can turn reclaimed hours into real dollars. We will work it out two ways and let you choose.</p>
@@ -128,8 +170,8 @@
     </div>
   </template>
 
-  <!-- STEP 5 -->
-  <template x-if="step===5">
+  <!-- STEP 6 · Life off the screen -->
+  <template x-if="step===6">
     <div>
       <h1>The life <em>off the screen.</em></h1>
       <p class="sub">FieldWork is about money as a tool to get you back offline. Let us anchor what that means for you.</p>
@@ -143,13 +185,33 @@
       </div>
       <label>Anything else, in your words?</label>
       <input type="text" x-model="d.aspiration" placeholder="Surf every morning before my kids wake up." />
+      <button class="btn" @click="next()">Continue</button>
+      <button class="btn ghost" @click="back()">Back</button>
+    </div>
+  </template>
+
+  <!-- STEP 7 · Shipping (optional) -->
+  <template x-if="step===7">
+    <div>
+      <h1>Where to <em>send things.</em></h1>
+      <p class="sub">Optional. We send the occasional welcome gift and milestone surprise to members. No spam, ever.</p>
+      <label>Address</label>
+      <input type="text" x-model="d.ship.line1" placeholder="123 Main St" />
+      <div class="two-col">
+        <div><label>City / Town</label><input type="text" x-model="d.ship.city" placeholder="Byron Bay" /></div>
+        <div><label>State / Region</label><input type="text" x-model="d.ship.state" placeholder="NSW" /></div>
+      </div>
+      <div class="two-col">
+        <div><label>Zip / Post code</label><input type="text" x-model="d.ship.zip" placeholder="2481" /></div>
+        <div><label>Country</label><input type="text" x-model="d.ship.country" placeholder="Australia" /></div>
+      </div>
       <button class="btn" @click="next()">See my Reclaim Scorecard</button>
       <button class="btn ghost" @click="back()">Back</button>
     </div>
   </template>
 
-  <!-- SCORECARD -->
-  <template x-if="step===6">
+  <!-- STEP 8 · Scorecard -->
+  <template x-if="step===8">
     <div>
       <div class="badge">Your baseline</div>
       <h1>Your <em>Reclaim Scorecard.</em></h1>
@@ -161,12 +223,18 @@
       <div class="score-grid">
         <div class="score-card"><div class="n" x-text="money(annualValue())"></div><div class="l">Tethered value / year</div></div>
         <div class="score-card"><div class="n" x-text="offlineRatio()+'%'"></div><div class="l">Time spent offline</div></div>
-        <div class="score-card"><div class="n" x-text="d.offline+' hrs'"></div><div class="l">Offline / week now</div></div>
+        <div class="score-card"><div class="n" x-text="(d.followers||0).toLocaleString()"></div><div class="l">Following today</div></div>
         <div class="score-card"><div class="n" x-text="d.interests.length"></div><div class="l">Things waiting for you</div></div>
       </div>
-      <p style="text-align:center;color:var(--muted)" x-show="d.interests.length">
+      <div class="callout" x-show="d.goalYear">
+        Your goal this year: <b x-text="d.goalYear"></b>. We are pointing every reclaimed hour at it.
+      </div>
+      <p style="text-align:center;color:var(--muted);margin-top:1.2rem" x-show="d.interests.length">
         We are building toward <span class="wordmark accent" x-text="d.interests.slice(0,3).join(', ').toLowerCase()"></span><span x-show="d.aspiration"> and <span class="wordmark" x-text="'“'+d.aspiration+'”'"></span></span>.
       </p>
+      <div class="callout" style="text-align:center">
+        One more thing: jump into the <b>FieldWork community</b> and introduce yourself. The members who show up early win fastest.
+      </div>
       <button class="btn" @click="step=1">Start over</button>
       <p class="hint" style="text-align:center;margin-top:1rem">Prototype. Build Online. Live Offline.</p>
     </div>
@@ -176,8 +244,9 @@
 <script>
 function onb(){
   return {
-    step:1, maxStep:6,
+    step:1, maxStep:8,
     platforms:['YouTube','Instagram','TikTok','LinkedIn','X'],
+    levels:['Beginner','Intermediate','Advanced','Unsure'],
     buckets:[
       {key:'social',label:'Social media (posting, scrolling, managing)'},
       {key:'email',label:'Email and inbox'},
@@ -186,7 +255,7 @@ function onb(){
       {key:'meetings',label:'Meetings and calls'},
     ],
     interests:['Surfing','Scuba diving','Hiking','Camping','Fishing','Skiing','Cycling','Working out','Jiu-jitsu','Golf / tennis','Time with kids','Time with family','Time with partner','Traveling','Cooking','Reading','Music','Photography','A new language','Learning to juggle','Gardening','Meditation','Volunteering','Just resting'],
-    d:{name:'',website:'',socials:{},time:{social:10,email:8,content:6,admin:5,meetings:6},revenue:null,hoursWorked:null,statedHourly:null,useValue:'derived',offline:8,interests:[],aspiration:''},
+    d:{name:'',email:'',website:'',primary:'',socials:{},followers:null,level:'',goalYear:'',goalAction:'',time:{social:10,email:8,content:6,admin:5,meetings:6},revenue:null,hoursWorked:null,statedHourly:null,useValue:'derived',offline:8,interests:[],aspiration:'',ship:{line1:'',city:'',state:'',zip:'',country:''}},
     next(){ if(this.step<this.maxStep) this.step++; },
     back(){ if(this.step>1) this.step--; },
     toggle(i){ const a=this.d.interests; a.includes(i)?a.splice(a.indexOf(i),1):a.push(i); },
