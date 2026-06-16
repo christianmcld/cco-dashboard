@@ -4,6 +4,7 @@ import data from '../data/outliers.json';
 
 const items = (data.outliers || []).slice();
 const accounts = data.accounts || [];
+const creatorList = [...new Set(items.map((o) => o.source_account))].sort();
 const totalDetected = data.outlier_total_detected || 0;
 const totalMatches = data.message_match_total || 0;
 const generatedAt = data.generated_at ? new Date(data.generated_at) : null;
@@ -29,7 +30,7 @@ const lastUpdated = generatedAt
 <Layout title="Content Outliers · FieldWork">
   <script is:inline>
     document.addEventListener('alpine:init', () => {
-      window.Alpine.store('ui', { board: 'all' });
+      window.Alpine.store('ui', { board: 'all', creator: 'all' });
     });
   </script>
   <div class="max-w-[1100px] mx-auto px-5 lg:px-10 py-8">
@@ -72,12 +73,21 @@ const lastUpdated = generatedAt
       <button class="tab-button" :class="$store.ui.board === 'match' ? 'active' : ''" @click="$store.ui.board = 'match'">FieldWork matches ({nMatches})</button>
     </div>
 
+    <!-- CREATOR FILTER -->
+    <div class="flex items-center gap-2 mb-6 flex-wrap">
+      <span class="section-label mr-1">Creator</span>
+      <button class="tab-button" :class="$store.ui.creator === 'all' ? 'active' : ''" @click="$store.ui.creator = 'all'">All creators</button>
+      {creatorList.map((c) => (
+        <button class="tab-button" :class={`$store.ui.creator === '${c}' ? 'active' : ''`} @click={`$store.ui.creator = '${c}'`}>@{c}</button>
+      ))}
+    </div>
+
     <!-- CARDS -->
     <div class="space-y-4">
       {items.map((o, i) => (
         <article
           class="card p-5"
-          x-show={`$store.ui.board === 'all' || ($store.ui.board === 'outliers' && ${o.is_outlier}) || ($store.ui.board === 'match' && ${o.is_message_match})`}
+          x-show={`($store.ui.creator === 'all' || $store.ui.creator === '${o.source_account}') && ($store.ui.board === 'all' || ($store.ui.board === 'outliers' && ${o.is_outlier}) || ($store.ui.board === 'match' && ${o.is_message_match}))`}
           x-transition
           x-data={`{
             open: false,

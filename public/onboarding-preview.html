@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="only light" />
+<title>FieldWork · Member Onboarding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Caveat:wght@600&display=swap" rel="stylesheet" />
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
+<style>
+  :root{
+    --bg:#f8f7f3; --surface:#fff; --warm:#f1eee6; --ink:#111; --muted:#5c5c5c; --faint:#9a9a9a;
+    --accent:#b7f600; --green:#1f3d2b; --tan:#b08d57; --divider:rgba(17,17,17,.1);
+  }
+  *{box-sizing:border-box;border-radius:0}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'Geist',sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:600px;margin:0 auto;padding:48px 24px 80px}
+  .mono{font-family:'Geist';font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:2.4rem;line-height:1.05;margin:.3rem 0 .2rem}
+  h1 em{font-style:italic;color:var(--tan);font-weight:500}
+  .sub{color:var(--muted);margin-bottom:2rem}
+  label{display:block;font-family:'Geist';font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:1.1rem 0 .4rem}
+  input[type=text],input[type=url],input[type=number]{width:100%;padding:.8rem 1rem;background:var(--surface);border:1px solid var(--divider);border-radius:12px;font-family:'Geist';font-size:1rem;color:var(--ink);outline:none}
+  input:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+  .hint{font-size:.8rem;color:var(--faint);margin-top:.35rem}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;width:100%;padding:1rem;border:none;border-radius:999px;background:var(--green);color:#fff;font-family:'Geist';font-weight:600;font-size:1rem;cursor:pointer;margin-top:1.8rem;transition:transform .1s}
+  .btn:hover{transform:translateY(-1px)} .btn:active{transform:translateY(0)}
+  .btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--divider);margin-top:.6rem}
+  .row{display:flex;gap:.7rem;align-items:center}
+  .slider-row{margin:1.1rem 0}
+  .slider-row .top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:.3rem}
+  .slider-row .val{font-family:'Fraunces';font-weight:600;font-size:1.1rem}
+  input[type=range]{width:100%;accent-color:var(--green)}
+  .total{background:var(--warm);border:1px solid var(--divider);border-radius:14px;padding:1rem 1.2rem;display:flex;justify-content:space-between;align-items:center;margin-top:1.4rem}
+  .total .big{font-family:'Fraunces';font-weight:600;font-size:1.8rem}
+  .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.5rem}
+  .chip{padding:.5rem .85rem;border:1px solid var(--divider);border-radius:999px;background:var(--surface);font-size:.85rem;cursor:pointer;user-select:none;transition:all .12s}
+  .chip.on{background:var(--green);color:#fff;border-color:var(--green)}
+  .socials .row{margin-bottom:.6rem}
+  .socials .plat{width:96px;font-size:.8rem;color:var(--muted);flex-shrink:0}
+  .progress{height:3px;background:var(--divider);border-radius:2px;margin-bottom:2.2rem;overflow:hidden}
+  .progress span{display:block;height:100%;background:var(--accent);transition:width .35s}
+  .two{background:var(--surface);border:1px solid var(--divider);border-radius:14px;padding:1rem;margin-top:.8rem}
+  .two .k{font-size:.75rem;color:var(--muted)} .two .v{font-family:'Fraunces';font-weight:600;font-size:1.5rem}
+  .score{text-align:center;padding:1rem 0}
+  .score .num{font-family:'Fraunces';font-weight:600;font-size:3.4rem;line-height:1;color:var(--green)}
+  .score-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin:1.4rem 0}
+  .score-card{background:var(--surface);border:1px solid var(--divider);border-radius:16px;padding:1.2rem;text-align:center}
+  .score-card .n{font-family:'Fraunces';font-weight:600;font-size:1.9rem;color:var(--ink)}
+  .score-card .l{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:.3rem}
+  .accent{color:var(--accent)} .wordmark{font-family:'Caveat';font-size:1.5rem}
+  .badge{display:inline-block;border:1px solid var(--divider);border-radius:999px;padding:.3rem .8rem;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap" x-data="onb()">
+  <div class="progress"><span :style="'width:'+((step)/(maxStep)*100)+'%'"></span></div>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.4rem">
+    <span class="badge" x-text="'FieldWork'"></span>
+    <span class="mono" x-text="'Step '+step+' of '+maxStep"></span>
+  </div>
+
+  <!-- STEP 1 -->
+  <template x-if="step===1">
+    <div>
+      <h1>Welcome to <em>FieldWork.</em></h1>
+      <p class="sub">First, the basics. This takes about three minutes, and it is what lets us prove how much of your life we give back.</p>
+      <label>Your name</label>
+      <input type="text" x-model="d.name" placeholder="Christian McLeod" />
+      <label>Your website</label>
+      <input type="url" x-model="d.website" placeholder="https://" />
+      <button class="btn" @click="next()">Continue</button>
+    </div>
+  </template>
+
+  <!-- STEP 2 -->
+  <template x-if="step===2">
+    <div>
+      <h1>Where you <em>show up.</em></h1>
+      <p class="sub">Your channels, so we can track what is working. All optional.</p>
+      <div class="socials">
+        <template x-for="p in platforms" :key="p">
+          <div class="row"><span class="plat" x-text="p"></span><input type="text" x-model="d.socials[p]" placeholder="@yourhandle" /></div>
+        </template>
+      </div>
+      <button class="btn" @click="next()">Continue</button>
+      <button class="btn ghost" @click="back()">Back</button>
+    </div>
+  </template>
+
+  <!-- STEP 3 -->
+  <template x-if="step===3">
+    <div>
+      <h1>Your <em>time audit.</em></h1>
+      <p class="sub">Roughly how many hours a week do you spend on each of these right now? These are the tethered hours we are going to give back.</p>
+      <template x-for="b in buckets" :key="b.key">
+        <div class="slider-row">
+          <div class="top"><span x-text="b.label"></span><span class="val" x-text="d.time[b.key]+' hrs'"></span></div>
+          <input type="range" min="0" max="40" step="1" x-model.number="d.time[b.key]" />
+        </div>
+      </template>
+      <div class="total"><span class="mono">Tethered hours / week</span><span class="big" x-text="tethered()"></span></div>
+      <button class="btn" @click="next()">Continue</button>
+      <button class="btn ghost" @click="back()">Back</button>
+    </div>
+  </template>
+
+  <!-- STEP 4 -->
+  <template x-if="step===4">
+    <div>
+      <h1>What your <em>time is worth.</em></h1>
+      <p class="sub">So we can turn reclaimed hours into real dollars. We will work it out two ways and let you choose.</p>
+      <label>Monthly revenue ($)</label>
+      <input type="number" x-model.number="d.revenue" placeholder="20000" />
+      <label>Hours you work per week</label>
+      <input type="number" x-model.number="d.hoursWorked" placeholder="50" />
+      <div class="two"><span class="k">Derived value of an hour</span><div class="v" x-text="money(derivedHourly())"></div></div>
+      <label>And in your own words, what is an hour worth to you?</label>
+      <input type="number" x-model.number="d.statedHourly" placeholder="150" />
+      <div class="row" style="margin-top:1rem;gap:.5rem">
+        <span class="chip" :class="d.useValue==='derived'?'on':''" @click="d.useValue='derived'">Use derived <span x-text="money(derivedHourly())"></span></span>
+        <span class="chip" :class="d.useValue==='stated'?'on':''" @click="d.useValue='stated'">Use stated <span x-text="money(d.statedHourly||0)"></span></span>
+      </div>
+      <button class="btn" @click="next()">Continue</button>
+      <button class="btn ghost" @click="back()">Back</button>
+    </div>
+  </template>
+
+  <!-- STEP 5 -->
+  <template x-if="step===5">
+    <div>
+      <h1>The life <em>off the screen.</em></h1>
+      <p class="sub">FieldWork is about money as a tool to get you back offline. Let us anchor what that means for you.</p>
+      <label>Hours a week you are genuinely unplugged right now</label>
+      <input type="number" x-model.number="d.offline" placeholder="10" />
+      <label>What would you do with the time back? Pick all that pull at you.</label>
+      <div class="chips">
+        <template x-for="i in interests" :key="i">
+          <span class="chip" :class="d.interests.includes(i)?'on':''" @click="toggle(i)" x-text="i"></span>
+        </template>
+      </div>
+      <label>Anything else, in your words?</label>
+      <input type="text" x-model="d.aspiration" placeholder="Surf every morning before my kids wake up." />
+      <button class="btn" @click="next()">See my Reclaim Scorecard</button>
+      <button class="btn ghost" @click="back()">Back</button>
+    </div>
+  </template>
+
+  <!-- SCORECARD -->
+  <template x-if="step===6">
+    <div>
+      <div class="badge">Your baseline</div>
+      <h1>Your <em>Reclaim Scorecard.</em></h1>
+      <p class="sub">This is where you are starting. Every system we install moves these numbers, re-measured monthly.</p>
+      <div class="score">
+        <div class="num" x-text="tethered()"></div>
+        <div class="mono" style="margin-top:.4rem">tethered hours a week</div>
+      </div>
+      <div class="score-grid">
+        <div class="score-card"><div class="n" x-text="money(annualValue())"></div><div class="l">Tethered value / year</div></div>
+        <div class="score-card"><div class="n" x-text="offlineRatio()+'%'"></div><div class="l">Time spent offline</div></div>
+        <div class="score-card"><div class="n" x-text="d.offline+' hrs'"></div><div class="l">Offline / week now</div></div>
+        <div class="score-card"><div class="n" x-text="d.interests.length"></div><div class="l">Things waiting for you</div></div>
+      </div>
+      <p style="text-align:center;color:var(--muted)" x-show="d.interests.length">
+        We are building toward <span class="wordmark accent" x-text="d.interests.slice(0,3).join(', ').toLowerCase()"></span><span x-show="d.aspiration"> and <span class="wordmark" x-text="'“'+d.aspiration+'”'"></span></span>.
+      </p>
+      <button class="btn" @click="step=1">Start over</button>
+      <p class="hint" style="text-align:center;margin-top:1rem">Prototype. Build Online. Live Offline.</p>
+    </div>
+  </template>
+</div>
+
+<script>
+function onb(){
+  return {
+    step:1, maxStep:6,
+    platforms:['YouTube','Instagram','TikTok','LinkedIn','X'],
+    buckets:[
+      {key:'social',label:'Social media (posting, scrolling, managing)'},
+      {key:'email',label:'Email and inbox'},
+      {key:'content',label:'Content creation and editing'},
+      {key:'admin',label:'Admin, ops, busywork'},
+      {key:'meetings',label:'Meetings and calls'},
+    ],
+    interests:['Surfing','Scuba diving','Hiking','Camping','Fishing','Skiing','Cycling','Working out','Jiu-jitsu','Golf / tennis','Time with kids','Time with family','Time with partner','Traveling','Cooking','Reading','Music','Photography','A new language','Learning to juggle','Gardening','Meditation','Volunteering','Just resting'],
+    d:{name:'',website:'',socials:{},time:{social:10,email:8,content:6,admin:5,meetings:6},revenue:null,hoursWorked:null,statedHourly:null,useValue:'derived',offline:8,interests:[],aspiration:''},
+    next(){ if(this.step<this.maxStep) this.step++; },
+    back(){ if(this.step>1) this.step--; },
+    toggle(i){ const a=this.d.interests; a.includes(i)?a.splice(a.indexOf(i),1):a.push(i); },
+    tethered(){ return Object.values(this.d.time).reduce((s,v)=>s+(+v||0),0); },
+    derivedHourly(){ const r=+this.d.revenue||0,h=+this.d.hoursWorked||0; return h?Math.round(r/(h*4.33)):0; },
+    chosenHourly(){ return this.d.useValue==='stated'?(+this.d.statedHourly||0):this.derivedHourly(); },
+    annualValue(){ return Math.round(this.tethered()*this.chosenHourly()*52); },
+    offlineRatio(){ const o=+this.d.offline||0,t=this.tethered(); return t+o?Math.round(o/(o+t)*100):0; },
+    money(n){ return '$'+Math.round(n||0).toLocaleString(); },
+  };
+}
+</script>
+</body>
+</html>
