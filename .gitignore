@@ -23,3 +23,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 .vercel
+
+# Outlier reel thumbnails (downloaded each refresh, bundled at deploy)
+public/outlier-thumbs/
