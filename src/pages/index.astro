@@ -41,7 +41,7 @@ function formatEngagement(n: number): string {
 }
 ---
 
-<Layout title="CMNDSHFT Trending Dashboard V2">
+<Layout title="Dashboard · FieldWork Content Engine">
 
   <div x-data="{ libraryOpen: false, libraryDetail: null, letsGoModal: null, emulateModal: null }" @open-emulate.window="emulateModal = $event.detail.post ? buildEmulateData($event.detail.post) : null">
 
@@ -1335,14 +1335,14 @@ function formatEngagement(n: number): string {
               labels: values.map(function(_, idx) { return idx; }),
               datasets: [{
                 data: values,
-                borderColor: '#cafd00',
+                borderColor: '#b7f600',
                 backgroundColor: gradient,
                 fill: true,
                 tension: 0.4,
                 borderWidth: 2,
                 pointRadius: 0,
                 pointHoverRadius: 3,
-                pointHoverBackgroundColor: '#cafd00',
+                pointHoverBackgroundColor: '#b7f600',
               }]
             },
             options: {
@@ -1355,11 +1355,11 @@ function formatEngagement(n: number): string {
                   enabled: true,
                   backgroundColor: '#1a1919',
                   titleColor: '#ffffff',
-                  bodyColor: '#cafd00',
+                  bodyColor: '#b7f600',
                   borderColor: '#333',
                   borderWidth: 1,
                   cornerRadius: 6,
-                  bodyFont: { family: 'Manrope', size: 10, weight: '700' },
+                  bodyFont: { family: 'Geist', size: 10, weight: '700' },
                   callbacks: {
                     title: function() { return ''; },
                     label: function(ctx) {
@@ -1393,25 +1393,25 @@ function formatEngagement(n: number): string {
             tooltip: {
               backgroundColor: '#1a1919',
               titleColor: '#ffffff',
-              bodyColor: '#adaaaa',
+              bodyColor: '#6b6b6b',
               borderColor: '#333333',
               borderWidth: 1,
               cornerRadius: 8,
-              titleFont: { family: 'Manrope', weight: '700' },
+              titleFont: { family: 'Geist', weight: '700' },
               bodyFont: { family: 'Inter' },
             }
           },
           scales: {
             x: {
               grid: { color: 'rgba(51,51,51,0.5)', drawBorder: false },
-              ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+              ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' } },
               border: { display: false }
             },
             y: {
               grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
               ticks: {
-                color: '#adaaaa',
-                font: { family: 'Manrope', size: 10, weight: '600' },
+                color: '#6b6b6b',
+                font: { family: 'Geist', size: 10, weight: '600' },
                 callback: function(val) {
                   if (val >= 1000) return (val / 1000).toFixed(0) + 'K';
                   return val;
@@ -1452,7 +1452,7 @@ function formatEngagement(n: number): string {
               datasets: [{
                 data: sorted.map(function(f) { return f.avg_engagement; }),
                 backgroundColor: sorted.map(function(f) {
-                  return f.avg_engagement === fwMax ? '#cafd00' : 'rgba(202,253,0,' + (0.2 + (f.avg_engagement / fwMax) * 0.5).toFixed(2) + ')';
+                  return f.avg_engagement === fwMax ? '#b7f600' : 'rgba(202,253,0,' + (0.2 + (f.avg_engagement / fwMax) * 0.5).toFixed(2) + ')';
                 }),
                 borderRadius: 4,
                 borderSkipped: false,
@@ -1470,12 +1470,12 @@ function formatEngagement(n: number): string {
               scales: {
                 x: {
                   grid: { color: 'rgba(51,51,51,0.5)', drawBorder: false },
-                  ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                  ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
                   border: { display: false }
                 },
                 y: {
                   grid: { display: false },
-                  ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, padding: 4 },
+                  ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' }, padding: 4 },
                   border: { display: false }
                 }
               }
@@ -1519,26 +1519,26 @@ function formatEngagement(n: number): string {
                   display: true,
                   position: 'top',
                   align: 'end',
-                  labels: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, boxWidth: 12, padding: 8 }
+                  labels: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' }, boxWidth: 12, padding: 8 }
                 },
                 tooltip: defaults.plugins.tooltip,
               },
               scales: {
                 x: {
                   grid: { color: 'rgba(51,51,51,0.5)', drawBorder: false },
-                  ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                  ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' } },
                   border: { display: false }
                 },
                 y: {
                   position: 'left',
                   grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
-                  ticks: { color: '#f59e0b', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                  ticks: { color: '#f59e0b', font: { family: 'Geist', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
                   border: { display: false }
                 },
                 y1: {
                   position: 'right',
                   grid: { display: false },
-                  ticks: { color: 'rgba(245,158,11,0.5)', font: { family: 'Manrope', size: 10, weight: '600' } },
+                  ticks: { color: 'rgba(245,158,11,0.5)', font: { family: 'Geist', size: 10, weight: '600' } },
                   border: { display: false }
                 }
               }
@@ -1582,26 +1582,26 @@ function formatEngagement(n: number): string {
                   display: true,
                   position: 'top',
                   align: 'end',
-                  labels: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, boxWidth: 12, padding: 8 }
+                  labels: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' }, boxWidth: 12, padding: 8 }
                 },
                 tooltip: defaults.plugins.tooltip,
               },
               scales: {
                 x: {
                   grid: { color: 'rgba(51,51,51,0.5)', drawBorder: false },
-                  ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                  ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' } },
                   border: { display: false }
                 },
                 y: {
                   position: 'left',
                   grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
-                  ticks: { color: '#ff7351', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                  ticks: { color: '#ff7351', font: { family: 'Geist', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
                   border: { display: false }
                 },
                 y1: {
                   position: 'right',
                   grid: { display: false },
-                  ticks: { color: 'rgba(255,115,81,0.5)', font: { family: 'Manrope', size: 10, weight: '600' } },
+                  ticks: { color: 'rgba(255,115,81,0.5)', font: { family: 'Geist', size: 10, weight: '600' } },
                   border: { display: false }
                 }
               }
@@ -1629,7 +1629,7 @@ function formatEngagement(n: number): string {
           var score = t.heat_score?.total || 0;
           var engagement = t.heat_score?.engagement || 0;
           var velocity = t.heat_score?.velocity || 0;
-          var color = score >= 60 ? '#cafd00' : score >= 40 ? '#f59e0b' : '#6b7280';
+          var color = score >= 60 ? '#b7f600' : score >= 40 ? '#f59e0b' : '#6b7280';
           bubbleData.push({
             x: i + 1,
             y: engagement + velocity * 2,
@@ -1659,11 +1659,11 @@ function formatEngagement(n: number): string {
               tooltip: {
                 backgroundColor: '#1a1919',
                 titleColor: '#ffffff',
-                bodyColor: '#adaaaa',
+                bodyColor: '#6b6b6b',
                 borderColor: '#333333',
                 borderWidth: 1,
                 cornerRadius: 8,
-                titleFont: { family: 'Manrope', weight: '700' },
+                titleFont: { family: 'Geist', weight: '700' },
                 bodyFont: { family: 'Inter' },
                 callbacks: {
                   title: function(items) {
@@ -1680,8 +1680,8 @@ function formatEngagement(n: number): string {
               x: {
                 grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
                 ticks: {
-                  color: '#adaaaa',
-                  font: { family: 'Manrope', size: 10, weight: '600' },
+                  color: '#6b6b6b',
+                  font: { family: 'Geist', size: 10, weight: '600' },
                   callback: function(val) {
                     var labels = ['', 'Topic 1', 'Topic 2', 'Topic 3', 'Topic 4', 'Topic 5'];
                     return labels[val] || '';
@@ -1693,9 +1693,9 @@ function formatEngagement(n: number): string {
               },
               y: {
                 grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
-                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' } },
                 border: { display: false },
-                title: { display: true, text: 'Engagement Signal', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+                title: { display: true, text: 'Engagement Signal', color: '#6b6b6b', font: { family: 'Geist', size: 11, weight: '600' } },
               }
             }
           }
@@ -1709,7 +1709,7 @@ function formatEngagement(n: number): string {
         if (this._scatterChart) { this._scatterChart.destroy(); this._scatterChart = null; }
 
         var frameworkColors = {
-          'Pattern Interrupt': '#cafd00',
+          'Pattern Interrupt': '#b7f600',
           'Question': '#f59e0b',
           'Cost Replacement': '#ff7351',
           'Curiosity Gap': '#a78bfa',
@@ -1795,16 +1795,16 @@ function formatEngagement(n: number): string {
                 display: true,
                 position: 'top',
                 align: 'end',
-                labels: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, boxWidth: 10, padding: 8, filter: function(item) { return item.text !== 'Expected (1:1)'; } }
+                labels: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' }, boxWidth: 10, padding: 8, filter: function(item) { return item.text !== 'Expected (1:1)'; } }
               },
               tooltip: {
                 backgroundColor: '#1a1919',
                 titleColor: '#ffffff',
-                bodyColor: '#adaaaa',
+                bodyColor: '#6b6b6b',
                 borderColor: '#333333',
                 borderWidth: 1,
                 cornerRadius: 8,
-                titleFont: { family: 'Manrope', weight: '700' },
+                titleFont: { family: 'Geist', weight: '700' },
                 bodyFont: { family: 'Inter' },
                 callbacks: {
                   title: function(items) {
@@ -1827,15 +1827,15 @@ function formatEngagement(n: number): string {
             scales: {
               x: {
                 grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
-                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
                 border: { display: false },
-                title: { display: true, text: 'Creator Median Engagement', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+                title: { display: true, text: 'Creator Median Engagement', color: '#6b6b6b', font: { family: 'Geist', size: 11, weight: '600' } },
               },
               y: {
                 grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
-                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
                 border: { display: false },
-                title: { display: true, text: 'Post Engagement', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+                title: { display: true, text: 'Post Engagement', color: '#6b6b6b', font: { family: 'Geist', size: 11, weight: '600' } },
               }
             }
           }
@@ -1898,7 +1898,7 @@ function formatEngagement(n: number): string {
                 borderColor: '#333333',
                 borderWidth: 1,
                 cornerRadius: 8,
-                titleFont: { family: 'Manrope', weight: '700' },
+                titleFont: { family: 'Geist', weight: '700' },
                 bodyFont: { family: 'Inter' },
                 callbacks: {
                   label: function(ctx) {
@@ -1911,12 +1911,12 @@ function formatEngagement(n: number): string {
             scales: {
               x: {
                 grid: { display: false },
-                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+                ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 11, weight: '600' } },
                 border: { display: false }
               },
               y: {
                 grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
-                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
+                ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' }, callback: function(v) { return v >= 1000 ? (v/1000).toFixed(0)+'K' : v; } },
                 border: { display: false }
               }
             }
@@ -1968,7 +1968,7 @@ function formatEngagement(n: number): string {
               data: buckets.map(function(b) { return b.count; }),
               backgroundColor: buckets.map(function(b) {
                 // Color red for outlier buckets
-                return b.min >= outlierThreshold ? 'rgba(239,68,68,0.7)' : b.min >= median ? '#cafd00' : 'rgba(202,253,0,0.3)';
+                return b.min >= outlierThreshold ? 'rgba(239,68,68,0.7)' : b.min >= median ? '#b7f600' : 'rgba(202,253,0,0.3)';
               }),
               borderRadius: 4,
               borderSkipped: false,
@@ -1983,11 +1983,11 @@ function formatEngagement(n: number): string {
               tooltip: {
                 backgroundColor: '#1a1919',
                 titleColor: '#ffffff',
-                bodyColor: '#adaaaa',
+                bodyColor: '#6b6b6b',
                 borderColor: '#333333',
                 borderWidth: 1,
                 cornerRadius: 8,
-                titleFont: { family: 'Manrope', weight: '700' },
+                titleFont: { family: 'Geist', weight: '700' },
                 bodyFont: { family: 'Inter' },
                 callbacks: {
                   label: function(ctx) {
@@ -2005,15 +2005,15 @@ function formatEngagement(n: number): string {
             scales: {
               x: {
                 grid: { display: false },
-                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' } },
                 border: { display: false },
-                title: { display: true, text: 'Engagement Range (log scale)', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+                title: { display: true, text: 'Engagement Range (log scale)', color: '#6b6b6b', font: { family: 'Geist', size: 11, weight: '600' } },
               },
               y: {
                 grid: { color: 'rgba(51,51,51,0.3)', drawBorder: false },
-                ticks: { color: '#adaaaa', font: { family: 'Manrope', size: 10, weight: '600' } },
+                ticks: { color: '#6b6b6b', font: { family: 'Geist', size: 10, weight: '600' } },
                 border: { display: false },
-                title: { display: true, text: 'Number of Posts', color: '#adaaaa', font: { family: 'Manrope', size: 11, weight: '600' } },
+                title: { display: true, text: 'Number of Posts', color: '#6b6b6b', font: { family: 'Geist', size: 11, weight: '600' } },
               }
             }
           }

@@ -12,11 +12,20 @@ const currentPath = Astro.url.pathname;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="CMNDSHFT Trending Activity Dashboard — daily content intelligence" />
+    <meta name="description" content="FieldWork Content Engine · Build Online. Live Offline. · content intelligence dashboard" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- No-flash theme: apply saved theme before paint (default light) -->
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem('cco-theme');
+          if (t === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet" />
     <script is:inline src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
     <script is:inline src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js" defer></script>
     <title>{title}</title>
@@ -26,16 +35,32 @@ const currentPath = Astro.url.pathname;
     <div class="dotted-surface" aria-hidden="true"></div>
 
     <!-- App layout wrapper -->
-    <div x-data="{ sidebarOpen: true, mobileSidebar: false }" x-init="sidebarOpen = window.innerWidth > 1024">
+    <div
+      x-data="{
+        sidebarOpen: true,
+        mobileSidebar: false,
+        dark: document.documentElement.classList.contains('dark'),
+        toggleTheme() {
+          this.dark = !this.dark;
+          document.documentElement.classList.toggle('dark', this.dark);
+          try { localStorage.setItem('cco-theme', this.dark ? 'dark' : 'light'); } catch (e) {}
+        }
+      }"
+      x-init="sidebarOpen = window.innerWidth > 1024"
+    >
 
       <!-- SIDEBAR NAVIGATION -->
       <aside
         class="sidebar"
         :class="{ 'collapsed': !sidebarOpen, 'mobile-open': mobileSidebar }"
       >
-        <div class="p-4 flex items-center gap-3 border-b border-border min-h-[56px]">
+        <div class="px-4 py-3 flex items-center gap-3 border-b border-border min-h-[64px]">
           <div class="w-2 h-2 bg-accent rounded-full pulse-dot flex-shrink-0"></div>
-          <span class="font-display font-bold text-sm tracking-tight overflow-hidden whitespace-nowrap" x-show="sidebarOpen" x-transition>CMNDSHFT</span>
+          <div class="overflow-hidden" x-show="sidebarOpen" x-transition>
+            <img src="/brand/signature-black.png" alt="Christian McLeod" class="h-6 w-auto block dark:hidden" />
+            <img src="/brand/signature-white.png" alt="Christian McLeod" class="h-6 w-auto hidden dark:block" />
+            <span class="block mt-0.5 font-label text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-text-secondary whitespace-nowrap">Build Online · Live Offline</span>
+          </div>
         </div>
 
         <nav class="flex-1 py-3 space-y-1">
@@ -57,7 +82,20 @@ const currentPath = Astro.url.pathname;
           </a>
         </nav>
 
-        <div class="p-3 border-t border-border">
+        <div class="p-3 border-t border-border space-y-1">
+          <!-- Theme toggle -->
+          <button
+            @click="toggleTheme()"
+            class="sidebar-link w-full justify-center"
+            :aria-label="dark ? 'Switch to light mode' : 'Switch to dark mode'"
+          >
+            <!-- Sun (shown in dark mode, click -> light) -->
+            <svg x-show="dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+            <!-- Moon (shown in light mode, click -> dark) -->
+            <svg x-show="!dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <span x-show="sidebarOpen" x-transition class="text-xs" x-text="dark ? 'Light mode' : 'Dark mode'"></span>
+          </button>
+          <!-- Collapse -->
           <button
             @click="sidebarOpen = !sidebarOpen"
             class="sidebar-link w-full justify-center"

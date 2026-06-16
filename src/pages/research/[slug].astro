@@ -86,7 +86,7 @@ if (data.social_profiles?.tiktok) {
     socialPlatforms.push({
       platform: 'TikTok',
       icon: 'tt',
-      color: '#ffffff',
+      color: '#6b6b6b',
       handle: `@${ttHandle}`,
       link: `https://tiktok.com/@${ttHandle}`,
     });
@@ -120,14 +120,14 @@ if (data.social_profiles?.website) {
   socialPlatforms.push({
     platform: 'Website',
     icon: 'web',
-    color: '#cafd00',
+    color: '#b7f600',
     handle: data.social_profiles.website.replace(/^https?:\/\//, '').replace(/\/$/, ''),
     link: data.social_profiles.website,
   });
 }
 ---
 
-<Layout title={`${displayName} -- Competitor Research | CMNDSHFT`}>
+<Layout title={`${displayName} · Competitor Research · FieldWork`}>
   <!-- Breadcrumb header -->
   <div class="border-b border-border bg-surface/50 backdrop-blur-sm sticky top-0 z-50">
     <div class="max-w-[1440px] mx-auto px-6 py-3 flex items-center gap-3">

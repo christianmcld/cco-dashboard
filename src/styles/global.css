@@ -1,12 +1,15 @@
 @import "tailwindcss";
 
+/* Class-based dark mode (html.dark), matching the FieldWork site */
+@custom-variant dark (&:is(.dark *));
+
 /* === Dotted Surface Background === */
 .dotted-surface {
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image: radial-gradient(circle, rgba(202, 253, 0, 0.08) 1px, transparent 1px);
+  background-image: radial-gradient(circle, var(--dot-color) 1px, transparent 1px);
   background-size: 32px 32px;
   mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black 20%, transparent 70%);
   -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black 20%, transparent 70%);
@@ -25,38 +28,68 @@ body > *:not(.dotted-surface) {
   z-index: 1;
 }
 
-/* === CMNDSHFT Dark Mode Design System === */
+/* === FieldWork Design System (Build Online. Live Offline.) === */
+/* Light is the default brand surface; dark is an opt-in via html.dark.   */
+/* Tokens mirror christianmcleod-co/app/globals.css + fieldwork-join page. */
 
 @theme {
-  /* Core palette -- dark mode */
-  --color-background: #0e0e0e;
-  --color-surface: #1a1919;
-  --color-surface-bright: #262626;
-  --color-text: #ffffff;
-  --color-text-secondary: #adaaaa;
-  --color-border: #333333;
+  /* Core palette -- FieldWork LIGHT (default) */
+  --color-background: #f8f7f3; /* cream */
+  --color-surface: #ffffff;
+  --color-surface-bright: #f1eee6; /* surface-warm */
+  --color-text: #111111; /* ink */
+  --color-text-secondary: #5c5c5c; /* ink-muted */
+  --color-border: rgba(17, 17, 17, 0.10); /* divider */
 
-  /* Accent */
-  --color-accent: #cafd00;
-  --color-on-accent: #516700;
+  /* Accent -- FieldWork acid green */
+  --color-accent: #b7f600;
+  --color-accent-soft: #eafb99;
+  --color-on-accent: #1c1c1c; /* ink reads on bright lime */
 
   /* Status */
-  --color-error: #ff7351;
-  --color-warm: #f59e0b;
-  --color-emerging: #6b7280;
-  --color-breaking: #ef4444;
+  --color-error: #e0533a;
+  --color-warm: #c98a1a;
+  --color-emerging: #8a8a8a;
+  --color-breaking: #d6342c;
 
-  /* Fonts */
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
-  --font-label: 'Manrope', 'Inter', system-ui, sans-serif;
+  /* Decorative */
+  --dot-color: rgba(17, 17, 17, 0.06); /* faint ink dots on cream */
+
+  /* Fonts -- Geist (UI), Fraunces (display/serif), Caveat (hand) */
+  --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-label: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --font-hand: 'Caveat', cursive;
 
   /* Radius */
-  --radius-sm: 0.5rem;
+  --radius-sm: 0.625rem;
 
   /* Sidebar */
-  --sidebar-width: 220px;
+  --sidebar-width: 230px;
   --sidebar-collapsed: 56px;
+}
+
+/* === FieldWork DARK (opt-in via html.dark) === */
+:root.dark {
+  --color-background: #0f0f0e;
+  --color-surface: #1a1a18;
+  --color-surface-bright: #26261f;
+  --color-text: #f8f7f3; /* cream text */
+  --color-text-secondary: #a8a59c;
+  --color-border: rgba(248, 247, 243, 0.12);
+  --color-accent: #b7f600;
+  --color-accent-soft: #cde96a;
+  --color-on-accent: #14140f;
+  --color-error: #ff7351;
+  --color-warm: #f0a83a;
+  --color-emerging: #6f6f68;
+  --color-breaking: #ef4444;
+  --dot-color: rgba(183, 246, 0, 0.10); /* faint lime dots on dark */
+}
+
+/* Smooth theme switching */
+html, body, .card, .sidebar, .summary-card, .library-sidebar {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 /* === Base Styles === */
@@ -106,9 +139,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
 }
 .card:hover {
-  border-color: rgba(202, 253, 0, 0.3);
+  border-color: color-mix(in srgb, var(--color-accent) 30%, transparent);
   background-color: color-mix(in srgb, var(--color-surface-bright) 50%, var(--color-surface));
-  box-shadow: 0 0 16px rgba(202, 253, 0, 0.06);
+  box-shadow: 0 0 16px color-mix(in srgb, var(--color-accent) 6%, transparent);
 }
 
 .stat-value {
@@ -452,15 +485,15 @@ h1, h2, h3, h4, h5, h6 {
   transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
 }
 .summary-card:hover {
-  border-color: rgba(202, 253, 0, 0.4);
-  box-shadow: 0 0 20px rgba(202, 253, 0, 0.08);
+  border-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  box-shadow: 0 0 20px color-mix(in srgb, var(--color-accent) 8%, transparent);
   transform: translateY(-2px);
 }
 
 /* === Section Dividers === */
 .section-divider {
   height: 1px;
-  background: linear-gradient(90deg, var(--color-accent), rgba(202, 253, 0, 0.15), transparent);
+  background: linear-gradient(90deg, var(--color-accent), color-mix(in srgb, var(--color-accent) 15%, transparent), transparent);
   opacity: 0.4;
 }
 
