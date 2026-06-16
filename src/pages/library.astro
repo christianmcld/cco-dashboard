@@ -11,7 +11,9 @@ const seed = (seedData as any).items || [];
       seed: [],
       extras: [],
       doneMap: {},
+      openMap: {},
       filter: 'todo',
+      toggleOpen(k){ this.openMap[k] = !this.openMap[k]; },
       load(){
         try { this.seed = JSON.parse(document.getElementById('library-seed').textContent); } catch(e){ this.seed = []; }
         try { this.extras = JSON.parse(localStorage.getItem('cco-library')||'[]'); } catch(e){ this.extras = []; }
@@ -21,7 +23,14 @@ const seed = (seedData as any).items || [];
       get items(){
         var self=this;
         var all = this.seed.concat(this.extras);
-        return all.map(function(it){ return Object.assign({}, it, { _key: self.key(it), done: !!self.doneMap[self.key(it)] }); });
+        var seen = {}; var out = [];
+        all.forEach(function(it, idx){
+          var k = self.key(it) || ('item-' + idx);
+          if(seen[k]) return;            // drop duplicate keys (added item == a seed)
+          seen[k] = true;
+          out.push(Object.assign({}, it, { _key: k, done: !!self.doneMap[k] }));
+        });
+        return out;
       },
       get shown(){
         if(this.filter==='todo') return this.items.filter(function(x){return !x.done;});
@@ -74,11 +83,17 @@ const seed = (seedData as any).items || [];
               </p>
             </div>
             <div class="flex gap-2 flex-shrink-0">
+              <button class="lets-go-btn px-4 py-1.5 text-sm rounded-full" @click="toggleOpen(it._key)" x-text="openMap[it._key] ? 'Collapse' : 'Expand'"></button>
               <button class="tab-button" @click="toggle(it._key)" x-text="it.done ? '✓ Recorded' : 'Mark recorded'"></button>
               <button class="tab-button" @click="navigator.clipboard.writeText(asText(it)); $el.textContent='Copied!'; setTimeout(()=>$el.textContent='Copy all',1500)">Copy all</button>
             </div>
           </div>
 
+          <!-- collapsed teaser -->
+          <p class="text-sm text-text-secondary mt-3 line-clamp-1" x-show="!openMap[it._key]" x-text="(it.hooks && it.hooks[0]) || it.angle || ''"></p>
+
+          <!-- expanded detail (accordion) -->
+          <div x-show="openMap[it._key]" x-transition.opacity>
           <p class="text-sm text-text-secondary mt-3" x-show="it.angle" x-text="it.angle"></p>
 
           <div class="mt-4 grid md:grid-cols-2 gap-6">
@@ -119,6 +134,7 @@ const seed = (seedData as any).items || [];
                 <li class="text-sm flex gap-2"><span class="text-text-secondary flex-shrink-0 text-xs mt-0.5">&bull;</span><span x-text="b"></span></li>
               </template>
             </ol>
+          </div>
           </div>
         </article>
       </template>
