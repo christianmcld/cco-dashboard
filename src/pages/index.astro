@@ -697,20 +697,20 @@ function formatEngagement(n: number): string {
           </div>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="card p-6 text-center animate-fade-in-up animate-delay-1">
-              <div class="stat-value" x-text="pipelineData.total_scripts || 0"></div>
-              <div class="section-label mt-2">Total Scripts</div>
+              <div class="stat-value" x-text="(pipelineData.reels_analyzed || 0).toLocaleString()"></div>
+              <div class="section-label mt-2">Reels Analyzed</div>
             </div>
             <div class="card p-6 text-center animate-fade-in-up animate-delay-2">
-              <div class="stat-value" x-text="pipelineData.skills_ready || 0"></div>
-              <div class="section-label mt-2">Skills Ready</div>
+              <div class="stat-value" x-text="pipelineData.outliers_found || 0"></div>
+              <div class="section-label mt-2">Outliers Found</div>
             </div>
             <div class="card p-6 text-center animate-fade-in-up animate-delay-3">
               <div class="stat-value" x-text="pipelineData.creators_monitored || 0"></div>
               <div class="section-label mt-2">Creators Monitored</div>
             </div>
             <div class="card p-6 text-center animate-fade-in-up animate-delay-4">
-              <div class="stat-value" x-text="(pipelineData.transcripts || 0).toLocaleString()"></div>
-              <div class="section-label mt-2">Transcripts Analyzed</div>
+              <div class="stat-value" x-text="pipelineData.recommendations || 0"></div>
+              <div class="section-label mt-2">Recommendations</div>
             </div>
           </div>
         </section>

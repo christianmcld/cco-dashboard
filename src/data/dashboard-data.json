@@ -1,1017 +1,652 @@
 {
-  "generated_at": "2026-04-13T19:09:28.442522+00:00",
+  "generated_at": "2026-06-16T07:14:17.086975+00:00",
   "trending": {
     "topics": [
       {
-        "name": "1. Claude Goes Down on a Monday \u2014 Single-Provider Risk Is Real",
+        "name": "@wadepapenfus: Nothing better than catching giant tuna with the boys on som",
         "details": [
-          "**What's happening:** Major global outage on April 6 hit Claude.ai, desktop, mobile, voice mode, and Claude Code login. ~2,700 reports on Downdetector. Two-hour outage resolved by 2:27 PM ET. Coverage across TechRadar, Tom's Guide, Android Authority, IBTimes.",
-          "**Why it matters for content:** Every person who built their workflow around Claude just had a wake-up call. The \"what's your backup?\" conversation is happening right now in every AI community.",
-          "**Suggested hook angle:** \"Claude went down today. Here's what I did instead.\" Show the resilience of a well-built AI stack \u2014 local fallbacks, cached outputs, pre-generated content queues. Position CMNDSHFT skills as infrastructure that degrades gracefully."
-        ],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 13,
-          "cross_source": 0,
-          "engagement": 0,
-          "velocity": 13
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          3,
-          6,
-          12,
-          19
-        ],
-        "sources": [
-          "ig"
+          "**Signal:** 291.84x outlier (14,355,576 plays)",
+          "**Why it worked:** It presents a pure, universally desirable fantasy of freedom, adventure, and friendship. The content is pure visual escapism that makes the viewer long for that exact feeling, with no complex message or sales pitch.",
+          "**Your angle:** Showcase the tangible 'Live Offline' result of building the systems taught in FieldWork. Frame a desirable, unplugged moment as the direct payoff for building an automated online business."
         ]
       },
       {
-        "name": "2. OpenClaw Ban Aftermath \u2014 The Platform War Continues",
+        "name": "@wadepapenfus: My 13 week old golden retriever named froth now shreds after",
         "details": [
-          "**What's happening:** Anthropic's April 4 ban on third-party agent frameworks (OpenClaw) from Claude subscriptions continues to dominate. TechCrunch, Benzinga, The AI Insider, UCStrategies all running stories. Developers forced to pay-per-use or switch to API keys. Boris Cherny confirmed the policy, offering one-time credits. The narrative has shifted from \"breaking news\" to \"what do we do now.\"",
-          "**Why it matters for content:** The OpenClaw ban + today's outage creates a compounding narrative: Anthropic is simultaneously restricting access AND failing on reliability. That's a potent story for builders evaluating their AI stack.",
-          "**Suggested hook angle:** \"Anthropic cut off OpenClaw on Friday. Then Claude went down on Monday. Here's the lesson nobody wants to hear.\" Build the case for native skills over third-party wrappers, and multi-provider resilience over single-vendor loyalty."
-        ],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 21,
-          "cross_source": 8,
-          "engagement": 0,
-          "velocity": 13
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          6,
-          11,
-          14,
-          20,
-          27
-        ],
-        "sources": [
-          "news"
+          "**Signal:** 276.75x outlier (13,613,170 plays)",
+          "**Why it worked:** It pairs a universally appealing subject (a puppy) with a surprisingly advanced skill (surfing) and a specific, compressed timeline ('13 weeks old,' 'first ever lesson'). This creates an immediate, shareable 'wow' moment.",
+          "**Your angle:** Showcase a specific client's surprising business result achieved through a FieldWork system. Frame it as their 'first lesson' in automation, leading to an unbelievable offline outcome."
         ]
       },
       {
-        "name": "3. Amazon's 16,000 AI Layoffs Hit Phase 2 \u2014 Real-World Impact",
+        "name": "@wadepapenfus: \ud83d\ude447.8 earthquake ",
         "details": [
-          "**What's happening:** Amazon's \"Project Dawn\" layoffs (16,000 positions) separations begin April 28, bringing the four-month total to 30,000 jobs. CEO Jassy explicitly tied cuts to AI/automation. Dow Inc. separately announced 4,500 AI-driven cuts. Tech layoffs in 2026 have hit 59,000 across Amazon, Meta, and Block. IBTimes, CNN, ABC News, Fortune, Salesforce Ben all covering.",
-          "**Why it matters for content:** This is the \"AI is actually replacing people\" data point that makes the abstract concrete. Unlike the MIT \"AI won't replace engineers\" study (still circulating), these are real layoff numbers from the world's second-largest employer.",
-          "**Suggested hook angle:** \"Amazon just fired 16,000 people because of AI. Here's what they're not telling you about which jobs survived.\" Break down which roles got cut vs. which got more AI tools. The answer: the people who knew how to direct AI kept their jobs."
-        ],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 9,
-          "cross_source": 0,
-          "engagement": 0,
-          "velocity": 9
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          2,
-          8,
-          15
-        ],
-        "sources": [
-          "ig"
+          "**Signal:** 187.59x outlier (9,227,348 plays)",
+          "**Why it worked:** It uses hyperbole and relatable obsession to create a simple, funny meme. The extreme contrast between a global catastrophe and a niche personal priority is instantly understandable and shareable.",
+          "**Your angle:** Frame a massive business disaster as a minor inconvenience. The joke is that Christian is completely unfazed because his automated systems are running perfectly, which is his version of the sourdough starter."
         ]
       },
       {
-        "name": "4. Claude Code Security Vulnerability \u2014 Deny Rules Bypassed",
+        "name": "@tomnoske: Earned, not given.",
         "details": [
-          "**What's happening:** Critical flaw (CVE-2026-21852) where Claude Code's deny rules silently failed when commands contained 50+ subcommands. The performance optimization that capped security analysis at 50 entries meant attackers could pad malicious commands past blocked operations. Patched in v2.1.90. Adversa.ai, CybersecurityNews, The Register, GBHackers, Check Point Research all reporting.",
-          "**Why it matters for content:** Security content performs exceptionally well because it's both urgent AND educational. Builders who use deny rules (enterprise, CI/CD) need to know immediately.",
-          "**Suggested hook angle:** \"Your Claude Code security rules might not be working. Here's the one-minute check.\" Walk through the deny rule config, show how the bypass worked, confirm the patch is applied. Fast, useful, builds trust."
-        ],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 13,
-          "cross_source": 8,
-          "engagement": 0,
-          "velocity": 5
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          3,
-          6,
-          12,
-          19
-        ],
-        "sources": [
-          "news"
+          "**Signal:** 37.84x outlier (619,599 plays)",
+          "**Why it worked:** It's a simple, powerful value statement that taps into the audience's belief in hard work. The extreme brevity makes it impactful and allows the viewer to project their own aspirations onto the visual.",
+          "**Your angle:** Counter the 'hustle porn' message. Juxtapose a desirable 'offline' visual with a simple phrase that credits the lifestyle to smart systems, not endless grinding. Frame freedom as something designed, not earned through burnout."
         ]
       },
       {
-        "name": "5. The $0 AI Stack Trend Peaks \u2014 Solo Founder Archetype Goes Mainstream",
+        "name": "@tomnoske: If you want to figure out your exact numbers, based on your ",
         "details": [
-          "**What's happening:** Multiple viral X posts this week from @usmaanbuildsAI, @Sabrina_Ramonov, @ZavionDaDon, @raindog_kitetu all pushing Claude Code + n8n + Stripe + AI agents = solo business. @will_bender1 mapped 7 monetization paths for Claude Code. @RONiNmedia000 running a public challenge building content automation systems. The \"solo AI founder\" narrative is crystallizing into a defined archetype.",
-          "**Why it matters for content:** This IS the CMNDSHFT origin story. The difference is Christian has been doing this since before it was trending. The opportunity is to ride the wave while showing the complexity that viral posts leave out.",
-          "**Suggested hook angle:** \"Everyone's posting their $0 AI stack. Here's what year two actually looks like.\" Skip the hype, show the maintenance \u2014 memory management, skill versioning, error handling, the stuff nobody tweets about."
-        ],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 31,
-          "cross_source": 16,
-          "engagement": 10,
-          "velocity": 5
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          1,
-          8,
-          16,
-          21,
-          24,
-          30,
-          37
-        ],
-        "sources": [
-          "x"
+          "**Signal:** 13.03x outlier, FieldWork match 90 (213,437 plays)",
+          "**Why it worked:** It directly targets a specific founder pain point with a tangible, fast, and free solution. The simple keyword CTA removes friction and drives massive engagement, signaling value to the algorithm.",
+          "**Your angle:** Christian should offer a free diagnostic or blueprint that calculates the exact hours a founder can reclaim by installing one core automation system. This mirrors the 'free tool' concept but swaps the competitor's financial focus for Christian's core value proposition: time freedom."
         ]
       },
       {
-        "name": "- **v2.1.90 security patch** for CVE-2026-21852 \u2014 deny rule bypass when commands exceed 50 subcommands. Restored proper enforcement in auto-approve/CI modes.",
+        "name": "@tomnoske: I firmly believe there is a greater ROI in renting in a weal",
         "details": [
-          "**Claude.ai global outage** \u2014 10:30 AM to 2:27 PM ET. Login, chat, voice mode, Claude Code login all affected. ~2,700 Downdetector reports."
-        ],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 0,
-          "engagement": 0,
-          "velocity": 5
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          -2,
-          4,
-          11
-        ],
-        "sources": [
-          "ig"
+          "**Signal:** 11.51x outlier (188,535 plays)",
+          "**Why it worked:** It's a simple, polarizing hot take that challenges a deeply held belief in the creator's niche. This simplicity makes it highly shareable and sparks immediate debate in the comments.",
+          "**Your angle:** Christian should state a firm, contrarian belief about the superior ROI of building systems over traditional hustle or tool based approaches. This frames his core FieldWork philosophy as a smarter, more leveraged investment of a founder's time."
         ]
       },
       {
-        "name": "- **v2.1.92** \u2014 MCP tool result persistence override (500K chars), plugin executables (skills can ship binaries under `bin/`), Write tool diff 60% faster, `disableSkillShellExecution` setting",
-        "details": [],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 0,
-          "engagement": 0,
-          "velocity": 5
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          -2,
-          4,
-          11
-        ],
-        "sources": [
-          "ig"
+        "name": "@steveofallstreets: 2 years saved. You\u2019re welcome",
+        "details": [
+          "**Signal:** 5.07x outlier, FieldWork match 90 (21,013 plays)",
+          "**Why it worked:** The hook makes a massive, specific, and quantifiable promise. Its brevity and confident tone create a powerful pattern interrupt that generates immediate curiosity.",
+          "**Your angle:** Frame FieldWork not as saving 'work time' but as reclaiming 'life time'. The promise is to get your weekends, evenings, and years back to spend offline, doing what you love."
         ]
       },
       {
-        "name": "- **v2.1.91** \u2014 MCP tool result persistence via `_meta[\"anthropic/maxResultSizeChars\"]` annotation",
-        "details": [],
-        "heat": "emerging",
-        "heat_score": {
-          "total": 5,
-          "cross_source": 0,
-          "engagement": 0,
-          "velocity": 5
-        },
-        "trend_status": "rising",
-        "sparkline": [
-          0,
-          0,
-          0,
-          0,
-          -2,
-          4,
-          11
-        ],
-        "sources": [
-          "ig"
+        "name": "@tomnoske: Profit is freedom",
+        "details": [
+          "**Signal:** FieldWork match 100 (25,189 plays)",
+          "**Why it worked:** It creates a simple, powerful equation connecting a tangible business metric (profit) to a deep human desire (freedom). It's aspirational and validates the hard work of the target audience.",
+          "**Your angle:** Reframe the equation. Argue that profit alone is not freedom, but a tool for it. The real freedom comes from the systems that generate profit without consuming your time."
         ]
       }
     ],
     "urgent": "",
-    "date": "2026-04-06-trends",
-    "file": "/Users/christianmcleod/content-engine/docs/daily-trends/2026-04-06-trends.md"
+    "date": "2026-06-16",
+    "file": ""
   },
   "outliers": {
     "posts": [
       {
-        "hook": "Watch this",
-        "creator": "justyn.ai",
-        "engagement": 4342,
-        "outlier_ratio": 5.37,
-        "priority_score": 87.0,
+        "hook": "Nothing better than catching giant tuna with the boys on some deserted islands\u2026 ",
+        "creator": "wadepapenfus",
+        "engagement": 491742,
+        "outlier_ratio": 291.84,
+        "priority_score": 99,
         "framework": "Curiosity Gap",
-        "wpm": 192.6,
-        "duration": 35.5,
-        "url": "https://www.instagram.com/p/DWmSBIVDgmV",
-        "date": "2026-04-01T17:54:42+00:00",
+        "wpm": null,
+        "duration": 10.611,
+        "url": "https://www.instagram.com/p/DWyPEouEdOQ/",
+        "date": "2026-04-06T09:21:25.000Z",
         "thumbnail": "",
         "media_type": "reel"
       },
       {
-        "hook": "Stop listening to Trump",
-        "creator": "sina.growthtech",
-        "engagement": 31617,
-        "outlier_ratio": 56.46,
-        "priority_score": 90.7,
-        "framework": "Pattern Interrupt",
-        "wpm": 189.0,
-        "duration": 109.2,
-        "url": "https://www.instagram.com/p/DWjpSg1kwLL",
-        "date": "2026-03-31T17:22:08+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Something is really weird happening with Claude right now and there is a conspiracy theory that Anth",
-        "creator": "artem.novitckii",
-        "engagement": 5939,
-        "outlier_ratio": 5.57,
-        "priority_score": 87.1,
+        "hook": "My 13 week old golden retriever named froth now shreds after her first ever surf",
+        "creator": "wadepapenfus",
+        "engagement": 672944,
+        "outlier_ratio": 276.75,
+        "priority_score": 99,
         "framework": "Curiosity Gap",
-        "wpm": 191.6,
-        "duration": 91.1,
-        "url": "https://www.instagram.com/p/DWizKggjHA_",
-        "date": "2026-03-31T09:31:34+00:00",
+        "wpm": null,
+        "duration": 36.533,
+        "url": "https://www.instagram.com/p/DJYvdXmxhRF/",
+        "date": "2025-05-08T08:56:32.000Z",
         "thumbnail": "",
         "media_type": "reel"
       },
       {
-        "hook": "Is it just me or Claude has gone to absolute shit like now I hit my limit super fast where I before ",
-        "creator": "tenfoldmarc",
-        "engagement": 4111,
-        "outlier_ratio": 18.69,
-        "priority_score": 86.3,
-        "framework": "Before/After",
-        "wpm": 190.3,
-        "duration": 28.1,
-        "url": "https://www.instagram.com/p/DWh7I-zji8V",
-        "date": "2026-03-31T01:17:22+00:00",
+        "hook": "\ud83d\ude447.8 earthquake ",
+        "creator": "wadepapenfus",
+        "engagement": 106998,
+        "outlier_ratio": 187.59,
+        "priority_score": 99,
+        "framework": "Curiosity Gap",
+        "wpm": null,
+        "duration": 7.966,
+        "url": "https://www.instagram.com/p/DZdphsNhbYE/",
+        "date": "2026-06-11T23:00:12.000Z",
         "thumbnail": "",
         "media_type": "reel"
       },
       {
-        "hook": "Can you build 10,000 on our websites in two minutes with Cloud Code?",
-        "creator": "tenfoldmarc",
-        "engagement": 14494,
-        "outlier_ratio": 65.88,
-        "priority_score": 88.5,
+        "hook": "Earned, not given.",
+        "creator": "tomnoske",
+        "engagement": 47878,
+        "outlier_ratio": 37.84,
+        "priority_score": 99,
+        "framework": "Proof First",
+        "wpm": null,
+        "duration": 94.96,
+        "url": "https://www.instagram.com/p/DMZxd_NzDmG/",
+        "date": "2025-07-22T08:05:18.000Z",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Me and my puppy Froth in remote Australia eating only what we catch! Full video ",
+        "creator": "wadepapenfus",
+        "engagement": 88532,
+        "outlier_ratio": 25.51,
+        "priority_score": 99,
+        "framework": "Curiosity Gap",
+        "wpm": null,
+        "duration": 57.466,
+        "url": "https://www.instagram.com/p/DIGYaN2RsXk/",
+        "date": "2025-04-06T09:18:50.000Z",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Mackerel steaks with the boys overlooking the sunset on a island \ud83c\udfdd\ufe0f ",
+        "creator": "wadepapenfus",
+        "engagement": 38099,
+        "outlier_ratio": 24.21,
+        "priority_score": 99,
+        "framework": "Curiosity Gap",
+        "wpm": null,
+        "duration": 16.4,
+        "url": "https://www.instagram.com/p/DXlm6VykXg-/",
+        "date": "2026-04-26T08:09:25.000Z",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Doesn\u2019t get better than giant lobster cooked on a fire on a deserted Island! \ud83c\udfdd\ufe0f\ud83e\udd9e",
+        "creator": "wadepapenfus",
+        "engagement": 29982,
+        "outlier_ratio": 17.52,
+        "priority_score": 99,
+        "framework": "Curiosity Gap",
+        "wpm": null,
+        "duration": 22.127,
+        "url": "https://www.instagram.com/p/DZRymERx3St/",
+        "date": "2026-06-07T08:37:58.000Z",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "Red emperor in the paddock. If you know you know. Crazy fishing on the Great Bar",
+        "creator": "wadepapenfus",
+        "engagement": 46862,
+        "outlier_ratio": 17.23,
+        "priority_score": 99,
+        "framework": "Curiosity Gap",
+        "wpm": null,
+        "duration": 22.94,
+        "url": "https://www.instagram.com/p/DZc1qudJCI0/",
+        "date": "2026-06-11T15:36:54.000Z",
+        "thumbnail": "",
+        "media_type": "reel"
+      },
+      {
+        "hook": "We were lucky enough to yoink two beautiful Ornate Lobsters from the reef and co",
+        "creator": "wadepapenfus",
+        "engagement": 39017,
+        "outlier_ratio": 13.44,
+        "priority_score": 99,
         "framework": "Question",
-        "wpm": 198.2,
-        "duration": 60.2,
-        "url": "https://www.instagram.com/p/DWfPNXIDDiE",
-        "date": "2026-03-30T00:15:23+00:00",
+        "wpm": null,
+        "duration": 39.332,
+        "url": "https://www.instagram.com/p/DZMb9m9pduc/",
+        "date": "2026-06-05T06:42:31.000Z",
         "thumbnail": "",
         "media_type": "reel"
       },
       {
-        "hook": "5 cloud code skills I wish I had installed on day one",
-        "creator": "justyn.ai",
-        "engagement": 9146,
-        "outlier_ratio": 11.31,
-        "priority_score": 87.0,
-        "framework": "Test/Experiment",
-        "wpm": 241.9,
-        "duration": 62.0,
-        "url": "https://www.instagram.com/p/DWekRCmjjBO",
-        "date": "2026-03-29T18:03:39+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Nobody talks about this, but there's a team running 20 AI agents inside Cloud Code to generate their",
-        "creator": "raycfu",
-        "engagement": 10958,
-        "outlier_ratio": 5.84,
-        "priority_score": 87.4,
+        "hook": "If you want to figure out your exact numbers, based on your exact offer, I\u2019ve bu",
+        "creator": "tomnoske",
+        "engagement": 12351,
+        "outlier_ratio": 13.03,
+        "priority_score": 99,
         "framework": "Cost Replacement",
-        "wpm": 271.5,
-        "duration": 67.8,
-        "url": "https://www.instagram.com/p/DWdN1EwDxWp",
-        "date": "2026-03-29T05:27:22+00:00",
+        "wpm": null,
+        "duration": 103.92,
+        "url": "https://www.instagram.com/p/DWd2Arvk3rc/",
+        "date": "2026-03-29T11:17:24.000Z",
         "thumbnail": "",
         "media_type": "reel"
       },
       {
-        "hook": "Is it possible to take a simple website like this and turn it into a fully edited video like this wi",
-        "creator": "cooper.simson",
-        "engagement": 41074,
-        "outlier_ratio": 17.72,
-        "priority_score": 89.7,
-        "framework": "Question, Cost Replacement",
-        "wpm": 287.3,
-        "duration": 53.7,
-        "url": "https://www.instagram.com/p/DWaHBuJCfNV",
-        "date": "2026-03-28T00:27:50+00:00",
+        "hook": "I firmly believe there is a greater ROI in renting in a wealthy suburb vs buying",
+        "creator": "tomnoske",
+        "engagement": 3897,
+        "outlier_ratio": 11.51,
+        "priority_score": 99,
+        "framework": "Contrarian",
+        "wpm": null,
+        "duration": 75.633,
+        "url": "https://www.instagram.com/p/DWzkLpqkxoa/",
+        "date": "2026-04-06T21:45:57.000Z",
         "thumbnail": "",
         "media_type": "reel"
       },
       {
-        "hook": "Did Claude just kill Canva, PowerPoint, Figma, and basically anything a web designer would charge yo",
-        "creator": "justyn.ai",
-        "engagement": 6370,
-        "outlier_ratio": 7.87,
-        "priority_score": 85.2,
-        "framework": "Question",
-        "wpm": 282.3,
-        "duration": 61.0,
-        "url": "https://www.instagram.com/p/DWZsbDEj6nP",
-        "date": "2026-03-27T20:35:55+00:00",
-        "thumbnail": "",
-        "media_type": "reel"
-      },
-      {
-        "hook": "Is it possible to redesign ugly rooms like my office and awesome spaces like this with AI, so you do",
-        "creator": "cooper.simson",
-        "engagement": 24941,
-        "outlier_ratio": 10.76,
-        "priority_score": 88.2,
-        "framework": "Question, Pattern Interrupt",
-        "wpm": 305.1,
-        "duration": 54.5,
-        "url": "https://www.instagram.com/p/DWXpROeDEZC",
-        "date": "2026-03-27T01:45:21+00:00",
+        "hook": "Speak at the level of your audiences pain.",
+        "creator": "tomnoske",
+        "engagement": 3479,
+        "outlier_ratio": 10.42,
+        "priority_score": 99,
+        "framework": "Curiosity Gap",
+        "wpm": null,
+        "duration": 26.88,
+        "url": "https://www.instagram.com/p/DXwWNElzVaf/",
+        "date": "2026-04-30T12:15:11.000Z",
         "thumbnail": "",
         "media_type": "reel"
       }
     ],
-    "total": 507
+    "total": 23
   },
   "pipeline": {
-    "total_scripts": 60,
-    "script_files": [
-      "top-10-scripts.md",
-      "scripts-11-20.md",
-      "scripts-batch-1-day-series.md",
-      "scripts-batch-2-advanced.md",
-      "scripts-sam-call-topics.md"
-    ],
-    "skills_ready": 20,
-    "skills_need_rebrand": 13,
-    "creators_monitored": 18,
-    "transcripts": 507
+    "reels_analyzed": 181,
+    "outliers_found": 23,
+    "creators_monitored": 4,
+    "recommendations": 22
   },
   "suggested_content": {
     "ideas": [
       {
-        "title": "Idea 1: \"Claude Went Down Today. Here's My Backup Plan.\"",
+        "title": "Showcase the tangible 'Live Offline' result of building the systems taught in FieldWork. F",
         "details": {
-          "Title": "Claude Just Went Down for 2 Hours \u2014 Are Your AI Automations Fragile?",
-          "Hook (spoken)": "\"Claude went down globally this morning. Thousands of AI builders lost access to their entire workflow. I didn't skip a beat. Here's why.\"",
-          "Text overlay": "\"CLAUDE IS DOWN -- Is Your AI Stack Fragile?\"",
-          "CTA keyword": "BACKUP",
-          "Skill giveaway": "AI resilience audit skill \u2014 checks your workflow for single-provider dependencies and suggests fallback layers",
-          "Why now": "The outage happened TODAY. Every AI builder is talking about it right now. This is a same-day reactive window \u2014 film within hours, not days. TechRadar, Tom's Guide, and Android Authority are all running live coverage. The comment sections are full of people asking \"what do I do when this happens?\""
-        },
-        "urgency_hours": 12
+          "Source": "@wadepapenfus (291.84x, 14,355,576 plays)",
+          "Hooks": "Nothing better than a Tuesday afternoon with no meetings on the calendar. | Nothing better than taking the family offline for a week, knowing the business is running itself. | Nothing better than packing the truck for a trip with zero cell service.",
+          "Framework": "The Aspirational Ideal"
+        }
       },
       {
-        "title": "Idea 2: \"Claude Code Had a Security Flaw Nobody Told You About\"",
+        "title": "Showcase a specific client's surprising business result achieved through a FieldWork syste",
         "details": {
-          "Title": "Your Claude Code Deny Rules Were Silently Broken \u2014 Check This Now",
-          "Hook (spoken)": "\"A security researcher just proved that your Claude Code deny rules \u2014 the ones protecting your SSH keys and API tokens \u2014 could be completely bypassed with one simple trick.\"",
-          "Text overlay": "\"CLAUDE CODE SECURITY FLAW -- Check Your Deny Rules NOW\"",
-          "CTA keyword": "SECURE",
-          "Skill giveaway": "Claude Code security hardening skill \u2014 audits your deny rules, checks version, validates CI/CD configurations",
-          "Why now": "Patch dropped today (v2.1.90). CybersecurityNews, The Register, Check Point Research, and GBHackers all published. Security content has long shelf life and high share rate. Enterprise builders (your highest-value audience) will share this immediately."
-        },
-        "urgency_hours": 12
+          "Source": "@wadepapenfus (276.75x, 13,613,170 plays)",
+          "Hooks": "My client, a performance coach, just booked 17 calls from a ski lift in Utah. | This one AI employee added $47,000 to a client's business last month. While he was in Costa Rica. | My client just took his first real vacation in 4 years after installing one system.",
+          "Framework": "Surprising Transformation"
+        }
       },
       {
-        "title": "Idea 3: \"Anthropic Cut Off OpenClaw. Then Claude Went Down. See the Pattern?\"",
+        "title": "Frame a massive business disaster as a minor inconvenience. The joke is that Christian is ",
         "details": {
-          "Title": "Anthropic's Worst Week \u2014 OpenClaw Ban + Global Outage + Security Flaw",
-          "Hook (spoken)": "\"On Friday, Anthropic cut off 247,000 developers from using Claude through OpenClaw. On Monday, Claude went down globally. Also on Monday, they patched a critical security flaw. This is what happens when the platform you depend on starts breaking.\"",
-          "Text overlay": "\"ANTHROPIC'S WORST WEEK -- 3 Crises in 3 Days\"",
-          "CTA keyword": "SHIFT",
-          "Skill giveaway": "Multi-provider AI stack builder \u2014 sets up Claude + fallback workflows so you never lose a day of work",
-          "Why now": "Three separate Anthropic stories converging in a 72-hour window creates a narrative that's bigger than any individual story. This is the \"pattern recognition\" content that thought leaders make \u2014 connecting dots that others report separately. Time-sensitive: the pattern only holds while all three stories are fresh."
-        },
-        "urgency_hours": 96
+          "Source": "@wadepapenfus (187.59x, 9,227,348 plays)",
+          "Hooks": "Meta just banned our ad account \ud83d\ude44 | The stock market just crashed 40% \ud83d\ude44 | Our biggest client just fired us \ud83d\ude44",
+          "Framework": "Absurd Juxtaposition Meme"
+        }
       },
       {
-        "title": "Idea 4: \"Amazon Just Fired 16,000 People Because of AI\"",
+        "title": "Counter the 'hustle porn' message. Juxtapose a desirable 'offline' visual with a simple ph",
         "details": {
-          "Title": "Amazon's AI Layoffs Start April 28 \u2014 Which Jobs Survived?",
-          "Hook (spoken)": "\"Amazon just announced 16,000 people are getting laid off starting April 28th. Their CEO said it's because of AI. But here's the part nobody's reporting \u2014 which jobs DIDN'T get cut, and what they have in common.\"",
-          "Text overlay": "\"16,000 FIRED -- Amazon CEO Blames AI\"",
-          "CTA keyword": "SURVIVE",
-          "Skill giveaway": "AI job security audit skill \u2014 analyzes your role against the patterns of which positions survived vs. got automated at Amazon, Dow, Meta, and Block",
-          "Why now": "Separations begin April 28 \u2014 this is the last window before the story becomes stale. Combined with the MIT \"AI won't replace engineers\" study (still generating debate at 2,312 upvotes) and the IBM \"stop hiring\" directive, there's a three-way tension: academia says safe, corporations say fired, builders say \"learn to direct AI.\" Christian can own the builder angle."
-        },
-        "urgency_hours": 72
+          "Source": "@tomnoske (37.84x, 619,599 plays)",
+          "Hooks": "Built, not busy. | Systems, not sweat. | Designed, not grinded.",
+          "Framework": "The Philosophical Contrast Pair"
+        }
       },
       {
-        "title": "Idea 5: \"The $0 AI Stack Everyone's Posting Is a Lie\"",
+        "title": "Christian should offer a free diagnostic or blueprint that calculates the exact hours a fo",
         "details": {
-          "Title": "What Nobody Tells You About Running a Business With AI Employees",
-          "Hook (spoken)": "\"Every AI creator on X is posting their zero-dollar stack this week. Claude Code, n8n, Stripe, done. They're showing you month one. I'll show you month twelve.\"",
-          "Text overlay": "\"The $0 AI Stack Is a LIE -- Here's Year Two\"",
-          "CTA keyword": "REAL",
-          "Skill giveaway": "CMNDSHFT starter skill pack \u2014 5 production-tested skills for content, SEO, lead gen, audit, and proposal writing. The stuff that survives past month one.",
-          "Why now": "@usmaanbuildsAI, @Sabrina_Ramonov, @ZavionDaDon, @raindog_kitetu all posted viral $0 stack content THIS WEEK. The trend is peaking. Everyone is showing the setup \u2014 nobody is showing the maintenance, the errors, the memory architecture that keeps it running. Today's Claude outage is the PERFECT proof point: \"What happened to everyone's $0 stack when Claude went down this morning?\""
-        },
-        "urgency_hours": 12
+          "Source": "@tomnoske (13.03x, 213,437 plays)",
+          "Hooks": "If you want to know exactly how many hours AI can buy back in your business, I built a free diagnostic. | I built a free tool that finds the single biggest bottleneck stealing your time. And shows you how to automate it. | Want the blueprint to run your business in 15 hours a week? I mapped out the exact system.",
+          "Framework": "Direct Offer for a Free Tool"
+        }
+      },
+      {
+        "title": "Christian should state a firm, contrarian belief about the superior ROI of building system",
+        "details": {
+          "Source": "@tomnoske (11.51x, 188,535 plays)",
+          "Hooks": "I firmly believe there is a greater ROI in a business that lets you live offline vs one that chains you to a desk. | I firmly believe there is a greater ROI in installing one system vs learning ten new software tools. | I firmly believe there is a greater ROI in one AI employee that works 24/7 vs three VAs you have to manage.",
+          "Framework": "The Contrarian ROI Statement"
+        }
+      },
+      {
+        "title": "Frame FieldWork not as saving 'work time' but as reclaiming 'life time'. The promise is to",
+        "details": {
+          "Source": "@steveofallstreets (5.07x, 21,013 plays)",
+          "Hooks": "I don't sell AI systems. I sell your weekends back to you. | Build it for 90 days. Get your life back for the next 10 years. | This system saves you 15 hours a week. Every single week.",
+          "Framework": "The Big Promise Claim"
+        }
+      },
+      {
+        "title": "Reframe the equation. Argue that profit alone is not freedom, but a tool for it. The real ",
+        "details": {
+          "Source": "@tomnoske (1.54x, 25,189 plays)",
+          "Hooks": "Profit isn't freedom. Time is. | A business that owns you is just a job. | Profit is the fuel. Systems are the engine.",
+          "Framework": "The Philosophical Equation"
+        }
+      },
+      {
+        "title": "Christian's version should swap 'posting' for 'building systems' and 'money' for 'time' or",
+        "details": {
+          "Source": "@tomnoske (0.87x, 14,217 plays)",
+          "Hooks": "Build the system today, for the time you want back a year from now. | Automate one task this week, for the weekends you want back next quarter. | Install one AI employee today, for the freedom you want 12 months from now.",
+          "Framework": "The Future Self Command"
+        }
       }
     ]
   },
   "creator_watch": {
     "creators": [
       {
-        "username": "rpn",
+        "username": "wadepapenfus",
+        "posts": 30,
+        "avg_engagement": 51616,
+        "top_outlier": 291.84,
+        "total_engagement": 1548504,
+        "top_hook": "Nothing better than catching giant tuna with the boys on some deserted islands\u2026 ",
+        "engagement_history": [
+          {
+            "date": "2026-05-13T09:59:10.000Z",
+            "engagement": 1839
+          },
+          {
+            "date": "2026-05-14T11:20:56.000Z",
+            "engagement": 2970
+          },
+          {
+            "date": "2026-05-15T10:49:40.000Z",
+            "engagement": 1101
+          },
+          {
+            "date": "2026-05-20T12:38:54.000Z",
+            "engagement": 459
+          },
+          {
+            "date": "2026-05-26T12:59:16.000Z",
+            "engagement": 798
+          },
+          {
+            "date": "2026-05-28T11:04:31.000Z",
+            "engagement": 1929
+          },
+          {
+            "date": "2026-05-31T08:49:02.000Z",
+            "engagement": 2610
+          },
+          {
+            "date": "2026-06-05T06:42:31.000Z",
+            "engagement": 39017
+          },
+          {
+            "date": "2026-06-07T08:37:58.000Z",
+            "engagement": 29982
+          },
+          {
+            "date": "2026-06-11T15:36:54.000Z",
+            "engagement": 46862
+          },
+          {
+            "date": "2026-06-11T23:00:12.000Z",
+            "engagement": 106998
+          },
+          {
+            "date": "2026-06-14T10:24:38.000Z",
+            "engagement": 4433
+          }
+        ],
+        "last_post_date": "2026-06-14T10:24:38.000Z",
+        "posted_recently": true
+      },
+      {
+        "username": "tomnoske",
+        "posts": 111,
+        "avg_engagement": 1282,
+        "top_outlier": 37.84,
+        "total_engagement": 142335,
+        "top_hook": "Earned, not given.",
+        "engagement_history": [
+          {
+            "date": "2026-06-03T21:51:07.000Z",
+            "engagement": 230
+          },
+          {
+            "date": "2026-06-05T02:20:49.000Z",
+            "engagement": 509
+          },
+          {
+            "date": "2026-06-05T08:10:20.000Z",
+            "engagement": 613
+          },
+          {
+            "date": "2026-06-06T10:19:54.000Z",
+            "engagement": 340
+          },
+          {
+            "date": "2026-06-07T10:54:12.000Z",
+            "engagement": 413
+          },
+          {
+            "date": "2026-06-08T11:18:31.000Z",
+            "engagement": 1000
+          },
+          {
+            "date": "2026-06-09T11:40:52.000Z",
+            "engagement": 448
+          },
+          {
+            "date": "2026-06-10T11:09:44.000Z",
+            "engagement": 801
+          },
+          {
+            "date": "2026-06-12T09:52:24.000Z",
+            "engagement": 406
+          },
+          {
+            "date": "2026-06-13T10:01:25.000Z",
+            "engagement": 328
+          },
+          {
+            "date": "2026-06-14T10:48:45.000Z",
+            "engagement": 550
+          },
+          {
+            "date": "2026-06-15T11:17:32.000Z",
+            "engagement": 1364
+          }
+        ],
+        "last_post_date": "2026-06-15T11:17:32.000Z",
+        "posted_recently": true
+      },
+      {
+        "username": "takimoore",
         "posts": 37,
-        "avg_engagement": 60224,
-        "top_outlier": 10.58,
-        "total_engagement": 2228301,
-        "top_hook": "Social media is dead",
+        "avg_engagement": 924,
+        "top_outlier": 4.85,
+        "total_engagement": 34221,
+        "top_hook": "Comment SHOWBIZ to get the deets for the workshop.",
         "engagement_history": [
           {
-            "date": "2026-01-28T17:14:31+00:00",
-            "engagement": 47068
+            "date": "2026-05-13T02:18:06.000Z",
+            "engagement": 206
           },
           {
-            "date": "2026-02-22T16:06:45+00:00",
-            "engagement": 16277
+            "date": "2026-05-13T03:08:02.000Z",
+            "engagement": 1151
           },
           {
-            "date": "2026-03-02T00:59:13+00:00",
-            "engagement": 34367
+            "date": "2026-05-14T10:08:58.000Z",
+            "engagement": 2392
           },
           {
-            "date": "2026-03-05T20:01:48+00:00",
-            "engagement": 80462
+            "date": "2026-05-15T07:32:49.000Z",
+            "engagement": 1058
           },
           {
-            "date": "2026-03-11T21:29:34+00:00",
-            "engagement": 28728
+            "date": "2026-05-15T21:13:40.000Z",
+            "engagement": 765
           },
           {
-            "date": "2026-03-13T21:38:36+00:00",
-            "engagement": 139368
+            "date": "2026-05-16T06:17:15.000Z",
+            "engagement": 1359
           },
           {
-            "date": "2026-03-24T04:51:05+00:00",
-            "engagement": 13990
+            "date": "2026-05-27T19:00:11.000Z",
+            "engagement": 128
+          },
+          {
+            "date": "2026-06-03T11:57:20.000Z",
+            "engagement": 1272
+          },
+          {
+            "date": "2026-06-05T01:09:36.000Z",
+            "engagement": 567
+          },
+          {
+            "date": "2026-06-10T05:39:40.000Z",
+            "engagement": 457
+          },
+          {
+            "date": "2026-06-11T04:10:15.000Z",
+            "engagement": 351
+          },
+          {
+            "date": "2026-06-12T03:32:57.000Z",
+            "engagement": 701
           }
         ],
-        "last_post_date": "2026-03-24T04:51:05+00:00",
-        "posted_recently": false
+        "last_post_date": "2026-06-12T03:32:57.000Z",
+        "posted_recently": true
       },
       {
-        "username": "charliehills",
-        "posts": 33,
-        "avg_engagement": 50591,
-        "top_outlier": 1199.98,
-        "total_engagement": 1669488,
-        "top_hook": "This is the one prompt that makes ChatGPT actually sound human",
+        "username": "steveofallstreets",
+        "posts": 3,
+        "avg_engagement": 427,
+        "top_outlier": 5.07,
+        "total_engagement": 1283,
+        "top_hook": "2 years saved. You\u2019re welcome",
         "engagement_history": [
           {
-            "date": "2026-03-26T14:40:47+00:00",
-            "engagement": 226
+            "date": "2026-06-15T16:10:41.000Z",
+            "engagement": 1154
           },
           {
-            "date": "2026-03-27T14:34:42+00:00",
-            "engagement": 375
+            "date": "2026-06-15T19:30:11.000Z",
+            "engagement": 113
           },
           {
-            "date": "2026-03-28T14:54:09+00:00",
-            "engagement": 1268
-          },
-          {
-            "date": "2026-03-29T13:35:12+00:00",
-            "engagement": 3689
-          },
-          {
-            "date": "2026-03-30T13:34:17+00:00",
-            "engagement": 1403
-          },
-          {
-            "date": "2026-03-31T15:57:35+00:00",
-            "engagement": 1527
-          },
-          {
-            "date": "2026-04-01T14:19:56+00:00",
-            "engagement": 142
+            "date": "2026-06-16T01:26:21.000Z",
+            "engagement": 16
           }
         ],
-        "last_post_date": "2026-04-01T14:19:56+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "artem.novitckii",
-        "posts": 21,
-        "avg_engagement": 13299,
-        "top_outlier": 117.76,
-        "total_engagement": 279287,
-        "top_hook": "Here's what almost everyone missed in Claude's latest update, and while I'll nev",
-        "engagement_history": [
-          {
-            "date": "2026-02-27T15:56:28+00:00",
-            "engagement": 984
-          },
-          {
-            "date": "2026-03-18T10:15:54+00:00",
-            "engagement": 125648
-          },
-          {
-            "date": "2026-03-19T10:32:00+00:00",
-            "engagement": 179
-          },
-          {
-            "date": "2026-03-28T09:18:20+00:00",
-            "engagement": 1210
-          },
-          {
-            "date": "2026-03-30T07:49:37+00:00",
-            "engagement": 1067
-          },
-          {
-            "date": "2026-03-31T09:31:34+00:00",
-            "engagement": 5939
-          },
-          {
-            "date": "2026-04-02T09:53:20+00:00",
-            "engagement": 51
-          }
-        ],
-        "last_post_date": "2026-04-02T09:53:20+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "raycfu",
-        "posts": 49,
-        "avg_engagement": 13243,
-        "top_outlier": 120.88,
-        "total_engagement": 648893,
-        "top_hook": "I wish someone told me the sooner, but you can actually use a cloth skill to bid",
-        "engagement_history": [
-          {
-            "date": "2026-03-26T23:39:59+00:00",
-            "engagement": 19436
-          },
-          {
-            "date": "2026-03-27T23:32:33+00:00",
-            "engagement": 678
-          },
-          {
-            "date": "2026-03-29T05:27:22+00:00",
-            "engagement": 10958
-          },
-          {
-            "date": "2026-03-30T05:59:44+00:00",
-            "engagement": 1374
-          },
-          {
-            "date": "2026-03-31T03:08:01+00:00",
-            "engagement": 7743
-          },
-          {
-            "date": "2026-04-01T06:12:26+00:00",
-            "engagement": 1620
-          },
-          {
-            "date": "2026-04-02T04:44:26+00:00",
-            "engagement": 1578
-          }
-        ],
-        "last_post_date": "2026-04-02T04:44:26+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "chriswesst",
-        "posts": 8,
-        "avg_engagement": 10582,
-        "top_outlier": 227.36,
-        "total_engagement": 84658,
-        "top_hook": "CEO, CEO, content director, sales, developer, finance, and client success",
-        "engagement_history": [
-          {
-            "date": "2025-12-24T01:11:09+00:00",
-            "engagement": 0
-          },
-          {
-            "date": "2026-01-15T21:34:05+00:00",
-            "engagement": 111
-          },
-          {
-            "date": "2026-02-10T23:00:37+00:00",
-            "engagement": 361
-          },
-          {
-            "date": "2026-02-27T07:19:02+00:00",
-            "engagement": 756
-          },
-          {
-            "date": "2026-03-01T02:14:37+00:00",
-            "engagement": 82076
-          },
-          {
-            "date": "2026-03-08T23:10:29+00:00",
-            "engagement": 1112
-          },
-          {
-            "date": "2026-03-22T04:19:54+00:00",
-            "engagement": 239
-          }
-        ],
-        "last_post_date": "2026-03-22T04:19:54+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "cooper.simson",
-        "posts": 49,
-        "avg_engagement": 8993,
-        "top_outlier": 41.0,
-        "total_engagement": 440649,
-        "top_hook": "Is it possible to replace an entire SEO agency and rank higher with AI?",
-        "engagement_history": [
-          {
-            "date": "2026-03-28T22:38:46+00:00",
-            "engagement": 176
-          },
-          {
-            "date": "2026-03-29T04:36:50+00:00",
-            "engagement": 563
-          },
-          {
-            "date": "2026-03-30T01:15:05+00:00",
-            "engagement": 806
-          },
-          {
-            "date": "2026-03-31T04:29:56+00:00",
-            "engagement": 9615
-          },
-          {
-            "date": "2026-03-31T21:34:09+00:00",
-            "engagement": 544
-          },
-          {
-            "date": "2026-04-01T02:22:27+00:00",
-            "engagement": 2318
-          },
-          {
-            "date": "2026-04-02T04:29:48+00:00",
-            "engagement": 537
-          }
-        ],
-        "last_post_date": "2026-04-02T04:29:48+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "digitalsamaritan",
-        "posts": 50,
-        "avg_engagement": 5833,
-        "top_outlier": 19.43,
-        "total_engagement": 291646,
-        "top_hook": "Things you don't know you can do with Claude, part 7",
-        "engagement_history": [
-          {
-            "date": "2026-03-13T03:07:22+00:00",
-            "engagement": 3833
-          },
-          {
-            "date": "2026-03-16T02:55:20+00:00",
-            "engagement": 2160
-          },
-          {
-            "date": "2026-03-18T19:43:12+00:00",
-            "engagement": 4736
-          },
-          {
-            "date": "2026-03-21T02:56:26+00:00",
-            "engagement": 1319
-          },
-          {
-            "date": "2026-03-26T03:14:42+00:00",
-            "engagement": 1616
-          },
-          {
-            "date": "2026-03-26T22:00:51+00:00",
-            "engagement": 5792
-          },
-          {
-            "date": "2026-03-31T02:37:47+00:00",
-            "engagement": 1274
-          }
-        ],
-        "last_post_date": "2026-03-31T02:37:47+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "tenfoldmarc",
-        "posts": 50,
-        "avg_engagement": 5161,
-        "top_outlier": 402.91,
-        "total_engagement": 258062,
-        "top_hook": "Cloud Code just killed the website designers",
-        "engagement_history": [
-          {
-            "date": "2026-03-28T23:54:27+00:00",
-            "engagement": 3572
-          },
-          {
-            "date": "2026-03-30T00:15:23+00:00",
-            "engagement": 14494
-          },
-          {
-            "date": "2026-03-30T00:19:58+00:00",
-            "engagement": 115
-          },
-          {
-            "date": "2026-03-31T01:17:22+00:00",
-            "engagement": 4111
-          },
-          {
-            "date": "2026-03-31T22:33:39+00:00",
-            "engagement": 52
-          },
-          {
-            "date": "2026-04-01T03:32:38+00:00",
-            "engagement": 427
-          },
-          {
-            "date": "2026-04-01T17:02:06+00:00",
-            "engagement": 39
-          }
-        ],
-        "last_post_date": "2026-04-01T17:02:06+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "jasoncooperson",
-        "posts": 49,
-        "avg_engagement": 4319,
-        "top_outlier": 85.78,
-        "total_engagement": 211614,
-        "top_hook": "I'm about to give away my $500 content system for free",
-        "engagement_history": [
-          {
-            "date": "2026-03-18T19:36:06+00:00",
-            "engagement": 337
-          },
-          {
-            "date": "2026-03-19T17:41:07+00:00",
-            "engagement": 620
-          },
-          {
-            "date": "2026-03-22T22:48:36+00:00",
-            "engagement": 2899
-          },
-          {
-            "date": "2026-03-26T00:53:54+00:00",
-            "engagement": 1177
-          },
-          {
-            "date": "2026-03-30T02:04:15+00:00",
-            "engagement": 427
-          },
-          {
-            "date": "2026-04-02T04:03:55+00:00",
-            "engagement": 196
-          },
-          {
-            "date": "2026-04-02T05:51:55+00:00",
-            "engagement": 60
-          }
-        ],
-        "last_post_date": "2026-04-02T05:51:55+00:00",
-        "posted_recently": false
-      },
-      {
-        "username": "justyn.ai",
-        "posts": 47,
-        "avg_engagement": 3541,
-        "top_outlier": 37.07,
-        "total_engagement": 166444,
-        "top_hook": "Did Clod just kill Canva, PowerPoint, Figma, and basically anything a web design",
-        "engagement_history": [
-          {
-            "date": "2026-03-27T20:35:55+00:00",
-            "engagement": 6370
-          },
-          {
-            "date": "2026-03-29T18:03:39+00:00",
-            "engagement": 9146
-          },
-          {
-            "date": "2026-03-30T16:14:09+00:00",
-            "engagement": 263
-          },
-          {
-            "date": "2026-03-30T18:21:04+00:00",
-            "engagement": 1298
-          },
-          {
-            "date": "2026-03-31T16:44:20+00:00",
-            "engagement": 852
-          },
-          {
-            "date": "2026-04-01T00:02:38+00:00",
-            "engagement": 418
-          },
-          {
-            "date": "2026-04-01T17:54:42+00:00",
-            "engagement": 4342
-          }
-        ],
-        "last_post_date": "2026-04-01T17:54:42+00:00",
-        "posted_recently": false
+        "last_post_date": "2026-06-16T01:26:21.000Z",
+        "posted_recently": true
       }
     ]
   },
   "performance": {
     "frameworks": [
       {
-        "name": "Contrarian",
-        "count": 10,
-        "avg_engagement": 19184
+        "name": "Curiosity Gap",
+        "count": 113,
+        "avg_engagement": 13879
       },
       {
         "name": "Proof First",
-        "count": 21,
-        "avg_engagement": 13914
-      },
-      {
-        "name": "Pattern Interrupt",
-        "count": 44,
-        "avg_engagement": 13105
-      },
-      {
-        "name": "Curiosity Gap",
-        "count": 294,
-        "avg_engagement": 12896
-      },
-      {
-        "name": "Cost Replacement",
-        "count": 56,
-        "avg_engagement": 12390
+        "count": 7,
+        "avg_engagement": 7447
       },
       {
         "name": "Question",
-        "count": 54,
-        "avg_engagement": 11249
+        "count": 12,
+        "avg_engagement": 4250
+      },
+      {
+        "name": "Cost Replacement",
+        "count": 26,
+        "avg_engagement": 1354
+      },
+      {
+        "name": "Contrarian",
+        "count": 11,
+        "avg_engagement": 1197
       },
       {
         "name": "Before/After",
-        "count": 11,
-        "avg_engagement": 10273
+        "count": 3,
+        "avg_engagement": 666
       },
       {
-        "name": "Capability Reveal",
-        "count": 15,
-        "avg_engagement": 8695
+        "name": "Pattern Interrupt",
+        "count": 6,
+        "avg_engagement": 513
       },
       {
-        "name": "Test/Experiment",
-        "count": 2,
-        "avg_engagement": 6324
+        "name": "Pain Point",
+        "count": 3,
+        "avg_engagement": 439
       }
     ],
     "pace": [
       {
         "range": "<150",
-        "count": 47,
-        "avg_engagement": 4059
+        "count": 0,
+        "avg_engagement": 0
       },
       {
         "range": "150-180",
-        "count": 54,
-        "avg_engagement": 17070
+        "count": 0,
+        "avg_engagement": 0
       },
       {
         "range": "180-210",
-        "count": 134,
-        "avg_engagement": 18802
+        "count": 0,
+        "avg_engagement": 0
       },
       {
         "range": "210-240",
-        "count": 116,
-        "avg_engagement": 13055
+        "count": 0,
+        "avg_engagement": 0
       },
       {
         "range": ">240",
-        "count": 156,
-        "avg_engagement": 8097
+        "count": 0,
+        "avg_engagement": 0
       }
     ],
     "duration": [
       {
         "range": "<30s",
-        "count": 79,
-        "avg_engagement": 5574
+        "count": 36,
+        "avg_engagement": 20834
       },
       {
         "range": "30-45s",
-        "count": 85,
-        "avg_engagement": 22566
+        "count": 31,
+        "avg_engagement": 23532
       },
       {
         "range": "45-60s",
-        "count": 118,
-        "avg_engagement": 13284
+        "count": 36,
+        "avg_engagement": 3153
       },
       {
         "range": "60-90s",
-        "count": 144,
-        "avg_engagement": 12306
+        "count": 51,
+        "avg_engagement": 1069
       },
       {
         "range": ">90s",
-        "count": 81,
-        "avg_engagement": 8783
+        "count": 27,
+        "avg_engagement": 2915
       }
     ]
   },
   "library": {
-    "content_packs": [
-      {
-        "slug": "claude-code-dream",
-        "topic": "Claude Code /dream Feature",
-        "keyword": "DREAM",
-        "skill": "Auto-dream setup walkthrough",
-        "created": "2026-04-03T23:30:00.000000+00:00",
-        "status": "draft",
-        "formats": {
-          "reel": true,
-          "thread": true,
-          "carousel": true,
-          "longform": true
-        },
-        "hook": "Claude Code can now dream. No, literally -- they built a feature called /dream that consolidates your AI's memory while you're away."
-      },
-      {
-        "slug": "claude-code-source-leak",
-        "topic": "Claude Code Source Leak",
-        "keyword": "LEAK",
-        "skill": "Claude Code CLAUDE.md memory optimization",
-        "created": "2026-04-03T22:54:54.614466+00:00",
-        "status": "draft",
-        "formats": {
-          "reel": true,
-          "thread": true,
-          "carousel": true,
-          "longform": true
-        },
-        "hook": "Anthropic accidentally leaked 512,000 lines of Claude Code's source code. And what's inside is wild"
-      },
-      {
-        "slug": "mit-vs-reality-ai-engineers",
-        "topic": "MIT vs Reality: AI Replacing Engineers",
-        "keyword": "TRUTH",
-        "skill": "AI workflow audit -- assess what in your job can be automated",
-        "created": "2026-04-03T23:30:00.000000+00:00",
-        "status": "draft",
-        "formats": {
-          "reel": true,
-          "thread": true,
-          "carousel": true,
-          "longform": true
-        },
-        "hook": "MIT just published a study saying AI won't replace software engineers. Then I read the comments."
-      }
-    ],
-    "total_packs": 3,
-    "total_scripts": 60,
-    "total_skills": 36
+    "content_packs": [],
+    "total_packs": 0,
+    "total_scripts": 9,
+    "total_skills": 0
   },
-  "period": "today",
+  "period": "last 90 days",
   "summary": {
-    "total_engagement": 152992,
-    "outlier_count": 10,
-    "strong_outliers": 6,
+    "total_engagement": 1726343,
+    "outlier_count": 23,
+    "strong_outliers": 15,
     "topic_count": 8,
-    "idea_count": 5,
-    "creator_count": 10,
-    "period": "today",
-    "outlier_rate": 60.0
+    "idea_count": 9,
+    "creator_count": 4,
+    "period": "last 90 days",
+    "outlier_rate": 12.7
   }
 }
