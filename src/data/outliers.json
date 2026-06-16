@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-06-16T04:46:10.041903+00:00",
+  "accounts": [
+    {
+      "handle": "steveofallstreets",
+      "reels": 3,
+      "baseline": 3985,
+      "outlier_count": 1
+    },
+    {
+      "handle": "tomnoske",
+      "reels": 111,
+      "baseline": 16374,
+      "outlier_count": 9
+    },
+    {
+      "handle": "takimoore",
+      "reels": 37,
+      "baseline": 41719,
+      "outlier_count": 6
+    },
+    {
+      "handle": "wadepapenfus",
+      "reels": 29,
+      "baseline": 43766,
+      "outlier_count": 8
+    }
+  ],
+  "outlier_total_detected": 24,
+  "outliers": [
+    {
+      "source_account": "wadepapenfus",
+      "source_url": "https://www.instagram.com/p/DWyPEouEdOQ/",
+      "source_plays": 14354153,
+      "source_likes": 491157,
+      "source_comments": 513,
+      "account_baseline": 43766,
+      "outlier_score": 327.97,
+      "source_caption": "Nothing better than catching giant tuna with the boys on some deserted islands\u2026 \n\n#fishing #fishing\ud83d\udc1f #catchoftheday #seafood",
+      "timestamp": "2026-04-06T09:21:25.000Z",
+      "video_duration": 10.611,
+      "transcript": null,
+      "hook_framework": "Aspirational Statement of Fact",
+      "why_it_worked": "It presented a universally desired, peak experience without a sales pitch. The simple, declarative text allowed the aspirational visuals to create a powerful emotional pull toward freedom and adventure.",
+      "recommended_angle": "Showcase the 'Live Offline' result of Christian's systems. The reel should be a visual postcard from the life FieldWork enables, with a simple caption that names the feeling of earned freedom.",
+      "my_hooks": [
+        "Nothing better than a Tuesday morning with no meetings, just this.",
+        "This is why we build systems. For more days that feel like this.",
+        "Building an online business so you can have more offline moments.",
+        "The whole point of automating my work was to have more workdays here.",
+        "My AI employees are handling my emails. I'm handling this."
+      ],
+      "my_script_summary": [
+        "BEAT 1: Epic, wide shot of Christian in a remote outdoor setting, fully present.",
+        "BEAT 2: Simple text overlay appears with the chosen hook line.",
+        "BEAT 3: Quick, candid cuts of the activity. Laughing with friends, focusing on a task, enjoying the moment.",
+        "BEAT 4: Final shot holds on a peaceful, satisfying scene as the music fades."
+      ]
+    },
+    {
+      "source_account": "wadepapenfus",
+      "source_url": "https://www.instagram.com/p/DJYvdXmxhRF/",
+      "source_plays": 13613162,
+      "source_likes": 670416,
+      "source_comments": 2528,
+      "account_baseline": 43766,
+      "outlier_score": 311.04,
+      "source_caption": "My 13 week old golden retriever named froth now shreds after her first ever surf lesson! \n\n#dog #adventure #outdoors #dogsofinsta #animals #fishing #nature",
+      "timestamp": "2025-05-08T08:56:32.000Z",
+      "video_duration": 36.533,
+      "transcript": null,
+      "hook_framework": "The Unbelievable Result",
+      "why_it_worked": "It combines a hyper specific subject with a surprisingly advanced skill, creating a 'how is that possible' curiosity gap that the visual immediately pays off. The specificity makes the unbelievable claim feel credible.",
+      "recommended_angle": "Showcase a specific founder achieving an unbelievable 'Live Offline' result because of a single FieldWork system we installed, mirroring the 'first lesson' simplicity.",
+      "my_hooks": [
+        "My client Kevin, a pen maker from Arkansas, now makes an extra $15k a month after we installed one AI employee.",
+        "This founder I work with now takes every Friday off after we built one system.",
+        "My client who runs a 7 figure agency now gets 15 hours a week back after installing one AI agent.",
+        "This coach from Austin now signs 3 new clients a week on autopilot after building his content engine.",
+        "This e-commerce founder now runs his entire business from a boat in Mexico after we automated his operations."
+      ],
+      "my_script_summary": [
+        "Text Hook: A founder I work with now takes every Friday off.",
+        "Visual: Quick shot of the founder hiking, fishing, or with family on a Friday.",
+        "Text Add: After we installed one system.",
+        "Visual: Quick, clean screen recording of the system dashboard working automatically.",
+        "End Card: Build Online. Live Offline. The FieldWork Program."
+      ]
+    },
+    {
+      "source_account": "wadepapenfus",
+      "source_url": "https://www.instagram.com/p/DZdphsNhbYE/",
+      "source_plays": 9187994,
+      "source_likes": 104695,
+      "source_comments": 1341,
+      "account_baseline": 43766,
+      "outlier_score": 209.93,
+      "source_caption": "\ud83d\ude447.8 earthquake \n.\n.\n.\n.\n.\n.\n#relatable #meme #sourdough #funny",
+      "timestamp": "2026-06-11T23:00:12.000Z",
+      "video_duration": 7.966,
+      "transcript": null,
+      "hook_framework": "Hyperbolic Juxtaposition Meme",
+      "why_it_worked": "It uses extreme contrast between a niche, personal interest and a major disaster to create relatable, absurdist humor. The format is simple and highlights the perceived resilience of the subject, making it highly memeable.",
+      "recommended_angle": "Frame Christian's automated systems as the resilient 'sourdough starter'\u2014the one part of the business that keeps working perfectly even when the founder's life or world is in chaos. This reinforces the core FieldWork promise of a business that runs without you.",
+      "my_hooks": [
+        "My automated client system after my biggest client fires me.",
+        "My AI sales employee after I take 3 weeks off grid.",
+        "My entire business the week I got the flu and couldn't work.",
+        "My marketing system the day after I smashed my laptop.",
+        "My lead nurture system after I deleted social media for a week."
+      ],
+      "my_script_summary": [
+        "BEAT 1 (TEXT HOOK): On-screen text establishes the subject: 'My automated business...'",
+        "BEAT 2 (TEXT PUNCHLINE): Text reveals the 'disaster': '...the week I decided to go surfing.'",
+        "BEAT 3 (VISUAL REVEAL): Show a screen recording of new sales notifications or calendar bookings populating automatically.",
+        "BEAT 4 (CLOSING TEXT): Final on-screen text delivers the philosophical punchline: 'Systems work when you can't.'"
+      ]
+    },
+    {
+      "source_account": "tomnoske",
+      "source_url": "https://www.instagram.com/p/DMZxd_NzDmG/",
+      "source_plays": 619583,
+      "source_likes": 46927,
+      "source_comments": 951,
+      "account_baseline": 16374,
+      "outlier_score": 37.84,
+      "source_caption": "Earned, not given.",
+      "timestamp": "2025-07-22T08:05:18.000Z",
+      "video_duration": 94.96,
+      "transcript": null,
+      "hook_framework": "Contrasting Value Statement",
+      "why_it_worked": "It's a short, powerful aphorism that taps into a widely held belief system about hard work and merit. The simplicity makes it a strong, shareable declaration of values.",
+      "recommended_angle": "Christian should co-opt the punchy 'X, not Y' format to present his anti-hustle philosophy. Contrast the common founder struggle with the freedom his systems-first approach creates.",
+      "my_hooks": [
+        "Built, not busy.",
+        "Systems, not hustle.",
+        "Automated, not grinding.",
+        "Designed, not defaulted.",
+        "Time, not trophies."
+      ],
+      "my_script_summary": [
+        "Beat 1: Open on a powerful visual of Christian living 'offline' (hiking, by a lake, with family).",
+        "Beat 2: Text appears on screen, timed to the music: The first word of the hook (e.g., 'Built,').",
+        "Beat 3: The contrasting phrase appears next to it (e.g., 'not busy.').",
+        "Beat 4: The full phrase holds on screen over a final, aspirational shot."
+      ]
+    },
+    {
+      "source_account": "tomnoske",
+      "source_url": "https://www.instagram.com/p/DWd2Arvk3rc/",
+      "source_plays": 213230,
+      "source_likes": 12119,
+      "source_comments": 218,
+      "account_baseline": 16374,
+      "outlier_score": 13.02,
+      "source_caption": "If you want to figure out your exact numbers, based on your exact offer, I\u2019ve built a free tool that helps you build the offer, and then plan the numbers in under 10 minutes\u2026 it\u2019s pretty cool. \n\nComment \u201coffer\u201d and I\u2019ll send it to you",
+      "timestamp": "2026-03-29T11:17:24.000Z",
+      "video_duration": 103.92,
+      "transcript": null,
+      "hook_framework": "Direct Solution Offer",
+      "why_it_worked": "It directly solves a universal founder pain point (figuring out the numbers) with a specific, fast, and free solution (a tool). The low friction keyword CTA boosts engagement, signaling value to the algorithm.",
+      "recommended_angle": "Mirror the direct 'I built a thing for you' structure. Instead of a financial calculator, offer a 'Time Buy Back' calculator or systems diagnostic that shows founders how many hours they could reclaim.",
+      "my_hooks": [
+        "If you want to know exactly how many hours your business is costing you, I built a free diagnostic that calculates it in under 5 minutes.",
+        "I built a simple calculator. You list your weekly tasks. It shows you what to automate to get a day back every week.",
+        "If you want to see the path from 60 hours a week to 20, I built a free tool that maps it out for your specific business.",
+        "Want the exact 3 systems that buy back 15 hours a week? I built a free planner that shows you where to install them.",
+        "If you want a business that runs without you, I built a tool that finds the single biggest bottleneck stealing your time. It takes 3 minutes."
+      ],
+      "my_script_summary": [
+        "State the core founder pain of being trapped working in the business.",
+        "Introduce the solution: a free diagnostic I built.",
+        "Explain the benefit: it shows you exactly how many hours you can buy back.",
+        "Add a time constraint: you get your number in under 5 minutes.",
+        "Clear Call to Action: Comment 'SYSTEM' and I'll send it over."
+      ]
+    },
+    {
+      "source_account": "tomnoske",
+      "source_url": "https://www.instagram.com/p/DWzkLpqkxoa/",
+      "source_plays": 188520,
+      "source_likes": 3723,
+      "source_comments": 173,
+      "account_baseline": 16374,
+      "outlier_score": 11.51,
+      "source_caption": "I firmly believe there is a greater ROI in renting in a wealthy suburb vs buying a home in a shitty suburb.",
+      "timestamp": "2026-04-06T21:45:57.000Z",
+      "video_duration": 75.633,
+      "transcript": null,
+      "hook_framework": "The Contrarian ROI Statement",
+      "why_it_worked": "It presents a simple, polarizing belief that challenges a deeply held convention (buying property is always best). This contrarian take forces an immediate opinion and drives high-engagement debate in the comments.",
+      "recommended_angle": "Christian's version should contrast a core FieldWork principle (systems, automation, freedom) against a common hustle culture belief (more clients, more hours, more employees). The ROI should be defined as time and freedom, not just money.",
+      "my_hooks": [
+        "I firmly believe there is a greater ROI in building one system vs hiring your first employee.",
+        "I firmly believe there is a greater ROI in building an audience of 1,000 true fans vs landing one $100,000 client.",
+        "I firmly believe there is a greater ROI in automating one 5-hour task vs working one extra day a week.",
+        "I firmly believe there is a greater ROI in building a business that lets you leave vs building an empire that traps you.",
+        "I firmly believe there is a greater ROI in installing one AI employee vs buying ten new software tools."
+      ],
+      "my_script_summary": [
+        "Beat 1: State the core contrarian belief directly to camera.",
+        "Beat 2: Briefly state the downside of the traditional approach.",
+        "Beat 3: Briefly state the upside of your 'system' approach.",
+        "Beat 4: Deliver the final philosophical punchline about what you're really buying back: time and freedom."
+      ]
+    },
+    {
+      "source_account": "takimoore",
+      "source_url": "https://www.instagram.com/p/DYOTs1RprzR/",
+      "source_plays": 205299,
+      "source_likes": 4262,
+      "source_comments": 3005,
+      "account_baseline": 41719,
+      "outlier_score": 4.92,
+      "source_caption": "Comment SHOWBIZ to get the deets for the workshop.\n\nWill show you behind the scenes of what @hormozi called the naked funnel and a whole lot more.",
+      "timestamp": "2026-05-12T03:33:04.000Z",
+      "video_duration": 88.791,
+      "transcript": null,
+      "hook_framework": "Borrowed Authority + Specific Mechanism",
+      "why_it_worked": "The reel leverages a huge, trusted name (Hormozi) and attaches it to a specific, intriguing mechanism ('the naked funnel'). This combination creates instant credibility and curiosity with zero fluff.",
+      "recommended_angle": "Christian should borrow authority from a respected founder-philosopher like Naval Ravikant, connecting his ideas on leverage to Christian's specific mechanism of 'AI Employees' or 'Time-Buying Assets'.",
+      "my_hooks": [
+        "Comment FIELDWORK and I'll send you the guide to building what I call 'Time-Buying Assets'.",
+        "Comment SYSTEM to get the framework for installing the 'AI Employees' that run my business while I'm offline.",
+        "Comment OFFLINE and I'll show you how to build a business with what Naval calls 'permissionless leverage'.",
+        "Comment FIELDWORK to see the exact system that lets me 'earn with my mind, not my time'.",
+        "Comment SYSTEM and I'll show you how to build the one asset that buys back your time."
+      ],
+      "my_script_summary": [
+        "Beat 1 (CTA): Comment FIELDWORK to get the guide.",
+        "Beat 2 (Promise): I'll show you the system for building...",
+        "Beat 3 (Mechanism): ...what I call 'Time-Buying Assets'.",
+        "Beat 4 (Benefit): The engine that lets you build online, and live offline."
+      ]
+    },
+    {
+      "source_account": "steveofallstreets",
+      "source_url": "https://www.instagram.com/p/DZnNq0nv5j9/",
+      "source_plays": 18403,
+      "source_likes": 385,
+      "source_comments": 669,
+      "account_baseline": 3985,
+      "outlier_score": 4.62,
+      "source_caption": "2 years saved. You\u2019re welcome",
+      "timestamp": "2026-06-15T16:10:41.000Z",
+      "video_duration": 93.9,
+      "transcript": null,
+      "hook_framework": "The Audacious Claim",
+      "why_it_worked": "It makes a massive, specific promise with extreme brevity. This creates an immediate open loop, forcing the viewer to wonder 'how?' and stopping the scroll to find the answer.",
+      "recommended_angle": "Frame FieldWork not as a course, but as a system that delivers a specific, quantifiable amount of time back to the founder. The angle is the direct transaction: install this system, get this much of your life back.",
+      "my_hooks": [
+        "I got my weekends back.",
+        "Your business can run on 15 hours a week.",
+        "This system bought back my time.",
+        "Build it once. Live the rest.",
+        "Your best employee works while you sleep."
+      ],
+      "my_script_summary": [
+        "Beat 1: The hook appears on screen as a bold statement.",
+        "Beat 2: Show the old way: chained to a desk, endless tasks.",
+        "Beat 3: Show the new way: a simple system running on a laptop.",
+        "Beat 4: Show the result: Christian outdoors, in the field, living life.",
+        "Beat 5: Final text on screen: 'Comment FIELDWORK to learn the system.'"
+      ]
+    },
+    {
+      "source_account": "takimoore",
+      "source_url": "https://www.instagram.com/p/DW1SVLJCGJS/",
+      "source_plays": 190980,
+      "source_likes": 428,
+      "source_comments": 141,
+      "account_baseline": 41719,
+      "outlier_score": 4.58,
+      "source_caption": "I locked my 9-person sales team in a cupboard for 90 days.\u2060\n\u2060\nFull pay. No calls. No DMs. No follow-up. No \u201cjust checking in\u2026\u201d\u2060\n\u2060\nIt sounds unhinged.\u2060\n\u2060\nBut it proved something important:\u2060\n\u2060\nThe best prospects don\u2019t want a sales call.\u2060\n\u2060\nThey want clarity.\u2060\n\u2060\nThey want confidence.\u2060\n\u2060\nThey want an offer that makes sense and a simple way to say yes.\u2060\n\u2060\nFirst month: 12 clients.\u2060\n\u2060\nA few months later: 30 a month.\u2060\n\u2060\nNow we cap it at 45.\u2060\n\u2060\nNo sales team heroics.\u2060\n\u2060\nNo endless calls.\u2060\n\u2060\nNo chasing people who were never gonna buy.\u2060\n\u2060\nIf you want the deets on how this works, comment SALESLESS.",
+      "timestamp": "2026-04-07T13:48:01.000Z",
+      "video_duration": 72.666,
+      "transcript": null,
+      "hook_framework": "Provocative Action Statement",
+      "why_it_worked": "It uses a pattern-interrupt hook. The extreme, almost unbelievable action forces the viewer to stay and discover the logic and outcome behind the seemingly irrational decision.",
+      "recommended_angle": "Christian should frame this as a deliberate experiment where he removed himself from the daily operations of his business to prove that his systems work without him. This directly sells the 'Build Online. Live Offline' promise of FieldWork.",
+      "my_hooks": [
+        "I went off-grid for 30 days to see if my business would die.",
+        "I fired myself from my own company for a month.",
+        "For 60 days, I didn't post, email, or check a single DM.",
+        "I deleted every work app from my phone. Here's what happened.",
+        "I stopped all marketing for 90 days to prove a point."
+      ],
+      "my_script_summary": [
+        "I went off-grid for 30 days. No laptop. No DMs. No content.",
+        "Most founders would never do this. It sounds like a death sentence.",
+        "But it proved something important: A business that needs you every day isn't a business. It's a job.",
+        "The best clients don't want your time. They want a system that gets them a result.",
+        "When I came back: 15 new clients. 6,000 qualified leads.",
+        "No burnout. No content hamster wheel. No being chained to my phone.",
+        "If you want the systems that make this possible, comment FIELDWORK."
+      ]
+    },
+    {
+      "source_account": "takimoore",
+      "source_url": "https://www.instagram.com/p/DXfjoQQiqHO/",
+      "source_plays": 160179,
+      "source_likes": 346,
+      "source_comments": 19,
+      "account_baseline": 41719,
+      "outlier_score": 3.84,
+      "source_caption": "Part 3 of 5 \u2014 You do not have to force pay-in-full to build a great coaching business.\u2060\n\u2060\nA lot of people treat the sale like the finish line.\u2060\n\u2060\nIt\u2019s not.\u2060\n\u2060\nThe sale is the start.\u2060\n\u2060\nIf your business is built around real retention, real results, and real relationships\u2026 then the goal isn\u2019t just to collect cash.\u2060\n\u2060\nIt\u2019s to create customers who stay.\u2060\n\u2060\nPeople who keep getting value.\u2060\n\u2060\nPeople who keep winning.\u2060\n\u2060\nPeople who don\u2019t want to leave because what you do actually works.\u2060\n\u2060\nThat changes how you think about pricing.\u2060\n\u2060\nThat changes how you think about renewal.\u2060\n\u2060\nThat changes how you think about the whole business model.\u2060\n\u2060\nThere isn\u2019t one right way to structure offers.\u2060\n\u2060\nThere\u2019s only the way that creates the kind of business you actually want to own.\u2060\n\u2060\nFollow for part 4 tomorrow \u2014 we\u2019re talking about why gatekeeping your best stuff is ancient history.",
+      "timestamp": "2026-04-23T23:47:09.000Z",
+      "video_duration": 56.366,
+      "transcript": null,
+      "hook_framework": "The Contrarian Permission Slip",
+      "why_it_worked": "It gives the audience permission to reject a common, often painful, piece of industry advice. It reframes a tactical problem as a philosophical choice about the kind of business they want to own.",
+      "recommended_angle": "Apply the same framework to the 'hustle' of daily content creation. Argue that the goal isn't to be 'always on', but to build systems that work when you are offline, aligning perfectly with FieldWork.",
+      "my_hooks": [
+        "You do not have to post every day to grow your business.",
+        "You do not have to live in your DMs to make sales.",
+        "You do not have to be the bottleneck in your own business.",
+        "You do not need more hustle. You need a better engine.",
+        "You do not have to trade your time for every dollar you make."
+      ],
+      "my_script_summary": [
+        "A lot of people treat their personal effort as the asset.",
+        "It's not.",
+        "The asset is the system.",
+        "If your business is built to run without you, the goal isn't to be busy. It's to be free.",
+        "Free to take a hike. Free to go offline for a week. Free to be present with your family.",
+        "That changes how you think about leads. That changes how you think about sales. That changes how you think about your whole day.",
+        "There isn't one right way to build. There's only the way that buys back your time."
+      ]
+    }
+  ]
+}
