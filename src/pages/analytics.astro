@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../data/analytics.json';
+const d = data as any;
+function fmt(n){ if(n==null) return '0'; if(n>=1e6) return (n/1e6).toFixed(1)+'M'; if(n>=1e3) return (n/1e3).toFixed(1)+'K'; return String(n); }
+const gen = d.generated_at ? new Date(d.generated_at).toLocaleDateString('en-US',{month:'short',day:'numeric'}) : null;
+const maxBar = Math.max(1, ...(d.timeline||[]).map(t=>t.count));
+---
+
+<Layout title="Analytics · FieldWork">
+  <div class="max-w-[1100px] mx-auto px-5 lg:px-10 py-8">
+
+    <header class="mb-8">
+      <p class="section-label mb-2">Your Account</p>
+      <h1 class="text-4xl font-display font-semibold tracking-tight mb-2">Analytics</h1>
+      <p class="text-text-secondary max-w-2xl">
+        How @{d.handle} is performing. Pulled from your content{gen ? ' · updated ' + gen : ''}.
+      </p>
+    </header>
+
+    <!-- PROFILE + KEY METRICS -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+      <div class="card p-4"><div class="stat-value">{fmt(d.profile.followers)}</div><div class="section-label mt-1">Followers</div></div>
+      <div class="card p-4"><div class="stat-value">{fmt(d.profile.posts)}</div><div class="section-label mt-1">Posts</div></div>
+      <div class="card p-4"><div class="stat-value">{fmt(d.metrics.avg_plays)}</div><div class="section-label mt-1">Avg plays / reel</div></div>
+      <div class="card p-4"><div class="stat-value">{d.metrics.engagement_rate_pct}%</div><div class="section-label mt-1">Engagement rate</div></div>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+      <div class="card p-4"><div class="stat-value" style="font-size:1.5rem">{fmt(d.metrics.avg_engagement)}</div><div class="section-label mt-1">Avg likes + comments</div></div>
+      <div class="card p-4"><div class="stat-value" style="font-size:1.5rem">{fmt(d.metrics.best_plays)}</div><div class="section-label mt-1">Best reel plays</div></div>
+      <div class="card p-4"><div class="stat-value" style="font-size:1.5rem">{d.activity.days_since_last_post ?? '—'}d</div><div class="section-label mt-1">Since last post</div></div>
+      <div class="card p-4" style={d.activity.dormant ? 'border-color: var(--color-error);' : ''}>
+        <div class="stat-value" style={'font-size:1.5rem;' + (d.activity.dormant ? 'color: var(--color-error);' : '')}>{d.activity.dormant ? 'Dormant' : 'Active'}</div>
+        <div class="section-label mt-1">{d.activity.posts_last_90} posts / 90d</div>
+      </div>
+    </div>
+
+    {d.activity.dormant && (
+      <div class="card p-4 mb-8" style="border-color: var(--color-error);">
+        <p class="text-sm" style="color: var(--color-error);">
+          You have not posted a reel in {d.activity.days_since_last_post} days. These numbers are from your last active period — resume posting to grow them again.
+        </p>
+      </div>
+    )}
+
+    <!-- POSTING TIMELINE -->
+    {d.timeline && d.timeline.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-xl font-display font-bold mb-4">Posting activity</h2>
+        <div class="card p-5">
+          <div class="flex items-end gap-2 h-32">
+            {d.timeline.map((t) => (
+              <div class="flex-1 flex flex-col items-center justify-end gap-1">
+                <div class="text-xs text-text-secondary font-label">{t.count}</div>
+                <div class="w-full rounded-t" style={`height:${Math.round(t.count/maxBar*100)}%;min-height:4px;background:var(--color-accent);`}></div>
+                <div class="text-[0.6rem] text-text-secondary font-label">{t.month.slice(2)}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- TOP REELS -->
+    {d.top_reels && d.top_reels.length > 0 && (
+      <section>
+        <h2 class="text-xl font-display font-bold mb-4">Top reels</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {d.top_reels.map((r) => (
+            <a href={r.url} target="_blank" rel="noopener" class="card p-3 hover:border-accent transition-colors">
+              {r.thumbnail && <img src={r.thumbnail} alt="" loading="lazy" class="w-full h-40 object-cover rounded-md border border-border mb-2" />}
+              <p class="text-sm line-clamp-2">{r.caption || '(no caption)'}</p>
+              <p class="text-xs text-text-secondary mt-1 font-label">{fmt(r.plays)} plays · {fmt(r.likes)} likes · {fmt(r.comments)} comments</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <p class="text-text-secondary text-xs mt-10 font-label">
+      Based on {d.reels_analyzed} reels. Deeper native insights (reach, impressions, audience) require the Instagram Graph API on a connected business account — can be added later.
+    </p>
+  </div>
+</Layout>
