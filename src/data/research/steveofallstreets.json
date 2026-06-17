@@ -1,14 +1,14 @@
 {
   "query": "@steveofallstreets",
   "slug": "steveofallstreets",
-  "timestamp": "2026-06-16T14:07:54.605565+00:00",
+  "timestamp": "2026-06-17T00:19:00.651066+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "steveofallstreets",
       "full_name": "Steven Thiel",
-      "followers": 137420,
-      "following": 779,
-      "posts_count": 9,
+      "followers": 137622,
+      "following": 781,
+      "posts_count": 8,
       "bio": "Helping Entrepreneurs and Creators monetize their \ud83e\udde0\nLearn How\ud83d\udc47",
       "profile_pic": "/research-thumbs/steveofallstreets-profile.jpg",
       "is_verified": true,
@@ -151,6 +151,10 @@
     {
       "handle": "tomnoske",
       "full_name": "Tom Noske"
+    },
+    {
+      "handle": "willgirone",
+      "full_name": "Will Girone | Fitness Business Coach"
     }
   ],
   "analysis": {

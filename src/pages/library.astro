@@ -20,6 +20,7 @@ const seed = (seedData as any).items || [];
         try { this.doneMap = JSON.parse(localStorage.getItem('cco-lib-done')||'{}'); } catch(e){ this.doneMap = {}; }
       },
       key(it){ return it.id || it.source_url || it.title || it.headline; },
+      beliefLabel(code){ return ({B:'Bold Authority',E:'Earned Proof',L:'Lived Story',I:'Intimate Humanity',E2:'Esteemed Admiration',F:'Faithful Service'})[code] || code; },
       get items(){
         var self=this;
         var all = this.seed.concat(this.extras);
@@ -81,6 +82,11 @@ const seed = (seedData as any).items || [];
                 <template x-if="it.outlier_score"><span> &middot; <span x-text="it.outlier_score + 'x'"></span></span></template>
                 <template x-if="it.framework"><span> &middot; <span x-text="it.framework"></span></span></template>
               </p>
+              <div class="flex gap-1.5 flex-wrap mt-2" x-show="it.belief_tags && it.belief_tags.length">
+                <template x-for="(bt, bi) in (it.belief_tags||[])" :key="bi">
+                  <span class="badge badge-match" :title="beliefLabel(bt)" x-text="(bt==='E2'?'E':bt) + ' · ' + beliefLabel(bt)"></span>
+                </template>
+              </div>
             </div>
             <div class="flex gap-2 flex-shrink-0">
               <button class="lets-go-btn px-4 py-1.5 text-sm rounded-full" @click="toggleOpen(it._key)" x-text="openMap[it._key] ? 'Collapse' : 'Expand'"></button>

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-06-17T00:21:50.254621+00:00",
+  "handle": "christianmcld",
+  "total_pieces": 17,
+  "sources": {
+    "instagram": 17,
+    "youtube": 0
+  },
+  "overall_score": 63,
+  "pillars": [
+    {
+      "code": "B",
+      "letter": "B",
+      "name": "Bold Authority",
+      "count": 3,
+      "score": 44,
+      "sample": "Here\u2019s what makes successful brands \ud83d\udc47\n\nIt\u2019s belief.\n\nAnd building that in your audience. \n\nThe belief that your product "
+    },
+    {
+      "code": "E",
+      "letter": "E",
+      "name": "Earned Proof",
+      "count": 1,
+      "score": 15,
+      "sample": "Comment \u201cSTORIES\u201d for 14Days filled with the systems I\u2019ve used through expedition photography work, building my own serv"
+    },
+    {
+      "code": "L",
+      "letter": "L",
+      "name": "Lived Story",
+      "count": 3,
+      "score": 44,
+      "sample": "This was the one thing that changed everything for me\u2026\n\n#contentcreator #storytelling #entrepreneurmindset"
+    },
+    {
+      "code": "I",
+      "letter": "I",
+      "name": "Intimate Humanity",
+      "count": 10,
+      "score": 100,
+      "sample": "Perfection kills progress\u2026 but here\u2019s what they don\u2019t tell you\u2026\n\nWhich do you choose?\n\n#contentcreator #storytelling #en"
+    },
+    {
+      "code": "E2",
+      "letter": "E",
+      "name": "Esteemed Admiration",
+      "count": 8,
+      "score": 100,
+      "sample": "\u2018Do something every day that scares you\u2019  OR be a fearless boss! | #HeadInTheClouds"
+    },
+    {
+      "code": "F",
+      "letter": "F",
+      "name": "Faithful Service",
+      "count": 5,
+      "score": 74,
+      "sample": "Here\u2019s what makes successful brands \ud83d\udc47\n\nIt\u2019s belief.\n\nAnd building that in your audience. \n\nThe belief that your product "
+    }
+  ],
+  "weakest": [
+    {
+      "code": "E",
+      "name": "Earned Proof",
+      "score": 15
+    },
+    {
+      "code": "B",
+      "name": "Bold Authority",
+      "score": 44
+    }
+  ]
+}
