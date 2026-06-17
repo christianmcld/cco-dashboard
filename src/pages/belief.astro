@@ -15,9 +15,30 @@ function tier(s) { return s >= 75 ? 'Strong' : s >= 50 ? 'Building' : s >= 25 ? 
       <h1 class="text-4xl font-display font-semibold tracking-tight mb-2">Belief Score</h1>
       <p class="text-text-secondary max-w-2xl">
         How your own posts on @{d.handle} are building the six FieldWork BELIEF trust pillars.
-        Scored from your recent content, so you can see which pillars you are reinforcing and which you are neglecting.
+        Belief is live: it grows when you post consistently and decays when you go quiet.
       </p>
     </header>
+
+    {d.total_pieces > 0 && (
+      <div class="card p-5 mb-8" style={d.dormant ? 'border-color: var(--color-error);' : ''}>
+        <div class="flex flex-wrap items-center gap-x-8 gap-y-3">
+          <div>
+            <div class="font-display font-semibold text-lg" style={d.dormant ? 'color: var(--color-error);' : ''}>
+              {d.dormant ? 'Dormant' : 'Active'}
+            </div>
+            <div class="section-label mt-0.5">Posting status</div>
+          </div>
+          <div><div class="font-display font-semibold text-lg">{d.days_since_last_post}d</div><div class="section-label mt-0.5">Since last post</div></div>
+          <div><div class="font-display font-semibold text-lg">{d.posts_last_90}</div><div class="section-label mt-0.5">Posts in 90 days</div></div>
+          <div><div class="font-display font-semibold text-lg">{d.cadence_per_week}/wk</div><div class="section-label mt-0.5">Current cadence</div></div>
+        </div>
+        {d.dormant && (
+          <p class="text-sm mt-3" style="color: var(--color-error);">
+            You have not posted in {d.days_since_last_post} days. Belief built on old content has decayed to near zero, so your live score is low no matter how good the past content was. Start posting again to rebuild it.
+          </p>
+        )}
+      </div>
+    )}
 
     {d.total_pieces === 0 ? (
       <div class="card p-10 text-center text-text-secondary">
@@ -29,18 +50,19 @@ function tier(s) { return s >= 75 ? 'Strong' : s >= 50 ? 'Building' : s >= 25 ? 
         <div class="flex flex-col md:flex-row items-center gap-6 mb-10">
           <div class="card p-8 text-center" style="min-width:220px;">
             <div class="stat-value" style="font-size:3.4rem;line-height:1;">{d.overall_score}</div>
-            <div class="section-label mt-2">Overall belief score</div>
+            <div class="section-label mt-2">Live belief score</div>
             <div class="text-xs text-text-secondary mt-1 font-label">{d.total_pieces} posts analyzed{generated ? ' · ' + generated : ''}</div>
           </div>
           <div class="flex-1">
             <p class="text-sm text-text-secondary mb-2">
-              Each pillar is scored by how much of your content actively builds it. Spread your posts across all six to be maximally believable.
+              The <span class="font-semibold">live</span> score reflects recent, consistent posting. Each pillar also shows its
+              <span class="font-semibold"> potential</span> — what your content demonstrates when you are actually posting.
             </p>
             {d.weakest && d.weakest.length > 0 && (
               <p class="text-sm">
-                <span class="font-semibold">Neglected right now:</span>
-                {d.weakest.map((w, i) => (<span> {i > 0 ? '·' : ''} <span class="text-accent font-semibold">{w.name}</span> ({w.score})</span>))}
-                <span class="text-text-secondary"> — make your next posts lean here.</span>
+                <span class="font-semibold">Weakest content pillars (even when active):</span>
+                {d.weakest.map((w, i) => (<span> {i > 0 ? '·' : ''} <span class="text-accent font-semibold">{w.name}</span> ({w.potential})</span>))}
+                <span class="text-text-secondary"> — lean your next posts here.</span>
               </p>
             )}
           </div>
@@ -55,12 +77,12 @@ function tier(s) { return s >= 75 ? 'Strong' : s >= 50 ? 'Building' : s >= 25 ? 
                 <div class="flex-1 min-w-0">
                   <div class="flex items-baseline justify-between gap-3">
                     <h3 class="font-display font-semibold">{p.name}</h3>
-                    <span class="font-label text-sm"><span class="font-bold" style={`color:${p.score >= 50 ? 'var(--color-ink)' : 'var(--color-error)'}`}>{p.score}</span><span class="text-text-secondary">/100 · {tier(p.score)}</span></span>
+                    <span class="font-label text-sm"><span class="font-bold" style={`color:${p.score >= 50 ? 'var(--color-ink)' : 'var(--color-error)'}`}>{p.score}</span><span class="text-text-secondary">/100 live · {tier(p.score)}</span></span>
                   </div>
                   <div class="h-2 w-full bg-surface-bright rounded-full overflow-hidden mt-2">
                     <div class="h-full rounded-full" style={`width:${p.score}%;background:var(--color-accent);`}></div>
                   </div>
-                  <p class="text-xs text-text-secondary mt-2 font-label">{p.count} of {d.total_pieces} posts build this pillar</p>
+                  <p class="text-xs text-text-secondary mt-2 font-label">{p.count} of {d.total_pieces} posts build this pillar · potential {p.potential}/100 when active</p>
                   {p.sample && <p class="text-xs text-text-secondary mt-1 italic line-clamp-1">e.g. "{p.sample}"</p>}
                 </div>
               </div>
