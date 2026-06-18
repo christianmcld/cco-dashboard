@@ -25,5 +25,3 @@ pnpm-debug.log*
 .vercel
 
 # Outlier reel thumbnails (downloaded each refresh, bundled at deploy)
-public/outlier-thumbs/
-public/research-thumbs/

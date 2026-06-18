@@ -5,6 +5,7 @@ const d = data as any;
 function fmt(n){ if(n==null) return '0'; if(n>=1e6) return (n/1e6).toFixed(1)+'M'; if(n>=1e3) return (n/1e3).toFixed(1)+'K'; return String(n); }
 const gen = d.generated_at ? new Date(d.generated_at).toLocaleDateString('en-US',{month:'short',day:'numeric'}) : null;
 const maxBar = Math.max(1, ...(d.timeline||[]).map(t=>t.count));
+const ni = d.native_insights;
 ---
 
 <Layout title="Analytics · FieldWork">
@@ -39,6 +40,26 @@ const maxBar = Math.max(1, ...(d.timeline||[]).map(t=>t.count));
       <div class="card p-4 mb-8" style="border-color: var(--color-error);">
         <p class="text-sm" style="color: var(--color-error);">
           You have not posted a reel in {d.activity.days_since_last_post} days. These numbers are from your last active period — resume posting to grow them again.
+        </p>
+      </div>
+    )}
+
+    <!-- NATIVE INSIGHTS (Graph API) -->
+    {ni ? (
+      <section class="mb-10">
+        <h2 class="text-xl font-display font-bold mb-4">Native Instagram insights <span class="section-label">last 30 days</span></h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+          <div class="card p-4"><div class="stat-value">{fmt(ni.reach_30d)}</div><div class="section-label mt-1">Reach</div></div>
+          <div class="card p-4"><div class="stat-value">{fmt(ni.impressions_30d)}</div><div class="section-label mt-1">Impressions</div></div>
+          <div class="card p-4"><div class="stat-value">{fmt(ni.profile_views_30d)}</div><div class="section-label mt-1">Profile views</div></div>
+          <div class="card p-4"><div class="stat-value">{fmt(ni.website_clicks_30d)}</div><div class="section-label mt-1">Website clicks</div></div>
+        </div>
+      </section>
+    ) : (
+      <div class="card p-5 mb-10">
+        <p class="text-sm text-text-secondary">
+          <span class="font-semibold text-text">Connect native insights</span> — reach, impressions, profile views, and audience demographics
+          require the Instagram Graph API. Add a Graph token and your IG business account id to secrets and these populate automatically.
         </p>
       </div>
     )}

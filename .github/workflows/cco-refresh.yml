@@ -1,0 +1,61 @@
+name: CCO 3-day refresh
+
+# Runs the full FieldWork content engine in the cloud (no laptop needed):
+# scrape competitors -> outliers -> transcribe + generate packs -> BELIEF tag +
+# score -> analytics -> market trends -> research -> rebuild dashboard -> deploy.
+on:
+  schedule:
+    - cron: "0 13 */3 * *"   # every 3 days, 13:00 UTC
+  workflow_dispatch: {}        # manual trigger / testing
+
+concurrency:
+  group: cco-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r engine/requirements.txt
+      - run: npm ci
+
+      - name: Run engine pipeline
+        working-directory: engine/scripts/collectors
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          GOOGLE_AI_STUDIO_KEY: ${{ secrets.GOOGLE_AI_STUDIO_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          META_GRAPH_TOKEN: ${{ secrets.META_GRAPH_TOKEN }}
+          IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
+          CCO_DASH_DIR: ${{ github.workspace }}
+        run: |
+          set +e
+          python instagram_outliers.py --mode backfill
+          python saved_reference.py
+          python outlier_recommend.py
+          python tag_belief.py
+          python belief_score.py
+          python analytics.py
+          python graph_insights.py
+          python build_market_trends.py
+          python generate_research.py
+          set -e
+          python build_dashboard_data.py   # must succeed (produces library.json + dashboard-data.json)
+
+      - name: Build + deploy to production
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          npx vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
+          npx vercel build --prod --token="$VERCEL_TOKEN"
+          npx vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN"
