@@ -1,16 +1,20 @@
 name: CCO 3-day refresh
 
-# Runs the full FieldWork content engine in the cloud (no laptop needed):
-# scrape competitors -> outliers -> transcribe + generate packs -> BELIEF tag +
-# score -> analytics -> market trends -> research -> rebuild dashboard -> deploy.
+# Runs the FieldWork content engine in the cloud every 3 days (no laptop needed).
+# Incremental scrape: only the last few days of reels are pulled and merged into
+# the rolling history committed in engine/output/outliers-raw.json (cheap + fast).
+# Regenerated data is committed back; Vercel auto-deploys main to cco-cmndshft.
 on:
   schedule:
     - cron: "0 13 */3 * *"   # every 3 days, 13:00 UTC
-  workflow_dispatch: {}        # manual trigger / testing
+  workflow_dispatch: {}
 
 concurrency:
   group: cco-refresh
   cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   refresh:
@@ -18,16 +22,12 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
       - run: pip install -r engine/requirements.txt
-      - run: npm ci
 
-      - name: Run engine pipeline
+      - name: Run engine pipeline (incremental)
         working-directory: engine/scripts/collectors
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -38,7 +38,7 @@ jobs:
           CCO_DASH_DIR: ${{ github.workspace }}
         run: |
           set +e
-          python instagram_outliers.py --mode backfill
+          python instagram_outliers.py --mode incremental
           python saved_reference.py
           python outlier_recommend.py
           python tag_belief.py
@@ -50,12 +50,14 @@ jobs:
           set -e
           python build_dashboard_data.py   # must succeed (produces library.json + dashboard-data.json)
 
-      - name: Build + deploy to production
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      - name: Commit refreshed data + history (Vercel auto-deploys main)
         run: |
-          npx vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
-          npx vercel build --prod --token="$VERCEL_TOKEN"
-          npx vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+          git config user.name "cco-refresh-bot"
+          git config user.email "cco-refresh-bot@users.noreply.github.com"
+          git add src/data public/outlier-thumbs public/research-thumbs public/analytics-thumbs engine/output/outliers-raw.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "CCO auto-refresh $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+            git push
+          fi

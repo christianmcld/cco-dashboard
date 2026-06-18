@@ -93,42 +93,43 @@ def collect_account(acct: dict, cfg: dict, token: str) -> dict:
     if newer_than:  # client-side date window (reel scraper has no date param)
         reels = [r for r in reels if (r.get("timestamp") or "")[:10] >= newer_than]
     print(f"  scraped {len(items)} items, {len(reels)} reels in window")
-    if len(reels) < 3:
-        print("  ! too few reels for a reliable baseline; skipping outlier calc")
-        return {"handle": handle, "reels": [], "baseline": None, "outliers": []}
-
-    play_counts = [plays(r) for r in reels]
-    baseline = int(statistics.median(play_counts))
-    threshold = float(cfg.get("outlier_threshold", 3.0))
-    print(f"  baseline (median plays): {baseline:,} | threshold: {threshold}x")
-
     records = []
     for r in reels:
-        p = plays(r)
-        score = round(p / baseline, 2) if baseline > 0 else 0
         records.append({
             "source_account": handle,
             "source_video_id": r.get("shortCode"),
             "source_url": r.get("url"),
             "source_caption": r.get("caption") or "",
-            "source_plays": p,
+            "source_plays": plays(r),
             "source_likes": r.get("likesCount"),
             "source_comments": r.get("commentsCount"),
-            "account_baseline": baseline,
-            "outlier_score": score,
-            "is_outlier": score >= threshold,
             "timestamp": r.get("timestamp"),
             "display_url": r.get("displayUrl"),
             "video_url": r.get("videoUrl"),
             "video_duration": r.get("videoDuration"),
             "music": (r.get("musicInfo") or {}).get("song_name") if isinstance(r.get("musicInfo"), dict) else None,
         })
+    return records
+
+
+def finalize_account(handle: str, records: list, threshold: float) -> tuple:
+    """Compute the per-account baseline (median plays) over the retained history
+    and flag outliers. Stable because it uses the full window, not just new posts."""
+    if len(records) < 3:
+        for r in records:
+            r["account_baseline"] = None
+            r["outlier_score"] = 0
+            r["is_outlier"] = False
+        return records, None, []
+    baseline = int(statistics.median([r["source_plays"] for r in records]))
+    for r in records:
+        r["account_baseline"] = baseline
+        r["outlier_score"] = round(r["source_plays"] / baseline, 2) if baseline > 0 else 0
+        r["is_outlier"] = r["outlier_score"] >= threshold
     records.sort(key=lambda o: o["outlier_score"], reverse=True)
     outliers = [r for r in records if r["is_outlier"]]
-    print(f"  >>> {len(outliers)} OUTLIERS (>= {threshold}x), {len(records)} total reels kept")
-    for o in outliers[:5]:
-        print(f"      {o['outlier_score']}x  {o['source_plays']:,} plays  {o['source_caption'][:50]!r}")
-    return {"handle": handle, "reels": records, "baseline": baseline, "outliers": outliers}
+    print(f"  @{handle}: baseline {baseline:,} | {len(outliers)} outliers / {len(records)} reels")
+    return records, baseline, outliers
 
 
 def main():
@@ -144,26 +145,43 @@ def main():
         sys.exit(1)
 
     cfg = load_config()
-    days = cfg.get("backfill_days", 90) if mode == "backfill" else cfg.get("incremental_days", 3)
-    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
-    newer_than_iso = cutoff.strftime("%Y-%m-%d")
-    print(f"Mode: {mode} | window: last {days} days (since {newer_than_iso})")
+    threshold = float(cfg.get("outlier_threshold", 3.0))
+    rolling_days = int(cfg.get("rolling_window_days", 180))
+    days = cfg.get("backfill_days", 180) if mode == "backfill" else cfg.get("incremental_days", 3)
+    now = datetime.now(timezone.utc)
+    newer_than_iso = (now - timedelta(days=days)).strftime("%Y-%m-%d")
+    rolling_cutoff = (now - timedelta(days=rolling_days)).strftime("%Y-%m-%d")
+    print(f"Mode: {mode} | scrape window: {days}d | rolling history kept: {rolling_days}d")
 
-    results = []
-    all_outliers = []
-    all_reels = []
+    # prior history (for incremental merge so baselines stay stable + cheap scrapes)
+    prior_by_acct = {}
+    if mode == "incremental" and RAW_OUT.exists():
+        for r in json.loads(RAW_OUT.read_text()).get("reels", []):
+            prior_by_acct.setdefault(r["source_account"], {})[r["source_video_id"]] = r
+
+    results, all_outliers, all_reels = [], [], []
     for acct in cfg.get("accounts", []):
+        handle = acct["handle"]
         acct["_newer_than_iso"] = newer_than_iso
-        acct["results_limit"] = 300 if mode == "backfill" else 80
-        res = collect_account(acct, cfg, token)
-        results.append(res)
-        all_outliers.extend(res["outliers"])
-        all_reels.extend(res["reels"])
+        acct["results_limit"] = 300 if mode == "backfill" else 30   # incremental = light + fast
+        new_records = collect_account(acct, cfg, token)
+        if mode == "incremental":
+            merged = dict(prior_by_acct.get(handle, {}))
+            for r in new_records:                       # new posts refresh plays/likes + add new
+                merged[r["source_video_id"]] = r
+            records = [r for r in merged.values() if (r.get("timestamp") or "")[:10] >= rolling_cutoff]
+            print(f"  @{handle}: +{len(new_records)} fresh, {len(records)} in {rolling_days}d window")
+        else:
+            records = new_records
+        records, baseline, outliers = finalize_account(handle, records, threshold)
+        results.append({"handle": handle, "reels": records, "baseline": baseline, "outliers": outliers})
+        all_outliers.extend(outliers)
+        all_reels.extend(records)
         time.sleep(1)
 
     all_outliers.sort(key=lambda o: o["outlier_score"], reverse=True)
     out = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": now.isoformat(),
         "mode": mode,
         "window_days": days,
         "accounts": [{"handle": r["handle"], "reels": len(r["reels"]), "baseline": r["baseline"], "outlier_count": len(r["outliers"])} for r in results],
@@ -171,7 +189,7 @@ def main():
         "reels": all_reels,
     }
     RAW_OUT.write_text(json.dumps(out, indent=2))
-    print(f"\nWrote {len(all_outliers)} outliers ({len(all_reels)} total reels) across {len(results)} accounts -> {RAW_OUT}")
+    print(f"\nWrote {len(all_outliers)} outliers ({len(all_reels)} reels) across {len(results)} accounts [{mode}] -> {RAW_OUT}")
 
 
 if __name__ == "__main__":

@@ -5,13 +5,47 @@
   "backfill_days": 180,
   "incremental_days": 3,
   "outlier_threshold": 3.0,
-  "baseline_window": { "reels": 12, "days": 90 },
+  "baseline_window": {
+    "reels": 12,
+    "days": 90
+  },
   "accounts": [
-    { "handle": "steveofallstreets", "platform": "instagram", "url": "https://www.instagram.com/steveofallstreets/reels/", "notes": "" },
-    { "handle": "tomnoske", "platform": "instagram", "url": "https://www.instagram.com/tomnoske/reels/", "notes": "TTB / Time To Build founder" },
-    { "handle": "takimoore", "platform": "instagram", "url": "https://www.instagram.com/takimoore/", "notes": "" },
-    { "handle": "wadepapenfus", "platform": "instagram", "url": "https://www.instagram.com/wadepapenfus", "notes": "" },
-    { "handle": "willgirone", "platform": "instagram", "url": "https://www.instagram.com/willgirone", "notes": "" },
-    { "handle": "matthgray", "platform": "instagram", "url": "https://www.instagram.com/matthgray", "notes": "Matt Gray" }
-  ]
+    {
+      "handle": "steveofallstreets",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/steveofallstreets/reels/",
+      "notes": ""
+    },
+    {
+      "handle": "tomnoske",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tomnoske/reels/",
+      "notes": "TTB / Time To Build founder"
+    },
+    {
+      "handle": "takimoore",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/takimoore/",
+      "notes": ""
+    },
+    {
+      "handle": "wadepapenfus",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/wadepapenfus",
+      "notes": ""
+    },
+    {
+      "handle": "willgirone",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/willgirone",
+      "notes": ""
+    },
+    {
+      "handle": "matthgray",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/matthgray",
+      "notes": "Matt Gray"
+    }
+  ],
+  "rolling_window_days": 180
 }
