@@ -1,84 +1,84 @@
 {
-  "generated_at": "2026-06-17T03:50:41.941429+00:00",
+  "generated_at": "2026-06-18T12:43:02.850007+00:00",
   "handle": "christianmcld",
-  "total_pieces": 17,
+  "total_pieces": 29,
   "sources": {
-    "instagram": 17,
+    "instagram": 29,
     "youtube": 0
   },
-  "overall_score": 0,
-  "dormant": true,
-  "days_since_last_post": 577,
-  "posts_last_30": 0,
-  "posts_last_90": 0,
-  "posts_last_365": 0,
-  "cadence_per_week": 0.0,
+  "overall_score": 67,
+  "dormant": false,
+  "days_since_last_post": 0,
+  "posts_last_30": 12,
+  "posts_last_90": 12,
+  "posts_last_365": 12,
+  "cadence_per_week": 0.9,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 3,
-      "score": 0,
-      "potential": 44,
-      "sample": "Comment \u201cSTORIES\u201d for 14Days filled with the systems I\u2019ve used through expedition photography work, building my own serv"
+      "count": 6,
+      "score": 48,
+      "potential": 52,
+      "sample": "You are your niche\u2026\n\nIf you\u2019re ever stuck trying to stand out or feeling pigeonholed in your space\u2026\n\nWrite out the thing"
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 4,
-      "score": 0,
-      "potential": 59,
+      "count": 2,
+      "score": 16,
+      "potential": 17,
       "sample": "Comment \u201cSTORIES\u201d for 14Days filled with the systems I\u2019ve used through expedition photography work, building my own serv"
     },
     {
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 2,
-      "score": 0,
-      "potential": 29,
-      "sample": "This was the one thing that changed everything for me\u2026\n\n#contentcreator #storytelling #entrepreneurmindset"
+      "count": 14,
+      "score": 92,
+      "potential": 100,
+      "sample": "I\u2019ve met this guy a bunch of times.\n\nDifferent days.Different waves.\n\nDifferent people around him. But always\u2026\n\nSame mis"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 9,
-      "score": 0,
+      "count": 19,
+      "score": 92,
       "potential": 100,
-      "sample": "Feeling the drift, the flow, the moment you're in.\n\nThat's what this is about."
+      "sample": "I\u2019ve met this guy a bunch of times.\n\nDifferent days.Different waves.\n\nDifferent people around him. But always\u2026\n\nSame mis"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 6,
-      "score": 0,
-      "potential": 88,
-      "sample": "Delighted to announce an amazing giveaway I'm glad to be a part of with @gnarbox \nGo check out the link in the bio to en"
+      "count": 8,
+      "score": 64,
+      "potential": 69,
+      "sample": "Craving freediving right now. \nAmazing clip by @jdbaluch \ud83d\ude26"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 4,
-      "score": 0,
-      "potential": 59,
-      "sample": "Here\u2019s why you\u2019re not stuck\u2026\n\nYou gotta stop looking at the paper or the screen. \nGet the f*ck outside. \nActively take m"
+      "count": 5,
+      "score": 92,
+      "potential": 43,
+      "sample": "Here\u2019s what makes successful brands \ud83d\udc47\n\nIt\u2019s belief.\n\nAnd building that in your audience. \n\nThe belief that your product "
     }
   ],
   "weakest": [
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 29
+      "code": "E",
+      "name": "Earned Proof",
+      "potential": 17
     },
     {
-      "code": "B",
-      "name": "Bold Authority",
-      "potential": 44
+      "code": "F",
+      "name": "Faithful Service",
+      "potential": 43
     }
   ]
 }

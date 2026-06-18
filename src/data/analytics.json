@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-06-17T04:10:30.946289+00:00",
+  "generated_at": "2026-06-18T12:43:02.931232+00:00",
   "handle": "christianmcld",
   "profile": {
-    "followers": 38815,
-    "following": 990,
+    "followers": 38810,
+    "following": 992,
     "posts": 885,
     "bio": "\ud83c\udf0e Jack-of-All-Trades Exploring the world. \n\u2699\ufe0f Building Storytelling Systems\n\ud83d\udc47 Grab 14 Days of Storytelling Secrets",
     "verified": true
   },
-  "reels_analyzed": 6,
+  "reels_analyzed": 18,
   "metrics": {
-    "avg_plays": 3424,
-    "avg_engagement": 59,
+    "avg_plays": 1509,
+    "avg_engagement": 25,
     "engagement_rate_pct": 1.7,
-    "engagement_rate_followers_pct": 0.15,
-    "best_plays": 9629
+    "engagement_rate_followers_pct": 0.06,
+    "best_plays": 9645
   },
   "activity": {
-    "days_since_last_post": 577,
+    "days_since_last_post": 0,
     "posts_last_90": 0,
     "dormant": true
   },
@@ -25,16 +25,16 @@
     {
       "url": "https://www.instagram.com/p/DBCeHavSMhU/",
       "caption": "Comment \u201cSTORIES\u201d for 14Days filled with the systems I\u2019ve used through expeditio",
-      "plays": 9629,
-      "likes": 118,
-      "comments": 45,
+      "plays": 9645,
+      "likes": 119,
+      "comments": 47,
       "date": "2024-10-12T21:15:35.000Z",
       "thumbnail": "/analytics-thumbs/DBCeHavSMhU.jpg"
     },
     {
       "url": "https://www.instagram.com/p/DCcLxAwyAzw/",
       "caption": "Here\u2019s what makes successful brands \ud83d\udc47",
-      "plays": 2493,
+      "plays": 2506,
       "likes": 33,
       "comments": 5,
       "date": "2024-11-16T17:33:54.000Z",
@@ -43,16 +43,25 @@
     {
       "url": "https://www.instagram.com/p/DBeWRN-PwxK/",
       "caption": "This was the one thing that changed everything for me\u2026",
-      "plays": 2479,
+      "plays": 2491,
       "likes": 38,
       "comments": 3,
       "date": "2024-10-23T17:00:39.000Z",
       "thumbnail": "/analytics-thumbs/DBeWRN-PwxK.jpg"
     },
     {
+      "url": "https://www.instagram.com/p/DZshSCTs4x7/",
+      "caption": "I\u2019ve met this guy a bunch of times.",
+      "plays": 2386,
+      "likes": 36,
+      "comments": 2,
+      "date": "2026-06-17T17:38:35.000Z",
+      "thumbnail": "/analytics-thumbs/DZshSCTs4x7.jpg"
+    },
+    {
       "url": "https://www.instagram.com/p/DBzEeBUyfvj/",
       "caption": "Perfection kills progress\u2026 but here\u2019s what they don\u2019t tell you\u2026",
-      "plays": 2099,
+      "plays": 2107,
       "likes": 40,
       "comments": 4,
       "date": "2024-10-31T18:09:10.000Z",
@@ -61,20 +70,11 @@
     {
       "url": "https://www.instagram.com/p/DBPJw9HM4Jg/",
       "caption": "You are your niche\u2026",
-      "plays": 1954,
+      "plays": 1962,
       "likes": 38,
       "comments": 4,
       "date": "2024-10-17T19:25:14.000Z",
       "thumbnail": "/analytics-thumbs/DBPJw9HM4Jg.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/DBHut0RMHsZ/",
-      "caption": "Here\u2019s why you\u2019re not stuck\u2026",
-      "plays": 1895,
-      "likes": 25,
-      "comments": 2,
-      "date": "2024-10-14T22:14:18.000Z",
-      "thumbnail": "/analytics-thumbs/DBHut0RMHsZ.jpg"
     }
   ],
   "timeline": [
@@ -85,6 +85,10 @@
     {
       "month": "2024-11",
       "count": 1
+    },
+    {
+      "month": "2026-06",
+      "count": 12
     }
   ]
 }
