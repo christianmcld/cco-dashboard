@@ -1,6 +1,6 @@
 {
   "_note": "Competitor Instagram accounts monitored by the CCO Outlier Engine (subsystem #1). v1 = Instagram only. First scrape backfills last 90 days per account to build a baseline; every 3 days only the last 3 days are scraped to stay current. Edit this list freely; no code change needed.",
-  "_updated": "2026-06-15",
+  "_updated": "2026-06-23",
   "platform_default": "instagram",
   "backfill_days": 180,
   "incremental_days": 3,
@@ -45,6 +45,12 @@
       "platform": "instagram",
       "url": "https://www.instagram.com/matthgray",
       "notes": "Matt Gray"
+    },
+    {
+      "handle": "jrp.co",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/jrp.co",
+      "notes": ""
     }
   ],
   "rolling_window_days": 180
