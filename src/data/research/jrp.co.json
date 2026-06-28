@@ -1,15 +1,15 @@
 {
   "query": "@jrp.co",
   "slug": "jrp.co",
-  "timestamp": "2026-06-25T16:31:19.661732+00:00",
+  "timestamp": "2026-06-28T15:46:30.531218+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "jrp.co",
       "full_name": "Johnny Perso\u0301n",
-      "followers": 219009,
-      "following": 4578,
-      "posts_count": 1126,
-      "bio": "Founder: @aug11co //\ud83d\udccdATL\nYou Can Do Hard Things\nJohnny@Underscoretalent.com\n\u2b07\ufe0fSteal My Brain for 15 Min\u2b07\ufe0f",
+      "followers": 232328,
+      "following": 4596,
+      "posts_count": 1137,
+      "bio": "Founder: @aug11co //\ud83d\udccdATL\nSingle Income No Kids\nJohnny@Underscoretalent.com\n\u2b07\ufe0fSteal My Brain for 15 Min\u2b07\ufe0f",
       "profile_pic": "/research-thumbs/jrp.co-profile.jpg",
       "is_verified": true,
       "category": "Entrepreneur"
@@ -66,6 +66,16 @@
       "date": "2026-06-23T05:35:29.000Z",
       "url": "https://www.instagram.com/p/DZ6rYw9li2r/",
       "thumbnail": "/research-thumbs/DZ6rYw9li2r.jpg"
+    },
+    {
+      "hook": "Life is really good man \u2764\ufe0f",
+      "caption": "Life is really good man \u2764\ufe0f",
+      "likes": 2194,
+      "comments": 76,
+      "engagement": 2270,
+      "date": "2026-06-25T02:30:01.000Z",
+      "url": "https://www.instagram.com/p/DZ_f1Ktsv0g/",
+      "thumbnail": "/research-thumbs/DZ_f1Ktsv0g.jpg"
     },
     {
       "hook": "You are picking the person who will be with you on the worst day of your life. Do not take",
@@ -126,16 +136,6 @@
       "date": "2026-06-25T02:52:53.000Z",
       "url": "https://www.instagram.com/p/DZ_iaRDM4jr/",
       "thumbnail": "/research-thumbs/DZ_iaRDM4jr.jpg"
-    },
-    {
-      "hook": "Life is Good Man \u2764\ufe0f",
-      "caption": "Life is Good Man \u2764\ufe0f",
-      "likes": 722,
-      "comments": 43,
-      "engagement": 765,
-      "date": "2026-06-24T06:02:05.000Z",
-      "url": "https://www.instagram.com/p/DZ9TSSVAkRu/",
-      "thumbnail": "/research-thumbs/DZ9TSSVAkRu.jpg"
     }
   ],
   "ads": [],
@@ -177,7 +177,7 @@
       "mensmentalhealthawareness"
     ],
     "best_performing_format": "60-90s",
-    "posting_frequency": "94.5 reels/week",
+    "posting_frequency": "39.2 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

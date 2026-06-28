@@ -1,94 +1,26 @@
 {
-  "generated_at": "2026-06-25T16:28:44.611914+00:00",
+  "generated_at": "2026-06-28T15:43:40.861790+00:00",
   "handle": "christianmcld",
   "profile": {
-    "followers": 38781,
-    "following": 993,
-    "posts": 886,
-    "bio": "\ud83c\udf0e Jack-of-All-Trades Exploring the world. \n\u2699\ufe0f Building Storytelling Systems\n\ud83d\udc47 Grab 14 Days of Storytelling Secrets",
+    "followers": 38783,
+    "following": 997,
+    "posts": 889,
+    "bio": "\ud83c\udf0e Jack-of-All-Trades Exploring the world. \n\u2699\ufe0f Helping Founders build online so they can live offline. \n\ud83d\udc47 Grab my free tool to save you time",
     "verified": true
   },
-  "reels_analyzed": 42,
+  "reels_analyzed": 0,
   "metrics": {
-    "avg_plays": 1023,
-    "avg_engagement": 20,
-    "engagement_rate_pct": 2.0,
-    "engagement_rate_followers_pct": 0.05,
-    "best_plays": 9685
+    "avg_plays": 0,
+    "avg_engagement": 0,
+    "engagement_rate_pct": 0,
+    "engagement_rate_followers_pct": 0.0,
+    "best_plays": 0
   },
   "activity": {
-    "days_since_last_post": 0,
-    "posts_last_90": 24,
-    "dormant": false
+    "days_since_last_post": null,
+    "posts_last_90": 0,
+    "dormant": true
   },
-  "top_reels": [
-    {
-      "url": "https://www.instagram.com/p/DBCeHavSMhU/",
-      "caption": "Comment \u201cSTORIES\u201d for 14Days filled with the systems I\u2019ve used through expeditio",
-      "plays": 9685,
-      "likes": 121,
-      "comments": 47,
-      "date": "2024-10-12T21:15:35.000Z",
-      "thumbnail": "/analytics-thumbs/DBCeHavSMhU.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/DZshSCTs4x7/",
-      "caption": "I\u2019ve met this guy a bunch of times.",
-      "plays": 9386,
-      "likes": 120,
-      "comments": 18,
-      "date": "2026-06-17T17:38:35.000Z",
-      "thumbnail": "/analytics-thumbs/DZshSCTs4x7.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/DCcLxAwyAzw/",
-      "caption": "Here\u2019s what makes successful brands \ud83d\udc47",
-      "plays": 2560,
-      "likes": 33,
-      "comments": 5,
-      "date": "2024-11-16T17:33:54.000Z",
-      "thumbnail": "/analytics-thumbs/DCcLxAwyAzw.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/DBeWRN-PwxK/",
-      "caption": "This was the one thing that changed everything for me\u2026",
-      "plays": 2514,
-      "likes": 38,
-      "comments": 3,
-      "date": "2024-10-23T17:00:39.000Z",
-      "thumbnail": "/analytics-thumbs/DBeWRN-PwxK.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/DBzEeBUyfvj/",
-      "caption": "Perfection kills progress\u2026 but here\u2019s what they don\u2019t tell you\u2026",
-      "plays": 2133,
-      "likes": 40,
-      "comments": 3,
-      "date": "2024-10-31T18:09:10.000Z",
-      "thumbnail": "/analytics-thumbs/DBzEeBUyfvj.jpg"
-    },
-    {
-      "url": "https://www.instagram.com/p/DBPJw9HM4Jg/",
-      "caption": "You are your niche\u2026",
-      "plays": 1978,
-      "likes": 38,
-      "comments": 4,
-      "date": "2024-10-17T19:25:14.000Z",
-      "thumbnail": "/analytics-thumbs/DBPJw9HM4Jg.jpg"
-    }
-  ],
-  "timeline": [
-    {
-      "month": "2024-10",
-      "count": 5
-    },
-    {
-      "month": "2024-11",
-      "count": 1
-    },
-    {
-      "month": "2026-06",
-      "count": 36
-    }
-  ]
+  "top_reels": [],
+  "timeline": []
 }
