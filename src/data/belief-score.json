@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-06-25T16:28:44.539860+00:00",
+  "generated_at": "2026-07-01T16:31:17.907621+00:00",
   "handle": "christianmcld",
-  "total_pieces": 53,
+  "total_pieces": 60,
   "sources": {
-    "instagram": 53,
+    "instagram": 60,
     "youtube": 0
   },
-  "overall_score": 64,
+  "overall_score": 74,
   "dormant": false,
   "days_since_last_post": 0,
-  "posts_last_30": 36,
-  "posts_last_90": 36,
-  "posts_last_365": 36,
-  "cadence_per_week": 2.8,
+  "posts_last_30": 56,
+  "posts_last_90": 56,
+  "posts_last_365": 56,
+  "cadence_per_week": 4.4,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 5,
-      "score": 24,
-      "potential": 24,
-      "sample": "You are your niche\u2026\n\nIf you\u2019re ever stuck trying to stand out or feeling pigeonholed in your space\u2026\n\nWrite out the thing"
+      "count": 13,
+      "score": 54,
+      "potential": 54,
+      "sample": "Comment NORTH to discover what your true north mission offer should be based on your goals, your ideas and your current "
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 4,
-      "score": 19,
-      "potential": 19,
-      "sample": "Comment \u201cSTORIES\u201d for 14Days filled with the systems I\u2019ve used through expedition photography work, building my own serv"
+      "count": 3,
+      "score": 12,
+      "potential": 12,
+      "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
     {
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 26,
+      "count": 24,
       "score": 100,
       "potential": 100,
       "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
@@ -45,40 +45,40 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 39,
+      "count": 34,
       "score": 100,
       "potential": 100,
-      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
+      "sample": "I just don\u2019t\u2026"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 9,
-      "score": 42,
-      "potential": 42,
-      "sample": "I\u2019ve met this guy a bunch of times.\n\nDifferent days.Different waves.\n\nDifferent people around him. But always\u2026\n\nSame mis"
+      "count": 18,
+      "score": 75,
+      "potential": 75,
+      "sample": "Let this be your last reel of the day\u2026\n\nGo out and do what you know you have to do to hit those goals. \n\nBe the one that"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 17,
+      "count": 24,
       "score": 100,
-      "potential": 80,
-      "sample": "Send this to a founder who hasn\u2019t been outside today.\n\nYou know the one. \n\nGlued to the laptop, telling himself it\u2019s imp"
+      "potential": 100,
+      "sample": "Comment NORTH to discover what your true north mission offer should be based on your goals, your ideas and your current "
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 19
+      "potential": 12
     },
     {
       "code": "B",
       "name": "Bold Authority",
-      "potential": 24
+      "potential": 54
     }
   ]
 }

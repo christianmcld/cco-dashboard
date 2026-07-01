@@ -1,26 +1,98 @@
 {
-  "generated_at": "2026-06-28T15:43:40.861790+00:00",
+  "generated_at": "2026-07-01T16:31:17.984457+00:00",
   "handle": "christianmcld",
   "profile": {
-    "followers": 38783,
+    "followers": 38781,
     "following": 997,
     "posts": 889,
     "bio": "\ud83c\udf0e Jack-of-All-Trades Exploring the world. \n\u2699\ufe0f Helping Founders build online so they can live offline. \n\ud83d\udc47 Grab my free tool to save you time",
     "verified": true
   },
-  "reels_analyzed": 0,
+  "reels_analyzed": 60,
   "metrics": {
-    "avg_plays": 0,
-    "avg_engagement": 0,
-    "engagement_rate_pct": 0,
-    "engagement_rate_followers_pct": 0.0,
-    "best_plays": 0
+    "avg_plays": 1079,
+    "avg_engagement": 28,
+    "engagement_rate_pct": 2.6,
+    "engagement_rate_followers_pct": 0.07,
+    "best_plays": 9680
   },
   "activity": {
-    "days_since_last_post": null,
-    "posts_last_90": 0,
-    "dormant": true
+    "days_since_last_post": 0,
+    "posts_last_90": 53,
+    "dormant": false
   },
-  "top_reels": [],
-  "timeline": []
+  "top_reels": [
+    {
+      "url": "https://www.instagram.com/p/DZshSCTs4x7/",
+      "caption": "I\u2019ve met this guy a bunch of times.",
+      "plays": 9680,
+      "likes": 123,
+      "comments": 18,
+      "date": "2026-06-17T17:38:35.000Z",
+      "thumbnail": "/analytics-thumbs/DZshSCTs4x7.jpg"
+    },
+    {
+      "url": "https://www.instagram.com/p/DaBU1TwPKxD/",
+      "caption": "Let this be your last reel of the day\u2026",
+      "plays": 4939,
+      "likes": 113,
+      "comments": 0,
+      "date": "2026-06-25T19:32:31.000Z",
+      "thumbnail": "/analytics-thumbs/DaBU1TwPKxD.jpg"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZ_z6MoM0K0/",
+      "caption": "A few years ago, I built the exact business I thought I wanted\u2026 but it was teari",
+      "plays": 3273,
+      "likes": 176,
+      "comments": 6,
+      "date": "2026-06-25T05:25:39.000Z",
+      "thumbnail": "/analytics-thumbs/DZ_z6MoM0K0.jpg"
+    },
+    {
+      "url": "https://www.instagram.com/p/DaGsdnKSmeZ/",
+      "caption": "Let this be your last reel of the day\u2026",
+      "plays": 2921,
+      "likes": 44,
+      "comments": 1,
+      "date": "2026-06-27T21:35:09.000Z",
+      "thumbnail": "/analytics-thumbs/DaGsdnKSmeZ.jpg"
+    },
+    {
+      "url": "https://www.instagram.com/p/DCcLxAwyAzw/",
+      "caption": "Here\u2019s what makes successful brands \ud83d\udc47",
+      "plays": 2592,
+      "likes": null,
+      "comments": 5,
+      "date": "2024-11-16T17:33:54.000Z",
+      "thumbnail": "/analytics-thumbs/DCcLxAwyAzw.jpg"
+    },
+    {
+      "url": "https://www.instagram.com/p/DaN0w6tsdjD/",
+      "caption": "1\ufe0f\u20e3Generating leads and customers without you living on a device. ",
+      "plays": 2537,
+      "likes": 40,
+      "comments": 0,
+      "date": "2026-06-30T16:02:31.000Z",
+      "thumbnail": "/analytics-thumbs/DaN0w6tsdjD.jpg"
+    }
+  ],
+  "timeline": [
+    {
+      "month": "2024-10",
+      "count": 3
+    },
+    {
+      "month": "2024-11",
+      "count": 1
+    },
+    {
+      "month": "2026-06",
+      "count": 53
+    },
+    {
+      "month": "2026-07",
+      "count": 3
+    }
+  ]
 }
