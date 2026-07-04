@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-01T16:31:17.907621+00:00",
+  "generated_at": "2026-07-04T15:24:04.976555+00:00",
   "handle": "christianmcld",
   "total_pieces": 60,
   "sources": {
     "instagram": 60,
     "youtube": 0
   },
-  "overall_score": 74,
+  "overall_score": 72,
   "dormant": false,
-  "days_since_last_post": 0,
-  "posts_last_30": 56,
-  "posts_last_90": 56,
-  "posts_last_365": 56,
-  "cadence_per_week": 4.4,
+  "days_since_last_post": 1,
+  "posts_last_30": 60,
+  "posts_last_90": 60,
+  "posts_last_365": 60,
+  "cadence_per_week": 4.7,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 13,
-      "score": 54,
-      "potential": 54,
+      "count": 11,
+      "score": 46,
+      "potential": 46,
       "sample": "Comment NORTH to discover what your true north mission offer should be based on your goals, your ideas and your current "
     },
     {
@@ -36,19 +36,19 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 24,
-      "score": 100,
-      "potential": 100,
-      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
+      "count": 23,
+      "score": 96,
+      "potential": 96,
+      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 34,
+      "count": 37,
       "score": 100,
       "potential": 100,
-      "sample": "I just don\u2019t\u2026"
+      "sample": "Who\u2019s with me?"
     },
     {
       "code": "E2",
@@ -57,15 +57,15 @@
       "count": 18,
       "score": 75,
       "potential": 75,
-      "sample": "Let this be your last reel of the day\u2026\n\nGo out and do what you know you have to do to hit those goals. \n\nBe the one that"
+      "sample": "To all the magicians out there."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 24,
+      "count": 21,
       "score": 100,
-      "potential": 100,
+      "potential": 88,
       "sample": "Comment NORTH to discover what your true north mission offer should be based on your goals, your ideas and your current "
     }
   ],
@@ -78,7 +78,7 @@
     {
       "code": "B",
       "name": "Bold Authority",
-      "potential": 54
+      "potential": 46
     }
   ]
 }
