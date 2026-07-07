@@ -1,15 +1,15 @@
 {
   "query": "@jrp.co",
   "slug": "jrp.co",
-  "timestamp": "2026-07-04T15:25:45.030257+00:00",
+  "timestamp": "2026-07-07T16:35:07.786488+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "jrp.co",
       "full_name": "Johnny Perso\u0301n",
-      "followers": 263407,
-      "following": 4634,
-      "posts_count": 1167,
-      "bio": "Founder: @aug11co //\ud83d\udccdATL\n\u201cSingle Income No Kids\u201d\nJohnny@Underscoretalent.com\n\u2b07\ufe0fSteal My Brain for 15 Min\u2b07\ufe0f",
+      "followers": 282622,
+      "following": 4651,
+      "posts_count": 1181,
+      "bio": "Founder: @aug11co //\ud83d\udccdATL\nYou Can Do Hard Things\nJohnny@Underscoretalent.com\n\u2b07\ufe0fSteal My Brain for 15 Min\u2b07\ufe0f",
       "profile_pic": "/research-thumbs/jrp.co-profile.jpg",
       "is_verified": true,
       "category": "Entrepreneur"
@@ -98,6 +98,16 @@
       "thumbnail": "/research-thumbs/DaRXYX_sKCl.jpg"
     },
     {
+      "hook": "The hottest guy in every room is not the best looking one",
+      "caption": "The hottest guy in every room is not the best looking one",
+      "likes": 6640,
+      "comments": 52,
+      "engagement": 6692,
+      "date": "2026-07-06T04:00:19.000Z",
+      "url": "https://www.instagram.com/p/Dab-5cwOJqA/",
+      "thumbnail": "/research-thumbs/Dab-5cwOJqA.jpg"
+    },
+    {
       "hook": "Just because you\u2019re attracted to someone doesn\u2019t mean they\u2019re meant for you.",
       "caption": "Just because you\u2019re attracted to someone doesn\u2019t mean they\u2019re meant for you.\n\nAttraction can get you through the first date. It can\u2019t carry a lifetime.\n\nWe\u2019ve been taught to chase chemistry, but chemistry and chaos often wear the same disguise.\n\nInstead of asking, \u201cDo I want them?\u201d try asking, \u201cWho do I become when I\u2019m with them?\u201d\n\nDo you feel peaceful? More yourself? More honest? Or do you feel like you have to earn their love?\n\nYou\u2019re not just choosing someone to spend a Friday night with.\n\nYou\u2019re choosing the person who might be sitting next to you on the worst day of your life.\n\nChoose accordingly.",
       "likes": 6353,
@@ -126,16 +136,6 @@
       "date": "2026-06-25T02:44:20.000Z",
       "url": "https://www.instagram.com/p/DZ_hdk5MfJH/",
       "thumbnail": "/research-thumbs/DZ_hdk5MfJH.jpg"
-    },
-    {
-      "hook": "We don\u2019t run to be fit, we run for the fit.",
-      "caption": "We don\u2019t run to be fit, we run for the fit.",
-      "likes": 5003,
-      "comments": 117,
-      "engagement": 5120,
-      "date": "2026-06-28T17:21:03.000Z",
-      "url": "https://www.instagram.com/p/DaI0LL-PT24/",
-      "thumbnail": "/research-thumbs/DaI0LL-PT24.jpg"
     }
   ],
   "ads": [],
@@ -177,7 +177,7 @@
       "mensmentalhealthawareness"
     ],
     "best_performing_format": "60-90s",
-    "posting_frequency": "50.3 reels/week",
+    "posting_frequency": "47.0 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

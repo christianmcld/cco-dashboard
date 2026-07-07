@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-04T15:24:04.976555+00:00",
+  "generated_at": "2026-07-07T16:33:18.062866+00:00",
   "handle": "christianmcld",
   "total_pieces": 60,
   "sources": {
     "instagram": 60,
     "youtube": 0
   },
-  "overall_score": 72,
+  "overall_score": 70,
   "dormant": false,
-  "days_since_last_post": 1,
+  "days_since_last_post": 0,
   "posts_last_30": 60,
   "posts_last_90": 60,
   "posts_last_365": 60,
@@ -18,46 +18,46 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 11,
-      "score": 46,
-      "potential": 46,
+      "count": 12,
+      "score": 50,
+      "potential": 50,
       "sample": "Comment NORTH to discover what your true north mission offer should be based on your goals, your ideas and your current "
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 3,
-      "score": 12,
-      "potential": 12,
-      "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
+      "count": 4,
+      "score": 17,
+      "potential": 17,
+      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
     },
     {
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 23,
-      "score": 96,
-      "potential": 96,
+      "count": 20,
+      "score": 83,
+      "potential": 83,
       "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 37,
+      "count": 35,
       "score": 100,
       "potential": 100,
-      "sample": "Who\u2019s with me?"
+      "sample": "To all the magicians out there."
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 18,
-      "score": 75,
-      "potential": 75,
-      "sample": "To all the magicians out there."
+      "count": 17,
+      "score": 71,
+      "potential": 71,
+      "sample": "Where your focus goes, energy flows."
     },
     {
       "code": "F",
@@ -66,19 +66,19 @@
       "count": 21,
       "score": 100,
       "potential": 88,
-      "sample": "Comment NORTH to discover what your true north mission offer should be based on your goals, your ideas and your current "
+      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 12
+      "potential": 17
     },
     {
       "code": "B",
       "name": "Bold Authority",
-      "potential": 46
+      "potential": 50
     }
   ]
 }

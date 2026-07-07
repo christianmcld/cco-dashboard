@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-07-04T15:24:05.050291+00:00",
+  "generated_at": "2026-07-07T16:33:18.145248+00:00",
   "handle": "christianmcld",
   "profile": {
-    "followers": 38782,
-    "following": 1000,
+    "followers": 38777,
+    "following": 999,
     "posts": 892,
     "bio": "\ud83c\udf0e Jack-of-All-Trades Exploring the world. \n\u2699\ufe0f Helping Founders build online so they can live offline. \n\ud83d\udc47 Grab my free tool to save you time",
     "verified": true
   },
   "reels_analyzed": 60,
   "metrics": {
-    "avg_plays": 1013,
+    "avg_plays": 1040,
     "avg_engagement": 31,
-    "engagement_rate_pct": 3.1,
+    "engagement_rate_pct": 3.0,
     "engagement_rate_followers_pct": 0.08,
-    "best_plays": 9738
+    "best_plays": 9805
   },
   "activity": {
-    "days_since_last_post": 1,
-    "posts_last_90": 60,
+    "days_since_last_post": 0,
+    "posts_last_90": 57,
     "dormant": false
   },
   "top_reels": [
     {
       "url": "https://www.instagram.com/p/DZshSCTs4x7/",
       "caption": "I\u2019ve met this guy a bunch of times.",
-      "plays": 9738,
-      "likes": 123,
+      "plays": 9805,
+      "likes": 125,
       "comments": 18,
       "date": "2026-06-17T17:38:35.000Z",
       "thumbnail": "/analytics-thumbs/DZshSCTs4x7.jpg"
@@ -34,8 +34,8 @@
     {
       "url": "https://www.instagram.com/p/DaBU1TwPKxD/",
       "caption": "Let this be your last reel of the day\u2026",
-      "plays": 5050,
-      "likes": 116,
+      "plays": 5123,
+      "likes": 117,
       "comments": 0,
       "date": "2026-06-25T19:32:31.000Z",
       "thumbnail": "/analytics-thumbs/DaBU1TwPKxD.jpg"
@@ -43,16 +43,16 @@
     {
       "url": "https://www.instagram.com/p/DaTxrMgv3e_/",
       "caption": "Who\u2019s with me?",
-      "plays": 3584,
-      "likes": 179,
-      "comments": 0,
+      "plays": 4383,
+      "likes": 194,
+      "comments": 1,
       "date": "2026-07-02T23:30:48.000Z",
       "thumbnail": "/analytics-thumbs/DaTxrMgv3e_.jpg"
     },
     {
       "url": "https://www.instagram.com/p/DZ_z6MoM0K0/",
       "caption": "A few years ago, I built the exact business I thought I wanted\u2026 but it was teari",
-      "plays": 3348,
+      "plays": 3423,
       "likes": 177,
       "comments": 6,
       "date": "2026-06-25T05:25:39.000Z",
@@ -61,8 +61,8 @@
     {
       "url": "https://www.instagram.com/p/DaGsdnKSmeZ/",
       "caption": "Let this be your last reel of the day\u2026",
-      "plays": 3054,
-      "likes": 44,
+      "plays": 3157,
+      "likes": 46,
       "comments": 1,
       "date": "2026-06-27T21:35:09.000Z",
       "thumbnail": "/analytics-thumbs/DaGsdnKSmeZ.jpg"
@@ -70,7 +70,7 @@
     {
       "url": "https://www.instagram.com/p/DaN0w6tsdjD/",
       "caption": "1\ufe0f\u20e3Generating leads and customers without you living on a device. ",
-      "plays": 2913,
+      "plays": 3018,
       "likes": 45,
       "comments": 0,
       "date": "2026-06-30T16:02:31.000Z",
@@ -80,11 +80,11 @@
   "timeline": [
     {
       "month": "2026-06",
-      "count": 52
+      "count": 49
     },
     {
       "month": "2026-07",
-      "count": 8
+      "count": 11
     }
   ]
 }

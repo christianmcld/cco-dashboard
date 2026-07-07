@@ -1,14 +1,14 @@
 {
   "query": "@wadepapenfus",
   "slug": "wadepapenfus",
-  "timestamp": "2026-07-04T15:25:43.034225+00:00",
+  "timestamp": "2026-07-07T16:35:07.520903+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "wadepapenfus",
       "full_name": "WADE PAPENFUS | OFFSHORE TALES",
-      "followers": 290915,
-      "following": 2698,
-      "posts_count": 682,
+      "followers": 290998,
+      "following": 2696,
+      "posts_count": 685,
       "bio": "Aquaman was my father \ud83c\udf0a\nI surface to train, explore & film.\n\ud83c\udde6\ud83c\uddfa Australian athlete\n\ud83c\udfa5 Join millions on the adventure \u2193",
       "profile_pic": "/research-thumbs/wadepapenfus-profile.jpg",
       "is_verified": true,
@@ -176,13 +176,13 @@
     "content_themes": [
       "fishing",
       "seafood",
+      "fish",
       "animals",
       "wildlife",
-      "fish",
-      "survival"
+      "catchoftheday"
     ],
     "best_performing_format": "<30s",
-    "posting_frequency": "3.2 reels/week",
+    "posting_frequency": "3.4 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }
