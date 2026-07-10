@@ -1,84 +1,84 @@
 {
-  "generated_at": "2026-07-07T16:33:18.062866+00:00",
+  "generated_at": "2026-07-10T16:21:49.549726+00:00",
   "handle": "christianmcld",
-  "total_pieces": 60,
+  "total_pieces": 53,
   "sources": {
-    "instagram": 60,
+    "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 70,
+  "overall_score": 66,
   "dormant": false,
   "days_since_last_post": 0,
-  "posts_last_30": 60,
-  "posts_last_90": 60,
-  "posts_last_365": 60,
-  "cadence_per_week": 4.7,
+  "posts_last_30": 53,
+  "posts_last_90": 53,
+  "posts_last_365": 53,
+  "cadence_per_week": 4.1,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 12,
-      "score": 50,
-      "potential": 50,
-      "sample": "Comment NORTH to discover what your true north mission offer should be based on your goals, your ideas and your current "
+      "count": 25,
+      "score": 100,
+      "potential": 100,
+      "sample": "I don\u2019t care who you think you are\u2026"
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 4,
-      "score": 17,
-      "potential": 17,
-      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
+      "count": 1,
+      "score": 5,
+      "potential": 5,
+      "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
     {
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 20,
-      "score": 83,
-      "potential": 83,
-      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
+      "count": 10,
+      "score": 47,
+      "potential": 47,
+      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 35,
+      "count": 32,
       "score": 100,
       "potential": 100,
-      "sample": "To all the magicians out there."
+      "sample": "Never knew the double meaning to the age old joke. It got me thinking."
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 17,
-      "score": 71,
-      "potential": 71,
-      "sample": "Where your focus goes, energy flows."
+      "count": 9,
+      "score": 42,
+      "potential": 42,
+      "sample": "To all the magicians out there."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 21,
+      "count": 14,
       "score": 100,
-      "potential": 88,
-      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
+      "potential": 66,
+      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 17
+      "potential": 5
     },
     {
-      "code": "B",
-      "name": "Bold Authority",
-      "potential": 50
+      "code": "E2",
+      "name": "Esteemed Admiration",
+      "potential": 42
     }
   ]
 }
