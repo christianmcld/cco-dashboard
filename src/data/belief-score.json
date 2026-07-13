@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-10T16:21:49.549726+00:00",
+  "generated_at": "2026-07-13T16:30:51.848382+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 66,
+  "overall_score": 69,
   "dormant": false,
-  "days_since_last_post": 0,
+  "days_since_last_post": 3,
   "posts_last_30": 53,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,18 +18,18 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 25,
-      "score": 100,
-      "potential": 100,
+      "count": 17,
+      "score": 80,
+      "potential": 80,
       "sample": "I don\u2019t care who you think you are\u2026"
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 1,
-      "score": 5,
-      "potential": 5,
+      "count": 3,
+      "score": 14,
+      "potential": 14,
       "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
     {
@@ -45,40 +45,40 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 32,
+      "count": 24,
       "score": 100,
       "potential": 100,
-      "sample": "Never knew the double meaning to the age old joke. It got me thinking."
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 9,
-      "score": 42,
-      "potential": 42,
-      "sample": "To all the magicians out there."
+      "count": 16,
+      "score": 75,
+      "potential": 75,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 14,
+      "count": 19,
       "score": 100,
-      "potential": 66,
-      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
+      "potential": 90,
+      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 5
+      "potential": 14
     },
     {
-      "code": "E2",
-      "name": "Esteemed Admiration",
-      "potential": 42
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 47
     }
   ]
 }

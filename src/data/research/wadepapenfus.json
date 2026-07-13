@@ -1,14 +1,14 @@
 {
   "query": "@wadepapenfus",
   "slug": "wadepapenfus",
-  "timestamp": "2026-07-10T16:23:11.369301+00:00",
+  "timestamp": "2026-07-13T16:32:23.200520+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "wadepapenfus",
       "full_name": "WADE PAPENFUS | OFFSHORE TALES",
-      "followers": 292127,
-      "following": 2698,
-      "posts_count": 688,
+      "followers": 292884,
+      "following": 2700,
+      "posts_count": 693,
       "bio": "Explore more \u267e\ufe0f Fear less.\nAdventure, Fitness & Wild living.\nJoin millions on the journey \u2193",
       "profile_pic": "/research-thumbs/wadepapenfus-profile.jpg",
       "is_verified": true,
@@ -118,6 +118,16 @@
       "thumbnail": "/research-thumbs/DX8O2WORvgA.jpg"
     },
     {
+      "hook": "Giant lobsters on deserted islands with the boys \ud83e\udd9e\ud83e\udd79\ud83c\udfdd\ufe0f\ud83d\udd25",
+      "caption": "Giant lobsters on deserted islands with the boys \ud83e\udd9e\ud83e\udd79\ud83c\udfdd\ufe0f\ud83d\udd25\n\n#fishing #fish #seafood #lobster #catchoftheday\ud83c\udfa3",
+      "likes": 13609,
+      "comments": 17,
+      "engagement": 13626,
+      "date": "2026-07-12T06:57:54.000Z",
+      "url": "https://www.instagram.com/p/Darv7Uqx6fs/",
+      "thumbnail": "/research-thumbs/Darv7Uqx6fs.jpg"
+    },
+    {
       "hook": "Asking for a friend\u2026 \ud83e\udef6\ud83c\udffd\ud83e\udd0d",
       "caption": "Asking for a friend\u2026 \ud83e\udef6\ud83c\udffd\ud83e\udd0d",
       "likes": 10182,
@@ -126,16 +136,6 @@
       "date": "2026-05-07T02:24:17.000Z",
       "url": "https://www.instagram.com/p/DYBT_KuBsrl/",
       "thumbnail": "/research-thumbs/DYBT_KuBsrl.jpg"
-    },
-    {
-      "hook": "Volk on 24 hours notice vs Conor. Dana, what are we doing? \ud83c\udde6\ud83c\uddfa\ud83d\udd25",
-      "caption": "Volk on 24 hours notice vs Conor. Dana, what are we doing? \ud83c\udde6\ud83c\uddfa\ud83d\udd25\n\n#ufc #connormcgregor #volk #ufcfightnight #ufc329",
-      "likes": 9874,
-      "comments": 74,
-      "engagement": 9948,
-      "date": "2026-07-08T08:03:48.000Z",
-      "url": "https://www.instagram.com/p/DahjuoMBUg3/",
-      "thumbnail": "/research-thumbs/DahjuoMBUg3.jpg"
     }
   ],
   "ads": [],
@@ -177,12 +177,12 @@
       "fishing",
       "seafood",
       "fish",
+      "catchoftheday",
       "animals",
-      "wildlife",
-      "catchoftheday"
+      "wildlife"
     ],
     "best_performing_format": "<30s",
-    "posting_frequency": "3.7 reels/week",
+    "posting_frequency": "3.9 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }
