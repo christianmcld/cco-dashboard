@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-13T16:30:51.848382+00:00",
+  "generated_at": "2026-07-16T15:49:05.823975+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 69,
+  "overall_score": 74,
   "dormant": false,
-  "days_since_last_post": 3,
+  "days_since_last_post": 6,
   "posts_last_30": 53,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 17,
-      "score": 80,
-      "potential": 80,
-      "sample": "I don\u2019t care who you think you are\u2026"
+      "count": 24,
+      "score": 100,
+      "potential": 100,
+      "sample": "You need to hear it at some point."
     },
     {
       "code": "E",
@@ -36,19 +36,19 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 10,
-      "score": 47,
-      "potential": 47,
-      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
+      "count": 11,
+      "score": 52,
+      "potential": 52,
+      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 24,
+      "count": 32,
       "score": 100,
       "potential": 100,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "sample": "You need to hear it at some point."
     },
     {
       "code": "E2",
@@ -57,16 +57,16 @@
       "count": 16,
       "score": 75,
       "potential": 75,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 19,
+      "count": 12,
       "score": 100,
-      "potential": 90,
-      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
+      "potential": 57,
+      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
     }
   ],
   "weakest": [
@@ -78,7 +78,7 @@
     {
       "code": "L",
       "name": "Lived Story",
-      "potential": 47
+      "potential": 52
     }
   ]
 }
