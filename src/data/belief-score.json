@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-16T15:49:05.823975+00:00",
+  "generated_at": "2026-07-19T15:09:29.238843+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 74,
+  "overall_score": 69,
   "dormant": false,
-  "days_since_last_post": 6,
+  "days_since_last_post": 9,
   "posts_last_30": 53,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,9 +18,9 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 24,
-      "score": 100,
-      "potential": 100,
+      "count": 16,
+      "score": 75,
+      "potential": 75,
       "sample": "You need to hear it at some point."
     },
     {
@@ -45,10 +45,10 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 32,
+      "count": 33,
       "score": 100,
       "potential": 100,
-      "sample": "You need to hear it at some point."
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E2",
@@ -57,7 +57,7 @@
       "count": 16,
       "score": 75,
       "potential": 75,
-      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "F",
@@ -66,7 +66,7 @@
       "count": 12,
       "score": 100,
       "potential": 57,
-      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
+      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
     }
   ],
   "weakest": [
