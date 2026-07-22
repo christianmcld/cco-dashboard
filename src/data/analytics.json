@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-19T15:09:29.312014+00:00",
+  "generated_at": "2026-07-22T15:53:30.881102+00:00",
   "handle": "christianmcld",
   "profile": {
-    "followers": 38769,
-    "following": 1003,
+    "followers": 38767,
+    "following": 1004,
     "posts": 893,
     "bio": "\ud83c\udf0e Jack-of-All-Trades Exploring the world. \n\u2699\ufe0f Helping Founders build online so they can live offline. \n\ud83d\udc47 Grab my free tool to save you time",
     "verified": true
   },
   "reels_analyzed": 60,
   "metrics": {
-    "avg_plays": 935,
-    "avg_engagement": 29,
-    "engagement_rate_pct": 3.1,
+    "avg_plays": 910,
+    "avg_engagement": 27,
+    "engagement_rate_pct": 3.0,
     "engagement_rate_followers_pct": 0.07,
-    "best_plays": 5180
+    "best_plays": 5191
   },
   "activity": {
-    "days_since_last_post": 9,
+    "days_since_last_post": 1,
     "posts_last_90": 60,
     "dormant": false
   },
@@ -25,7 +25,7 @@
     {
       "url": "https://www.instagram.com/p/DaBU1TwPKxD/",
       "caption": "Let this be your last reel of the day\u2026",
-      "plays": 5180,
+      "plays": 5191,
       "likes": 118,
       "comments": 0,
       "date": "2026-06-25T19:32:31.000Z",
@@ -34,7 +34,7 @@
     {
       "url": "https://www.instagram.com/p/DaTxrMgv3e_/",
       "caption": "Who\u2019s with me?",
-      "plays": 4756,
+      "plays": 4768,
       "likes": 202,
       "comments": 1,
       "date": "2026-07-02T23:30:48.000Z",
@@ -43,8 +43,8 @@
     {
       "url": "https://www.instagram.com/p/DZ_z6MoM0K0/",
       "caption": "A few years ago, I built the exact business I thought I wanted\u2026 but it was teari",
-      "plays": 3454,
-      "likes": 178,
+      "plays": 3460,
+      "likes": 179,
       "comments": 6,
       "date": "2026-06-25T05:25:39.000Z",
       "thumbnail": "/analytics-thumbs/DZ_z6MoM0K0.jpg"
@@ -52,8 +52,8 @@
     {
       "url": "https://www.instagram.com/p/DaGsdnKSmeZ/",
       "caption": "Let this be your last reel of the day\u2026",
-      "plays": 3239,
-      "likes": 46,
+      "plays": 3244,
+      "likes": 47,
       "comments": 1,
       "date": "2026-06-27T21:35:09.000Z",
       "thumbnail": "/analytics-thumbs/DaGsdnKSmeZ.jpg"
@@ -61,30 +61,30 @@
     {
       "url": "https://www.instagram.com/p/DaN0w6tsdjD/",
       "caption": "1\ufe0f\u20e3Generating leads and customers without you living on a device. ",
-      "plays": 3138,
+      "plays": 3146,
       "likes": 46,
       "comments": 0,
       "date": "2026-06-30T16:02:31.000Z",
       "thumbnail": "/analytics-thumbs/DaN0w6tsdjD.jpg"
     },
     {
-      "url": "https://www.instagram.com/p/DaO7ugJMCbr/",
-      "caption": "Comment NORTH to discover what your true north mission offer should be based on ",
-      "plays": 2618,
-      "likes": 103,
+      "url": "https://www.instagram.com/p/DahfJ7Ms902/",
+      "caption": "",
+      "plays": 2672,
+      "likes": 69,
       "comments": 4,
-      "date": "2026-07-01T02:22:46.000Z",
-      "thumbnail": "/analytics-thumbs/DaO7ugJMCbr.jpg"
+      "date": "2026-07-08T07:20:55.000Z",
+      "thumbnail": "/analytics-thumbs/DahfJ7Ms902.jpg"
     }
   ],
   "timeline": [
     {
       "month": "2026-06",
-      "count": 28
+      "count": 27
     },
     {
       "month": "2026-07",
-      "count": 32
+      "count": 33
     }
   ]
 }

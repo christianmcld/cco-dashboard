@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-19T15:09:29.238843+00:00",
+  "generated_at": "2026-07-22T15:53:30.809422+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 69,
+  "overall_score": 68,
   "dormant": false,
-  "days_since_last_post": 9,
+  "days_since_last_post": 1,
   "posts_last_30": 53,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,67 +18,67 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 16,
-      "score": 75,
-      "potential": 75,
-      "sample": "You need to hear it at some point."
+      "count": 21,
+      "score": 99,
+      "potential": 99,
+      "sample": "There\u2019s only one thing that\u2019s for certain."
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 3,
-      "score": 14,
-      "potential": 14,
+      "count": 1,
+      "score": 5,
+      "potential": 5,
       "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
     {
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 11,
-      "score": 52,
-      "potential": 52,
-      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
+      "count": 9,
+      "score": 42,
+      "potential": 42,
+      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 33,
+      "count": 29,
       "score": 100,
       "potential": 100,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "sample": "You need to hear it at some point."
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 16,
-      "score": 75,
-      "potential": 75,
+      "count": 13,
+      "score": 61,
+      "potential": 61,
       "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 12,
+      "count": 20,
       "score": 100,
-      "potential": 57,
-      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
+      "potential": 94,
+      "sample": "Where focus goes, energy flows."
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 14
+      "potential": 5
     },
     {
       "code": "L",
       "name": "Lived Story",
-      "potential": 52
+      "potential": 42
     }
   ]
 }
