@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-22T15:53:30.809422+00:00",
+  "generated_at": "2026-07-25T15:24:44.796166+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 68,
+  "overall_score": 66,
   "dormant": false,
-  "days_since_last_post": 1,
+  "days_since_last_post": 4,
   "posts_last_30": 53,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -21,15 +21,15 @@
       "count": 21,
       "score": 99,
       "potential": 99,
-      "sample": "There\u2019s only one thing that\u2019s for certain."
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 1,
-      "score": 5,
-      "potential": 5,
+      "count": 3,
+      "score": 14,
+      "potential": 14,
       "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
     {
@@ -45,27 +45,27 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 29,
+      "count": 36,
       "score": 100,
       "potential": 100,
-      "sample": "You need to hear it at some point."
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 13,
-      "score": 61,
-      "potential": 61,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 9,
+      "score": 42,
+      "potential": 42,
+      "sample": "To all the magicians out there."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 20,
+      "count": 12,
       "score": 100,
-      "potential": 94,
+      "potential": 57,
       "sample": "Where focus goes, energy flows."
     }
   ],
@@ -73,7 +73,7 @@
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 5
+      "potential": 14
     },
     {
       "code": "L",
