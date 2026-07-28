@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-25T15:24:44.796166+00:00",
+  "generated_at": "2026-07-28T16:12:57.840644+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 66,
+  "overall_score": 68,
   "dormant": false,
-  "days_since_last_post": 4,
-  "posts_last_30": 53,
+  "days_since_last_post": 7,
+  "posts_last_30": 37,
   "posts_last_90": 53,
   "posts_last_365": 53,
   "cadence_per_week": 4.1,
@@ -18,18 +18,18 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 21,
-      "score": 99,
-      "potential": 99,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 22,
+      "score": 100,
+      "potential": 100,
+      "sample": "I don\u2019t care who you think you are\u2026"
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 3,
-      "score": 14,
-      "potential": 14,
+      "count": 1,
+      "score": 5,
+      "potential": 5,
       "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
     {
@@ -45,35 +45,35 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 36,
+      "count": 28,
       "score": 100,
       "potential": 100,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "sample": "To everyone in the back"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 9,
-      "score": 42,
-      "potential": 42,
-      "sample": "To all the magicians out there."
+      "count": 13,
+      "score": 61,
+      "potential": 61,
+      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 12,
+      "count": 16,
       "score": 100,
-      "potential": 57,
-      "sample": "Where focus goes, energy flows."
+      "potential": 75,
+      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 14
+      "potential": 5
     },
     {
       "code": "L",
