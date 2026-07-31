@@ -1,14 +1,14 @@
 {
   "query": "@wadepapenfus",
   "slug": "wadepapenfus",
-  "timestamp": "2026-07-28T16:15:11.944847+00:00",
+  "timestamp": "2026-07-31T16:11:50.223047+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "wadepapenfus",
       "full_name": "WADE PAPENFUS | OFFSHORE TALES",
-      "followers": 295631,
-      "following": 2720,
-      "posts_count": 705,
+      "followers": 295905,
+      "following": 2721,
+      "posts_count": 708,
       "bio": "Explore more \u267e\ufe0f Fear less.\nAdventure, Fitness & Wild living.\nJoin millions on the journey \u2193",
       "profile_pic": "/research-thumbs/wadepapenfus-profile.jpg",
       "is_verified": true,
@@ -56,16 +56,6 @@
       "date": "2026-06-11T15:36:54.000Z",
       "url": "https://www.instagram.com/p/DZc1qudJCI0/",
       "thumbnail": "/research-thumbs/DZc1qudJCI0.jpg"
-    },
-    {
-      "hook": "I found a dead shark and what killed it was heartbreaking ",
-      "caption": "I found a dead shark and what killed it was heartbreaking \n.\n.\n.\n#shark #wildlife #animals #fishing #fish",
-      "likes": 46152,
-      "comments": 244,
-      "engagement": 46396,
-      "date": "2026-01-30T11:28:00.000Z",
-      "url": "https://www.instagram.com/p/DUIhBC_Ee9V/",
-      "thumbnail": "/research-thumbs/DUIhBC_Ee9V.jpg"
     },
     {
       "hook": "We were lucky enough to yoink two beautiful Ornate Lobsters from the reef and cook them ov",
@@ -136,6 +126,16 @@
       "date": "2026-07-12T06:57:54.000Z",
       "url": "https://www.instagram.com/p/Darv7Uqx6fs/",
       "thumbnail": "/research-thumbs/Darv7Uqx6fs.jpg"
+    },
+    {
+      "hook": "Asking for a friend\u2026 \ud83e\udef6\ud83c\udffd\ud83e\udd0d",
+      "caption": "Asking for a friend\u2026 \ud83e\udef6\ud83c\udffd\ud83e\udd0d",
+      "likes": 10182,
+      "comments": 1163,
+      "engagement": 11345,
+      "date": "2026-05-07T02:24:17.000Z",
+      "url": "https://www.instagram.com/p/DYBT_KuBsrl/",
+      "thumbnail": "/research-thumbs/DYBT_KuBsrl.jpg"
     }
   ],
   "ads": [],
@@ -171,7 +171,7 @@
       "\ud83d\ude447.8 earthquake ",
       "Room service is whatever we can catch on the Island \ud83c\udfdd\ufe0f\ud83d\udd25",
       "Red emperor in the paddock. If you know you know. Crazy fishing on the Great Barrier Reef,",
-      "I found a dead shark and what killed it was heartbreaking "
+      "We were lucky enough to yoink two beautiful Ornate Lobsters from the reef and cook them ov"
     ],
     "content_themes": [
       "fishing",
@@ -179,10 +179,10 @@
       "fish",
       "catchoftheday",
       "outdoors",
-      "animals"
+      "survival"
     ],
     "best_performing_format": "<30s",
-    "posting_frequency": "4.4 reels/week",
+    "posting_frequency": "4.6 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }
