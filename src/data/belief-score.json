@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-04T16:18:04.196954+00:00",
+  "generated_at": "2026-08-07T15:06:24.010402+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 66,
+  "overall_score": 69,
   "dormant": false,
-  "days_since_last_post": 14,
-  "posts_last_30": 18,
+  "days_since_last_post": 17,
+  "posts_last_30": 15,
   "posts_last_90": 53,
   "posts_last_365": 53,
   "cadence_per_week": 4.1,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 18,
-      "score": 85,
-      "potential": 85,
-      "sample": "There\u2019s only one thing that\u2019s for certain."
+      "count": 23,
+      "score": 100,
+      "potential": 100,
+      "sample": "I don\u2019t care who you think you are\u2026"
     },
     {
       "code": "E",
@@ -36,19 +36,19 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 9,
-      "score": 42,
-      "potential": 42,
-      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
+      "count": 10,
+      "score": 47,
+      "potential": 47,
+      "sample": "Never knew the double meaning to the age old joke. It got me thinking."
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 31,
+      "count": 26,
       "score": 100,
       "potential": 100,
-      "sample": "To everyone in the back"
+      "sample": "Never knew the double meaning to the age old joke. It got me thinking."
     },
     {
       "code": "E2",
@@ -63,10 +63,10 @@
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 17,
+      "count": 14,
       "score": 100,
-      "potential": 80,
-      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
+      "potential": 66,
+      "sample": "To all the magicians out there."
     }
   ],
   "weakest": [
@@ -78,7 +78,7 @@
     {
       "code": "L",
       "name": "Lived Story",
-      "potential": 42
+      "potential": 47
     }
   ]
 }

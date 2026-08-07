@@ -1,15 +1,15 @@
 {
   "query": "@steveofallstreets",
   "slug": "steveofallstreets",
-  "timestamp": "2026-08-04T16:20:03.365243+00:00",
+  "timestamp": "2026-08-07T15:08:21.125895+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "steveofallstreets",
       "full_name": "Steven Thiel",
-      "followers": 146213,
-      "following": 817,
-      "posts_count": 11,
-      "bio": "Turn Your Skills into a Product \ud83e\udde0\nLearn How\ud83d\udc47",
+      "followers": 148798,
+      "following": 827,
+      "posts_count": 8,
+      "bio": "Turn Your Skills into a High Ticket Product \ud83e\udde0\n(I can send the Script if you follow me)",
       "profile_pic": "/research-thumbs/steveofallstreets-profile.jpg",
       "is_verified": true,
       "category": ""
@@ -66,6 +66,16 @@
       "date": "2026-03-27T20:00:02.000Z",
       "url": "https://www.instagram.com/p/DWZoj04xD8r/",
       "thumbnail": "/research-thumbs/DWZoj04xD8r.jpg"
+    },
+    {
+      "hook": "How long is your audio file?",
+      "caption": "How long is your audio file?",
+      "likes": 13439,
+      "comments": 278,
+      "engagement": 13717,
+      "date": "2026-08-04T23:03:39.000Z",
+      "url": "https://www.instagram.com/p/Dbosr4VPiqG/",
+      "thumbnail": "/research-thumbs/Dbosr4VPiqG.jpg"
     },
     {
       "hook": "You never know why they are rich",
@@ -126,16 +136,6 @@
       "date": "2026-03-24T16:00:00.000Z",
       "url": "https://www.instagram.com/p/DWReulYRlpl/",
       "thumbnail": ""
-    },
-    {
-      "hook": "How does @vincentfischer_ make so much f***** money?",
-      "caption": "How does @vincentfischer_ make so much f***** money?",
-      "likes": 3631,
-      "comments": 819,
-      "engagement": 4450,
-      "date": "2026-04-21T22:00:02.000Z",
-      "url": "https://www.instagram.com/p/DXaOLqJBACK/",
-      "thumbnail": ""
     }
   ],
   "ads": [],
@@ -177,7 +177,7 @@
       "osu"
     ],
     "best_performing_format": ">90s",
-    "posting_frequency": "21.0 reels/week",
+    "posting_frequency": "21.1 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }
