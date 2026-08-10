@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:06:24.010402+00:00",
+  "generated_at": "2026-08-10T15:11:59.425436+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
@@ -8,8 +8,8 @@
   },
   "overall_score": 69,
   "dormant": false,
-  "days_since_last_post": 17,
-  "posts_last_30": 15,
+  "days_since_last_post": 20,
+  "posts_last_30": 1,
   "posts_last_90": 53,
   "posts_last_365": 53,
   "cadence_per_week": 4.1,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 23,
+      "count": 24,
       "score": 100,
       "potential": 100,
-      "sample": "I don\u2019t care who you think you are\u2026"
+      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
     },
     {
       "code": "E",
@@ -36,37 +36,37 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 10,
-      "score": 47,
-      "potential": 47,
-      "sample": "Never knew the double meaning to the age old joke. It got me thinking."
+      "count": 9,
+      "score": 42,
+      "potential": 42,
+      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 26,
+      "count": 30,
       "score": 100,
       "potential": 100,
-      "sample": "Never knew the double meaning to the age old joke. It got me thinking."
+      "sample": "There\u2019s only one thing that\u2019s for certain."
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 11,
-      "score": 52,
-      "potential": 52,
+      "count": 12,
+      "score": 57,
+      "potential": 57,
       "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 14,
+      "count": 13,
       "score": 100,
-      "potential": 66,
-      "sample": "To all the magicians out there."
+      "potential": 61,
+      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
     }
   ],
   "weakest": [
@@ -78,7 +78,7 @@
     {
       "code": "L",
       "name": "Lived Story",
-      "potential": 47
+      "potential": 42
     }
   ]
 }
