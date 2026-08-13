@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-10T15:11:59.425436+00:00",
+  "generated_at": "2026-08-13T15:15:54.895753+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 69,
+  "overall_score": 65,
   "dormant": false,
-  "days_since_last_post": 20,
+  "days_since_last_post": 23,
   "posts_last_30": 1,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 24,
+      "count": 26,
       "score": 100,
       "potential": 100,
-      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
+      "sample": "I don\u2019t care who you think you are\u2026"
     },
     {
       "code": "E",
@@ -45,28 +45,28 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 30,
+      "count": 25,
       "score": 100,
       "potential": 100,
-      "sample": "There\u2019s only one thing that\u2019s for certain."
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 12,
-      "score": 57,
-      "potential": 57,
-      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
+      "count": 7,
+      "score": 33,
+      "potential": 33,
+      "sample": "World camera men loving this shot this year."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 13,
+      "count": 22,
       "score": 100,
-      "potential": 61,
-      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
+      "potential": 100,
+      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 42
+      "code": "E2",
+      "name": "Esteemed Admiration",
+      "potential": 33
     }
   ]
 }
