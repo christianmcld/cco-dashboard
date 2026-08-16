@@ -1,14 +1,14 @@
 {
   "query": "@jrp.co",
   "slug": "jrp.co",
-  "timestamp": "2026-08-13T15:18:06.725345+00:00",
+  "timestamp": "2026-08-16T14:21:01.604123+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "jrp.co",
       "full_name": "Johnny Perso\u0301n",
-      "followers": 419308,
-      "following": 4861,
-      "posts_count": 1312,
+      "followers": 430977,
+      "following": 4872,
+      "posts_count": 1320,
       "bio": "Founder: @aug11co //\ud83d\udccdATL\n36 Single Income No Kids // Do Hard Things\nJohnny@Underscoretalent.com\n\u2b07\ufe0fTalk to Me for 15 Min\u2b07\ufe0f",
       "profile_pic": "/research-thumbs/jrp.co-profile.jpg",
       "is_verified": true,
@@ -36,6 +36,16 @@
       "date": "2026-07-01T15:35:33.000Z",
       "url": "https://www.instagram.com/p/DaQWdyWv8g-/",
       "thumbnail": "/research-thumbs/DaQWdyWv8g-.jpg"
+    },
+    {
+      "hook": "I am ok without, and I think that makes a lot of people mad.",
+      "caption": "I am ok without, and I think that makes a lot of people mad.",
+      "likes": 96224,
+      "comments": 1885,
+      "engagement": 98109,
+      "date": "2026-08-14T21:42:28.000Z",
+      "url": "https://www.instagram.com/p/DcCS1ZQs2bT/",
+      "thumbnail": "/research-thumbs/DcCS1ZQs2bT.jpg"
     },
     {
       "hook": "People love to rank and create expectations around life stages.",
@@ -126,16 +136,6 @@
       "date": "2026-06-23T15:59:12.000Z",
       "url": "https://www.instagram.com/p/DZ7yxu7Mcff/",
       "thumbnail": "/research-thumbs/DZ7yxu7Mcff.jpg"
-    },
-    {
-      "hook": "Love is intentional, not accidental",
-      "caption": "Love is intentional, not accidental",
-      "likes": 12726,
-      "comments": 182,
-      "engagement": 12908,
-      "date": "2026-07-27T21:49:06.000Z",
-      "url": "https://www.instagram.com/p/DbT93HWpqmP/",
-      "thumbnail": "/research-thumbs/DbT93HWpqmP.jpg"
     }
   ],
   "ads": [],
@@ -169,9 +169,9 @@
     "top_hooks": [
       "People think I don\u2019t want to get married.",
       "You\u2019re dating like you\u2019re on a TV show. What happens when life gets really real?",
+      "I am ok without, and I think that makes a lot of people mad.",
       "People love to rank and create expectations around life stages.",
-      "Love is intentional, not accidental",
-      "God saw you getting ready to sacrifice everything so he saved you from that relationship. "
+      "Love is intentional, not accidental"
     ],
     "content_themes": [
       "nycfood",
@@ -181,7 +181,7 @@
       "mensmentalhealthawareness"
     ],
     "best_performing_format": "60-90s",
-    "posting_frequency": "37.9 reels/week",
+    "posting_frequency": "36.8 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

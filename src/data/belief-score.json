@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-13T15:15:54.895753+00:00",
+  "generated_at": "2026-08-16T14:19:23.341906+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 65,
+  "overall_score": 69,
   "dormant": false,
-  "days_since_last_post": 23,
+  "days_since_last_post": 26,
   "posts_last_30": 1,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,7 +18,7 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 26,
+      "count": 27,
       "score": 100,
       "potential": 100,
       "sample": "I don\u2019t care who you think you are\u2026"
@@ -27,10 +27,10 @@
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 3,
-      "score": 14,
-      "potential": 14,
-      "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
+      "count": 0,
+      "score": 0,
+      "potential": 0,
+      "sample": ""
     },
     {
       "code": "L",
@@ -45,40 +45,40 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 25,
+      "count": 24,
       "score": 100,
       "potential": 100,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "sample": "To everyone in the back"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 7,
-      "score": 33,
-      "potential": 33,
-      "sample": "World camera men loving this shot this year."
+      "count": 15,
+      "score": 71,
+      "potential": 71,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 22,
+      "count": 16,
       "score": 100,
-      "potential": 100,
-      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
+      "potential": 75,
+      "sample": "Where your focus goes, energy flows."
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 14
+      "potential": 0
     },
     {
-      "code": "E2",
-      "name": "Esteemed Admiration",
-      "potential": 33
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 42
     }
   ]
 }
