@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:19:23.341906+00:00",
+  "generated_at": "2026-08-19T14:41:35.347504+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
@@ -8,7 +8,7 @@
   },
   "overall_score": 69,
   "dormant": false,
-  "days_since_last_post": 26,
+  "days_since_last_post": 29,
   "posts_last_30": 1,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,19 +18,19 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 27,
+      "count": 23,
       "score": 100,
       "potential": 100,
-      "sample": "I don\u2019t care who you think you are\u2026"
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 0,
-      "score": 0,
-      "potential": 0,
-      "sample": ""
+      "count": 3,
+      "score": 14,
+      "potential": 14,
+      "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
     {
       "code": "L",
@@ -45,35 +45,35 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 24,
+      "count": 25,
       "score": 100,
       "potential": 100,
-      "sample": "To everyone in the back"
+      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 15,
-      "score": 71,
-      "potential": 71,
+      "count": 12,
+      "score": 57,
+      "potential": 57,
       "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 16,
+      "count": 18,
       "score": 100,
-      "potential": 75,
-      "sample": "Where your focus goes, energy flows."
+      "potential": 85,
+      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 0
+      "potential": 14
     },
     {
       "code": "L",
