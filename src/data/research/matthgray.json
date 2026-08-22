@@ -1,14 +1,14 @@
 {
   "query": "@matthgray",
   "slug": "matthgray",
-  "timestamp": "2026-08-19T14:43:45.073603+00:00",
+  "timestamp": "2026-08-22T14:26:18.823520+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "matthgray",
       "full_name": "Matt Gray",
-      "followers": 962883,
-      "following": 256,
-      "posts_count": 2842,
+      "followers": 963251,
+      "following": 258,
+      "posts_count": 2848,
       "bio": "The operating system behind 7 to 9-figure brands.\nFounder & CEO @founder_os\nJoin my next live free workshop AUG 25 \u21b4",
       "profile_pic": "/research-thumbs/matthgray-profile.jpg",
       "is_verified": true,
@@ -36,6 +36,16 @@
       "date": "2026-04-07T03:46:13.000Z",
       "url": "https://www.instagram.com/p/DW0Nsarsybd/",
       "thumbnail": "/research-thumbs/DW0Nsarsybd.jpg"
+    },
+    {
+      "hook": "Comment WATCH and I\u2019ll send you the full breakdown where I explain the 7 behaviors that ma",
+      "caption": "Comment WATCH and I\u2019ll send you the full breakdown where I explain the 7 behaviors that make people watch you",
+      "likes": 7318,
+      "comments": 111,
+      "engagement": 7429,
+      "date": "2026-08-19T14:40:41.000Z",
+      "url": "https://www.instagram.com/p/DcOadTMRg9f/",
+      "thumbnail": "/research-thumbs/DcOadTMRg9f.jpg"
     },
     {
       "hook": "Nobody ever got rich from being an employee. here\u2019s why:",
@@ -126,16 +136,6 @@
       "date": "2026-03-18T01:42:20.000Z",
       "url": "https://www.instagram.com/p/DWAfl3bsZgU/",
       "thumbnail": ""
-    },
-    {
-      "hook": "Comment \u201ctool\u201d and I\u2019ll show you how strong your personal brand actually is.",
-      "caption": "Comment \u201ctool\u201d and I\u2019ll show you how strong your personal brand actually is.",
-      "likes": 631,
-      "comments": 337,
-      "engagement": 968,
-      "date": "2026-04-15T03:06:57.000Z",
-      "url": "https://www.instagram.com/p/DXIvXLxMXU8/",
-      "thumbnail": ""
     }
   ],
   "ads": [],
@@ -169,9 +169,9 @@
     "top_hooks": [
       "peace comes from focusing on what you can control.",
       "AI is here. Start building your personal brand before is too late.",
+      "Comment WATCH and I\u2019ll send you the full breakdown where I explain the 7 behaviors that ma",
       "Nobody ever got rich from being an employee. here\u2019s why:",
-      "This was me before anyone told me to tone it down.",
-      "Dm me your favorite tech tools and how they\u2019ve helped you scale"
+      "This was me before anyone told me to tone it down."
     ],
     "content_themes": [
       "(no hashtags)"
