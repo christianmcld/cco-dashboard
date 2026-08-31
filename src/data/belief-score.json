@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T23:46:08.860949+00:00",
+  "generated_at": "2026-08-31T20:14:22.952842+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 65,
+  "overall_score": 69,
   "dormant": false,
-  "days_since_last_post": 38,
+  "days_since_last_post": 41,
   "posts_last_30": 0,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 16,
-      "score": 75,
-      "potential": 75,
-      "sample": "I don\u2019t care who you think you are\u2026"
+      "count": 19,
+      "score": 90,
+      "potential": 90,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E",
@@ -36,34 +36,34 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 16,
-      "score": 75,
-      "potential": 75,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 10,
+      "score": 47,
+      "potential": 47,
+      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 22,
-      "score": 100,
-      "potential": 100,
-      "sample": "This one\u2019s for you"
+      "count": 19,
+      "score": 90,
+      "potential": 90,
+      "sample": "To everyone in the back"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 6,
-      "score": 28,
-      "potential": 28,
-      "sample": "Let this be your last reel of the day\u2026\n\nGo out and do what you know you have to do to hit those goals. \n\nBe the one that"
+      "count": 15,
+      "score": 71,
+      "potential": 71,
+      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 25,
+      "count": 22,
       "score": 100,
       "potential": 100,
       "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "E2",
-      "name": "Esteemed Admiration",
-      "potential": 28
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 47
     }
   ]
 }
