@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-31T20:14:22.952842+00:00",
+  "generated_at": "2026-09-01T18:03:42.717670+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 69,
+  "overall_score": 70,
   "dormant": false,
-  "days_since_last_post": 41,
+  "days_since_last_post": 42,
   "posts_last_30": 0,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 19,
-      "score": 90,
-      "potential": 90,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 13,
+      "score": 61,
+      "potential": 61,
+      "sample": "There\u2019s only one thing that\u2019s for certain."
     },
     {
       "code": "E",
@@ -36,37 +36,37 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 10,
-      "score": 47,
-      "potential": 47,
-      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
+      "count": 17,
+      "score": 80,
+      "potential": 80,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 19,
-      "score": 90,
-      "potential": 90,
-      "sample": "To everyone in the back"
+      "count": 27,
+      "score": 100,
+      "potential": 100,
+      "sample": "You need to hear it at some point."
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 15,
-      "score": 71,
-      "potential": 71,
-      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
+      "count": 14,
+      "score": 66,
+      "potential": 66,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 22,
+      "count": 14,
       "score": 100,
-      "potential": 100,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "potential": 66,
+      "sample": "Where focus goes, energy flows."
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 47
+      "code": "B",
+      "name": "Bold Authority",
+      "potential": 61
     }
   ]
 }
