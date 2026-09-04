@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-01T18:03:42.717670+00:00",
+  "generated_at": "2026-09-04T17:38:32.798686+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 70,
+  "overall_score": 66,
   "dormant": false,
-  "days_since_last_post": 42,
+  "days_since_last_post": 45,
   "posts_last_30": 0,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 13,
-      "score": 61,
-      "potential": 61,
-      "sample": "There\u2019s only one thing that\u2019s for certain."
+      "count": 16,
+      "score": 75,
+      "potential": 75,
+      "sample": "You need to hear it at some point."
     },
     {
       "code": "E",
@@ -36,19 +36,19 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 17,
-      "score": 80,
-      "potential": 80,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 9,
+      "score": 42,
+      "potential": 42,
+      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 27,
+      "count": 35,
       "score": 100,
       "potential": 100,
-      "sample": "You need to hear it at some point."
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E2",
@@ -63,10 +63,10 @@
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 14,
+      "count": 12,
       "score": 100,
-      "potential": 66,
-      "sample": "Where focus goes, energy flows."
+      "potential": 57,
+      "sample": "Where your focus goes, energy flows."
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "B",
-      "name": "Bold Authority",
-      "potential": 61
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 42
     }
   ]
 }
