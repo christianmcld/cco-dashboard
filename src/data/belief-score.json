@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:38:32.798686+00:00",
+  "generated_at": "2026-09-07T18:58:56.645656+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
@@ -8,7 +8,7 @@
   },
   "overall_score": 66,
   "dormant": false,
-  "days_since_last_post": 45,
+  "days_since_last_post": 48,
   "posts_last_30": 0,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,9 +18,9 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 16,
-      "score": 75,
-      "potential": 75,
+      "count": 22,
+      "score": 100,
+      "potential": 100,
       "sample": "You need to hear it at some point."
     },
     {
@@ -54,19 +54,19 @@
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 14,
-      "score": 66,
-      "potential": 66,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 8,
+      "score": 38,
+      "potential": 38,
+      "sample": "To all the magicians out there."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 12,
+      "count": 15,
       "score": 100,
-      "potential": 57,
-      "sample": "Where your focus goes, energy flows."
+      "potential": 71,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 42
+      "code": "E2",
+      "name": "Esteemed Admiration",
+      "potential": 38
     }
   ]
 }
