@@ -1,14 +1,14 @@
 {
   "query": "@wadepapenfus",
   "slug": "wadepapenfus",
-  "timestamp": "2026-09-13T17:44:58.934604+00:00",
+  "timestamp": "2026-09-16T18:25:38.933247+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "wadepapenfus",
       "full_name": "WADE PAPENFUS | OFFSHORE TALES",
-      "followers": 313096,
-      "following": 2756,
-      "posts_count": 723,
+      "followers": 314433,
+      "following": 2761,
+      "posts_count": 724,
       "bio": "Explore more \u267e\ufe0f Fear less.\nAdventure, Fitness & Wild living.\nJoin millions on the journey \u2193",
       "profile_pic": "/research-thumbs/wadepapenfus-profile.jpg",
       "is_verified": true,
@@ -98,6 +98,16 @@
       "thumbnail": "/research-thumbs/DXlm6VykXg-.jpg"
     },
     {
+      "hook": "Giant fish cooked over a fire on a island \ud83d\udc1f\ud83d\udd25\ud83c\udfdd\ufe0f",
+      "caption": "Giant fish cooked over a fire on a island \ud83d\udc1f\ud83d\udd25\ud83c\udfdd\ufe0f\n\n#fish #fishing #fishinglife #seafood #outdoors",
+      "likes": 37320,
+      "comments": 66,
+      "engagement": 37386,
+      "date": "2026-09-15T00:48:32.000Z",
+      "url": "https://www.instagram.com/p/DdScm7Czj2G/",
+      "thumbnail": "/research-thumbs/DdScm7Czj2G.jpg"
+    },
+    {
       "hook": "Just give me a tropical island coconut and fresh fish \ud83c\udfdd\ufe0f\ud83d\udc1f\ud83c\udfd5\ufe0f",
       "caption": "Just give me a tropical island coconut and fresh fish \ud83c\udfdd\ufe0f\ud83d\udc1f\ud83c\udfd5\ufe0f\n\n#seafood #fish #fishing #outdoors #catchoftheday\ud83c\udfa3",
       "likes": 36398,
@@ -126,16 +136,6 @@
       "date": "2026-08-20T08:58:03.000Z",
       "url": "https://www.instagram.com/p/DcQYczaxJ4H/",
       "thumbnail": "/research-thumbs/DcQYczaxJ4H.jpg"
-    },
-    {
-      "hook": "Doesn\u2019t get better than giant lobster cooked on a fire on a deserted Island! \ud83c\udfdd\ufe0f\ud83e\udd9e",
-      "caption": "Doesn\u2019t get better than giant lobster cooked on a fire on a deserted Island! \ud83c\udfdd\ufe0f\ud83e\udd9e\n\n#fishing #seafood #lobster #outdoors",
-      "likes": 30126,
-      "comments": 44,
-      "engagement": 30170,
-      "date": "2026-06-07T08:37:58.000Z",
-      "url": "https://www.instagram.com/p/DZRymERx3St/",
-      "thumbnail": "/research-thumbs/DZRymERx3St.jpg"
     }
   ],
   "ads": [],
@@ -181,8 +181,8 @@
       "catchoftheday",
       "adventure"
     ],
-    "best_performing_format": "<30s",
-    "posting_frequency": "8.1 reels/week",
+    "best_performing_format": "30-45s",
+    "posting_frequency": "8.6 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }
