@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-16T18:24:12.443075+00:00",
+  "generated_at": "2026-09-19T17:08:13.745795+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 68,
+  "overall_score": 67,
   "dormant": false,
-  "days_since_last_post": 57,
+  "days_since_last_post": 60,
   "posts_last_30": 0,
   "posts_last_90": 53,
   "posts_last_365": 53,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 24,
+      "count": 23,
       "score": 100,
       "potential": 100,
-      "sample": "There\u2019s only one thing that\u2019s for certain."
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E",
@@ -45,27 +45,27 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 25,
+      "count": 31,
       "score": 100,
       "potential": 100,
-      "sample": "Never knew the double meaning to the age old joke. It got me thinking."
+      "sample": "There\u2019s only one thing that\u2019s for certain."
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 10,
-      "score": 47,
-      "potential": 47,
-      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
+      "count": 9,
+      "score": 42,
+      "potential": 42,
+      "sample": "World camera men loving this shot this year."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 20,
+      "count": 12,
       "score": 100,
-      "potential": 94,
+      "potential": 57,
       "sample": "You need to hear it at some point."
     }
   ],
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 47
+      "code": "E2",
+      "name": "Esteemed Admiration",
+      "potential": 42
     }
   ]
 }

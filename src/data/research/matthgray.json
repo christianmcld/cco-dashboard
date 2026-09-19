@@ -1,14 +1,14 @@
 {
   "query": "@matthgray",
   "slug": "matthgray",
-  "timestamp": "2026-09-16T18:25:39.094044+00:00",
+  "timestamp": "2026-09-19T17:09:31.818796+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "matthgray",
       "full_name": "Matt Gray",
-      "followers": 967928,
+      "followers": 968446,
       "following": 319,
-      "posts_count": 2891,
+      "posts_count": 2896,
       "bio": "The operating system behind 7 to 9-figure brands.\nFounder & CEO @founder_os\nGet my content GPS (free newsletter) \u21b4",
       "profile_pic": "/research-thumbs/matthgray-profile.jpg",
       "is_verified": true,
@@ -108,16 +108,6 @@
       "thumbnail": "/research-thumbs/Dc7OSpkJBwO.jpg"
     },
     {
-      "hook": "i\u2019m 36\u2026 it took me way too long to realize this:",
-      "caption": "i\u2019m 36\u2026 it took me way too long to realize this:",
-      "likes": 1017,
-      "comments": 20,
-      "engagement": 1037,
-      "date": "2026-03-21T20:25:08.000Z",
-      "url": "https://www.instagram.com/p/DWKObzjvQ1k/",
-      "thumbnail": "/research-thumbs/DWKObzjvQ1k.jpg"
-    },
-    {
       "hook": "Comment \u201ctool\u201d and I\u2019ll show you how strong your personal brand actually is.",
       "caption": "Comment \u201ctool\u201d and I\u2019ll show you how strong your personal brand actually is.",
       "likes": 631,
@@ -135,6 +125,16 @@
       "engagement": 866,
       "date": "2026-04-23T12:56:19.000Z",
       "url": "https://www.instagram.com/p/DXeZYFJufXJ/",
+      "thumbnail": ""
+    },
+    {
+      "hook": "AI is here. Start building your personal brand before it's too late.",
+      "caption": "AI is here. Start building your personal brand before it's too late.",
+      "likes": 861,
+      "comments": 4,
+      "engagement": 865,
+      "date": "2026-08-09T21:59:25.000Z",
+      "url": "https://www.instagram.com/p/Db1c252PTn9/",
       "thumbnail": ""
     }
   ],
@@ -177,7 +177,7 @@
       "(no hashtags)"
     ],
     "best_performing_format": "<30s",
-    "posting_frequency": "8.2 reels/week",
+    "posting_frequency": "8.4 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }
