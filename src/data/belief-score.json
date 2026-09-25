@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-22T18:28:13.064592+00:00",
+  "generated_at": "2026-09-25T18:41:25.245840+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 65,
+  "overall_score": 72,
   "dormant": false,
-  "days_since_last_post": 63,
+  "days_since_last_post": 66,
   "posts_last_30": 0,
-  "posts_last_90": 53,
+  "posts_last_90": 38,
   "posts_last_365": 53,
-  "cadence_per_week": 4.1,
+  "cadence_per_week": 3.0,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 24,
-      "score": 100,
-      "potential": 100,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 18,
+      "score": 85,
+      "potential": 85,
+      "sample": "There\u2019s only one thing that\u2019s for certain."
     },
     {
       "code": "E",
@@ -36,36 +36,36 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 9,
-      "score": 42,
-      "potential": 42,
-      "sample": "A few years ago, I built the exact business I thought I wanted\u2026 but it was tearing me apart\u2026 \n\nIt was online.\u2028It made go"
+      "count": 17,
+      "score": 80,
+      "potential": 80,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 34,
+      "count": 30,
       "score": 100,
       "potential": 100,
-      "sample": "Never knew the double meaning to the age old joke. It got me thinking."
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 7,
-      "score": 33,
-      "potential": 33,
-      "sample": "Comment UNLOCK if you\u2019re a founder that\u2019s feeling lost and looking to reclaim your time to get offline more and optimize"
+      "count": 11,
+      "score": 52,
+      "potential": 52,
+      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 11,
+      "count": 12,
       "score": 100,
-      "potential": 52,
+      "potential": 57,
       "sample": "Where focus goes, energy flows."
     }
   ],
@@ -78,7 +78,7 @@
     {
       "code": "E2",
       "name": "Esteemed Admiration",
-      "potential": 33
+      "potential": 52
     }
   ]
 }

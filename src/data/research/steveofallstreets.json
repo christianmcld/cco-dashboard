@@ -1,14 +1,14 @@
 {
   "query": "@steveofallstreets",
   "slug": "steveofallstreets",
-  "timestamp": "2026-09-22T18:29:31.241423+00:00",
+  "timestamp": "2026-09-25T18:43:06.666272+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "steveofallstreets",
       "full_name": "Steven Thiel",
-      "followers": 159267,
-      "following": 869,
-      "posts_count": 16,
+      "followers": 159369,
+      "following": 876,
+      "posts_count": 20,
       "bio": "Turn Your Skills into a High Ticket Product \ud83e\udde0\n(I can send the Script if you follow me)",
       "profile_pic": "/research-thumbs/steveofallstreets-profile.jpg",
       "is_verified": true,
@@ -36,16 +36,6 @@
       "date": "2026-05-24T19:00:10.000Z",
       "url": "https://www.instagram.com/p/DYu3vBIRbez/",
       "thumbnail": "/research-thumbs/DYu3vBIRbez.jpg"
-    },
-    {
-      "hook": "If you open it the possibilities are endless",
-      "caption": "If you open it the possibilities are endless",
-      "likes": 4760,
-      "comments": 10710,
-      "engagement": 15470,
-      "date": "2026-03-27T20:00:02.000Z",
-      "url": "https://www.instagram.com/p/DWZoj04xD8r/",
-      "thumbnail": "/research-thumbs/DWZoj04xD8r.jpg"
     },
     {
       "hook": "How long is your audio file?",
@@ -136,6 +126,16 @@
       "date": "2026-07-29T22:00:07.000Z",
       "url": "https://www.instagram.com/p/DbZI4NrhgpE/",
       "thumbnail": ""
+    },
+    {
+      "hook": "@gregogallagher is making bank",
+      "caption": "@gregogallagher is making bank",
+      "likes": 1880,
+      "comments": 1608,
+      "engagement": 3488,
+      "date": "2026-08-10T16:15:06.000Z",
+      "url": "https://www.instagram.com/p/Db3a6tuB5NP/",
+      "thumbnail": ""
     }
   ],
   "ads": [],
@@ -169,15 +169,15 @@
     "top_hooks": [
       "This is the game of life. Welcome",
       "Rob the bank is robbing banks legally",
-      "If you open it the possibilities are endless",
       "How long is your audio file?",
-      "You never know why they are rich"
+      "You never know why they are rich",
+      "You\u2019ve never tried this"
     ],
     "content_themes": [
       "osu"
     ],
     "best_performing_format": ">90s",
-    "posting_frequency": "22.5 reels/week",
+    "posting_frequency": "22.9 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

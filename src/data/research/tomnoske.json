@@ -1,15 +1,15 @@
 {
   "query": "@tomnoske",
   "slug": "tomnoske",
-  "timestamp": "2026-09-22T18:29:31.242519+00:00",
+  "timestamp": "2026-09-25T18:43:07.448059+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "tomnoske",
       "full_name": "Tom Noske",
-      "followers": 457564,
-      "following": 1034,
-      "posts_count": 1945,
-      "bio": "I help creators build a business, not just a following\n$7.76M USD in tracked student wins\nSell\u2022able workshop - Sep 24th \u2193 \u2193",
+      "followers": 458081,
+      "following": 1037,
+      "posts_count": 1952,
+      "bio": "I help creators build a business, not just a following\n$7.76M USD in tracked student wins\nJoin Time to Build \u2193 \u2193",
       "profile_pic": "/research-thumbs/tomnoske-profile.jpg",
       "is_verified": true,
       "category": "Digital creator"
@@ -88,6 +88,16 @@
       "thumbnail": "/research-thumbs/DW-pV3WE8ya.jpg"
     },
     {
+      "hook": "It\u2019s 2.5 hours after lunch",
+      "caption": "It\u2019s 2.5 hours after lunch",
+      "likes": 2901,
+      "comments": 55,
+      "engagement": 2956,
+      "date": "2026-09-23T15:00:34.000Z",
+      "url": "https://www.instagram.com/p/DdolTojhkoB/",
+      "thumbnail": "/research-thumbs/DdolTojhkoB.jpg"
+    },
+    {
       "hook": "A part of me still doesn\u2019t believe in myself",
       "caption": "A part of me still doesn\u2019t believe in myself",
       "likes": 2714,
@@ -126,16 +136,6 @@
       "date": "2026-09-04T00:23:35.000Z",
       "url": "https://www.instagram.com/p/Dc2FU8uTChd/",
       "thumbnail": "/research-thumbs/Dc2FU8uTChd.jpg"
-    },
-    {
-      "hook": "Profit is freedom",
-      "caption": "Profit is freedom",
-      "likes": 1145,
-      "comments": 43,
-      "engagement": 1188,
-      "date": "2026-04-11T21:52:43.000Z",
-      "url": "https://www.instagram.com/p/DXAcX1KE5m6/",
-      "thumbnail": "/research-thumbs/DXAcX1KE5m6.jpg"
     }
   ],
   "ads": [],
@@ -177,7 +177,7 @@
       "(no hashtags)"
     ],
     "best_performing_format": ">90s",
-    "posting_frequency": "7.1 reels/week",
+    "posting_frequency": "7.3 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

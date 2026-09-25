@@ -1,20 +1,20 @@
 {
   "query": "@matthgray",
   "slug": "matthgray",
-  "timestamp": "2026-09-22T18:29:32.043251+00:00",
+  "timestamp": "2026-09-25T18:43:09.488625+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "matthgray",
       "full_name": "Matt Gray",
-      "followers": 969649,
-      "following": 324,
-      "posts_count": 2902,
-      "bio": "The operating system behind 7 to 9-figure brands.\nFounder & CEO @founder_os\nJoin my next live free workshop SEP 22nd \u21b4",
+      "followers": 970529,
+      "following": 329,
+      "posts_count": 2909,
+      "bio": "The operating system behind 7 to 9-figure brands.\nFounder & CEO @founder_os\nGet my content GPS (free newsletter) \u21b4",
       "profile_pic": "/research-thumbs/matthgray-profile.jpg",
       "is_verified": true,
       "category": "Entrepreneur"
     },
-    "website": "https://fos.now/vtxdgy"
+    "website": "https://fos.now/Tmpltb"
   },
   "viral_posts": [
     {
@@ -56,6 +56,16 @@
       "date": "2026-06-07T00:00:09.000Z",
       "url": "https://www.instagram.com/p/DZQ4a6FhGtP/",
       "thumbnail": "/research-thumbs/DZQ4a6FhGtP.jpg"
+    },
+    {
+      "hook": "if you want to systemise your entire business in one afternoon, comment \u201cCALM\u201d and I\u2019ll se",
+      "caption": "if you want to systemise your entire business in one afternoon, comment \u201cCALM\u201d and I\u2019ll send you my full blueprint.",
+      "likes": 2253,
+      "comments": 1194,
+      "engagement": 3447,
+      "date": "2026-09-22T23:38:18.000Z",
+      "url": "https://www.instagram.com/p/Ddm6if9RbJT/",
+      "thumbnail": "/research-thumbs/Ddm6if9RbJT.jpg"
     },
     {
       "hook": "Dm me your favorite tech tools and how they\u2019ve helped you scale",
@@ -126,16 +136,6 @@
       "date": "2026-04-23T12:56:19.000Z",
       "url": "https://www.instagram.com/p/DXeZYFJufXJ/",
       "thumbnail": ""
-    },
-    {
-      "hook": "AI is here. Start building your personal brand before it's too late.",
-      "caption": "AI is here. Start building your personal brand before it's too late.",
-      "likes": 861,
-      "comments": 4,
-      "engagement": 865,
-      "date": "2026-08-09T21:59:25.000Z",
-      "url": "https://www.instagram.com/p/Db1c252PTn9/",
-      "thumbnail": ""
     }
   ],
   "ads": [],
@@ -171,7 +171,7 @@
       "AI is here. Start building your personal brand before is too late.",
       "Comment WATCH and I\u2019ll send you the full breakdown where I explain the 7 behaviors that ma",
       "Nobody ever got rich from being an employee. here\u2019s why:",
-      "Dm me your favorite tech tools and how they\u2019ve helped you scale"
+      "if you want to systemise your entire business in one afternoon, comment \u201cCALM\u201d and I\u2019ll se"
     ],
     "content_themes": [
       "(no hashtags)"
