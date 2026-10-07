@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T18:12:24.077369+00:00",
+  "generated_at": "2026-10-07T20:12:22.269292+00:00",
   "handle": "christianmcld",
   "profile": {
-    "followers": 38637,
+    "followers": 38632,
     "following": 1017,
     "posts": 893,
     "bio": "\ud83c\udf0e Jack-of-All-Trades Exploring the world. \n\u2699\ufe0f Helping Founders build online so they can live offline. \n\ud83d\udc47 Grab my free tool to save you time",
@@ -14,18 +14,18 @@
     "avg_engagement": 28,
     "engagement_rate_pct": 3.0,
     "engagement_rate_followers_pct": 0.07,
-    "best_plays": 5298
+    "best_plays": 5301
   },
   "activity": {
-    "days_since_last_post": 75,
-    "posts_last_90": 25,
+    "days_since_last_post": 78,
+    "posts_last_90": 7,
     "dormant": false
   },
   "top_reels": [
     {
       "url": "https://www.instagram.com/p/DaBU1TwPKxD/",
       "caption": "Let this be your last reel of the day\u2026",
-      "plays": 5298,
+      "plays": 5301,
       "likes": 118,
       "comments": 0,
       "date": "2026-06-25T19:32:31.000Z",
@@ -34,8 +34,8 @@
     {
       "url": "https://www.instagram.com/p/DaTxrMgv3e_/",
       "caption": "Who\u2019s with me?",
-      "plays": 4876,
-      "likes": 203,
+      "plays": 4877,
+      "likes": 204,
       "comments": 2,
       "date": "2026-07-02T23:30:48.000Z",
       "thumbnail": "/analytics-thumbs/DaTxrMgv3e_.jpg"
@@ -71,8 +71,8 @@
       "url": "https://www.instagram.com/p/DahfJ7Ms902/",
       "caption": "",
       "plays": 2791,
-      "likes": 92,
-      "comments": 8,
+      "likes": 93,
+      "comments": 9,
       "date": "2026-07-08T07:20:55.000Z",
       "thumbnail": "/analytics-thumbs/DahfJ7Ms902.jpg"
     }

@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-04T18:12:24.004093+00:00",
+  "generated_at": "2026-10-07T20:12:22.203890+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 69,
+  "overall_score": 33,
   "dormant": false,
-  "days_since_last_post": 75,
+  "days_since_last_post": 78,
   "posts_last_30": 0,
-  "posts_last_90": 18,
+  "posts_last_90": 6,
   "posts_last_365": 53,
-  "cadence_per_week": 1.4,
+  "cadence_per_week": 0.5,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 28,
-      "score": 100,
+      "count": 22,
+      "score": 46,
       "potential": 100,
       "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
@@ -28,7 +28,7 @@
       "letter": "E",
       "name": "Earned Proof",
       "count": 3,
-      "score": 14,
+      "score": 6,
       "potential": 14,
       "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
@@ -36,35 +36,35 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 14,
-      "score": 66,
-      "potential": 66,
-      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
+      "count": 10,
+      "score": 22,
+      "potential": 47,
+      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 24,
-      "score": 100,
+      "count": 28,
+      "score": 46,
       "potential": 100,
-      "sample": "This one\u2019s for you"
+      "sample": "To everyone in the back"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 7,
+      "count": 15,
       "score": 33,
-      "potential": 33,
-      "sample": "Where your focus goes, energy flows."
+      "potential": 71,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
       "count": 12,
-      "score": 100,
+      "score": 46,
       "potential": 57,
       "sample": "Where focus goes, energy flows."
     }
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "E2",
-      "name": "Esteemed Admiration",
-      "potential": 33
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 47
     }
   ]
 }
