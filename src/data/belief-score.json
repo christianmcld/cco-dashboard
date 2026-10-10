@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-10-07T20:12:22.203890+00:00",
+  "generated_at": "2026-10-10T18:37:04.059184+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 33,
+  "overall_score": 24,
   "dormant": false,
-  "days_since_last_post": 78,
-  "posts_last_30": 0,
-  "posts_last_90": 6,
+  "days_since_last_post": 0,
+  "posts_last_30": 4,
+  "posts_last_90": 5,
   "posts_last_365": 53,
-  "cadence_per_week": 0.5,
+  "cadence_per_week": 0.4,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 22,
-      "score": 46,
-      "potential": 100,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 16,
+      "score": 29,
+      "potential": 75,
+      "sample": "Stop m#aking slop\u2026"
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
       "count": 3,
-      "score": 6,
+      "score": 5,
       "potential": 14,
       "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
@@ -36,37 +36,37 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 10,
-      "score": 22,
-      "potential": 47,
-      "sample": "Here for the long hall of being an environmental storyteller and using the skills I\u2019ve developed over the past 10 years "
+      "count": 13,
+      "score": 23,
+      "potential": 61,
+      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 28,
-      "score": 46,
-      "potential": 100,
-      "sample": "To everyone in the back"
+      "count": 20,
+      "score": 36,
+      "potential": 94,
+      "sample": "Hate AI?"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 15,
-      "score": 33,
-      "potential": 71,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 8,
+      "score": 15,
+      "potential": 38,
+      "sample": "To all the magicians out there."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 12,
-      "score": 46,
-      "potential": 57,
-      "sample": "Where focus goes, energy flows."
+      "count": 31,
+      "score": 38,
+      "potential": 100,
+      "sample": "Now is your time to let AI learn from you"
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 47
+      "code": "E2",
+      "name": "Esteemed Admiration",
+      "potential": 38
     }
   ]
 }
