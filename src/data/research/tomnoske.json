@@ -1,14 +1,14 @@
 {
   "query": "@tomnoske",
   "slug": "tomnoske",
-  "timestamp": "2026-10-10T18:38:42.912893+00:00",
+  "timestamp": "2026-10-13T20:45:31.748563+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "tomnoske",
       "full_name": "Tom Noske",
-      "followers": 457481,
-      "following": 1041,
-      "posts_count": 1996,
+      "followers": 457410,
+      "following": 1040,
+      "posts_count": 2012,
       "bio": "I help creators build a business, not just a following\n$7.76M USD in tracked student wins\nJoin Time to Build \u2193 \u2193",
       "profile_pic": "/research-thumbs/tomnoske-profile.jpg",
       "is_verified": true,
@@ -98,16 +98,6 @@
       "thumbnail": ""
     },
     {
-      "hook": "Not everything you publish needs to sell.",
-      "caption": "Not everything you publish needs to sell.",
-      "likes": 1129,
-      "comments": 8,
-      "engagement": 1137,
-      "date": "2026-04-15T08:57:50.000Z",
-      "url": "https://www.instagram.com/p/DXJXsXNkwGL/",
-      "thumbnail": ""
-    },
-    {
       "hook": "The math on my $10M/yr revenue goal ",
       "caption": "The math on my $10M/yr revenue goal \n\nComment \u201cBuild\u201d to join us \u2705",
       "likes": 1085,
@@ -126,6 +116,16 @@
       "date": "2026-05-13T06:29:34.000Z",
       "url": "https://www.instagram.com/p/DYRM98Szk_-/",
       "thumbnail": ""
+    },
+    {
+      "hook": "Make sure you actually enjoy the journey whilst you\u2019re on the the way there.",
+      "caption": "Make sure you actually enjoy the journey whilst you\u2019re on the the way there.",
+      "likes": 979,
+      "comments": 35,
+      "engagement": 1014,
+      "date": "2026-10-11T07:13:30.000Z",
+      "url": "https://www.instagram.com/p/DeWFnL8BX6S/",
+      "thumbnail": "/research-thumbs/DeWFnL8BX6S.jpg"
     },
     {
       "hook": "Make sure you know what you\u2019re actually working for \ud83e\udee1",
@@ -177,7 +177,7 @@
       "(no hashtags)"
     ],
     "best_performing_format": "<30s",
-    "posting_frequency": "7.8 reels/week",
+    "posting_frequency": "8.2 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

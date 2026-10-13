@@ -1,14 +1,14 @@
 {
   "query": "@matthgray",
   "slug": "matthgray",
-  "timestamp": "2026-10-10T18:38:43.702009+00:00",
+  "timestamp": "2026-10-13T20:45:34.649672+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "matthgray",
       "full_name": "Matt Gray",
-      "followers": 970914,
+      "followers": 972886,
       "following": 343,
-      "posts_count": 2939,
+      "posts_count": 2945,
       "bio": "The operating system behind 7 to 9-figure brands.\nFounder & CEO @founder_os\nGet my content GPS (free newsletter) \u21b4",
       "profile_pic": "/research-thumbs/matthgray-profile.jpg",
       "is_verified": true,
@@ -118,16 +118,6 @@
       "thumbnail": "/research-thumbs/Dc7OSpkJBwO.jpg"
     },
     {
-      "hook": "Comment \u201ctool\u201d and I\u2019ll show you how strong your personal brand actually is.",
-      "caption": "Comment \u201ctool\u201d and I\u2019ll show you how strong your personal brand actually is.",
-      "likes": 631,
-      "comments": 337,
-      "engagement": 968,
-      "date": "2026-04-15T03:06:57.000Z",
-      "url": "https://www.instagram.com/p/DXIvXLxMXU8/",
-      "thumbnail": ""
-    },
-    {
       "hook": "no emails, no Slack, no fires to put out.",
       "caption": "no emails, no Slack, no fires to put out.\n\njust silence.\n\nnot to work less, but to work on what actually matters.\n\nthese mountains, the work that lights me up, the freedom to choose.\n\nthat\u2019s what l\u2019m building toward.",
       "likes": 895,
@@ -136,6 +126,16 @@
       "date": "2026-10-05T05:25:32.000Z",
       "url": "https://www.instagram.com/p/DeGcCmQxC23/",
       "thumbnail": "/research-thumbs/DeGcCmQxC23.jpg"
+    },
+    {
+      "hook": "your best content might already exist in your head.",
+      "caption": "your best content might already exist in your head.\n\nthe real skill is building a system that captures your thinking before the moment passes.\n\nthink once, compound for weeks.",
+      "likes": 428,
+      "comments": 439,
+      "engagement": 867,
+      "date": "2026-09-30T23:18:54.000Z",
+      "url": "https://www.instagram.com/p/Dd7ff16RUBV/",
+      "thumbnail": ""
     }
   ],
   "ads": [],

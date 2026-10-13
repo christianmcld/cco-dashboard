@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-10-10T18:37:04.059184+00:00",
+  "generated_at": "2026-10-13T20:43:39.883750+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 24,
+  "overall_score": 52,
   "dormant": false,
   "days_since_last_post": 0,
-  "posts_last_30": 4,
-  "posts_last_90": 5,
+  "posts_last_30": 10,
+  "posts_last_90": 11,
   "posts_last_365": 53,
-  "cadence_per_week": 0.4,
+  "cadence_per_week": 0.9,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 16,
-      "score": 29,
-      "potential": 75,
-      "sample": "Stop m#aking slop\u2026"
+      "count": 26,
+      "score": 85,
+      "potential": 100,
+      "sample": "Disassociate."
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
       "count": 3,
-      "score": 5,
+      "score": 12,
       "potential": 14,
       "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
@@ -36,37 +36,37 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 13,
-      "score": 23,
-      "potential": 61,
-      "sample": "Drop a comment of what you need to do more of\u2026 \nHi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming y"
+      "count": 4,
+      "score": 16,
+      "potential": 19,
+      "sample": "Entrepreneurs who do yard work know what I\u2019m talking about\u2026"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 20,
-      "score": 36,
-      "potential": 94,
-      "sample": "Hate AI?"
+      "count": 17,
+      "score": 68,
+      "potential": 80,
+      "sample": "Entrepreneurs who do yard work know what I\u2019m talking about\u2026"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 8,
-      "score": 15,
-      "potential": 38,
-      "sample": "To all the magicians out there."
+      "count": 12,
+      "score": 48,
+      "potential": 57,
+      "sample": "Run your own race."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 31,
-      "score": 38,
+      "count": 34,
+      "score": 85,
       "potential": 100,
-      "sample": "Now is your time to let AI learn from you"
+      "sample": "Run your own race."
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 14
     },
     {
-      "code": "E2",
-      "name": "Esteemed Admiration",
-      "potential": 38
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 19
     }
   ]
 }
