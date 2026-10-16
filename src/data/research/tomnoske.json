@@ -1,15 +1,15 @@
 {
   "query": "@tomnoske",
   "slug": "tomnoske",
-  "timestamp": "2026-10-13T20:45:31.748563+00:00",
+  "timestamp": "2026-10-16T18:11:18.522298+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "tomnoske",
       "full_name": "Tom Noske",
-      "followers": 457410,
-      "following": 1040,
-      "posts_count": 2012,
-      "bio": "I help creators build a business, not just a following\n$7.76M USD in tracked student wins\nJoin Time to Build \u2193 \u2193",
+      "followers": 457384,
+      "following": 1042,
+      "posts_count": 2019,
+      "bio": "I help creators build a business, not just a following\n$8.67M USD in tracked student wins\nJoin Time to Build \u2193 \u2193",
       "profile_pic": "/research-thumbs/tomnoske-profile.jpg",
       "is_verified": true,
       "category": "Digital creator"
@@ -26,16 +26,6 @@
       "date": "2026-07-27T07:43:05.000Z",
       "url": "https://www.instagram.com/p/DbSc8tGTSbo/",
       "thumbnail": "/research-thumbs/DbSc8tGTSbo.jpg"
-    },
-    {
-      "hook": "What is your idealistic hourly rate?",
-      "caption": "What is your idealistic hourly rate?",
-      "likes": 5496,
-      "comments": 33,
-      "engagement": 5529,
-      "date": "2026-04-18T11:53:53.000Z",
-      "url": "https://www.instagram.com/p/DXRZEXGk7G2/",
-      "thumbnail": "/research-thumbs/DXRZEXGk7G2.jpg"
     },
     {
       "hook": "Speak at the level of your audiences pain.",
@@ -76,6 +66,16 @@
       "date": "2026-06-15T11:17:32.000Z",
       "url": "https://www.instagram.com/p/DZmr8NhTKk4/",
       "thumbnail": "/research-thumbs/DZmr8NhTKk4.jpg"
+    },
+    {
+      "hook": "I paid $20,000 for this photo",
+      "caption": "I paid $20,000 for this photo",
+      "likes": 1873,
+      "comments": 16,
+      "engagement": 1889,
+      "date": "2026-10-13T23:00:05.000Z",
+      "url": "https://www.instagram.com/p/Dec8HLShPod/",
+      "thumbnail": "/research-thumbs/Dec8HLShPod.jpg"
     },
     {
       "hook": "Married my best friend \ud83e\udd0d",
@@ -150,7 +150,7 @@
     },
     {
       "handle": "wadepapenfus",
-      "full_name": "WADE PAPENFUS | OFFSHORE TALES"
+      "full_name": "WADE PAPENFUS"
     },
     {
       "handle": "willgirone",
@@ -168,16 +168,17 @@
   "analysis": {
     "top_hooks": [
       "Don\u2019t feel bad if chasing your dreams actually requires work.",
-      "What is your idealistic hourly rate?",
       "Speak at the level of your audiences pain.",
       "It\u2019s 2.5 hours after lunch",
-      "Comment \u201cBuild\u201d if you want to join Time to Build \ud83e\udee1"
+      "Comment \u201cBuild\u201d if you want to join Time to Build \ud83e\udee1",
+      "In case any of you are looking to get yourselves something special \ud83e\udee1"
     ],
     "content_themes": [
-      "(no hashtags)"
+      "business",
+      "explore"
     ],
     "best_performing_format": "<30s",
-    "posting_frequency": "8.2 reels/week",
+    "posting_frequency": "8.8 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

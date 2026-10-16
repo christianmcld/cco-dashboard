@@ -1,14 +1,14 @@
 {
   "query": "@matthgray",
   "slug": "matthgray",
-  "timestamp": "2026-10-13T20:45:34.649672+00:00",
+  "timestamp": "2026-10-16T18:11:19.339980+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "matthgray",
       "full_name": "Matt Gray",
-      "followers": 972886,
-      "following": 343,
-      "posts_count": 2945,
+      "followers": 973299,
+      "following": 344,
+      "posts_count": 2951,
       "bio": "The operating system behind 7 to 9-figure brands.\nFounder & CEO @founder_os\nGet my content GPS (free newsletter) \u21b4",
       "profile_pic": "/research-thumbs/matthgray-profile.jpg",
       "is_verified": true,
@@ -66,16 +66,6 @@
       "date": "2026-09-22T23:38:18.000Z",
       "url": "https://www.instagram.com/p/Ddm6if9RbJT/",
       "thumbnail": "/research-thumbs/Ddm6if9RbJT.jpg"
-    },
-    {
-      "hook": "Dm me your favorite tech tools and how they\u2019ve helped you scale",
-      "caption": "Dm me your favorite tech tools and how they\u2019ve helped you scale",
-      "likes": 1978,
-      "comments": 47,
-      "engagement": 2025,
-      "date": "2026-04-16T03:00:25.000Z",
-      "url": "https://www.instagram.com/p/DXLTNj5s7TR/",
-      "thumbnail": "/research-thumbs/DXLTNj5s7TR.jpg"
     },
     {
       "hook": "A magnetic business doesn\u2019t drain your energy.",
@@ -136,6 +126,16 @@
       "date": "2026-09-30T23:18:54.000Z",
       "url": "https://www.instagram.com/p/Dd7ff16RUBV/",
       "thumbnail": ""
+    },
+    {
+      "hook": "My 12M/year morning routine:",
+      "caption": "My 12M/year morning routine:",
+      "likes": 846,
+      "comments": 20,
+      "engagement": 866,
+      "date": "2026-04-23T12:56:19.000Z",
+      "url": "https://www.instagram.com/p/DXeZYFJufXJ/",
+      "thumbnail": ""
     }
   ],
   "ads": [],
@@ -154,7 +154,7 @@
     },
     {
       "handle": "wadepapenfus",
-      "full_name": "WADE PAPENFUS | OFFSHORE TALES"
+      "full_name": "WADE PAPENFUS"
     },
     {
       "handle": "willgirone",

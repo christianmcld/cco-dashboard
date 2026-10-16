@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-13T20:43:39.883750+00:00",
+  "generated_at": "2026-10-16T18:09:30.418037+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 52,
+  "overall_score": 61,
   "dormant": false,
   "days_since_last_post": 0,
-  "posts_last_30": 10,
-  "posts_last_90": 11,
+  "posts_last_30": 20,
+  "posts_last_90": 21,
   "posts_last_365": 53,
-  "cadence_per_week": 0.9,
+  "cadence_per_week": 1.6,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 26,
-      "score": 85,
-      "potential": 100,
+      "count": 17,
+      "score": 80,
+      "potential": 80,
       "sample": "Disassociate."
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 3,
-      "score": 12,
-      "potential": 14,
+      "count": 1,
+      "score": 5,
+      "potential": 5,
       "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
     },
     {
@@ -37,43 +37,43 @@
       "letter": "L",
       "name": "Lived Story",
       "count": 4,
-      "score": 16,
+      "score": 19,
       "potential": 19,
-      "sample": "Entrepreneurs who do yard work know what I\u2019m talking about\u2026"
+      "sample": "Built by ADHD for ADHD. comment STORY I got you"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 17,
-      "score": 68,
-      "potential": 80,
-      "sample": "Entrepreneurs who do yard work know what I\u2019m talking about\u2026"
+      "count": 23,
+      "score": 100,
+      "potential": 100,
+      "sample": "Built by ADHD for ADHD. comment STORY I got you"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 12,
-      "score": 48,
-      "potential": 57,
+      "count": 13,
+      "score": 61,
+      "potential": 61,
       "sample": "Run your own race."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 34,
-      "score": 85,
+      "count": 22,
+      "score": 100,
       "potential": 100,
-      "sample": "Run your own race."
+      "sample": "Share with someone that is like this\u2026"
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 14
+      "potential": 5
     },
     {
       "code": "L",
