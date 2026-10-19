@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-16T18:09:30.492503+00:00",
+  "generated_at": "2026-10-19T20:04:51.141795+00:00",
   "handle": "christianmcld",
   "profile": {
-    "followers": 40069,
+    "followers": 40380,
     "following": 1018,
-    "posts": 897,
+    "posts": 899,
     "bio": "\ud83c\udf0e Jack-of-All-Trades Exploring the world. \n\u2699\ufe0f Helping Founders build online so they can live offline. \n\ud83d\udc47 Grab my free tool to save you time",
     "verified": true
   },
   "reels_analyzed": 60,
   "metrics": {
-    "avg_plays": 14717,
-    "avg_engagement": 989,
+    "avg_plays": 17086,
+    "avg_engagement": 1153,
     "engagement_rate_pct": 6.7,
-    "engagement_rate_followers_pct": 2.47,
-    "best_plays": 633330
+    "engagement_rate_followers_pct": 2.86,
+    "best_plays": 744331
   },
   "activity": {
     "days_since_last_post": 0,
-    "posts_last_90": 14,
+    "posts_last_90": 31,
     "dormant": false
   },
   "top_reels": [
     {
       "url": "https://www.instagram.com/p/Dea3F3VMlrl/",
       "caption": "Share with a person who is like this",
-      "plays": 633330,
-      "likes": 47755,
-      "comments": 405,
+      "plays": 744331,
+      "likes": 56801,
+      "comments": 507,
       "date": "2026-10-13T03:40:27.000Z",
       "thumbnail": "/analytics-thumbs/Dea3F3VMlrl.jpg"
     },
     {
       "url": "https://www.instagram.com/p/DeYHZqpMMCt/",
       "caption": "Run your own race.",
-      "plays": 102936,
-      "likes": 5317,
+      "plays": 103781,
+      "likes": 5356,
       "comments": 82,
       "date": "2026-10-12T02:06:41.000Z",
       "thumbnail": "/analytics-thumbs/DeYHZqpMMCt.jpg"
@@ -43,52 +43,48 @@
     {
       "url": "https://www.instagram.com/p/DedQ5rHsDYf/",
       "caption": "Share with a person who is like this\u2026",
-      "plays": 88076,
-      "likes": 4261,
-      "comments": 29,
+      "plays": 92857,
+      "likes": 4577,
+      "comments": 31,
       "date": "2026-10-14T02:04:11.000Z",
       "thumbnail": "/analytics-thumbs/DedQ5rHsDYf.jpg"
     },
     {
-      "url": "https://www.instagram.com/p/DaTxrMgv3e_/",
-      "caption": "Who\u2019s with me?",
-      "plays": 5056,
-      "likes": 209,
-      "comments": 2,
-      "date": "2026-07-02T23:30:48.000Z",
-      "thumbnail": "/analytics-thumbs/DaTxrMgv3e_.jpg"
-    },
-    {
       "url": "https://www.instagram.com/p/DejWA3CMBim/",
       "caption": "Share this with someone like this\u2026",
-      "plays": 4429,
-      "likes": 152,
-      "comments": 0,
+      "plays": 18892,
+      "likes": 395,
+      "comments": 2,
       "date": "2026-10-16T10:44:49.000Z",
       "thumbnail": "/analytics-thumbs/DejWA3CMBim.jpg"
     },
     {
-      "url": "https://www.instagram.com/p/DaN0w6tsdjD/",
-      "caption": "1\ufe0f\u20e3Generating leads and customers without you living on a device. ",
-      "plays": 3359,
-      "likes": 46,
-      "comments": 0,
-      "date": "2026-06-30T16:02:31.000Z",
-      "thumbnail": "/analytics-thumbs/DaN0w6tsdjD.jpg"
+      "url": "https://www.instagram.com/p/Dek3v7zMhi_/",
+      "caption": "Every business owner can learn from this",
+      "plays": 5487,
+      "likes": 112,
+      "comments": 15,
+      "date": "2026-10-17T00:57:40.000Z",
+      "thumbnail": "/analytics-thumbs/Dek3v7zMhi_.jpg"
+    },
+    {
+      "url": "https://www.instagram.com/p/DaTxrMgv3e_/",
+      "caption": "Who\u2019s with me?",
+      "plays": 5083,
+      "likes": 210,
+      "comments": 2,
+      "date": "2026-07-02T23:30:48.000Z",
+      "thumbnail": "/analytics-thumbs/DaTxrMgv3e_.jpg"
     }
   ],
   "timeline": [
     {
-      "month": "2026-06",
-      "count": 7
-    },
-    {
       "month": "2026-07",
-      "count": 33
+      "count": 28
     },
     {
       "month": "2026-10",
-      "count": 20
+      "count": 32
     }
   ]
 }

@@ -1,84 +1,84 @@
 {
-  "generated_at": "2026-10-16T18:09:30.418037+00:00",
+  "generated_at": "2026-10-19T20:04:51.074818+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 61,
+  "overall_score": 49,
   "dormant": false,
   "days_since_last_post": 0,
-  "posts_last_30": 20,
-  "posts_last_90": 21,
+  "posts_last_30": 32,
+  "posts_last_90": 33,
   "posts_last_365": 53,
-  "cadence_per_week": 1.6,
+  "cadence_per_week": 2.6,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 17,
-      "score": 80,
-      "potential": 80,
-      "sample": "Disassociate."
+      "count": 12,
+      "score": 57,
+      "potential": 57,
+      "sample": "So misunderstood"
     },
     {
       "code": "E",
       "letter": "E",
       "name": "Earned Proof",
-      "count": 1,
-      "score": 5,
-      "potential": 5,
-      "sample": "1\ufe0f\u20e3Generating leads and customers without you living on a device. \n\n2\ufe0f\u20e3Turning one idea into a week of content while you"
+      "count": 0,
+      "score": 0,
+      "potential": 0,
+      "sample": ""
     },
     {
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 4,
-      "score": 19,
-      "potential": 19,
-      "sample": "Built by ADHD for ADHD. comment STORY I got you"
+      "count": 5,
+      "score": 24,
+      "potential": 24,
+      "sample": "What I learned from the Roadster launch"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 23,
+      "count": 34,
       "score": 100,
       "potential": 100,
-      "sample": "Built by ADHD for ADHD. comment STORY I got you"
+      "sample": "Who do you know that has extraordinary knowledge."
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 13,
-      "score": 61,
-      "potential": 61,
+      "count": 3,
+      "score": 14,
+      "potential": 14,
       "sample": "Run your own race."
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 22,
+      "count": 25,
       "score": 100,
       "potential": 100,
-      "sample": "Share with someone that is like this\u2026"
+      "sample": "What I learned from the Roadster launch"
     }
   ],
   "weakest": [
     {
       "code": "E",
       "name": "Earned Proof",
-      "potential": 5
+      "potential": 0
     },
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 19
+      "code": "E2",
+      "name": "Esteemed Admiration",
+      "potential": 14
     }
   ]
 }
