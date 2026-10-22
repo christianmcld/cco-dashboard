@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-19T20:04:51.074818+00:00",
+  "generated_at": "2026-10-22T18:51:49.532320+00:00",
   "handle": "christianmcld",
   "total_pieces": 53,
   "sources": {
     "instagram": 53,
     "youtube": 0
   },
-  "overall_score": 49,
+  "overall_score": 58,
   "dormant": false,
-  "days_since_last_post": 0,
-  "posts_last_30": 32,
+  "days_since_last_post": 2,
+  "posts_last_30": 33,
   "posts_last_90": 33,
   "posts_last_365": 53,
   "cadence_per_week": 2.6,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 12,
-      "score": 57,
-      "potential": 57,
-      "sample": "So misunderstood"
+      "count": 16,
+      "score": 75,
+      "potential": 75,
+      "sample": "What every business can learn from this crazy car."
     },
     {
       "code": "E",
@@ -45,28 +45,28 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 34,
-      "score": 100,
-      "potential": 100,
-      "sample": "Who do you know that has extraordinary knowledge."
+      "count": 20,
+      "score": 94,
+      "potential": 94,
+      "sample": "So misunderstood"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 3,
-      "score": 14,
-      "potential": 14,
-      "sample": "Run your own race."
+      "count": 11,
+      "score": 52,
+      "potential": 52,
+      "sample": "Share with that friend who goes and chases their dreams, not their competition"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 25,
+      "count": 28,
       "score": 100,
       "potential": 100,
-      "sample": "What I learned from the Roadster launch"
+      "sample": "Tag someone who has extraordinary knowledge \n\n#Roadster #founder"
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 0
     },
     {
-      "code": "E2",
-      "name": "Esteemed Admiration",
-      "potential": 14
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 24
     }
   ]
 }
