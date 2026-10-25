@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-22T18:51:49.532320+00:00",
+  "generated_at": "2026-10-25T17:05:56.297481+00:00",
   "handle": "christianmcld",
-  "total_pieces": 53,
+  "total_pieces": 54,
   "sources": {
-    "instagram": 53,
+    "instagram": 54,
     "youtube": 0
   },
-  "overall_score": 58,
+  "overall_score": 17,
   "dormant": false,
-  "days_since_last_post": 2,
-  "posts_last_30": 33,
-  "posts_last_90": 33,
-  "posts_last_365": 53,
-  "cadence_per_week": 2.6,
+  "days_since_last_post": 0,
+  "posts_last_30": 39,
+  "posts_last_90": 39,
+  "posts_last_365": 54,
+  "cadence_per_week": 3.0,
   "pillars": [
     {
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 16,
-      "score": 75,
-      "potential": 75,
-      "sample": "What every business can learn from this crazy car."
+      "count": 0,
+      "score": 0,
+      "potential": 0,
+      "sample": ""
     },
     {
       "code": "E",
@@ -36,49 +36,49 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 5,
-      "score": 24,
-      "potential": 24,
-      "sample": "What I learned from the Roadster launch"
+      "count": 0,
+      "score": 0,
+      "potential": 0,
+      "sample": ""
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 20,
-      "score": 94,
-      "potential": 94,
-      "sample": "So misunderstood"
+      "count": 0,
+      "score": 0,
+      "potential": 0,
+      "sample": ""
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 11,
-      "score": 52,
-      "potential": 52,
-      "sample": "Share with that friend who goes and chases their dreams, not their competition"
+      "count": 0,
+      "score": 0,
+      "potential": 0,
+      "sample": ""
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 28,
+      "count": 0,
       "score": 100,
-      "potential": 100,
-      "sample": "Tag someone who has extraordinary knowledge \n\n#Roadster #founder"
+      "potential": 0,
+      "sample": ""
     }
   ],
   "weakest": [
     {
-      "code": "E",
-      "name": "Earned Proof",
+      "code": "B",
+      "name": "Bold Authority",
       "potential": 0
     },
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 24
+      "code": "E",
+      "name": "Earned Proof",
+      "potential": 0
     }
   ]
 }
