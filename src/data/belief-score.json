@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-25T17:05:56.297481+00:00",
+  "generated_at": "2026-10-28T19:41:49.741464+00:00",
   "handle": "christianmcld",
   "total_pieces": 54,
   "sources": {
     "instagram": 54,
     "youtube": 0
   },
-  "overall_score": 17,
+  "overall_score": 56,
   "dormant": false,
-  "days_since_last_post": 0,
+  "days_since_last_post": 3,
   "posts_last_30": 39,
   "posts_last_90": 39,
   "posts_last_365": 54,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 0,
-      "score": 0,
-      "potential": 0,
-      "sample": ""
+      "count": 21,
+      "score": 97,
+      "potential": 97,
+      "sample": "Business owners, your new coach should be a dolphin\u2026"
     },
     {
       "code": "E",
@@ -36,49 +36,49 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 0,
-      "score": 0,
-      "potential": 0,
-      "sample": ""
+      "count": 4,
+      "score": 19,
+      "potential": 19,
+      "sample": "These two words changed my relationship with money"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 0,
-      "score": 0,
-      "potential": 0,
-      "sample": ""
+      "count": 17,
+      "score": 79,
+      "potential": 79,
+      "sample": "So misunderstood"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 0,
-      "score": 0,
-      "potential": 0,
-      "sample": ""
+      "count": 9,
+      "score": 42,
+      "potential": 42,
+      "sample": "Tag someone who has extraordinary knowledge \n\n#Roadster #founder"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 0,
+      "count": 28,
       "score": 100,
-      "potential": 0,
-      "sample": ""
+      "potential": 100,
+      "sample": "Save as a reminder to trust yourself."
     }
   ],
   "weakest": [
     {
-      "code": "B",
-      "name": "Bold Authority",
-      "potential": 0
-    },
-    {
       "code": "E",
       "name": "Earned Proof",
       "potential": 0
+    },
+    {
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 19
     }
   ]
 }
