@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-28T19:41:49.741464+00:00",
+  "generated_at": "2026-10-31T18:28:52.561858+00:00",
   "handle": "christianmcld",
   "total_pieces": 54,
   "sources": {
     "instagram": 54,
     "youtube": 0
   },
-  "overall_score": 56,
+  "overall_score": 60,
   "dormant": false,
-  "days_since_last_post": 3,
+  "days_since_last_post": 6,
   "posts_last_30": 39,
   "posts_last_90": 39,
   "posts_last_365": 54,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 21,
-      "score": 97,
-      "potential": 97,
-      "sample": "Business owners, your new coach should be a dolphin\u2026"
+      "count": 23,
+      "score": 100,
+      "potential": 100,
+      "sample": "Dolphins are hyper intelligent businessmen. Share with someone that needs a dolphin business coach"
     },
     {
       "code": "E",
@@ -36,37 +36,37 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 4,
-      "score": 19,
-      "potential": 19,
+      "count": 8,
+      "score": 37,
+      "potential": 37,
       "sample": "These two words changed my relationship with money"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 17,
-      "score": 79,
-      "potential": 79,
-      "sample": "So misunderstood"
+      "count": 29,
+      "score": 100,
+      "potential": 100,
+      "sample": "Tag someone who is like this\u2026"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 9,
-      "score": 42,
-      "potential": 42,
+      "count": 5,
+      "score": 23,
+      "potential": 23,
       "sample": "Tag someone who has extraordinary knowledge \n\n#Roadster #founder"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 28,
+      "count": 38,
       "score": 100,
       "potential": 100,
-      "sample": "Save as a reminder to trust yourself."
+      "sample": "Tag someone who is like this\u2026"
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 0
     },
     {
-      "code": "L",
-      "name": "Lived Story",
-      "potential": 19
+      "code": "E2",
+      "name": "Esteemed Admiration",
+      "potential": 23
     }
   ]
 }
