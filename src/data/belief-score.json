@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01T19:17:46.881898+00:00",
+  "generated_at": "2026-11-04T21:16:09.621547+00:00",
   "handle": "christianmcld",
   "total_pieces": 54,
   "sources": {
     "instagram": 54,
     "youtube": 0
   },
-  "overall_score": 49,
+  "overall_score": 58,
   "dormant": false,
-  "days_since_last_post": 7,
+  "days_since_last_post": 10,
   "posts_last_30": 39,
   "posts_last_90": 39,
   "posts_last_365": 54,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 17,
-      "score": 79,
-      "potential": 79,
-      "sample": "Business owners, your new coach should be a dolphin\u2026"
+      "count": 22,
+      "score": 100,
+      "potential": 100,
+      "sample": "Dolphins are hyper intelligent businessmen. Share with someone that needs a dolphin business coach"
     },
     {
       "code": "E",
@@ -45,28 +45,28 @@
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 12,
-      "score": 56,
-      "potential": 56,
+      "count": 21,
+      "score": 97,
+      "potential": 97,
       "sample": "So misunderstood"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 9,
-      "score": 42,
-      "potential": 42,
-      "sample": "Run your own race."
+      "count": 7,
+      "score": 32,
+      "potential": 32,
+      "sample": "Share with that friend who goes and chases their dreams, not their competition"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 29,
+      "count": 14,
       "score": 100,
-      "potential": 100,
-      "sample": "Save as a reminder to trust yourself."
+      "potential": 65,
+      "sample": "Business owners can learn a lot from this moment"
     }
   ],
   "weakest": [
