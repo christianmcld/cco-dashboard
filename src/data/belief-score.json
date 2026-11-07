@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T21:16:09.621547+00:00",
+  "generated_at": "2026-11-07T18:54:09.301556+00:00",
   "handle": "christianmcld",
   "total_pieces": 54,
   "sources": {
     "instagram": 54,
     "youtube": 0
   },
-  "overall_score": 58,
+  "overall_score": 54,
   "dormant": false,
-  "days_since_last_post": 10,
+  "days_since_last_post": 13,
   "posts_last_30": 39,
   "posts_last_90": 39,
   "posts_last_365": 54,
@@ -18,9 +18,9 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 22,
-      "score": 100,
-      "potential": 100,
+      "count": 16,
+      "score": 74,
+      "potential": 74,
       "sample": "Dolphins are hyper intelligent businessmen. Share with someone that needs a dolphin business coach"
     },
     {
@@ -36,36 +36,36 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 4,
-      "score": 19,
-      "potential": 19,
+      "count": 6,
+      "score": 28,
+      "potential": 28,
       "sample": "These two words changed my relationship with money"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 21,
-      "score": 97,
-      "potential": 97,
-      "sample": "So misunderstood"
+      "count": 23,
+      "score": 100,
+      "potential": 100,
+      "sample": "Share with someone that\u2019s as intelligent as a dolphin"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 7,
-      "score": 32,
-      "potential": 32,
-      "sample": "Share with that friend who goes and chases their dreams, not their competition"
+      "count": 4,
+      "score": 19,
+      "potential": 19,
+      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 14,
+      "count": 18,
       "score": 100,
-      "potential": 65,
+      "potential": 83,
       "sample": "Business owners can learn a lot from this moment"
     }
   ],
@@ -76,8 +76,8 @@
       "potential": 0
     },
     {
-      "code": "L",
-      "name": "Lived Story",
+      "code": "E2",
+      "name": "Esteemed Admiration",
       "potential": 19
     }
   ]
