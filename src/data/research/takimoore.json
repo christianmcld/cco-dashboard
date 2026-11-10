@@ -1,32 +1,22 @@
 {
   "query": "@takimoore",
   "slug": "takimoore",
-  "timestamp": "2026-11-07T18:55:45.827473+00:00",
+  "timestamp": "2026-11-10T21:18:59.904452+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "takimoore",
       "full_name": "Taki Moore",
-      "followers": 138566,
-      "following": 844,
-      "posts_count": 1978,
+      "followers": 138669,
+      "following": 847,
+      "posts_count": 1980,
       "bio": "\u2022 Helping business coaches grow Lifestyle Empires\n\u2022 Clients have made over $1B\n\u2022 Get my free training on leads, sales and scaling\ud83d\udc47\ud83c\udffd",
       "profile_pic": "/research-thumbs/takimoore-profile.jpg",
       "is_verified": true,
-      "category": "None"
+      "category": ""
     },
     "website": "https://urlgeni.us/youtube/channel/Takimoore"
   },
   "viral_posts": [
-    {
-      "hook": "Comment SHOWBIZ to get the deets for the workshop.",
-      "caption": "Comment SHOWBIZ to get the deets for the workshop.\n\nWill show you behind the scenes of what @hormozi called the naked funnel and a whole lot more.",
-      "likes": 4264,
-      "comments": 3005,
-      "engagement": 7269,
-      "date": "2026-05-12T03:33:04.000Z",
-      "url": "https://www.instagram.com/p/DYOTs1RprzR/",
-      "thumbnail": "/research-thumbs/DYOTs1RprzR.jpg"
-    },
     {
       "hook": "Comment SHOWBIZ if you want to see how coaches are making big sales from small YouTube cha",
       "caption": "Comment SHOWBIZ if you want to see how coaches are making big sales from small YouTube channels.",
@@ -56,16 +46,6 @@
       "date": "2026-06-03T11:57:20.000Z",
       "url": "https://www.instagram.com/p/DZH2_FKAbFH/",
       "thumbnail": "/research-thumbs/DZH2_FKAbFH.jpg"
-    },
-    {
-      "hook": "Comment SHOWBIZ if you want to see me unpack how to create YouTube content that gets clien",
-      "caption": "Comment SHOWBIZ if you want to see me unpack how to create YouTube content that gets clients.",
-      "likes": 897,
-      "comments": 255,
-      "engagement": 1152,
-      "date": "2026-05-13T03:08:02.000Z",
-      "url": "https://www.instagram.com/p/DYQ1xBTpbk7/",
-      "thumbnail": "/research-thumbs/DYQ1xBTpbk7.jpg"
     },
     {
       "hook": "Stop asking, \u201cWhat should I email today?\u201d\u2060",
@@ -136,6 +116,26 @@
       "date": "2026-06-12T03:32:57.000Z",
       "url": "https://www.instagram.com/p/DZeIcEiFSVv/",
       "thumbnail": ""
+    },
+    {
+      "hook": "Your onboarding shouldn't feel like homework.\u2060",
+      "caption": "Your onboarding shouldn't feel like homework.\u2060\n\u2060\nNew clients don't need seven emails, three logins, two links and a treasure map.\u2060\n\u2060\nThey need one clear next step.\u2060\n\u2060\nChecklist = chaos.\u2060\n\u2060\nChain = momentum.\u2060\n\u2060\nComment ONRAMP if you want to steal ours.",
+      "likes": 514,
+      "comments": 204,
+      "engagement": 718,
+      "date": "2026-07-10T01:51:20.000Z",
+      "url": "https://www.instagram.com/p/DamDArcASvR/",
+      "thumbnail": ""
+    },
+    {
+      "hook": "When you\u2019re in a room with 200+ epic coaches you should definitely shoot a 48 second video",
+      "caption": "When you\u2019re in a room with 200+ epic coaches you should definitely shoot a 48 second video from stage on the fly and then post it\u2026",
+      "likes": 556,
+      "comments": 64,
+      "engagement": 620,
+      "date": "2026-07-21T16:20:04.000Z",
+      "url": "https://www.instagram.com/p/DbD534UJBIV/",
+      "thumbnail": ""
     }
   ],
   "ads": [],
@@ -167,11 +167,11 @@
   ],
   "analysis": {
     "top_hooks": [
-      "Comment SHOWBIZ to get the deets for the workshop.",
       "Comment SHOWBIZ if you want to see how coaches are making big sales from small YouTube cha",
       "The GOAT @caseyneistat told me to delete the YouTube Studio App. I took his advice and end",
       "They don\u2019t need convincing. They need a clock.\u2060",
-      "Comment SHOWBIZ if you want to see me unpack how to create YouTube content that gets clien"
+      "Stop asking, \u201cWhat should I email today?\u201d\u2060",
+      "Comment SHOWBIZ if you want the secret to more time on brand (which spoiler alert = more c"
     ],
     "content_themes": [
       "entrepreneurmindset",
@@ -182,7 +182,7 @@
       "businessgrowth"
     ],
     "best_performing_format": "60-90s",
-    "posting_frequency": "2.6 reels/week",
+    "posting_frequency": "2.3 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

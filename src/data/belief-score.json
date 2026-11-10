@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-07T18:54:09.301556+00:00",
+  "generated_at": "2026-11-10T21:16:28.039583+00:00",
   "handle": "christianmcld",
   "total_pieces": 54,
   "sources": {
     "instagram": 54,
     "youtube": 0
   },
-  "overall_score": 54,
+  "overall_score": 55,
   "dormant": false,
-  "days_since_last_post": 13,
-  "posts_last_30": 39,
+  "days_since_last_post": 16,
+  "posts_last_30": 35,
   "posts_last_90": 39,
   "posts_last_365": 54,
   "cadence_per_week": 3.0,
@@ -18,10 +18,10 @@
       "code": "B",
       "letter": "B",
       "name": "Bold Authority",
-      "count": 16,
-      "score": 74,
-      "potential": 74,
-      "sample": "Dolphins are hyper intelligent businessmen. Share with someone that needs a dolphin business coach"
+      "count": 22,
+      "score": 100,
+      "potential": 100,
+      "sample": "Business owners can learn a lot from this moment"
     },
     {
       "code": "E",
@@ -36,37 +36,37 @@
       "code": "L",
       "letter": "L",
       "name": "Lived Story",
-      "count": 6,
-      "score": 28,
-      "potential": 28,
+      "count": 5,
+      "score": 23,
+      "potential": 23,
       "sample": "These two words changed my relationship with money"
     },
     {
       "code": "I",
       "letter": "I",
       "name": "Intimate Humanity",
-      "count": 23,
-      "score": 100,
-      "potential": 100,
-      "sample": "Share with someone that\u2019s as intelligent as a dolphin"
+      "count": 11,
+      "score": 51,
+      "potential": 51,
+      "sample": "So misunderstood"
     },
     {
       "code": "E2",
       "letter": "E",
       "name": "Esteemed Admiration",
-      "count": 4,
-      "score": 19,
-      "potential": 19,
-      "sample": "Hi \ud83d\udc4b I\u2019m Christian. If you want to grow your business while reclaiming your time to adventure more. You found the right "
+      "count": 12,
+      "score": 56,
+      "potential": 56,
+      "sample": "Entrepreneurs who do yard work know what I\u2019m talking about\u2026"
     },
     {
       "code": "F",
       "letter": "F",
       "name": "Faithful Service",
-      "count": 18,
+      "count": 33,
       "score": 100,
-      "potential": 83,
-      "sample": "Business owners can learn a lot from this moment"
+      "potential": 100,
+      "sample": "Tag someone who is like this\u2026"
     }
   ],
   "weakest": [
@@ -76,9 +76,9 @@
       "potential": 0
     },
     {
-      "code": "E2",
-      "name": "Esteemed Admiration",
-      "potential": 19
+      "code": "L",
+      "name": "Lived Story",
+      "potential": 23
     }
   ]
 }
