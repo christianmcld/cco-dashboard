@@ -1,106 +1,9 @@
 {
-  "generated_at": "2026-11-16T23:38:34.712781+00:00",
+  "generated_at": "2026-11-19T22:02:19.630212+00:00",
   "trending": {
-    "topics": [
-      {
-        "name": "AI Automation for Solopreneurs",
-        "heat_score": {
-          "total": 92,
-          "engagement": 95,
-          "velocity": 90
-        },
-        "details": [
-          "**What is happening:** Solopreneurs and small businesses are rapidly adopting AI tools to automate repetitive tasks, streamline workflows, and enhance productivity across marketing, sales, and operations. Generative AI, no-code/low-code AI integrations, and AI-driven business operations are key trends.",
-          "**Why it matters:** This theme directly addresses 'automating their business with AI' and 'reclaiming their time' by enabling founders to achieve more with less manual effort, freeing them for high-value strategic work and personal life. FieldWork content can offer practical guides and tool recommendations."
-        ]
-      },
-      {
-        "name": "Anti-Hustle & Sustainable Entrepreneurship",
-        "heat_score": {
-          "total": 88,
-          "engagement": 90,
-          "velocity": 85
-        },
-        "details": [
-          "**What is happening:** There's a significant cultural shift, particularly among Gen Z, rejecting traditional 'hustle culture' due to burnout and prioritizing mental health, well-being, and sustainable growth over relentless work. Concepts like 'soft living' and 'cozy entrepreneurship' are gaining traction.",
-          "**Why it matters:** This aligns perfectly with 'working less while earning more' and 'lifestyle business.' FieldWork content can provide strategies for building profitable businesses without sacrificing personal well-being, focusing on intentionality and balance."
-        ]
-      },
-      {
-        "name": "4-Day Workweek for Business Owners",
-        "heat_score": {
-          "total": 85,
-          "engagement": 88,
-          "velocity": 80
-        },
-        "details": [
-          "**What is happening:** The 4-day workweek is moving from an experiment to a mainstream aspiration, with studies showing benefits like reduced burnout, improved mental and physical health, increased revenue, and better employee retention. More businesses are piloting and adopting this model.",
-          "**Why it matters:** This is a concrete manifestation of 'working less while earning more' and 'reclaiming their time.' FieldWork content can explore how solopreneurs and small teams can implement a 4-day workweek, focusing on productivity hacks, delegation, and system design."
-        ]
-      },
-      {
-        "name": "Digital Nomad & Location-Independent Business",
-        "heat_score": {
-          "total": 83,
-          "engagement": 85,
-          "velocity": 78
-        },
-        "details": [
-          "**What is happening:** The number of digital nomads, especially independent workers, continues to grow significantly, driven by a desire for flexibility and global experiences. There's a trend towards 'slow travel' and domestic exploration, with increased demand for tailored services and infrastructure.",
-          "**Why it matters:** This directly addresses 'time and location freedom' and 'escaping the 9-to-5 grind.' FieldWork content can guide founders on building scalable online businesses that support a truly location-independent lifestyle, including practicalities of remote work and travel."
-        ]
-      },
-      {
-        "name": "Designing for Time Freedom & Lifestyle Business",
-        "heat_score": {
-          "total": 80,
-          "engagement": 82,
-          "velocity": 75
-        },
-        "details": [
-          "**What is happening:** Entrepreneurs are actively seeking to design their businesses around their desired life, rather than fitting their life around their business. This involves strategic planning, creating scalable offers, and prioritizing activities that lead to more personal time.",
-          "**Why it matters:** This is the core aspiration behind 'reclaiming their time' and 'working less while earning more.' FieldWork content can provide frameworks and methodologies for intentionally structuring a business to maximize personal freedom and minimize dependence on constant work."
-        ]
-      },
-      {
-        "name": "Digital Detox & Intentional Offline Living",
-        "heat_score": {
-          "total": 78,
-          "engagement": 75,
-          "velocity": 82
-        },
-        "details": [
-          "**What is happening:** A growing number of people, particularly Gen Z, are consciously reducing screen time, taking digital detoxes, and seeking more meaningful offline interactions due to technology fatigue and mental health concerns. This includes creating screen-free zones and scheduled breaks.",
-          "**Why it matters:** This directly relates to 'spending more time outside and offline with the people they love.' FieldWork content can address how founders can implement digital detox strategies, cultivate offline hobbies, and build businesses that support a balanced, unplugged life."
-        ]
-      },
-      {
-        "name": "Strategic Outsourcing & Delegation",
-        "heat_score": {
-          "total": 75,
-          "engagement": 78,
-          "velocity": 70
-        },
-        "details": [
-          "**What is happening:** Solopreneurs are increasingly leveraging outsourcing and delegation as critical strategies to offload low-value, repetitive tasks, allowing them to focus on high-impact activities and reclaim significant amounts of time. Virtual assistants and specialized service providers are in high demand.",
-          "**Why it matters:** This is a practical and immediate solution for 'buying back their time' and 'working less.' FieldWork content can offer guidance on identifying tasks to delegate, finding reliable support, and building systems for effective outsourcing."
-        ]
-      },
-      {
-        "name": "Deep Work & Focused Productivity",
-        "heat_score": {
-          "total": 72,
-          "engagement": 70,
-          "velocity": 68
-        },
-        "details": [
-          "**What is happening:** In an increasingly distracted world, there's a renewed emphasis on 'deep work'\u2014uninterrupted, highly focused periods of work on cognitively demanding tasks\u2014as a key to achieving significant results in less time. Solopreneurs are seeking methods to protect this time.",
-          "**Why it matters:** This directly supports 'working less while earning more' by maximizing efficiency and impact during working hours. FieldWork content can provide actionable strategies for time blocking, minimizing distractions, and cultivating habits that enable deep work and high-leverage activities."
-        ]
-      }
-    ],
+    "topics": [],
     "urgent": "",
-    "date": "2026-11-16",
+    "date": "2026-11-19",
     "file": ""
   },
   "outliers": {
@@ -109,116 +12,112 @@
         "hook": "\ud83d\ude447.8 earthquake ",
         "creator": "wadepapenfus",
         "engagement": 111470,
-        "outlier_ratio": 506.62,
+        "outlier_ratio": 507.22,
         "priority_score": 99,
-        "framework": "Niche Problem as Global Catastrophe",
+        "framework": "Misdirection / Juxtaposition Meme",
         "wpm": null,
         "duration": 7.966,
         "url": "https://www.instagram.com/p/DZdphsNhbYE/",
         "date": "2026-06-11T23:00:12.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "Catastrophic System Failure",
-        "angle": "Frame a minor, common automation error as a complete business meltdown. Use the contrast to show that building resilient systems means small breaks are just maintenance, not emergencies, which is the key to getting your time back.",
+        "headline": "The Off-Grid Business Test",
+        "angle": "Christian's version will use this format to show how the automated systems taught in FieldWork keep a business running smoothly, even when the founder is completely disconnected. The punchline is the business's resilience.",
         "hooks": [
-          "We had a catastrophic system failure this morning.",
-          "The entire business almost ground to a halt today.",
-          "This is what a five-alarm fire looks like in my business.",
-          "Woke up to a complete operational meltdown.",
-          "Our core automation engine just imploded."
+          "My business after I spent a week camping with no service.",
+          "My client onboarding system after I ignored my inbox for 72 hours.",
+          "My lead flow while I was on a 10 day silent retreat.",
+          "My automated marketing engine when the wifi went out for 2 days.",
+          "My entire online business the first time I took a real vacation."
         ],
         "talking_points": [
-          "We had a catastrophic system failure in the business this morning.",
-          "And by catastrophic system failure, I mean one of our Zaps had a single error and a welcome email was delayed by about an hour.",
-          "Now, a few years ago, this is the kind of thing that would have sent me into a spiral, thinking everything I built was fragile and about to break.",
-          "But I've learned that this is actually a sign of a healthy system.",
-          "When you build these engines to buy back your time, small errors aren't emergencies. They're just routine maintenance.",
-          "This one little error is actually proof that hundreds of other automated tasks were running perfectly in the background without me.",
-          "The system did its job, flagged a problem, and I was able to fix it in about two minutes.",
-          "This is the whole point of what we teach inside FieldWork. It\u2019s not about building a perfect, unbreakable machine.",
-          "It\u2019s about building a resilient one that runs for you, so you can spend your time out in the field, living your life. If you want to learn how, you know where to look."
+          "I used to have this fear that if I stepped away from my business for even a day, the whole thing would grind to a halt.",
+          "So as an experiment, I recently went camping for a full week with absolutely no cell service or internet.",
+          "I was sure I would come back to a mountain of problems, angry emails, and zero new sales.",
+          "But when I finally got back online and opened my laptop, nothing was broken.",
+          "In fact, new leads had come in, they were nurtured with automated emails, and two new clients had onboarded themselves without me lifting a finger.",
+          "This is the entire point of building an online business that actually serves your offline life.",
+          "It is not about working from a laptop on the beach. It is about building smart, automated engines for your marketing and sales that work for you, even when you cannot.",
+          "You build the systems once, so you can return to the field, to your life, again and again.",
+          "If you want to learn how we help founders build these kinds of resilient businesses inside FieldWork, comment the word 'offline' below and I will send you the details."
         ],
-        "body_copy": "We had a catastrophic system failure in the business this morning. And by catastrophic system failure, I mean one of our Zaps had a single error and a welcome email was delayed by about an hour. A few years ago, this is the kind of thing that would have sent me into a spiral, thinking everything was fragile and about to break. But I've learned that this is actually a sign of a healthy system. When you build these engines to buy back your time, small errors aren't emergencies. They're just routine maintenance. This one little error is proof that hundreds of other automated tasks were running perfectly in the background without me. The system did its job, flagged the problem, and I fixed it in two minutes. This is the point of what we teach in FieldWork. It\u2019s not about building a perfect, unbreakable machine. It\u2019s about building a resilient one that runs for you, so you can get back to living your life.",
+        "body_copy": "I used to have this fear that if I stepped away from my business for even a day, the whole thing would grind to a halt. So as an experiment, I recently went camping for a full week with absolutely no cell service or internet. I was sure I would come back to a mountain of problems, angry emails, and zero new sales. But when I finally got back online and opened my laptop, nothing was broken. In fact, new leads had come in, they were nurtured with automated emails, and two new clients had onboarded themselves without me lifting a finger. This is the entire point of building an online business that actually serves your offline life. It is not about working from a laptop on the beach. It is about building smart, automated engines for your marketing and sales that work for you, even when you cannot. You build the systems once, so you can return to the field. If you want to learn how we help founders build these kinds of resilient businesses inside FieldWork, comment the word 'offline' below and I will send you the details.",
         "script": [
-          "Hook: State the 'catastrophic' event.",
-          "Reveal: Expose the mundane reality of the problem.",
-          "Reframe: Explain why small errors are a sign of a healthy system.",
-          "Contrast: Juxtapose past panic with present calm.",
-          "Value: The goal is resilience, not perfection.",
-          "CTA: Connect this philosophy to the FieldWork program."
+          "Hook with an 'off-grid' scenario.",
+          "Share the old fear of everything breaking upon return.",
+          "Reveal the surprising outcome: the business ran perfectly.",
+          "Explain how via automated lead nurture and onboarding.",
+          "State the 'Build Online, Live Offline' philosophy.",
+          "Call to action with a keyword comment."
         ],
         "guidance": [
-          "On-Screen Text: Start with the hook in huge, bold letters: 'CATASTROPHIC SYSTEM FAILURE'.",
-          "B-Roll: As you reveal the problem, quickly cut to a screen recording of a single red 'Error' tag on a Zapier or Make.com task.",
-          "Shot Idea: Film as a simple talking head. After the fix is mentioned, you could close a laptop and walk away from the desk, maybe toward a window or door.",
-          "Pacing: Deliver the hook with serious gravity, then pause before revealing the mundane truth with a slight smile.",
-          "CTA: End with a simple, non-salesy text overlay like 'FieldWork. Build Online. Live Offline.'"
+          "On-screen text: Use one of the hooks as a big, bold title for the first 3-4 seconds. For example: 'My business after 1 week with no service:'.",
+          "Primary shot: Film as a simple, grounded talking head video, speaking directly to camera in a calm, natural setting.",
+          "B-roll: When you mention the business running itself, cut to screen recordings of a CRM dashboard, Stripe notifications, or calendar bookings. Contrast this with B-roll of you hiking, by a fire, or enjoying the outdoors.",
+          "CTA: Put the call to action 'Comment OFFLINE' on screen as you say it at the end."
         ],
         "belief_tags": [
-          "B",
-          "F"
+          "E",
+          "B"
         ]
       },
       {
         "hook": "Giant Tuna Cooked Over A Fire On A Deserted Island Beats Any Restaurant \ud83d\udd25\ud83c\udfdd\ufe0f",
         "creator": "wadepapenfus",
         "engagement": 162015,
-        "outlier_ratio": 271.21,
+        "outlier_ratio": 271.53,
         "priority_score": 99,
-        "framework": "Declarative Comparison: X Beats Y",
+        "framework": "Contrarian Aspirational Statement",
         "wpm": null,
         "duration": 15.115,
         "url": "https://www.instagram.com/p/Dbng7PezuMk/",
         "date": "2026-08-04T12:02:28.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "This Beats Any Sales Record",
-        "angle": "Contrast a simple, offline moment that Christian values (like a weekday hike or family dinner) with a common business 'win' that founders chase. Frame the offline moment as the superior outcome, which is the entire point of building the business in the first place.",
+        "headline": "This Beats Any Boardroom",
+        "angle": "Mirror the 'This beats That' format by contrasting a scene of working freely outdoors, enabled by FieldWork's principles, with the traditional symbols of corporate success. The message is that true wealth is the freedom to work from anywhere, not the corner office.",
         "hooks": [
-          "A Tuesday morning hike beats any record sales day.",
-          "An uninterrupted dinner with your family beats hitting inbox zero.",
-          "Building a campfire with your kids beats building a complex sales funnel.",
-          "That first quiet coffee before the sun is up beats a notification saying you went viral.",
-          "A phone call with an old friend beats a calendar packed with Zoom calls."
+          "A Tuesday morning hike funded by an automated business beats any Monday morning meeting.",
+          "Closing a client from a camp chair beats closing one from a corner office.",
+          "An online business that lets you live offline is better than a 7-figure business that chains you to a desk.",
+          "Building a business from a laptop by the lake beats grinding in a cubicle any day.",
+          "The freedom to log off at 2 PM on a Thursday is a richer reward than any promotion."
         ],
         "talking_points": [
-          "I'm going to say something that might sound strange, but a quiet Tuesday morning hike beats any record sales day.",
-          "For years, I chased the numbers. The bigger the launch, the more successful I thought I was.",
-          "But the reality was I was just chained to my desk. The reward for a good month was simply the pressure to have an even better one next month.",
-          "I had to remember that the goal was never just to build a bigger business. The goal was to build a better life.",
-          "This is the core idea behind FieldWork: build online, so you can live offline.",
-          "It's about using smart, simple systems, AI, and automation to create business engines that run for you.",
-          "This way, your business serves your life, not the other way around.",
-          "It\u2019s about designing a business where you can close the laptop for an uninterrupted family dinner and know that things are still working as they should.",
-          "The real return on investment isn't just a number on a spreadsheet. It's your time. It's your freedom.",
-          "If you're a founder or expert who wants to build a business that buys back your time instead of just consuming it, I want you to check out FieldWork. Head to the link in my bio to see how it works."
+          "Let's be honest, closing a client from a camp chair beats closing one from a corner office, every single time.",
+          "We were sold this idea that success looks like a high-rise office and a calendar packed with back to back meetings.",
+          "But for most founders and experts, that's just a golden cage. It costs you the one thing you can't get back: your time.",
+          "The new definition of wealth is not about grinding harder. It is about building smarter.",
+          "It is about using automation and simple AI systems to build an online business that works for you, even when you are not at a desk.",
+          "This is how you get your life back. It is how you make time for that mid-week hike or a trip with your family without your business falling apart.",
+          "It is the whole idea behind what we call 'Build Online, Live Offline'.",
+          "If you are an expert or founder who wants to build a business that serves your life, instead of the other way around, I teach this inside my program, FieldWork."
         ],
-        "body_copy": "I'm going to say something that might sound strange, but a quiet Tuesday morning hike beats any record sales day. For years, I chased the numbers. The bigger the launch, the more successful I thought I was. But the reality was I was just chained to my desk. The reward for a good month was simply the pressure for an even better one next month. I had to remember that the goal was never just to build a bigger business. The goal was to build a better life. This is the core idea behind FieldWork: build online, so you can live offline. It\u2019s about using smart systems and automation to create business engines that run for you, so your business serves your life, not the other way around. The real return on investment isn't a number on a spreadsheet. It's your time. It's your freedom. If you're a founder or expert who wants to build a business that buys back your time, head to the link in my bio to see how it works.",
+        "body_copy": "Let's be honest, closing a client from a camp chair beats closing one from a corner office, every single time. We were sold this idea that success looks like a high-rise office and a calendar packed with back to back meetings. But for most founders and experts, that's just a golden cage. It costs you the one thing you can't get back: your time. The new definition of wealth is not about grinding harder. It is about building smarter. It is about using automation and simple AI systems to build an online business that works for you, even when you are not at a desk. This is how you get your life back. It is how you make time for that mid-week hike or a trip with your family without your business falling apart. It is the whole idea behind what we call 'Build Online, Live Offline'. If you are an expert or founder who wants to build a business that serves your life, instead of the other way around, I teach this inside my program, FieldWork. You can learn more at the link in my bio.",
         "script": [
-          "Hook: A simple offline moment is better than a huge business win.",
-          "Problem: Chasing metrics chains you to a desk in a cycle of pressure.",
-          "Mindset Shift: The goal is a better life, not just a bigger business.",
-          "Solution Intro: Build online to live offline with systems that serve you.",
-          "The Real ROI: The true return is time and freedom.",
-          "CTA: Learn more about the FieldWork program via the link in bio."
+          "Hook: A free life is better than a fancy office.",
+          "Problem: The traditional view of success is a trap.",
+          "Solution: Build smarter systems, not just work harder.",
+          "Mechanism: Use automation and AI to run your business.",
+          "Vision: This buys back your time for an offline life.",
+          "CTA: This is the FieldWork philosophy."
         ],
         "guidance": [
-          "Film this as a simple talking head video, ideally outdoors on a trail, in your yard, or by a lake to visually connect with the 'offline' theme.",
-          "Use a single, bold text hook on screen for the first 3-5 seconds. Example: 'A Tuesday Hike > A Record Sales Day'.",
-          "Overlay B-roll footage that matches the talking points: a quick shot of you on a hike, your family at dinner, a campfire, or closing a laptop and walking away.",
-          "Keep the tone calm and conversational, not preachy. Let the idea itself do the heavy lifting.",
-          "End with a clear on-screen text CTA: 'FieldWork: Link in Bio'."
+          "Film this as a simple talking head video, ideally outdoors or in a warm, natural setting, not a sterile office.",
+          "Overlay B-roll clips that match the talking points: a glass office building, then someone hiking, then a laptop by a lake, then a family playing outside.",
+          "Use simple, bold text to emphasize the core comparison from your hook, like 'Camp Chair > Corner Office'.",
+          "End with a clear on-screen text CTA: 'Learn more about FieldWork. Link in Bio.'"
         ],
         "belief_tags": [
           "E2",
-          "L"
+          "E"
         ]
       },
       {
         "hook": "The island life my soul craves \ud83c\udfdd\ufe0ffollow if you like this lifestyle \ud83d\udd25",
         "creator": "wadepapenfus",
         "engagement": 143924,
-        "outlier_ratio": 245.58,
+        "outlier_ratio": 245.87,
         "priority_score": 99,
         "framework": "Aspirational Lifestyle Statement",
         "wpm": null,
@@ -227,206 +126,209 @@
         "date": "2026-10-11T13:22:38.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "The Offline Life We Built",
-        "angle": "Showcase the 'offline' life your online business affords you. The reel should be a montage of authentic, non-hustle moments like time with family, being in nature, or pursuing a hobby, framed as the direct result of building a business that serves your life.",
+        "headline": "Build Online. Live Offline.",
+        "angle": "Frame the 'offline life' not as an escape, but as the deliberate outcome of building a specific kind of online business. Connect the aspirational visuals to the practical systems (AI, automation) that make them possible.",
         "hooks": [
-          "The offline life my online business built.",
-          "This is what 'Build Online, Live Offline' actually looks like.",
-          "The kind of freedom my soul craves.",
-          "The 'return to the field' my work allows.",
-          "More of this. Less of my laptop."
+          "The kind of offline life my online business is built for.",
+          "This is the freedom we're actually working for.",
+          "My business exists so I can have more days like this.",
+          "Most people build a business that traps them. I built one to do this.",
+          "An online business should fund your offline life. Not become it."
         ],
         "talking_points": [
-          "This is the offline life my online business built.",
-          "For years, I thought building a business meant being chained to a desk, grinding away on calls and emails.",
-          "But that's not the only way.",
-          "I decided to build differently, using systems and automation to create a business that could run without my constant attention.",
-          "The goal was never just about revenue. The goal was about buying back my time.",
-          "It was about creating the freedom to be present for moments like these.",
-          "This is the whole idea behind FieldWork: build your business online, so you can truly live your life offline.",
-          "If this is the kind of life you're working towards, you are in the right place."
+          "This is the kind of freedom we're all working for, right? More time out in the field, less time chained to a desk.",
+          "A lot of people see this and think it's about luck, or retiring, or selling everything to live on an island.",
+          "But that\u2019s not the story here. This freedom is not an accident, it is designed.",
+          "I've spent years building online systems, using automation and AI, that handle the heavy lifting in my business.",
+          "They are engines that work for me, so I don't have to be 'on' all the time.",
+          "The entire point of building an online business should be to buy back your time to live your actual life.",
+          "It's about building online so that you can live offline.",
+          "If you're an expert or a founder who wants to build a business that serves your life, instead of the other way around, this is what we do inside FieldWork."
         ],
-        "body_copy": "This is the offline life my online business built. For years, I thought building a business meant being chained to a desk, grinding away on calls and emails. But that is not the only way. I decided to build differently, using systems and automation to create a business that could run without my constant attention. The goal was never just about revenue. The goal was about buying back my time. It was about creating the freedom to be present for moments like these, out in the world with the people who matter most. This is the whole idea behind what we teach in FieldWork. It is a simple rally cry: build your business online, so you can truly live your life offline. If this is the kind of life you are working towards, you are in the right place.",
+        "body_copy": "This is the kind of freedom we're all working for, right? More time out in the field, less time chained to a desk. A lot of people see this and think it's about luck, or retiring, or selling everything to live on an island. But that\u2019s not the story here. This freedom is not an accident, it is designed. I've spent years building online systems, using automation and AI, that handle the heavy lifting in my business so I don't have to. These engines work for me, so I don't need to be 'on' all the time. The entire point of building an online business should be to buy back your time to live your actual life. It's about building online so that you can live offline. If you're an expert or a founder who wants to build a business that serves your life, instead of the other way around, this is what we do inside FieldWork.",
         "script": [
-          "Hook: This is the life my online business affords.",
-          "Problem: The old way of working keeps you chained to a desk.",
-          "Solution: I built a business with systems that run themselves.",
-          "Result: This bought back my time and freedom.",
-          "Philosophy: This is 'Build Online, Live Offline' in practice.",
-          "CTA: Follow if you're working towards this too."
+          "Hook with the desirable 'offline life'.",
+          "Address the misconception that this life is just luck.",
+          "Reveal it's the result of intentional design.",
+          "Explain the mechanism: using AI and automated systems.",
+          "State the core philosophy: Build online to live offline.",
+          "Call to action for founders who want this result (FieldWork)."
         ],
         "guidance": [
-          "This is not a talking head video. Use a gentle voiceover on top of a montage of high quality B-roll footage.",
-          "Film authentic 'offline' moments: making coffee by a campfire, walking in the woods, playing with your kids, a quiet moment reading. Avoid anything that looks like a luxury vacation ad.",
-          "Use one of the hooks as a simple, clean text overlay for the first 3 seconds of the video.",
-          "Music should be warm, ambient, and slightly cinematic. Think acoustic guitar, soft piano, or nature sounds.",
-          "Your call to action is in the final line of the voiceover and reinforced in the caption with a question to encourage comments."
+          "Start with 2-3 seconds of your best 'offline' B-roll: with family, hiking, by a fire. Hook them visually first.",
+          "Film the talking points in a natural, outdoor setting to match the brand voice. Keep the delivery calm and grounded.",
+          "As you mention 'systems' and 'automation', quickly cut to B-roll of a laptop screen showing a workflow, then immediately back to outdoor/life footage.",
+          "Use simple, clean on-screen text for the main idea: 'Build Online. Live Offline.'",
+          "The call to action should be a simple text overlay: 'Learn more at FieldWork'. Do not point."
         ],
         "belief_tags": [
           "E2",
-          "L"
+          "B"
         ]
       },
       {
         "hook": "Rob the bank is robbing banks legally",
         "creator": "steveofallstreets",
         "engagement": 21224,
-        "outlier_ratio": 234.19,
+        "outlier_ratio": 236.54,
         "priority_score": 99,
-        "framework": "Paradoxical Reframe",
+        "framework": "Paradoxical Statement",
         "wpm": null,
         "duration": 99.7,
         "url": "https://www.instagram.com/p/DYu3vBIRbez/",
         "date": "2026-05-24T19:00:10.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "Forget Quiet Quitting",
-        "angle": "We'll use the competitor's re-framing technique. Instead of focusing on 'quiet quitting' as the problem, Christian will introduce 'loud living' as the aspirational goal his FieldWork program enables.",
+        "headline": "Fire Yourself From Your Business",
+        "angle": "Frame the FieldWork methodology as a system designed to make the founder redundant from the day-to-day operations. The goal is not to work in the business, but to have the business work for you, freeing you to live offline.",
         "hooks": [
-          "Forget quiet quitting. The real goal is loud living.",
-          "Everyone is talking about quiet quitting. I'm focused on loud living.",
-          "The problem isn't quiet quitting. It's that we forgot how to live loudly.",
-          "You don't need to 'quiet quit'. You need a business that lets you 'live loudly'.",
-          "Stop optimizing for quiet quitting. Start building for loud living."
+          "My goal is to fire myself from my own company.",
+          "The most valuable founders are the most absent.",
+          "I get paid the most on the days I don't work.",
+          "Your job is to make your job obsolete.",
+          "Build a business that doesn't need you."
         ],
         "talking_points": [
-          "Forget quiet quitting. The real goal is loud living.",
-          "There is so much talk about people doing the bare minimum at jobs that no longer inspire them. But that's just a symptom of a much bigger problem.",
-          "The goal should not be to quietly check out of your work. The goal should be to build a life you are excited to loudly check into.",
-          "I call this 'loud living'. It means intentionally designing a business that doesn't just make money, but actively buys back your time for the things that truly matter.",
-          "For me, that means being able to close my laptop on a Tuesday afternoon to go for a hike, or being fully present with my family without my phone buzzing in my pocket.",
-          "This becomes possible when you build smart systems for your business, using automation and AI to do the work even when you are not at your desk.",
-          "This is the entire philosophy behind our program, FieldWork. We help you build the online engines once, so you can get back to your life offline.",
-          "If you are tired of the quiet quitting conversation and want to start building a business that funds a life of loud living, you can learn more about FieldWork at the link in my bio."
+          "My goal this year is to fire myself from my own company.",
+          "That probably sounds strange, but it is the entire point.",
+          "Most founders and experts build a business that becomes a prison.",
+          "Every new client, every new project, just adds another bar to the cage, demanding more of their time.",
+          "A modern business should not be built on your time. It should be built on systems.",
+          "You build the marketing engine, the sales engine, and the delivery engine once, using smart AI and automation to run them.",
+          "Once they are running, the business no longer needs you in the driver's seat every single day.",
+          "It works for you, so you can get back to living your life. That is what 'Build Online, Live Offline' actually means.",
+          "If you want to build a business that sets you free instead of trapping you, I have something that can help.",
+          "The program is called FieldWork, and it shows you how to build these systems. You can learn more at the link in my bio."
         ],
-        "body_copy": "Forget quiet quitting. The real goal is loud living. We hear a lot about people doing the bare minimum at jobs that don\u2019t inspire them. But that's a symptom of a bigger problem. The goal isn't to quietly check out. The goal is to build a life you're excited to loudly check into. Loud living means designing a business that doesn't just make money, but actively buys back your time for what truly matters. For me, that means closing my laptop on a Tuesday to go for a hike, or being fully present with my family without my phone buzzing. It\u2019s possible when you build smart systems, using automation and AI, that handle the work even when you\u2019re not there. This is the entire idea behind FieldWork. We help you build the online engines so you can get back to your life offline. If you're ready to stop thinking about quiet quitting and start building for loud living, learn more about FieldWork at the link in my bio.",
+        "body_copy": "My goal this year is to fire myself from my own company. That probably sounds strange, but it is the entire point of building a business in the first place, is it not? Too many founders I know build a business that becomes a prison. Every new client and every new project just adds another bar to the cage, demanding more of their time. A modern business should not be built on your time. It should be built on systems. You build the marketing engine, the sales engine, and the delivery engine once, using smart AI and automation to run them. Once they are running, the business no longer needs you in the driver's seat every single day. It works for you, so you can get back to living your life. That is what 'Build Online, Live Offline' actually means. If you are ready to build a business that sets you free, check out FieldWork.",
         "script": [
-          "Hook: Reframe 'quiet quitting' into 'loud living'.",
-          "Problem: Quiet quitting is a symptom, not the goal.",
-          "Solution: Define 'loud living' as intentional business design for an offline life.",
-          "Mechanism: Use systems, AI, and automation to buy back time.",
-          "Offer: This is the core philosophy of the FieldWork program.",
-          "CTA: Learn more about FieldWork via the link in bio."
+          "Hook: State the paradoxical goal to fire yourself.",
+          "Problem: Most businesses become prisons that consume your time.",
+          "Solution: A business should be built on systems, not your time.",
+          "Mechanism: Use AI and automation to run the engines of the business.",
+          "Outcome: The business works for you, so you can live offline.",
+          "CTA: Check out FieldWork to learn how."
         ],
         "guidance": [
-          "Film as a simple talking head in a warm, natural setting like your office with wood tones or even outdoors near a campfire.",
-          "Use simple on-screen text for the hook. Show 'Quiet Quitting', then have it crossed out and replaced by 'Loud Living'.",
-          "Incorporate 2-3 short b-roll clips of you 'living loudly' when you mention your personal examples, like hiking or being with family.",
-          "Keep the delivery grounded and conversational, like you're sharing an idea with a friend.",
-          "End with a clear, calm call to action on screen: 'FieldWork. Link in Bio.'"
+          "Film as a simple, grounded talking head video. Could be in a home office, a workshop, or even outdoors by a fire.",
+          "On-Screen Text: Use a bold, simple font. The first text should be the hook: 'My goal is to fire myself from my own company.'",
+          "B-Roll: As you mention 'living your life,' cut to 1-2 quick shots of you doing something offline: hiking, with family, working with your hands.",
+          "CTA: End with a simple text card on screen with the 'FieldWork' logo or a URL while you deliver the final call to action."
         ],
         "belief_tags": [
           "B",
-          "E2"
+          "E"
         ]
       },
       {
         "hook": "How long is your audio file?",
         "creator": "steveofallstreets",
         "engagement": 13717,
-        "outlier_ratio": 156.0,
+        "outlier_ratio": 157.57,
         "priority_score": 99,
-        "framework": "Niche Qualifying Question",
+        "framework": "Niche Dog Whistle Question",
         "wpm": null,
         "duration": 101.215,
         "url": "https://www.instagram.com/p/Dbosr4VPiqG/",
         "date": "2026-08-04T23:03:39.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "Your Business's Freedom Score",
-        "angle": "Start with a pointed question about a manual, repetitive task that signals being trapped in the business. Use this to introduce the concept of building automated 'engines' that buy back your time, positioning it as the path to living offline.",
+        "headline": "The Real Freedom Metric",
+        "angle": "Pose a single, pointed question that makes founders and operators reflect on how tied they are to their business. Use this question to reframe success not as hustle, but as the number of days the business runs without them.",
         "hooks": [
-          "How many automations ran in your business while you were sleeping?",
-          "How many clicks does it take you to onboard a new client?",
-          "When was the last time your business made money without you touching a keyboard?",
-          "What percentage of your new leads are handled without you writing a single email?",
-          "How many hours of client work did you replace with a system this month?"
+          "How many days last month did you not check your email?",
+          "How many hours did you spend in your inbox this week?",
+          "How many systems in your business run without you?",
+          "How much of your day is spent reacting instead of creating?",
+          "When was your last truly unplugged vacation?"
         ],
         "talking_points": [
-          "How many automations ran in your business while you were sleeping last night?",
-          "If the answer is 'I have no idea' or 'zero,' I understand completely. For a long time, my business only moved forward when I was the one pushing it.",
-          "The gap between a business that owns you and a business that frees you often comes down to that one number.",
-          "It's a measure of the 'engines' you have running in the background. These are the simple, automated systems for your marketing, sales, and client delivery that work for you around the clock.",
-          "For example, one of our members in FieldWork set up an engine that automatically onboards every new client. It saves him about five hours of manual admin work each week.",
-          "Another member has an automated system that nurtures new leads, so she only spends time with people who are truly ready to work with her.",
-          "This isn't about removing the human element. It's about automating the repetitive tasks so you have more time for the work you actually love.",
-          "It's the whole idea behind why we say 'Build Online, Live Offline.'",
-          "You build the engines once, so you can get back to living your life.",
-          "If you want to see the first three automations I believe every founder should build, I put them in a free guide. Just comment the word 'Engines' below and I'll send it to you."
+          "How many days last month did you not check your email?",
+          "Take a second to actually think about it. If the answer is zero, or maybe one, you are not alone.",
+          "We get obsessed with the wrong metrics in business: revenue growth, team size, follower counts.",
+          "But those numbers don't matter if you've just built yourself a cage that requires your constant attention.",
+          "The real metric, the one we focus on in FieldWork, is 'autonomous days'.",
+          "Days where the business serves your customers and grows without you needing to be the one pulling every lever.",
+          "This is possible by building smart engines using AI and automation that handle the repeatable tasks for you.",
+          "You build the systems once, so you can get back to living your life offline.",
+          "The goal is to increase your number of autonomous days, month over month.",
+          "If you want to build a business that buys back your time instead of consuming it, learn more about FieldWork at the link in my bio."
         ],
-        "body_copy": "How many automations ran in your business while you were sleeping last night? If the answer is 'I have no idea' or 'zero,' I understand completely. For a long time, my business only moved forward when I was the one pushing it. The gap between a business that owns you and a business that frees you often comes down to that one number. It is a measure of the 'engines' you have running in the background: the simple, automated systems that handle your marketing, sales, and delivery. For example, one of our FieldWork members set up an engine that saves him five hours of admin work every week. Another has a system that nurtures leads so she only talks to people ready to start. This is about automating the repetitive tasks so you have more time for what you love. It is the whole idea behind 'Build Online, Live Offline.' If you want the free guide on the first three automations every founder needs, comment 'Engines' below and I will send it over.",
+        "body_copy": "How many days last month did you not check your email? Just take a second and think about the actual number. If your answer is zero, or close to it, you are not alone. So many founders are taught to measure success with the wrong metrics, like revenue growth or team size. But those are vanity metrics if you've just built yourself a cage that needs your constant attention. The real metric, the one that truly matters for your freedom, is the number of 'autonomous days' you have. These are days where your business runs, serves clients, and even grows without you needing to be the one doing all the work. This is not a fantasy. It's the result of building smart, automated systems that handle the heavy lifting. You build the engines once so you can return to the field. If you want to build a business that serves your life, not the other way around, check out FieldWork. The link is in my bio.",
         "script": [
-          "Hook with a specific question about automation.",
-          "Relate to the feeling of being the business's only engine.",
-          "Introduce the concept of automated 'engines'.",
-          "Give two clear examples of how these engines save time.",
-          "Connect this strategy to the 'Build Online, Live Offline' philosophy.",
-          "End with a clear CTA using a keyword for a free guide."
+          "Hook with a pointed question about checking email.",
+          "Validate the viewer's pain point of being 'always on'.",
+          "Challenge traditional vanity metrics in business.",
+          "Introduce 'autonomous days' as the true measure of success.",
+          "Explain this is achieved through AI and automation.",
+          "Connect systems to the 'Build Online, Live Offline' ethos.",
+          "CTA to learn more about the FieldWork program."
         ],
         "guidance": [
-          "Film as a simple talking head in a warm, natural setting like a home office or a quiet outdoor space.",
-          "Display the hook question as a bold, clean text overlay for the first 3-4 seconds to stop the scroll.",
-          "When giving examples, use simple b-roll of a workflow chart, a clean calendar, or a screen recording of an automation tool.",
-          "End the video with a clear text overlay on screen: 'Comment ENGINES for the guide'."
+          "Film as a simple, grounded talking head shot. A warm, natural setting like a home office with a window or even outdoors is ideal.",
+          "Use a bold, clear text overlay of the hook question for the first 3-5 seconds to stop the scroll.",
+          "When you say 'autonomous days', add that phrase as on-screen text to emphasize the concept.",
+          "Consider splicing in 1-2 brief b-roll clips of you away from a desk (walking outside, with family) when you talk about living offline.",
+          "End card or final text overlay should be simple: 'FieldWork. Build Online. Live Offline. Link in Bio.'"
         ],
         "belief_tags": [
-          "B",
-          "F"
+          "B"
         ]
       },
       {
         "hook": "@gregogallagher is making bank",
         "creator": "steveofallstreets",
         "engagement": 3488,
-        "outlier_ratio": 131.95,
+        "outlier_ratio": 133.28,
         "priority_score": 99,
-        "framework": "Creator Call-Out",
+        "framework": "Name-Drop Curiosity Gap",
         "wpm": null,
         "duration": 101.47,
         "url": "https://www.instagram.com/p/Db3a6tuB5NP/",
         "date": "2026-08-10T16:15:06.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "The Freedom Framework",
-        "angle": "Call out a creator known for their systems and productivity, but reframe their success not as pure hustle, but as a win in time freedom, which directly ties to the FieldWork philosophy.",
+        "headline": "The Offline Founder Model",
+        "angle": "The most successful founders aren't just making money, they're buying back their time. We should highlight a creator who embodies the 'Build Online, Live Offline' ethos and break down the systems that make it possible.",
         "hooks": [
-          "@sahilbloom has more free time than you think.",
-          "@aliabdaal's real secret isn't productivity hacks.",
-          "Why people like @tferriss actually disappear for months.",
-          "@justinwelsh built his business by working less, not more.",
-          "This is how smart founders get their time back."
+          "Your favorite creator isn't actually 'always on'.",
+          "The smartest founders are quietly disappearing.",
+          "This is the one metric that actually matters (and it's not revenue).",
+          "Why the best entrepreneurs are so hard to reach.",
+          "The goal isn't to be the CEO. It's to be the owner."
         ],
         "talking_points": [
-          "People see successful founders like Sahil Bloom and they think they must be working around the clock.",
-          "They see the massive output, the daily content, and assume it\u2019s all hustle, that it requires 80 hour weeks.",
-          "But the truth is, the goal isn't to work more. The goal is to build systems that work for you.",
-          "They aren't just creating content day after day; they're building engines.",
-          "These are AI-powered, automated engines that handle the majority of the repetitive work, freeing them up for the important stuff.",
-          "Imagine a system that drafts your newsletter ideas and formats the content, leaving you with just the final creative edit.",
-          "Or an onboarding process that takes a new client from their first email to a signed contract without you lifting a finger.",
-          "This is how you build an online business that doesn't chain you to a desk. It's how you buy back your time.",
-          "You build these systems once so you can spend your time back in the field, with your family, doing what you actually love.",
-          "We build these exact engines inside my program, FieldWork. If you\u2019re ready to build online so you can live offline, you know where to look."
+          "Your favorite creator isn't actually 'always on'. It just looks that way.",
+          "This idea that you need to be constantly available, posting, and replying is a myth that keeps founders chained to their desks.",
+          "The truth is, the smartest operators you follow are building systems in the background. They are using AI, automation, and lean teams to do the heavy lifting for them.",
+          "Their business is an engine that runs without them needing to be in the driver's seat 24/7.",
+          "They build online so they can live offline. That\u2019s the entire game.",
+          "They have systems for content creation, for client onboarding, for product delivery. These are assets that work for them.",
+          "This isn't some secret reserved for huge accounts. You can build these same engines for your own business, starting today.",
+          "It\u2019s about building the machine once, so it can serve you for years, buying back your time so you can spend it out in the world.",
+          "We build these exact systems inside my program, FieldWork. We design them to get you out of the office and back into your life.",
+          "If you want a business that serves your life, instead of a life that serves your business, you can learn more at the link in my profile."
         ],
-        "body_copy": "People see creators like Sahil Bloom and they think they must be working around the clock. They see the massive output and assume it\u2019s all hustle. But the truth is, the goal isn't to work more. The goal is to build systems that work for you. They're not just creating content day after day; they're building engines. These are AI-powered, automated engines that handle the majority of the repetitive work. Imagine a system that drafts your newsletter ideas and formats the content, leaving you with just the final creative edit. Or an onboarding process that takes a new client from their first email to a signed contract without you lifting a finger. This is how you build an online business that doesn't chain you to a desk. It's how you buy back your time so you can spend it back in the field, with your family, doing what you love. We build these exact engines inside my program, FieldWork. If you\u2019re ready to build online so you can live offline, head to the link in my bio.",
+        "body_copy": "Your favorite creator isn't actually 'always on'. It just looks that way. We've been sold this myth that to be successful online, you have to be constantly available, posting, and replying. But that's what keeps so many founders chained to their desks. The truth is, the smartest operators are building systems in the background. They use AI and automation as leverage to do the heavy lifting. They build online so they can live offline. That\u2019s the entire game. Their business is an engine that runs without them needing to be in the driver's seat all day. This isn't some secret reserved for huge accounts. You can build these same engines for your own business. It\u2019s about building the machine once, so it can serve you for years and buy back your time. This is exactly what we do inside FieldWork. We build the systems that get you out of the office and back into your life. If that sounds like the goal, you can learn more at the link in my profile.",
         "script": [
-          "Hook on the misconception about a creator's work hours.",
-          "Reframe: It's not about hustle, it's about systems.",
-          "Mechanism: They build AI and automation 'engines'.",
-          "Give two clear examples: newsletters and client onboarding.",
-          "State the payoff: Buy back time to 'live offline'.",
-          "CTA: Learn how in the FieldWork program."
+          "Hook: The 'always on' creator is a myth.",
+          "Problem: This myth chains founders to their work.",
+          "The Truth: Smart founders use systems and automation.",
+          "The Goal: Build online to live offline.",
+          "The Method: Build engines that run the business for you.",
+          "The Offer: This is what we build inside FieldWork.",
+          "CTA: Link in profile to learn more."
         ],
         "guidance": [
-          "Film as a simple, direct-to-camera talking head. A warm, grounded setting like an office with natural light or outdoors works best.",
-          "Use a bold, clear text hook on screen for the first 3-4 seconds, matching the spoken hook. For example: '@sahilbloom has more free time than you think.'",
-          "Incorporate simple text callouts for key concepts like 'Build Engines' or 'AI + Automation'.",
-          "B-roll is optional, but if used, show clips of you offline: hiking, with family, away from a computer to reinforce the 'Live Offline' promise.",
-          "End with a clear on-screen CTA: 'FieldWork: Link in Bio'."
+          "Opener: Start with a 2-3 second, text-only screen with the hook in bold, clean font.",
+          "Primary Shot: Cut to a warm, medium talking-head shot of Christian. An outdoor setting or a room with natural light is ideal.",
+          "B-Roll: Intersperse 2-3 short clips of 'offline' life: walking in nature, a campfire, time with family, reading a book.",
+          "On-Screen Text: Use minimal text overlays to emphasize key concepts like 'Systems > Hustle' and 'Build Online. Live Offline.'",
+          "CTA: End card should be simple text: 'FieldWork. Link in Profile.'"
         ],
         "belief_tags": [
-          "B",
-          "F"
+          "E2",
+          "B"
         ]
       },
       {
@@ -442,45 +344,46 @@
         "date": "2026-07-02T02:46:32.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "My Standards For Business Are High",
-        "angle": "Mirror the competitor's script structure: state a common misconception about your business goals, correct it, then detail the kind of business you actually want, one that serves your life, and explain why settling for the wrong model is so costly.",
+        "headline": "The Most Important Business Decision",
+        "angle": "Frame the choice of a business model with the same gravity as choosing a life partner. Use the competitor's 'misconception > correction > high standards' structure to argue for building a sustainable, automated business over a hustle-culture one.",
         "hooks": [
-          "People think I want to build a giant, complicated business.",
-          "People think I'm against working hard.",
-          "People think I'm just another 'laptop lifestyle' guru.",
-          "People think I don't care about growth.",
-          "People think I'm trying to escape work."
+          "People think I don't want to work hard.",
+          "People see me offline and think my business isn't growing.",
+          "Some people think I'm against 'the hustle'.",
+          "People think building an online business means being online all the time.",
+          "People think I'm not ambitious about my work."
         ],
         "talking_points": [
-          "People think I want to build a giant, complicated business.",
+          "People think I don't want to work hard.",
           "They\u2019re wrong.",
-          "I want a business that works like a quiet engine, not a cage. Something I can trust to run with smart AI and automation, so I can be present for the moments that matter.",
-          "I want a peaceful business that buys back my time, built on freedom and intention, not just endless growth.",
-          "My standards for my business are high.",
-          "Not because I\u2019m looking for an easy way out, but because I\u2019ve seen what happens when founders build the wrong kind of company.",
-          "The business you choose to build will influence your peace, your health, your relationships\u2026 almost everything.",
-          "I\u2019d rather take a little longer to build the right systems now than spend decades wishing I hadn\u2019t settled for a life chained to a desk.",
-          "Some decisions are simply too important to rush.",
-          "If you're ready to build a business that serves your life, instead of the other way around, that's what we do inside FieldWork."
+          "I want a business that\u2019s a partner in my life, not a master I have to serve. One that uses smart systems and AI to buy back my time, so I can be present with my family and get outside.",
+          "My standards for how I build a business are high.",
+          "Not because I'm looking for an easy button, but because I\u2019ve seen what happens when good people choose the wrong model.",
+          "I've seen the burnout, the missed moments with their kids, the feeling of being trapped by something they created.",
+          "The business model you choose will influence your peace, your health, your relationships, your future\u2026 almost everything.",
+          "I\u2019d rather take the time to build the right systems now than spend decades wishing I hadn't built a prison for myself.",
+          "Some foundations are just too important to rush. If you're ready to build yours the right way, you should look into FieldWork."
         ],
-        "body_copy": "People think I want to build a giant, complicated business. They\u2019re wrong. I want a business that works like a quiet engine, not a golden cage. Something I can trust to run with smart AI and automation, so I can be present for the moments that matter. I want a peaceful business that buys back my time, built on freedom and intention, not just endless growth. My standards for my business are high. Not because I\u2019m looking for an easy way out, but because I\u2019ve seen what happens when founders build the wrong kind of company. The business you choose to build will influence your peace, your health, your relationships, almost everything. I\u2019d rather take a little longer to build the right systems now than spend decades wishing I hadn\u2019t settled for a life chained to a desk. Some decisions are simply too important to rush. If you're ready to build a business that actually serves your life, that's what we focus on in FieldWork.",
+        "body_copy": "People think I don't want to work hard. They\u2019re wrong. I want a business that\u2019s a partner in my life, not a master I have to serve. A business that uses smart systems and AI to create leverage, buying back my time so I can be present with my family and get back out in the field. My standards for how I build are high. Not because I'm looking for an easy way out, but because I\u2019ve seen what happens when good people choose the wrong model. I've seen the burnout, the missed family dinners, the feeling of being chained to a laptop. The business you build will influence your peace of mind, your health, your relationships, and your future. It touches almost everything. I\u2019d rather spend a little longer building the right engines now than spend the next decade wishing I hadn't settled for a business I resent. Some foundations are simply too important to rush.",
         "script": [
-          "Hook: Debunk a common misconception about my business goals.",
-          "Vision: Describe the ideal 'quiet engine' business I actually want.",
-          "Justification: Explain my high standards are not about being lazy.",
-          "Stakes: Highlight the high personal cost of building the wrong business.",
-          "Principle: State that this is a decision too important to rush.",
-          "CTA: Introduce FieldWork as the place to build this kind of business."
+          "Hook: State the misconception that you don't want to work hard.",
+          "Correction: Clarify you want a business that serves your life, not the other way around.",
+          "The Standard: State your standards for a business model are high.",
+          "The Stakes: Explain that the wrong model costs you your peace, health, and time.",
+          "The Choice: You'd rather build slowly and correctly than quickly build a trap.",
+          "The Principle: Some foundations are too important to rush.",
+          "CTA: Point them toward FieldWork to learn how."
         ],
         "guidance": [
-          "Film as a simple, grounded talking head shot, looking directly at the camera. Use warm, natural light in a calm setting like your office or outdoors.",
-          "Use clean, bold text on screen that appears in sync with the key phrases of your script. For example: 'They're wrong.' or 'My standards are high.'",
-          "Weave in B-roll that shows the 'why': you with your family, hiking, enjoying the outdoors. This visualizes the offline life the business enables.",
-          "End with a clear, simple on-screen Call to Action: 'FieldWork. Link in bio.'"
+          "Film this as a simple, direct-to-camera talking head shot. Keep your delivery grounded and sincere.",
+          "Use large on-screen text that appears line-by-line or phrase-by-phrase, exactly matching your script, just like the example reel.",
+          "Intersperse B-roll of you working calmly on a laptop, then closing it to be with family, walk in nature, or do an outdoor activity.",
+          "Your background should be simple and align with the brand: a clean office, by a window with a view, or outdoors.",
+          "The final CTA 'Learn more about FieldWork' should be a clear text overlay on the last shot of the video."
         ],
         "belief_tags": [
-          "E2",
-          "L"
+          "B",
+          "F"
         ]
       },
       {
@@ -489,50 +392,47 @@
         "engagement": 98109,
         "outlier_ratio": 47.58,
         "priority_score": 99,
-        "framework": "Contrarian Contentment Declaration",
+        "framework": "Contrarian Declaration",
         "wpm": null,
         "duration": 53.01,
         "url": "https://www.instagram.com/p/DcCS1ZQs2bT/",
         "date": "2026-08-14T21:42:28.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "The 'Good Enough' Business",
-        "angle": "Mirror the original's contrarian declaration. State that you're okay without a core tenet of hustle culture, like constant growth or being 'always on', and then explain that your real goal is time freedom, not just a bigger business.",
+        "headline": "The Goal Is To Work Less",
+        "angle": "Christian should adopt the same contrarian framework to challenge the hustle culture narrative. He will state that his goal is to work less, not more, framing it as a philosophy that confuses traditional founders but is central to the 'Build Online. Live Offline.' ethos.",
         "hooks": [
-          "I'm okay with leaving money on the table, and I think that makes a lot of founders uncomfortable.",
-          "My goal is to work less next year than I did this year, and I think that sounds like failure to some people.",
-          "I'm okay with a business that's 'good enough', and I think that's a radical idea for most entrepreneurs.",
-          "I actively try to be hard to reach, and I know that bothers a lot of people in the online space.",
-          "I'm okay with my business not growing every single month, and I think that confuses a lot of operators."
+          "My goal is to work less next year, not more. And I think that confuses a lot of people.",
+          "I build my business so I can forget about it for weeks at a time.",
+          "I'm not trying to infinitely scale my business, and I think that makes some founders angry.",
+          "I'm okay with being less 'productive', and I think that scares most entrepreneurs.",
+          "I don't want a bigger team, and I think that sounds like failure to some people."
         ],
         "talking_points": [
-          "I'm okay with a business that's 'good enough', and I think that's a radical idea for most entrepreneurs.",
-          "We're constantly told that if you're not scaling, you're failing. That you always need more clients, more revenue, more reach.",
-          "But what if 'good enough' actually meant the business fully funds your life, your adventures, and your time with family?",
-          "What if it meant you could disappear for a week without your phone and everything ran smoothly on its own?",
-          "That version of 'good enough' sounds a lot better to me than just 'bigger'.",
-          "The whole point of building an online business should be to live a better offline life.",
-          "We do this by building smart, automated systems that work for you, not the other way around.",
-          "It\u2019s about building the engine once, so you can get back out into the field.",
-          "If you're a founder or an expert who wants a business that serves your life, not a life that serves your business, then this idea is for you.",
-          "I share exactly how we build these kinds of businesses inside FieldWork. You can find all the details in my profile."
+          "My goal is to work less next year, not more. And I think that really confuses a lot of people in the online space.",
+          "We're told that success means more. More revenue, more clients, a bigger team, more complexity.",
+          "But what if the real win is not more, but better? What if the whole point of building an online business was to spend less time online?",
+          "For me, that is the entire game. It is not about endless growth.",
+          "It is about building smart, automated systems that run for you, so you do not have to.",
+          "These are the engines that buy back your time, which is your most valuable asset.",
+          "This is what allows you to get back out into the field, back to your life, and back to the things that actually matter.",
+          "This is the core idea behind FieldWork. We build online so we can live offline."
         ],
-        "body_copy": "I'm okay with a business that's 'good enough', and I think that's a radical idea for most entrepreneurs. We're taught that if you're not scaling, you're failing. That the goal is always more. More revenue, more reach, more everything. But what if we are chasing the wrong 'more'? What if 'good enough' meant the business fully funded your life and your time with family? What if it meant you could disappear into the mountains for a week and everything just kept running smoothly? That version of 'good enough' sounds a lot better to me than just 'bigger'. The whole point of building something online is to live a better life offline. We do this by building smart, automated systems that work for you. It's about building the engine once, so you can return to the field. If you're an expert who wants a business that serves your life, and not the other way around, I share how we build these systems inside FieldWork. You can learn more through the link in my profile.",
+        "body_copy": "My goal is to work less next year, not more. And I think that really confuses a lot of people. The default script for founders is that success means more. More revenue, a bigger team, more complexity, more hours behind the screen. But what if that is the wrong goal? What if the point of building an online business was to spend less time online? For me, that is the entire game. It is about building smart, automated systems that handle the work for you, so you do not have to be there. These are the engines that buy back your most valuable asset: your time. This allows you to get back out into the field, to your family, to your life, to the things that actually matter beyond the business. That is the whole philosophy behind what we do in FieldWork. We build these engines online so we can get back to living offline.",
         "script": [
-          "Hook: Declare you're okay with a 'good enough' business.",
-          "Problem: Challenge the 'more is always better' hustle mindset.",
-          "Reframe: Redefine 'good enough' as a business that funds your ideal life.",
-          "Vision: Paint a picture of true freedom from the business.",
-          "Method: Briefly mention systems and automation as the key.",
-          "Callout: Speak directly to the target audience.",
-          "CTA: Invite those who agree to check out FieldWork."
+          "State the contrarian goal: to work less.",
+          "Challenge the standard definition of 'more' as success.",
+          "Reframe the purpose of an online business.",
+          "Introduce smart systems as the mechanism.",
+          "Connect those systems to the real ROI: time.",
+          "Tie the concept to the FieldWork philosophy."
         ],
         "guidance": [
-          "Film this as a simple talking head shot in a grounded, natural setting like by a campfire, in a workshop, or on a porch overlooking a landscape.",
-          "Use on-screen text to emphasize the hook: 'I'm okay with a business that's 'good enough'.' Keep text minimal after that.",
-          "Intersperse B-roll of 'offline' activities: hiking, spending time with family, working with your hands, packing a truck for a trip.",
-          "End with a clear, simple on-screen text CTA: 'Learn about FieldWork. Link in bio.'",
-          "Keep the delivery calm and confident, not aggressive. The tone is one of quiet conviction."
+          "Film as a simple, grounded talking head shot, preferably outdoors to reinforce the 'offline' theme.",
+          "Use a bold text overlay for the hook in the first 3-5 seconds: 'My goal is to work less, not more.'",
+          "After the hook, consider cutting to B-roll of you hiking, with family, or enjoying an offline activity as your voiceover continues.",
+          "Keep the delivery calm and deliberate. Let the opening statement land with confidence.",
+          "End with a simple text card or caption call to action pointing towards FieldWork."
         ],
         "belief_tags": [
           "B",
@@ -545,51 +445,51 @@
         "engagement": 76606,
         "outlier_ratio": 39.47,
         "priority_score": 99,
-        "framework": "Relatable Irony",
+        "framework": "Single-Word Aspiration Hook",
         "wpm": null,
         "duration": 57.049976,
         "url": "https://www.instagram.com/p/DdKux49sa2d/",
         "date": "2026-09-12T00:48:25.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "The Founder's Freedom Trap",
-        "angle": "Christian's version will voice the quiet frustration of building a business for freedom, only to end up chained to a desk. The angle is that this isn't a personal failure, but a systems problem that can be solved.",
+        "headline": "The Goal Is To Be Offline",
+        "angle": "Adopt the single-word hook by using a word that embodies the 'Live Offline' promise. You'll state the word, then unpack how building the right kind of online business is the key to making that word your reality, not just a dream.",
         "hooks": [
-          "You started a business to be free, but you've never been more trapped.",
-          "The most ironic part of being your own boss is who you actually work for.",
-          "Your calendar is the real CEO of your company, isn't it?",
-          "That 'work from anywhere' business somehow means you just work everywhere.",
-          "What if the reward for your success wasn't just more work?"
+          "Offline.",
+          "Present.",
+          "Done.",
+          "Outside.",
+          "Enough."
         ],
         "talking_points": [
-          "You started a business to get your time back, but let's be honest, you've never been more trapped.",
-          "Your calendar is a wall of meetings and your inbox never sleeps. You feel like you can't step away for a single day without something breaking.",
-          "It's exhausting, and it wasn't supposed to be like this. This wasn't the dream.",
-          "The problem isn't you, and it isn't that you need to hustle harder. The problem is you've built a business that runs on your direct time and attention.",
-          "The goal is to change that. It's time to build a business that runs *for* you, not *because* of you.",
-          "This means building smart, automated systems that handle the repeatable work, freeing you up for the things that really matter.",
-          "It\u2019s about using simple AI and automation to create engines that deliver value without requiring you to be at the desk.",
-          "This is how you finally get to live the life you set out to build in the first place.",
-          "Our whole philosophy in FieldWork is 'Build Online, Live Offline'.",
-          "If you're ready to stop trading your time for money and start building a business that gives you your life back, I can show you how. Check out the caption for details."
+          "Offline. For most founders, that word feels impossible.",
+          "We're told the goal is to scale our online presence, but that usually just scales our time spent chained to a screen.",
+          "The hustle culture default is being always on, always available, always building.",
+          "But what if we built differently? What if the real goal of an online business was to spend more time offline?",
+          "This is why we focus on building automated engines and systems inside FieldWork.",
+          "You build the machine once, so it can do the work for you while you're out in the world, living your actual life.",
+          "The point isn't to build a giant online empire. The point is to build an efficient online engine that buys back your time.",
+          "It's about having a business that funds your life, not a business that consumes it.",
+          "If the goal for you is to build online so you can live offline, I can show you how we do it. Learn more about FieldWork at the link in my bio."
         ],
-        "body_copy": "You started a business to be free, but you've never been more trapped. Your calendar is a fortress of back to back calls, and it feels like you can't step away for a single afternoon without everything catching fire. This wasn't the dream. But the problem isn't that you need to work harder. The problem is you've built a business that is completely dependent on your time. The goal is to change that, to build a business that runs for you, not because of you. This is done by creating smart systems, using simple AI and automation to build engines that do the work, so you don't have to. This is how you finally reclaim your time and get back to the life you wanted to live in the first place. Our entire approach is called FieldWork, based on one simple idea: Build Online, Live Offline. If you're ready to build the systems that buy back your time, I can show you the way.",
+        "body_copy": "Offline. For most founders, that word feels impossible. We're told the goal is to scale our online presence, but that usually just scales our time spent chained to a screen. The default is being always on, always available. But what if the real goal of an online business was to spend more time offline? This is the entire idea behind FieldWork. We focus on building automated engines and systems. You build the machine once, so it can do the work for you while you're out in the world, living your actual life. Imagine being fully present with your family on a Tuesday afternoon, not worrying about what's happening online. The point isn't to build a bigger online empire. The point is to build an efficient online engine that buys back your time and funds your life, instead of consuming it. If that's the goal for you, I can show you how we do it. You can learn about FieldWork at the link in my bio.",
         "script": [
-          "Hook: The painful irony of founder 'freedom'.",
-          "Problem: You're trapped by a business that depends on your time.",
-          "Insight: This is a systems problem, not a personal failure.",
-          "Solution: Build automated engines so the business runs for you.",
-          "Vision: Reclaim your time to 'Live Offline'.",
-          "CTA: Learn how inside FieldWork."
+          "Hook with a single powerful word: 'Offline.'",
+          "Identify the founder's trap of being 'always on.'",
+          "Reframe the goal: build online to live offline.",
+          "Introduce the solution: building automated engines.",
+          "Explain the true purpose of the business: to fund your life.",
+          "CTA: Learn more about the FieldWork program."
         ],
         "guidance": [
-          "Visuals: Open on a shot of you looking tired at a laptop. B-roll could show a packed digital calendar, then contrast it with shots of you outdoors, hiking, or with family.",
-          "On-Screen Text: Use a bold, simple text hook like 'The Freedom Trap' in the first 3 seconds. Add key phrases like 'Systems > Hours' to emphasize points.",
-          "Pacing: Start with a grounded, quieter tone to match the pain point. Build a little energy and optimism when you pivot to the solution.",
-          "CTA: End with a clear on-screen text call to action like 'Build Online. Live Offline.' and point to the caption or link in bio."
+          "Opener: Start with the single hook word ('Offline.') as large, bold, centered text on screen for the first 1-2 seconds before you appear.",
+          "Setting: Film as a simple, grounded talking head. A calm indoor space with natural light or an outdoor setting would fit the brand well.",
+          "B-Roll: Briefly cut to a symbolic shot when you say 'living your actual life': closing a laptop, putting a phone down, a peaceful nature scene, or you walking with family.",
+          "On-Screen Text: Use simple, clean text to emphasize key phrases like 'Build Online. Live Offline.'",
+          "CTA: End with a clear, simple text overlay: 'FieldWork Program | Link in Bio'."
         ],
         "belief_tags": [
-          "I",
+          "E",
           "B"
         ]
       },
@@ -597,85 +497,63 @@
         "hook": "Share this with a single father who needs this",
         "creator": "willgirone",
         "engagement": 849,
-        "outlier_ratio": 30.16,
+        "outlier_ratio": 30.44,
         "priority_score": 99,
-        "framework": "Vulnerable Call-Out to a Niche Identity",
+        "framework": "Direct Identity Call-out",
         "wpm": null,
         "duration": 231.833,
         "url": "https://www.instagram.com/p/DbcdoiuQhU2/",
         "date": "2026-07-31T05:02:25.000Z",
         "thumbnail": "",
         "media_type": "reel",
-        "headline": "For The Founder Who Feels Trapped",
-        "angle": "Mirror the original's vulnerable, 'I'm in this with you' tone. Frame the conflict not as business versus kids, but as the business versus your actual life. Position 'hustle culture' as the villain and choosing to live offline as the heroic act.",
+        "headline": "For The Founder Missing Life",
+        "angle": "Frame the conflict not as fatherhood vs. business, but as living a full, offline life vs. the endless demands of an online business. Position yourself as someone actively choosing to live your message in that moment, making the 'Build Online. Live Offline.' ethos tangible.",
         "hooks": [
-          "Share this with a founder who feels trapped by their own business.",
-          "For the person building a business to be free, but has never felt more stuck.",
-          "A message for the expert who is tired of trading their life for a living.",
-          "If you started a business to live more, but you're just working more.",
-          "This is for the founder who feels guilty every time they step away from their laptop."
+          "Share this with a founder who feels chained to their desk.",
+          "This is for the expert who's building a business but losing their life.",
+          "A reminder for the operator who hasn't seen a sunset in weeks.",
+          "If you started a business for freedom but only found a digital prison.",
+          "For the founder who is starting to forget why they even started."
         ],
         "talking_points": [
-          "This is for the founder who feels trapped by the very business that was meant to set them free.",
-          "You can and you will get through this. You have everything you need to build a business that serves your life, not the other way around.",
-          "Honestly, I almost didn't record this. Because it's a painful feeling to admit that the thing you're building is also the thing caging you.",
-          "There's this immense guilt that comes with stepping away from the laptop, this fear that everything will fall apart if you're not constantly available.",
-          "I know how much it can feel like it costs you in the short term. A missed email, a lost lead. But the cost of not disconnecting is so much higher. It costs you your actual life.",
+          "This is for the founder who feels chained to their desk.",
+          "I need you to hear this. You can and you will build a business that serves your life, not the other way around. You have everything you need right now to make that happen.",
+          "Honestly, it's hard to even post this. There are days I feel like a fraud, talking about living offline while I'm stuck tweaking a system late at night.",
+          "Those moments are tough, and they feel like a compromise. I know how much it feels like you're sacrificing the life you wanted for the business you're building.",
           "And I know so many of you are in the same spot, because I get your messages every single day.",
-          "You're not fighting a person. You're fighting a narrative. A hustle culture that tells you that sacrifice is the only path to success. It is not.",
-          "The people you love won't remember your revenue goals or how fast you answered an email. They will remember that you were present.",
-          "This is me showing you that I'm here, away from my desk when I 'should' be working, to prove that it's possible.",
-          "I want to be living proof that you can choose your life over your laptop, and still build something meaningful and successful. If you're ready to learn how, check out FieldWork in my bio."
+          "The internet will always tell you to do more, to grind harder, to never switch off. It will sell you a version of success that costs you your time.",
+          "But you have to keep your eyes on what actually matters. The business is a tool, not the prize. Your life is the prize.",
+          "Nobody will remember the emails you answered after 5 PM or the funnels you optimized on a Saturday. They will remember that you were present.",
+          "This video is me showing up for that idea. I could be working right now, but I'm outside, choosing to prove this is possible.",
+          "I want to be living proof that you can build the right engines in your business so you can choose your life, again and again. If you want to build those engines, check out FieldWork."
         ],
-        "body_copy": "This is for the founder who feels trapped by the business that was meant to set them free. You can build a different way. You have what it takes to run a successful business while also living a full life offline. I almost didn't post this, because the feeling is so painful. The guilt that comes with stepping away from the laptop, feeling like everything might fall apart. I know it costs something in the short term to disconnect. A missed email, a delayed project. But the cost of not disconnecting is so much higher. It's the cost of your actual life. I get messages from so many of you who are in the same spot. You're fighting the hustle narrative that says more hours equals more success. But your family and friends won't remember your revenue charts. They will remember you being present. This is me, away from my desk, proving that it's possible. You can build a business that serves your life. If you're ready to build that, check out FieldWork.",
+        "body_copy": "Share this with a founder who feels chained to their desk. I need you to hear that you can, and you will, build a business that serves your life, not the other way around. Honestly, it's hard to post this. There are moments I feel like a hypocrite, talking about living offline while I'm stuck on my laptop late at night. The pull to just keep working is real. I know so many of you are in that same spot, because you tell me every day. The hustle narrative will always tell you to do more. But you have to remember why you started this. The business is a tool. Your life, your time, your freedom, that is the actual prize. Nobody will remember the emails you answered after dinner. They'll remember that you were there. Right now, I'm choosing to be here, outside, instead of working. I want to prove you can build the right systems that allow you to choose life over your laptop, again and again. That's what we do in FieldWork.",
         "script": [
-          "Hook: Call out founders who feel trapped by their business.",
-          "Vulnerability: Confess the painful feeling of being caged by your own creation.",
-          "Conflict: Frame the choice between the 'cost' of disconnecting and the greater cost of missing your life.",
-          "The Enemy: Identify 'hustle culture' as the false narrative we're all fighting.",
-          "Core Truth: The real legacy is being present, not being productive.",
-          "Proof: Show yourself living this value in the moment, away from work.",
-          "CTA: Introduce FieldWork as the system to achieve this."
+          "Hook: Call out founders chained to their desk.",
+          "Vulnerability: Admit the personal struggle of being stuck online.",
+          "Shared Pain: Acknowledge that the audience feels this too.",
+          "The Real Enemy: Identify the 'hustle' narrative as the problem.",
+          "The Core Truth: The business is a tool for the life you want.",
+          "Lead by Example: Demonstrate choosing life over work in the moment.",
+          "The Solution: Introduce FieldWork as the way to build these systems."
         ],
         "guidance": [
-          "Film this as a raw, selfie-style talking head video. Being outdoors on a trail or by a fire would strongly reinforce the 'Live Offline' message.",
-          "Keep the editing minimal. No jump cuts or flashy graphics. The power is in the authenticity of the message.",
-          "Use a simple, bold text hook on screen for the first 3-5 seconds: 'For the founder who feels trapped.'",
-          "Your delivery should be grounded and heartfelt, not polished or performative. Speak like you're talking to one person.",
-          "The call to action should be a simple on-screen text overlay at the end: 'FieldWork: Link in Bio'."
+          "Film this as a single, straightforward take, talking directly to camera. An outdoor setting like a porch, a trail, or by a campfire is ideal.",
+          "Shoot during golden hour to visually reinforce the idea of finishing work and enjoying the offline world.",
+          "Use simple, bold on-screen text for the hook: 'Share this with a founder who feels chained to their desk.'",
+          "Keep it raw. Avoid overly polished editing. The feeling should be authentic and from the heart.",
+          "End with a simple text overlay and verbal CTA: 'FieldWork. Link in bio.'"
         ],
         "belief_tags": [
-          "I",
-          "B"
+          "L",
+          "E2"
         ]
-      },
-      {
-        "hook": "Speed run your ego death",
-        "creator": "willgirone",
-        "engagement": 465,
-        "outlier_ratio": 25.36,
-        "priority_score": 99,
-        "framework": "Curiosity Gap",
-        "wpm": null,
-        "duration": 89.9,
-        "url": "https://www.instagram.com/p/DYkaUnvpA2O/",
-        "date": "2026-05-20T17:32:18.000Z",
-        "thumbnail": "",
-        "media_type": "reel",
-        "headline": "",
-        "angle": "",
-        "hooks": [],
-        "talking_points": [],
-        "body_copy": "",
-        "script": [],
-        "guidance": [],
-        "belief_tags": []
       },
       {
         "hook": "How long till it\u2019s all in house?",
         "creator": "willgirone",
         "engagement": 336,
-        "outlier_ratio": 23.11,
+        "outlier_ratio": 23.32,
         "priority_score": 99,
         "framework": "Proof First",
         "wpm": null,
@@ -697,7 +575,7 @@
         "hook": "Nobody ever got rich from being an employee. here\u2019s why:",
         "creator": "matthgray",
         "engagement": 6007,
-        "outlier_ratio": 19.92,
+        "outlier_ratio": 20.16,
         "priority_score": 99,
         "framework": "Curiosity Gap",
         "wpm": null,
@@ -719,7 +597,7 @@
         "hook": "Comment WATCH and I\u2019ll send you the full breakdown where I explain the 7 behavio",
         "creator": "matthgray",
         "engagement": 7429,
-        "outlier_ratio": 18.58,
+        "outlier_ratio": 18.81,
         "priority_score": 99,
         "framework": "Curiosity Gap",
         "wpm": null,
@@ -741,7 +619,7 @@
         "hook": "peace comes from focusing on what you can control.",
         "creator": "matthgray",
         "engagement": 7853,
-        "outlier_ratio": 17.15,
+        "outlier_ratio": 17.36,
         "priority_score": 99,
         "framework": "Pattern Interrupt",
         "wpm": null,
@@ -763,13 +641,35 @@
         "hook": "Don\u2019t feel bad if chasing your dreams actually requires work.",
         "creator": "tomnoske",
         "engagement": 7878,
-        "outlier_ratio": 15.14,
+        "outlier_ratio": 15.28,
         "priority_score": 99,
         "framework": "Curiosity Gap",
         "wpm": null,
         "duration": 94.388,
         "url": "https://www.instagram.com/p/DbSc8tGTSbo/",
         "date": "2026-07-27T07:43:05.000Z",
+        "thumbnail": "",
+        "media_type": "reel",
+        "headline": "",
+        "angle": "",
+        "hooks": [],
+        "talking_points": [],
+        "body_copy": "",
+        "script": [],
+        "guidance": [],
+        "belief_tags": []
+      },
+      {
+        "hook": "Let\u2019s get a few things clear\u2026",
+        "creator": "willgirone",
+        "engagement": 229,
+        "outlier_ratio": 12.69,
+        "priority_score": 99,
+        "framework": "Pattern Interrupt",
+        "wpm": null,
+        "duration": 179.733,
+        "url": "https://www.instagram.com/p/Dbiwsk_P5Ju/",
+        "date": "2026-08-02T16:22:14.000Z",
         "thumbnail": "",
         "media_type": "reel",
         "headline": "",
@@ -829,8 +729,8 @@
         "hook": "It\u2019s 2.5 hours after lunch",
         "creator": "tomnoske",
         "engagement": 2956,
-        "outlier_ratio": 6.73,
-        "priority_score": 67.3,
+        "outlier_ratio": 6.79,
+        "priority_score": 67.9,
         "framework": "Curiosity Gap",
         "wpm": null,
         "duration": 58.040001,
@@ -873,8 +773,8 @@
         "hook": "In case any of you are looking to get yourselves something special \ud83e\udee1",
         "creator": "tomnoske",
         "engagement": 2614,
-        "outlier_ratio": 6.29,
-        "priority_score": 62.9,
+        "outlier_ratio": 6.35,
+        "priority_score": 63.5,
         "framework": "Curiosity Gap",
         "wpm": null,
         "duration": 85.84,
@@ -892,538 +792,535 @@
         "belief_tags": []
       }
     ],
-    "total": 357
+    "total": 355
   },
   "pipeline": {
-    "reels_analyzed": 2381,
-    "outliers_found": 357,
+    "reels_analyzed": 2359,
+    "outliers_found": 355,
     "creators_monitored": 7,
     "recommendations": 50
   },
   "suggested_content": {
     "ideas": [
       {
-        "title": "We had a catastrophic system failure this morning.",
-        "headline": "Catastrophic System Failure",
-        "angle": "Frame a minor, common automation error as a complete business meltdown. Use the contrast to show that building resilient systems means small breaks are just maintenance, not emergencies, which is the key to getting your time back.",
+        "title": "My business after I spent a week camping with no service.",
+        "headline": "The Off-Grid Business Test",
+        "angle": "Christian's version will use this format to show how the automated systems taught in FieldWork keep a business running smoothly, even when the founder is completely disconnected. The punchline is the business's resilience.",
         "hooks": [
-          "We had a catastrophic system failure this morning.",
-          "The entire business almost ground to a halt today.",
-          "This is what a five-alarm fire looks like in my business.",
-          "Woke up to a complete operational meltdown.",
-          "Our core automation engine just imploded."
+          "My business after I spent a week camping with no service.",
+          "My client onboarding system after I ignored my inbox for 72 hours.",
+          "My lead flow while I was on a 10 day silent retreat.",
+          "My automated marketing engine when the wifi went out for 2 days.",
+          "My entire online business the first time I took a real vacation."
         ],
         "talking_points": [
-          "We had a catastrophic system failure in the business this morning.",
-          "And by catastrophic system failure, I mean one of our Zaps had a single error and a welcome email was delayed by about an hour.",
-          "Now, a few years ago, this is the kind of thing that would have sent me into a spiral, thinking everything I built was fragile and about to break.",
-          "But I've learned that this is actually a sign of a healthy system.",
-          "When you build these engines to buy back your time, small errors aren't emergencies. They're just routine maintenance.",
-          "This one little error is actually proof that hundreds of other automated tasks were running perfectly in the background without me.",
-          "The system did its job, flagged a problem, and I was able to fix it in about two minutes.",
-          "This is the whole point of what we teach inside FieldWork. It\u2019s not about building a perfect, unbreakable machine.",
-          "It\u2019s about building a resilient one that runs for you, so you can spend your time out in the field, living your life. If you want to learn how, you know where to look."
+          "I used to have this fear that if I stepped away from my business for even a day, the whole thing would grind to a halt.",
+          "So as an experiment, I recently went camping for a full week with absolutely no cell service or internet.",
+          "I was sure I would come back to a mountain of problems, angry emails, and zero new sales.",
+          "But when I finally got back online and opened my laptop, nothing was broken.",
+          "In fact, new leads had come in, they were nurtured with automated emails, and two new clients had onboarded themselves without me lifting a finger.",
+          "This is the entire point of building an online business that actually serves your offline life.",
+          "It is not about working from a laptop on the beach. It is about building smart, automated engines for your marketing and sales that work for you, even when you cannot.",
+          "You build the systems once, so you can return to the field, to your life, again and again.",
+          "If you want to learn how we help founders build these kinds of resilient businesses inside FieldWork, comment the word 'offline' below and I will send you the details."
         ],
-        "body_copy": "We had a catastrophic system failure in the business this morning. And by catastrophic system failure, I mean one of our Zaps had a single error and a welcome email was delayed by about an hour. A few years ago, this is the kind of thing that would have sent me into a spiral, thinking everything was fragile and about to break. But I've learned that this is actually a sign of a healthy system. When you build these engines to buy back your time, small errors aren't emergencies. They're just routine maintenance. This one little error is proof that hundreds of other automated tasks were running perfectly in the background without me. The system did its job, flagged the problem, and I fixed it in two minutes. This is the point of what we teach in FieldWork. It\u2019s not about building a perfect, unbreakable machine. It\u2019s about building a resilient one that runs for you, so you can get back to living your life.",
+        "body_copy": "I used to have this fear that if I stepped away from my business for even a day, the whole thing would grind to a halt. So as an experiment, I recently went camping for a full week with absolutely no cell service or internet. I was sure I would come back to a mountain of problems, angry emails, and zero new sales. But when I finally got back online and opened my laptop, nothing was broken. In fact, new leads had come in, they were nurtured with automated emails, and two new clients had onboarded themselves without me lifting a finger. This is the entire point of building an online business that actually serves your offline life. It is not about working from a laptop on the beach. It is about building smart, automated engines for your marketing and sales that work for you, even when you cannot. You build the systems once, so you can return to the field. If you want to learn how we help founders build these kinds of resilient businesses inside FieldWork, comment the word 'offline' below and I will send you the details.",
         "script": [
-          "Hook: State the 'catastrophic' event.",
-          "Reveal: Expose the mundane reality of the problem.",
-          "Reframe: Explain why small errors are a sign of a healthy system.",
-          "Contrast: Juxtapose past panic with present calm.",
-          "Value: The goal is resilience, not perfection.",
-          "CTA: Connect this philosophy to the FieldWork program."
+          "Hook with an 'off-grid' scenario.",
+          "Share the old fear of everything breaking upon return.",
+          "Reveal the surprising outcome: the business ran perfectly.",
+          "Explain how via automated lead nurture and onboarding.",
+          "State the 'Build Online, Live Offline' philosophy.",
+          "Call to action with a keyword comment."
         ],
         "guidance": [
-          "On-Screen Text: Start with the hook in huge, bold letters: 'CATASTROPHIC SYSTEM FAILURE'.",
-          "B-Roll: As you reveal the problem, quickly cut to a screen recording of a single red 'Error' tag on a Zapier or Make.com task.",
-          "Shot Idea: Film as a simple talking head. After the fix is mentioned, you could close a laptop and walk away from the desk, maybe toward a window or door.",
-          "Pacing: Deliver the hook with serious gravity, then pause before revealing the mundane truth with a slight smile.",
-          "CTA: End with a simple, non-salesy text overlay like 'FieldWork. Build Online. Live Offline.'"
+          "On-screen text: Use one of the hooks as a big, bold title for the first 3-4 seconds. For example: 'My business after 1 week with no service:'.",
+          "Primary shot: Film as a simple, grounded talking head video, speaking directly to camera in a calm, natural setting.",
+          "B-roll: When you mention the business running itself, cut to screen recordings of a CRM dashboard, Stripe notifications, or calendar bookings. Contrast this with B-roll of you hiking, by a fire, or enjoying the outdoors.",
+          "CTA: Put the call to action 'Comment OFFLINE' on screen as you say it at the end."
         ],
         "source": "@wadepapenfus",
         "source_url": "https://www.instagram.com/p/DZdphsNhbYE/",
-        "framework": "Niche Problem as Global Catastrophe",
+        "framework": "Misdirection / Juxtaposition Meme",
         "belief_tags": [
-          "B",
-          "F"
+          "E",
+          "B"
         ],
         "details": {
-          "Angle": "Frame a minor, common automation error as a complete business meltdown. Use the contrast to show that building resilient systems means small breaks are just maintenance, not emergencies, which is the key to getting your time back.",
-          "Source": "@wadepapenfus (506.62x, 9,443,351 plays)",
-          "Hooks": "We had a catastrophic system failure this morning. | The entire business almost ground to a halt today. | This is what a five-alarm fire looks like in my business.",
-          "Framework": "Niche Problem as Global Catastrophe"
+          "Angle": "Christian's version will use this format to show how the automated systems taught in FieldWork keep a business running smoothly, even when the founder is completely disconnected. The punchline is the business's resilience.",
+          "Source": "@wadepapenfus (507.22x, 9,443,351 plays)",
+          "Hooks": "My business after I spent a week camping with no service. | My client onboarding system after I ignored my inbox for 72 hours. | My lead flow while I was on a 10 day silent retreat.",
+          "Framework": "Misdirection / Juxtaposition Meme"
         }
       },
       {
-        "title": "A Tuesday morning hike beats any record sales day.",
-        "headline": "This Beats Any Sales Record",
-        "angle": "Contrast a simple, offline moment that Christian values (like a weekday hike or family dinner) with a common business 'win' that founders chase. Frame the offline moment as the superior outcome, which is the entire point of building the business in the first place.",
+        "title": "A Tuesday morning hike funded by an automated business beats any Monday morning meeting.",
+        "headline": "This Beats Any Boardroom",
+        "angle": "Mirror the 'This beats That' format by contrasting a scene of working freely outdoors, enabled by FieldWork's principles, with the traditional symbols of corporate success. The message is that true wealth is the freedom to work from anywhere, not the corner office.",
         "hooks": [
-          "A Tuesday morning hike beats any record sales day.",
-          "An uninterrupted dinner with your family beats hitting inbox zero.",
-          "Building a campfire with your kids beats building a complex sales funnel.",
-          "That first quiet coffee before the sun is up beats a notification saying you went viral.",
-          "A phone call with an old friend beats a calendar packed with Zoom calls."
+          "A Tuesday morning hike funded by an automated business beats any Monday morning meeting.",
+          "Closing a client from a camp chair beats closing one from a corner office.",
+          "An online business that lets you live offline is better than a 7-figure business that chains you to a desk.",
+          "Building a business from a laptop by the lake beats grinding in a cubicle any day.",
+          "The freedom to log off at 2 PM on a Thursday is a richer reward than any promotion."
         ],
         "talking_points": [
-          "I'm going to say something that might sound strange, but a quiet Tuesday morning hike beats any record sales day.",
-          "For years, I chased the numbers. The bigger the launch, the more successful I thought I was.",
-          "But the reality was I was just chained to my desk. The reward for a good month was simply the pressure to have an even better one next month.",
-          "I had to remember that the goal was never just to build a bigger business. The goal was to build a better life.",
-          "This is the core idea behind FieldWork: build online, so you can live offline.",
-          "It's about using smart, simple systems, AI, and automation to create business engines that run for you.",
-          "This way, your business serves your life, not the other way around.",
-          "It\u2019s about designing a business where you can close the laptop for an uninterrupted family dinner and know that things are still working as they should.",
-          "The real return on investment isn't just a number on a spreadsheet. It's your time. It's your freedom.",
-          "If you're a founder or expert who wants to build a business that buys back your time instead of just consuming it, I want you to check out FieldWork. Head to the link in my bio to see how it works."
+          "Let's be honest, closing a client from a camp chair beats closing one from a corner office, every single time.",
+          "We were sold this idea that success looks like a high-rise office and a calendar packed with back to back meetings.",
+          "But for most founders and experts, that's just a golden cage. It costs you the one thing you can't get back: your time.",
+          "The new definition of wealth is not about grinding harder. It is about building smarter.",
+          "It is about using automation and simple AI systems to build an online business that works for you, even when you are not at a desk.",
+          "This is how you get your life back. It is how you make time for that mid-week hike or a trip with your family without your business falling apart.",
+          "It is the whole idea behind what we call 'Build Online, Live Offline'.",
+          "If you are an expert or founder who wants to build a business that serves your life, instead of the other way around, I teach this inside my program, FieldWork."
         ],
-        "body_copy": "I'm going to say something that might sound strange, but a quiet Tuesday morning hike beats any record sales day. For years, I chased the numbers. The bigger the launch, the more successful I thought I was. But the reality was I was just chained to my desk. The reward for a good month was simply the pressure for an even better one next month. I had to remember that the goal was never just to build a bigger business. The goal was to build a better life. This is the core idea behind FieldWork: build online, so you can live offline. It\u2019s about using smart systems and automation to create business engines that run for you, so your business serves your life, not the other way around. The real return on investment isn't a number on a spreadsheet. It's your time. It's your freedom. If you're a founder or expert who wants to build a business that buys back your time, head to the link in my bio to see how it works.",
+        "body_copy": "Let's be honest, closing a client from a camp chair beats closing one from a corner office, every single time. We were sold this idea that success looks like a high-rise office and a calendar packed with back to back meetings. But for most founders and experts, that's just a golden cage. It costs you the one thing you can't get back: your time. The new definition of wealth is not about grinding harder. It is about building smarter. It is about using automation and simple AI systems to build an online business that works for you, even when you are not at a desk. This is how you get your life back. It is how you make time for that mid-week hike or a trip with your family without your business falling apart. It is the whole idea behind what we call 'Build Online, Live Offline'. If you are an expert or founder who wants to build a business that serves your life, instead of the other way around, I teach this inside my program, FieldWork. You can learn more at the link in my bio.",
         "script": [
-          "Hook: A simple offline moment is better than a huge business win.",
-          "Problem: Chasing metrics chains you to a desk in a cycle of pressure.",
-          "Mindset Shift: The goal is a better life, not just a bigger business.",
-          "Solution Intro: Build online to live offline with systems that serve you.",
-          "The Real ROI: The true return is time and freedom.",
-          "CTA: Learn more about the FieldWork program via the link in bio."
+          "Hook: A free life is better than a fancy office.",
+          "Problem: The traditional view of success is a trap.",
+          "Solution: Build smarter systems, not just work harder.",
+          "Mechanism: Use automation and AI to run your business.",
+          "Vision: This buys back your time for an offline life.",
+          "CTA: This is the FieldWork philosophy."
         ],
         "guidance": [
-          "Film this as a simple talking head video, ideally outdoors on a trail, in your yard, or by a lake to visually connect with the 'offline' theme.",
-          "Use a single, bold text hook on screen for the first 3-5 seconds. Example: 'A Tuesday Hike > A Record Sales Day'.",
-          "Overlay B-roll footage that matches the talking points: a quick shot of you on a hike, your family at dinner, a campfire, or closing a laptop and walking away.",
-          "Keep the tone calm and conversational, not preachy. Let the idea itself do the heavy lifting.",
-          "End with a clear on-screen text CTA: 'FieldWork: Link in Bio'."
+          "Film this as a simple talking head video, ideally outdoors or in a warm, natural setting, not a sterile office.",
+          "Overlay B-roll clips that match the talking points: a glass office building, then someone hiking, then a laptop by a lake, then a family playing outside.",
+          "Use simple, bold text to emphasize the core comparison from your hook, like 'Camp Chair > Corner Office'.",
+          "End with a clear on-screen text CTA: 'Learn more about FieldWork. Link in Bio.'"
         ],
         "source": "@wadepapenfus",
         "source_url": "https://www.instagram.com/p/Dbng7PezuMk/",
-        "framework": "Declarative Comparison: X Beats Y",
+        "framework": "Contrarian Aspirational Statement",
         "belief_tags": [
           "E2",
-          "L"
+          "E"
         ],
         "details": {
-          "Angle": "Contrast a simple, offline moment that Christian values (like a weekday hike or family dinner) with a common business 'win' that founders chase. Frame the offline moment as the superior outcome, which is the entire point of building the business in the first place.",
-          "Source": "@wadepapenfus (271.21x, 5,055,419 plays)",
-          "Hooks": "A Tuesday morning hike beats any record sales day. | An uninterrupted dinner with your family beats hitting inbox zero. | Building a campfire with your kids beats building a complex sales funnel.",
-          "Framework": "Declarative Comparison: X Beats Y"
+          "Angle": "Mirror the 'This beats That' format by contrasting a scene of working freely outdoors, enabled by FieldWork's principles, with the traditional symbols of corporate success. The message is that true wealth is the freedom to work from anywhere, not the corner office.",
+          "Source": "@wadepapenfus (271.53x, 5,055,419 plays)",
+          "Hooks": "A Tuesday morning hike funded by an automated business beats any Monday morning meeting. | Closing a client from a camp chair beats closing one from a corner office. | An online business that lets you live offline is better than a 7-figure business that chains you to a desk.",
+          "Framework": "Contrarian Aspirational Statement"
         }
       },
       {
-        "title": "The offline life my online business built.",
-        "headline": "The Offline Life We Built",
-        "angle": "Showcase the 'offline' life your online business affords you. The reel should be a montage of authentic, non-hustle moments like time with family, being in nature, or pursuing a hobby, framed as the direct result of building a business that serves your life.",
+        "title": "The kind of offline life my online business is built for.",
+        "headline": "Build Online. Live Offline.",
+        "angle": "Frame the 'offline life' not as an escape, but as the deliberate outcome of building a specific kind of online business. Connect the aspirational visuals to the practical systems (AI, automation) that make them possible.",
         "hooks": [
-          "The offline life my online business built.",
-          "This is what 'Build Online, Live Offline' actually looks like.",
-          "The kind of freedom my soul craves.",
-          "The 'return to the field' my work allows.",
-          "More of this. Less of my laptop."
+          "The kind of offline life my online business is built for.",
+          "This is the freedom we're actually working for.",
+          "My business exists so I can have more days like this.",
+          "Most people build a business that traps them. I built one to do this.",
+          "An online business should fund your offline life. Not become it."
         ],
         "talking_points": [
-          "This is the offline life my online business built.",
-          "For years, I thought building a business meant being chained to a desk, grinding away on calls and emails.",
-          "But that's not the only way.",
-          "I decided to build differently, using systems and automation to create a business that could run without my constant attention.",
-          "The goal was never just about revenue. The goal was about buying back my time.",
-          "It was about creating the freedom to be present for moments like these.",
-          "This is the whole idea behind FieldWork: build your business online, so you can truly live your life offline.",
-          "If this is the kind of life you're working towards, you are in the right place."
+          "This is the kind of freedom we're all working for, right? More time out in the field, less time chained to a desk.",
+          "A lot of people see this and think it's about luck, or retiring, or selling everything to live on an island.",
+          "But that\u2019s not the story here. This freedom is not an accident, it is designed.",
+          "I've spent years building online systems, using automation and AI, that handle the heavy lifting in my business.",
+          "They are engines that work for me, so I don't have to be 'on' all the time.",
+          "The entire point of building an online business should be to buy back your time to live your actual life.",
+          "It's about building online so that you can live offline.",
+          "If you're an expert or a founder who wants to build a business that serves your life, instead of the other way around, this is what we do inside FieldWork."
         ],
-        "body_copy": "This is the offline life my online business built. For years, I thought building a business meant being chained to a desk, grinding away on calls and emails. But that is not the only way. I decided to build differently, using systems and automation to create a business that could run without my constant attention. The goal was never just about revenue. The goal was about buying back my time. It was about creating the freedom to be present for moments like these, out in the world with the people who matter most. This is the whole idea behind what we teach in FieldWork. It is a simple rally cry: build your business online, so you can truly live your life offline. If this is the kind of life you are working towards, you are in the right place.",
+        "body_copy": "This is the kind of freedom we're all working for, right? More time out in the field, less time chained to a desk. A lot of people see this and think it's about luck, or retiring, or selling everything to live on an island. But that\u2019s not the story here. This freedom is not an accident, it is designed. I've spent years building online systems, using automation and AI, that handle the heavy lifting in my business so I don't have to. These engines work for me, so I don't need to be 'on' all the time. The entire point of building an online business should be to buy back your time to live your actual life. It's about building online so that you can live offline. If you're an expert or a founder who wants to build a business that serves your life, instead of the other way around, this is what we do inside FieldWork.",
         "script": [
-          "Hook: This is the life my online business affords.",
-          "Problem: The old way of working keeps you chained to a desk.",
-          "Solution: I built a business with systems that run themselves.",
-          "Result: This bought back my time and freedom.",
-          "Philosophy: This is 'Build Online, Live Offline' in practice.",
-          "CTA: Follow if you're working towards this too."
+          "Hook with the desirable 'offline life'.",
+          "Address the misconception that this life is just luck.",
+          "Reveal it's the result of intentional design.",
+          "Explain the mechanism: using AI and automated systems.",
+          "State the core philosophy: Build online to live offline.",
+          "Call to action for founders who want this result (FieldWork)."
         ],
         "guidance": [
-          "This is not a talking head video. Use a gentle voiceover on top of a montage of high quality B-roll footage.",
-          "Film authentic 'offline' moments: making coffee by a campfire, walking in the woods, playing with your kids, a quiet moment reading. Avoid anything that looks like a luxury vacation ad.",
-          "Use one of the hooks as a simple, clean text overlay for the first 3 seconds of the video.",
-          "Music should be warm, ambient, and slightly cinematic. Think acoustic guitar, soft piano, or nature sounds.",
-          "Your call to action is in the final line of the voiceover and reinforced in the caption with a question to encourage comments."
+          "Start with 2-3 seconds of your best 'offline' B-roll: with family, hiking, by a fire. Hook them visually first.",
+          "Film the talking points in a natural, outdoor setting to match the brand voice. Keep the delivery calm and grounded.",
+          "As you mention 'systems' and 'automation', quickly cut to B-roll of a laptop screen showing a workflow, then immediately back to outdoor/life footage.",
+          "Use simple, clean on-screen text for the main idea: 'Build Online. Live Offline.'",
+          "The call to action should be a simple text overlay: 'Learn more at FieldWork'. Do not point."
         ],
         "source": "@wadepapenfus",
         "source_url": "https://www.instagram.com/p/DeWuAbnCBVU/",
         "framework": "Aspirational Lifestyle Statement",
         "belief_tags": [
           "E2",
-          "L"
+          "B"
         ],
         "details": {
-          "Angle": "Showcase the 'offline' life your online business affords you. The reel should be a montage of authentic, non-hustle moments like time with family, being in nature, or pursuing a hobby, framed as the direct result of building a business that serves your life.",
-          "Source": "@wadepapenfus (245.58x, 4,577,561 plays)",
-          "Hooks": "The offline life my online business built. | This is what 'Build Online, Live Offline' actually looks like. | The kind of freedom my soul craves.",
+          "Angle": "Frame the 'offline life' not as an escape, but as the deliberate outcome of building a specific kind of online business. Connect the aspirational visuals to the practical systems (AI, automation) that make them possible.",
+          "Source": "@wadepapenfus (245.87x, 4,577,561 plays)",
+          "Hooks": "The kind of offline life my online business is built for. | This is the freedom we're actually working for. | My business exists so I can have more days like this.",
           "Framework": "Aspirational Lifestyle Statement"
         }
       },
       {
-        "title": "Forget quiet quitting. The real goal is loud living.",
-        "headline": "Forget Quiet Quitting",
-        "angle": "We'll use the competitor's re-framing technique. Instead of focusing on 'quiet quitting' as the problem, Christian will introduce 'loud living' as the aspirational goal his FieldWork program enables.",
+        "title": "My goal is to fire myself from my own company.",
+        "headline": "Fire Yourself From Your Business",
+        "angle": "Frame the FieldWork methodology as a system designed to make the founder redundant from the day-to-day operations. The goal is not to work in the business, but to have the business work for you, freeing you to live offline.",
         "hooks": [
-          "Forget quiet quitting. The real goal is loud living.",
-          "Everyone is talking about quiet quitting. I'm focused on loud living.",
-          "The problem isn't quiet quitting. It's that we forgot how to live loudly.",
-          "You don't need to 'quiet quit'. You need a business that lets you 'live loudly'.",
-          "Stop optimizing for quiet quitting. Start building for loud living."
+          "My goal is to fire myself from my own company.",
+          "The most valuable founders are the most absent.",
+          "I get paid the most on the days I don't work.",
+          "Your job is to make your job obsolete.",
+          "Build a business that doesn't need you."
         ],
         "talking_points": [
-          "Forget quiet quitting. The real goal is loud living.",
-          "There is so much talk about people doing the bare minimum at jobs that no longer inspire them. But that's just a symptom of a much bigger problem.",
-          "The goal should not be to quietly check out of your work. The goal should be to build a life you are excited to loudly check into.",
-          "I call this 'loud living'. It means intentionally designing a business that doesn't just make money, but actively buys back your time for the things that truly matter.",
-          "For me, that means being able to close my laptop on a Tuesday afternoon to go for a hike, or being fully present with my family without my phone buzzing in my pocket.",
-          "This becomes possible when you build smart systems for your business, using automation and AI to do the work even when you are not at your desk.",
-          "This is the entire philosophy behind our program, FieldWork. We help you build the online engines once, so you can get back to your life offline.",
-          "If you are tired of the quiet quitting conversation and want to start building a business that funds a life of loud living, you can learn more about FieldWork at the link in my bio."
+          "My goal this year is to fire myself from my own company.",
+          "That probably sounds strange, but it is the entire point.",
+          "Most founders and experts build a business that becomes a prison.",
+          "Every new client, every new project, just adds another bar to the cage, demanding more of their time.",
+          "A modern business should not be built on your time. It should be built on systems.",
+          "You build the marketing engine, the sales engine, and the delivery engine once, using smart AI and automation to run them.",
+          "Once they are running, the business no longer needs you in the driver's seat every single day.",
+          "It works for you, so you can get back to living your life. That is what 'Build Online, Live Offline' actually means.",
+          "If you want to build a business that sets you free instead of trapping you, I have something that can help.",
+          "The program is called FieldWork, and it shows you how to build these systems. You can learn more at the link in my bio."
         ],
-        "body_copy": "Forget quiet quitting. The real goal is loud living. We hear a lot about people doing the bare minimum at jobs that don\u2019t inspire them. But that's a symptom of a bigger problem. The goal isn't to quietly check out. The goal is to build a life you're excited to loudly check into. Loud living means designing a business that doesn't just make money, but actively buys back your time for what truly matters. For me, that means closing my laptop on a Tuesday to go for a hike, or being fully present with my family without my phone buzzing. It\u2019s possible when you build smart systems, using automation and AI, that handle the work even when you\u2019re not there. This is the entire idea behind FieldWork. We help you build the online engines so you can get back to your life offline. If you're ready to stop thinking about quiet quitting and start building for loud living, learn more about FieldWork at the link in my bio.",
+        "body_copy": "My goal this year is to fire myself from my own company. That probably sounds strange, but it is the entire point of building a business in the first place, is it not? Too many founders I know build a business that becomes a prison. Every new client and every new project just adds another bar to the cage, demanding more of their time. A modern business should not be built on your time. It should be built on systems. You build the marketing engine, the sales engine, and the delivery engine once, using smart AI and automation to run them. Once they are running, the business no longer needs you in the driver's seat every single day. It works for you, so you can get back to living your life. That is what 'Build Online, Live Offline' actually means. If you are ready to build a business that sets you free, check out FieldWork.",
         "script": [
-          "Hook: Reframe 'quiet quitting' into 'loud living'.",
-          "Problem: Quiet quitting is a symptom, not the goal.",
-          "Solution: Define 'loud living' as intentional business design for an offline life.",
-          "Mechanism: Use systems, AI, and automation to buy back time.",
-          "Offer: This is the core philosophy of the FieldWork program.",
-          "CTA: Learn more about FieldWork via the link in bio."
+          "Hook: State the paradoxical goal to fire yourself.",
+          "Problem: Most businesses become prisons that consume your time.",
+          "Solution: A business should be built on systems, not your time.",
+          "Mechanism: Use AI and automation to run the engines of the business.",
+          "Outcome: The business works for you, so you can live offline.",
+          "CTA: Check out FieldWork to learn how."
         ],
         "guidance": [
-          "Film as a simple talking head in a warm, natural setting like your office with wood tones or even outdoors near a campfire.",
-          "Use simple on-screen text for the hook. Show 'Quiet Quitting', then have it crossed out and replaced by 'Loud Living'.",
-          "Incorporate 2-3 short b-roll clips of you 'living loudly' when you mention your personal examples, like hiking or being with family.",
-          "Keep the delivery grounded and conversational, like you're sharing an idea with a friend.",
-          "End with a clear, calm call to action on screen: 'FieldWork. Link in Bio.'"
+          "Film as a simple, grounded talking head video. Could be in a home office, a workshop, or even outdoors by a fire.",
+          "On-Screen Text: Use a bold, simple font. The first text should be the hook: 'My goal is to fire myself from my own company.'",
+          "B-Roll: As you mention 'living your life,' cut to 1-2 quick shots of you doing something offline: hiking, with family, working with your hands.",
+          "CTA: End with a simple text card on screen with the 'FieldWork' logo or a URL while you deliver the final call to action."
         ],
         "source": "@steveofallstreets",
         "source_url": "https://www.instagram.com/p/DYu3vBIRbez/",
-        "framework": "Paradoxical Reframe",
+        "framework": "Paradoxical Statement",
         "belief_tags": [
           "B",
-          "E2"
+          "E"
         ],
         "details": {
-          "Angle": "We'll use the competitor's re-framing technique. Instead of focusing on 'quiet quitting' as the problem, Christian will introduce 'loud living' as the aspirational goal his FieldWork program enables.",
-          "Source": "@steveofallstreets (234.19x, 470,250 plays)",
-          "Hooks": "Forget quiet quitting. The real goal is loud living. | Everyone is talking about quiet quitting. I'm focused on loud living. | The problem isn't quiet quitting. It's that we forgot how to live loudly.",
-          "Framework": "Paradoxical Reframe"
+          "Angle": "Frame the FieldWork methodology as a system designed to make the founder redundant from the day-to-day operations. The goal is not to work in the business, but to have the business work for you, freeing you to live offline.",
+          "Source": "@steveofallstreets (236.54x, 470,250 plays)",
+          "Hooks": "My goal is to fire myself from my own company. | The most valuable founders are the most absent. | I get paid the most on the days I don't work.",
+          "Framework": "Paradoxical Statement"
         }
       },
       {
-        "title": "How many automations ran in your business while you were sleeping?",
-        "headline": "Your Business's Freedom Score",
-        "angle": "Start with a pointed question about a manual, repetitive task that signals being trapped in the business. Use this to introduce the concept of building automated 'engines' that buy back your time, positioning it as the path to living offline.",
+        "title": "How many days last month did you not check your email?",
+        "headline": "The Real Freedom Metric",
+        "angle": "Pose a single, pointed question that makes founders and operators reflect on how tied they are to their business. Use this question to reframe success not as hustle, but as the number of days the business runs without them.",
         "hooks": [
-          "How many automations ran in your business while you were sleeping?",
-          "How many clicks does it take you to onboard a new client?",
-          "When was the last time your business made money without you touching a keyboard?",
-          "What percentage of your new leads are handled without you writing a single email?",
-          "How many hours of client work did you replace with a system this month?"
+          "How many days last month did you not check your email?",
+          "How many hours did you spend in your inbox this week?",
+          "How many systems in your business run without you?",
+          "How much of your day is spent reacting instead of creating?",
+          "When was your last truly unplugged vacation?"
         ],
         "talking_points": [
-          "How many automations ran in your business while you were sleeping last night?",
-          "If the answer is 'I have no idea' or 'zero,' I understand completely. For a long time, my business only moved forward when I was the one pushing it.",
-          "The gap between a business that owns you and a business that frees you often comes down to that one number.",
-          "It's a measure of the 'engines' you have running in the background. These are the simple, automated systems for your marketing, sales, and client delivery that work for you around the clock.",
-          "For example, one of our members in FieldWork set up an engine that automatically onboards every new client. It saves him about five hours of manual admin work each week.",
-          "Another member has an automated system that nurtures new leads, so she only spends time with people who are truly ready to work with her.",
-          "This isn't about removing the human element. It's about automating the repetitive tasks so you have more time for the work you actually love.",
-          "It's the whole idea behind why we say 'Build Online, Live Offline.'",
-          "You build the engines once, so you can get back to living your life.",
-          "If you want to see the first three automations I believe every founder should build, I put them in a free guide. Just comment the word 'Engines' below and I'll send it to you."
+          "How many days last month did you not check your email?",
+          "Take a second to actually think about it. If the answer is zero, or maybe one, you are not alone.",
+          "We get obsessed with the wrong metrics in business: revenue growth, team size, follower counts.",
+          "But those numbers don't matter if you've just built yourself a cage that requires your constant attention.",
+          "The real metric, the one we focus on in FieldWork, is 'autonomous days'.",
+          "Days where the business serves your customers and grows without you needing to be the one pulling every lever.",
+          "This is possible by building smart engines using AI and automation that handle the repeatable tasks for you.",
+          "You build the systems once, so you can get back to living your life offline.",
+          "The goal is to increase your number of autonomous days, month over month.",
+          "If you want to build a business that buys back your time instead of consuming it, learn more about FieldWork at the link in my bio."
         ],
-        "body_copy": "How many automations ran in your business while you were sleeping last night? If the answer is 'I have no idea' or 'zero,' I understand completely. For a long time, my business only moved forward when I was the one pushing it. The gap between a business that owns you and a business that frees you often comes down to that one number. It is a measure of the 'engines' you have running in the background: the simple, automated systems that handle your marketing, sales, and delivery. For example, one of our FieldWork members set up an engine that saves him five hours of admin work every week. Another has a system that nurtures leads so she only talks to people ready to start. This is about automating the repetitive tasks so you have more time for what you love. It is the whole idea behind 'Build Online, Live Offline.' If you want the free guide on the first three automations every founder needs, comment 'Engines' below and I will send it over.",
+        "body_copy": "How many days last month did you not check your email? Just take a second and think about the actual number. If your answer is zero, or close to it, you are not alone. So many founders are taught to measure success with the wrong metrics, like revenue growth or team size. But those are vanity metrics if you've just built yourself a cage that needs your constant attention. The real metric, the one that truly matters for your freedom, is the number of 'autonomous days' you have. These are days where your business runs, serves clients, and even grows without you needing to be the one doing all the work. This is not a fantasy. It's the result of building smart, automated systems that handle the heavy lifting. You build the engines once so you can return to the field. If you want to build a business that serves your life, not the other way around, check out FieldWork. The link is in my bio.",
         "script": [
-          "Hook with a specific question about automation.",
-          "Relate to the feeling of being the business's only engine.",
-          "Introduce the concept of automated 'engines'.",
-          "Give two clear examples of how these engines save time.",
-          "Connect this strategy to the 'Build Online, Live Offline' philosophy.",
-          "End with a clear CTA using a keyword for a free guide."
+          "Hook with a pointed question about checking email.",
+          "Validate the viewer's pain point of being 'always on'.",
+          "Challenge traditional vanity metrics in business.",
+          "Introduce 'autonomous days' as the true measure of success.",
+          "Explain this is achieved through AI and automation.",
+          "Connect systems to the 'Build Online, Live Offline' ethos.",
+          "CTA to learn more about the FieldWork program."
         ],
         "guidance": [
-          "Film as a simple talking head in a warm, natural setting like a home office or a quiet outdoor space.",
-          "Display the hook question as a bold, clean text overlay for the first 3-4 seconds to stop the scroll.",
-          "When giving examples, use simple b-roll of a workflow chart, a clean calendar, or a screen recording of an automation tool.",
-          "End the video with a clear text overlay on screen: 'Comment ENGINES for the guide'."
+          "Film as a simple, grounded talking head shot. A warm, natural setting like a home office with a window or even outdoors is ideal.",
+          "Use a bold, clear text overlay of the hook question for the first 3-5 seconds to stop the scroll.",
+          "When you say 'autonomous days', add that phrase as on-screen text to emphasize the concept.",
+          "Consider splicing in 1-2 brief b-roll clips of you away from a desk (walking outside, with family) when you talk about living offline.",
+          "End card or final text overlay should be simple: 'FieldWork. Build Online. Live Offline. Link in Bio.'"
         ],
         "source": "@steveofallstreets",
         "source_url": "https://www.instagram.com/p/Dbosr4VPiqG/",
-        "framework": "Niche Qualifying Question",
+        "framework": "Niche Dog Whistle Question",
         "belief_tags": [
-          "B",
-          "F"
+          "B"
         ],
         "details": {
-          "Angle": "Start with a pointed question about a manual, repetitive task that signals being trapped in the business. Use this to introduce the concept of building automated 'engines' that buy back your time, positioning it as the path to living offline.",
-          "Source": "@steveofallstreets (156.0x, 313,249 plays)",
-          "Hooks": "How many automations ran in your business while you were sleeping? | How many clicks does it take you to onboard a new client? | When was the last time your business made money without you touching a keyboard?",
-          "Framework": "Niche Qualifying Question"
+          "Angle": "Pose a single, pointed question that makes founders and operators reflect on how tied they are to their business. Use this question to reframe success not as hustle, but as the number of days the business runs without them.",
+          "Source": "@steveofallstreets (157.57x, 313,249 plays)",
+          "Hooks": "How many days last month did you not check your email? | How many hours did you spend in your inbox this week? | How many systems in your business run without you?",
+          "Framework": "Niche Dog Whistle Question"
         }
       },
       {
-        "title": "@sahilbloom has more free time than you think.",
-        "headline": "The Freedom Framework",
-        "angle": "Call out a creator known for their systems and productivity, but reframe their success not as pure hustle, but as a win in time freedom, which directly ties to the FieldWork philosophy.",
+        "title": "Your favorite creator isn't actually 'always on'.",
+        "headline": "The Offline Founder Model",
+        "angle": "The most successful founders aren't just making money, they're buying back their time. We should highlight a creator who embodies the 'Build Online, Live Offline' ethos and break down the systems that make it possible.",
         "hooks": [
-          "@sahilbloom has more free time than you think.",
-          "@aliabdaal's real secret isn't productivity hacks.",
-          "Why people like @tferriss actually disappear for months.",
-          "@justinwelsh built his business by working less, not more.",
-          "This is how smart founders get their time back."
+          "Your favorite creator isn't actually 'always on'.",
+          "The smartest founders are quietly disappearing.",
+          "This is the one metric that actually matters (and it's not revenue).",
+          "Why the best entrepreneurs are so hard to reach.",
+          "The goal isn't to be the CEO. It's to be the owner."
         ],
         "talking_points": [
-          "People see successful founders like Sahil Bloom and they think they must be working around the clock.",
-          "They see the massive output, the daily content, and assume it\u2019s all hustle, that it requires 80 hour weeks.",
-          "But the truth is, the goal isn't to work more. The goal is to build systems that work for you.",
-          "They aren't just creating content day after day; they're building engines.",
-          "These are AI-powered, automated engines that handle the majority of the repetitive work, freeing them up for the important stuff.",
-          "Imagine a system that drafts your newsletter ideas and formats the content, leaving you with just the final creative edit.",
-          "Or an onboarding process that takes a new client from their first email to a signed contract without you lifting a finger.",
-          "This is how you build an online business that doesn't chain you to a desk. It's how you buy back your time.",
-          "You build these systems once so you can spend your time back in the field, with your family, doing what you actually love.",
-          "We build these exact engines inside my program, FieldWork. If you\u2019re ready to build online so you can live offline, you know where to look."
+          "Your favorite creator isn't actually 'always on'. It just looks that way.",
+          "This idea that you need to be constantly available, posting, and replying is a myth that keeps founders chained to their desks.",
+          "The truth is, the smartest operators you follow are building systems in the background. They are using AI, automation, and lean teams to do the heavy lifting for them.",
+          "Their business is an engine that runs without them needing to be in the driver's seat 24/7.",
+          "They build online so they can live offline. That\u2019s the entire game.",
+          "They have systems for content creation, for client onboarding, for product delivery. These are assets that work for them.",
+          "This isn't some secret reserved for huge accounts. You can build these same engines for your own business, starting today.",
+          "It\u2019s about building the machine once, so it can serve you for years, buying back your time so you can spend it out in the world.",
+          "We build these exact systems inside my program, FieldWork. We design them to get you out of the office and back into your life.",
+          "If you want a business that serves your life, instead of a life that serves your business, you can learn more at the link in my profile."
         ],
-        "body_copy": "People see creators like Sahil Bloom and they think they must be working around the clock. They see the massive output and assume it\u2019s all hustle. But the truth is, the goal isn't to work more. The goal is to build systems that work for you. They're not just creating content day after day; they're building engines. These are AI-powered, automated engines that handle the majority of the repetitive work. Imagine a system that drafts your newsletter ideas and formats the content, leaving you with just the final creative edit. Or an onboarding process that takes a new client from their first email to a signed contract without you lifting a finger. This is how you build an online business that doesn't chain you to a desk. It's how you buy back your time so you can spend it back in the field, with your family, doing what you love. We build these exact engines inside my program, FieldWork. If you\u2019re ready to build online so you can live offline, head to the link in my bio.",
+        "body_copy": "Your favorite creator isn't actually 'always on'. It just looks that way. We've been sold this myth that to be successful online, you have to be constantly available, posting, and replying. But that's what keeps so many founders chained to their desks. The truth is, the smartest operators are building systems in the background. They use AI and automation as leverage to do the heavy lifting. They build online so they can live offline. That\u2019s the entire game. Their business is an engine that runs without them needing to be in the driver's seat all day. This isn't some secret reserved for huge accounts. You can build these same engines for your own business. It\u2019s about building the machine once, so it can serve you for years and buy back your time. This is exactly what we do inside FieldWork. We build the systems that get you out of the office and back into your life. If that sounds like the goal, you can learn more at the link in my profile.",
         "script": [
-          "Hook on the misconception about a creator's work hours.",
-          "Reframe: It's not about hustle, it's about systems.",
-          "Mechanism: They build AI and automation 'engines'.",
-          "Give two clear examples: newsletters and client onboarding.",
-          "State the payoff: Buy back time to 'live offline'.",
-          "CTA: Learn how in the FieldWork program."
+          "Hook: The 'always on' creator is a myth.",
+          "Problem: This myth chains founders to their work.",
+          "The Truth: Smart founders use systems and automation.",
+          "The Goal: Build online to live offline.",
+          "The Method: Build engines that run the business for you.",
+          "The Offer: This is what we build inside FieldWork.",
+          "CTA: Link in profile to learn more."
         ],
         "guidance": [
-          "Film as a simple, direct-to-camera talking head. A warm, grounded setting like an office with natural light or outdoors works best.",
-          "Use a bold, clear text hook on screen for the first 3-4 seconds, matching the spoken hook. For example: '@sahilbloom has more free time than you think.'",
-          "Incorporate simple text callouts for key concepts like 'Build Engines' or 'AI + Automation'.",
-          "B-roll is optional, but if used, show clips of you offline: hiking, with family, away from a computer to reinforce the 'Live Offline' promise.",
-          "End with a clear on-screen CTA: 'FieldWork: Link in Bio'."
+          "Opener: Start with a 2-3 second, text-only screen with the hook in bold, clean font.",
+          "Primary Shot: Cut to a warm, medium talking-head shot of Christian. An outdoor setting or a room with natural light is ideal.",
+          "B-Roll: Intersperse 2-3 short clips of 'offline' life: walking in nature, a campfire, time with family, reading a book.",
+          "On-Screen Text: Use minimal text overlays to emphasize key concepts like 'Systems > Hustle' and 'Build Online. Live Offline.'",
+          "CTA: End card should be simple text: 'FieldWork. Link in Profile.'"
         ],
         "source": "@steveofallstreets",
         "source_url": "https://www.instagram.com/p/Db3a6tuB5NP/",
-        "framework": "Creator Call-Out",
+        "framework": "Name-Drop Curiosity Gap",
         "belief_tags": [
-          "B",
-          "F"
+          "E2",
+          "B"
         ],
         "details": {
-          "Angle": "Call out a creator known for their systems and productivity, but reframe their success not as pure hustle, but as a win in time freedom, which directly ties to the FieldWork philosophy.",
-          "Source": "@steveofallstreets (131.95x, 264,952 plays)",
-          "Hooks": "@sahilbloom has more free time than you think. | @aliabdaal's real secret isn't productivity hacks. | Why people like @tferriss actually disappear for months.",
-          "Framework": "Creator Call-Out"
+          "Angle": "The most successful founders aren't just making money, they're buying back their time. We should highlight a creator who embodies the 'Build Online, Live Offline' ethos and break down the systems that make it possible.",
+          "Source": "@steveofallstreets (133.28x, 264,952 plays)",
+          "Hooks": "Your favorite creator isn't actually 'always on'. | The smartest founders are quietly disappearing. | This is the one metric that actually matters (and it's not revenue).",
+          "Framework": "Name-Drop Curiosity Gap"
         }
       },
       {
-        "title": "People think I want to build a giant, complicated business.",
-        "headline": "My Standards For Business Are High",
-        "angle": "Mirror the competitor's script structure: state a common misconception about your business goals, correct it, then detail the kind of business you actually want, one that serves your life, and explain why settling for the wrong model is so costly.",
+        "title": "People think I don't want to work hard.",
+        "headline": "The Most Important Business Decision",
+        "angle": "Frame the choice of a business model with the same gravity as choosing a life partner. Use the competitor's 'misconception > correction > high standards' structure to argue for building a sustainable, automated business over a hustle-culture one.",
         "hooks": [
-          "People think I want to build a giant, complicated business.",
-          "People think I'm against working hard.",
-          "People think I'm just another 'laptop lifestyle' guru.",
-          "People think I don't care about growth.",
-          "People think I'm trying to escape work."
+          "People think I don't want to work hard.",
+          "People see me offline and think my business isn't growing.",
+          "Some people think I'm against 'the hustle'.",
+          "People think building an online business means being online all the time.",
+          "People think I'm not ambitious about my work."
         ],
         "talking_points": [
-          "People think I want to build a giant, complicated business.",
+          "People think I don't want to work hard.",
           "They\u2019re wrong.",
-          "I want a business that works like a quiet engine, not a cage. Something I can trust to run with smart AI and automation, so I can be present for the moments that matter.",
-          "I want a peaceful business that buys back my time, built on freedom and intention, not just endless growth.",
-          "My standards for my business are high.",
-          "Not because I\u2019m looking for an easy way out, but because I\u2019ve seen what happens when founders build the wrong kind of company.",
-          "The business you choose to build will influence your peace, your health, your relationships\u2026 almost everything.",
-          "I\u2019d rather take a little longer to build the right systems now than spend decades wishing I hadn\u2019t settled for a life chained to a desk.",
-          "Some decisions are simply too important to rush.",
-          "If you're ready to build a business that serves your life, instead of the other way around, that's what we do inside FieldWork."
+          "I want a business that\u2019s a partner in my life, not a master I have to serve. One that uses smart systems and AI to buy back my time, so I can be present with my family and get outside.",
+          "My standards for how I build a business are high.",
+          "Not because I'm looking for an easy button, but because I\u2019ve seen what happens when good people choose the wrong model.",
+          "I've seen the burnout, the missed moments with their kids, the feeling of being trapped by something they created.",
+          "The business model you choose will influence your peace, your health, your relationships, your future\u2026 almost everything.",
+          "I\u2019d rather take the time to build the right systems now than spend decades wishing I hadn't built a prison for myself.",
+          "Some foundations are just too important to rush. If you're ready to build yours the right way, you should look into FieldWork."
         ],
-        "body_copy": "People think I want to build a giant, complicated business. They\u2019re wrong. I want a business that works like a quiet engine, not a golden cage. Something I can trust to run with smart AI and automation, so I can be present for the moments that matter. I want a peaceful business that buys back my time, built on freedom and intention, not just endless growth. My standards for my business are high. Not because I\u2019m looking for an easy way out, but because I\u2019ve seen what happens when founders build the wrong kind of company. The business you choose to build will influence your peace, your health, your relationships, almost everything. I\u2019d rather take a little longer to build the right systems now than spend decades wishing I hadn\u2019t settled for a life chained to a desk. Some decisions are simply too important to rush. If you're ready to build a business that actually serves your life, that's what we focus on in FieldWork.",
+        "body_copy": "People think I don't want to work hard. They\u2019re wrong. I want a business that\u2019s a partner in my life, not a master I have to serve. A business that uses smart systems and AI to create leverage, buying back my time so I can be present with my family and get back out in the field. My standards for how I build are high. Not because I'm looking for an easy way out, but because I\u2019ve seen what happens when good people choose the wrong model. I've seen the burnout, the missed family dinners, the feeling of being chained to a laptop. The business you build will influence your peace of mind, your health, your relationships, and your future. It touches almost everything. I\u2019d rather spend a little longer building the right engines now than spend the next decade wishing I hadn't settled for a business I resent. Some foundations are simply too important to rush.",
         "script": [
-          "Hook: Debunk a common misconception about my business goals.",
-          "Vision: Describe the ideal 'quiet engine' business I actually want.",
-          "Justification: Explain my high standards are not about being lazy.",
-          "Stakes: Highlight the high personal cost of building the wrong business.",
-          "Principle: State that this is a decision too important to rush.",
-          "CTA: Introduce FieldWork as the place to build this kind of business."
+          "Hook: State the misconception that you don't want to work hard.",
+          "Correction: Clarify you want a business that serves your life, not the other way around.",
+          "The Standard: State your standards for a business model are high.",
+          "The Stakes: Explain that the wrong model costs you your peace, health, and time.",
+          "The Choice: You'd rather build slowly and correctly than quickly build a trap.",
+          "The Principle: Some foundations are too important to rush.",
+          "CTA: Point them toward FieldWork to learn how."
         ],
         "guidance": [
-          "Film as a simple, grounded talking head shot, looking directly at the camera. Use warm, natural light in a calm setting like your office or outdoors.",
-          "Use clean, bold text on screen that appears in sync with the key phrases of your script. For example: 'They're wrong.' or 'My standards are high.'",
-          "Weave in B-roll that shows the 'why': you with your family, hiking, enjoying the outdoors. This visualizes the offline life the business enables.",
-          "End with a clear, simple on-screen Call to Action: 'FieldWork. Link in bio.'"
+          "Film this as a simple, direct-to-camera talking head shot. Keep your delivery grounded and sincere.",
+          "Use large on-screen text that appears line-by-line or phrase-by-phrase, exactly matching your script, just like the example reel.",
+          "Intersperse B-roll of you working calmly on a laptop, then closing it to be with family, walk in nature, or do an outdoor activity.",
+          "Your background should be simple and align with the brand: a clean office, by a window with a view, or outdoors.",
+          "The final CTA 'Learn more about FieldWork' should be a clear text overlay on the last shot of the video."
         ],
         "source": "@jrp.co",
         "source_url": "https://www.instagram.com/p/DaRjRP_sWVn/",
         "framework": "Misconception / Correction",
         "belief_tags": [
-          "E2",
-          "L"
+          "B",
+          "F"
         ],
         "details": {
-          "Angle": "Mirror the competitor's script structure: state a common misconception about your business goals, correct it, then detail the kind of business you actually want, one that serves your life, and explain why settling for the wrong model is so costly.",
+          "Angle": "Frame the choice of a business model with the same gravity as choosing a life partner. Use the competitor's 'misconception > correction > high standards' structure to argue for building a sustainable, automated business over a hustle-culture one.",
           "Source": "@jrp.co (77.88x, 2,814,574 plays)",
-          "Hooks": "People think I want to build a giant, complicated business. | People think I'm against working hard. | People think I'm just another 'laptop lifestyle' guru.",
+          "Hooks": "People think I don't want to work hard. | People see me offline and think my business isn't growing. | Some people think I'm against 'the hustle'.",
           "Framework": "Misconception / Correction"
         }
       },
       {
-        "title": "I'm okay with leaving money on the table, and I think that makes a lot of founders uncomfortable.",
-        "headline": "The 'Good Enough' Business",
-        "angle": "Mirror the original's contrarian declaration. State that you're okay without a core tenet of hustle culture, like constant growth or being 'always on', and then explain that your real goal is time freedom, not just a bigger business.",
+        "title": "My goal is to work less next year, not more. And I think that confuses a lot of people.",
+        "headline": "The Goal Is To Work Less",
+        "angle": "Christian should adopt the same contrarian framework to challenge the hustle culture narrative. He will state that his goal is to work less, not more, framing it as a philosophy that confuses traditional founders but is central to the 'Build Online. Live Offline.' ethos.",
         "hooks": [
-          "I'm okay with leaving money on the table, and I think that makes a lot of founders uncomfortable.",
-          "My goal is to work less next year than I did this year, and I think that sounds like failure to some people.",
-          "I'm okay with a business that's 'good enough', and I think that's a radical idea for most entrepreneurs.",
-          "I actively try to be hard to reach, and I know that bothers a lot of people in the online space.",
-          "I'm okay with my business not growing every single month, and I think that confuses a lot of operators."
+          "My goal is to work less next year, not more. And I think that confuses a lot of people.",
+          "I build my business so I can forget about it for weeks at a time.",
+          "I'm not trying to infinitely scale my business, and I think that makes some founders angry.",
+          "I'm okay with being less 'productive', and I think that scares most entrepreneurs.",
+          "I don't want a bigger team, and I think that sounds like failure to some people."
         ],
         "talking_points": [
-          "I'm okay with a business that's 'good enough', and I think that's a radical idea for most entrepreneurs.",
-          "We're constantly told that if you're not scaling, you're failing. That you always need more clients, more revenue, more reach.",
-          "But what if 'good enough' actually meant the business fully funds your life, your adventures, and your time with family?",
-          "What if it meant you could disappear for a week without your phone and everything ran smoothly on its own?",
-          "That version of 'good enough' sounds a lot better to me than just 'bigger'.",
-          "The whole point of building an online business should be to live a better offline life.",
-          "We do this by building smart, automated systems that work for you, not the other way around.",
-          "It\u2019s about building the engine once, so you can get back out into the field.",
-          "If you're a founder or an expert who wants a business that serves your life, not a life that serves your business, then this idea is for you.",
-          "I share exactly how we build these kinds of businesses inside FieldWork. You can find all the details in my profile."
+          "My goal is to work less next year, not more. And I think that really confuses a lot of people in the online space.",
+          "We're told that success means more. More revenue, more clients, a bigger team, more complexity.",
+          "But what if the real win is not more, but better? What if the whole point of building an online business was to spend less time online?",
+          "For me, that is the entire game. It is not about endless growth.",
+          "It is about building smart, automated systems that run for you, so you do not have to.",
+          "These are the engines that buy back your time, which is your most valuable asset.",
+          "This is what allows you to get back out into the field, back to your life, and back to the things that actually matter.",
+          "This is the core idea behind FieldWork. We build online so we can live offline."
         ],
-        "body_copy": "I'm okay with a business that's 'good enough', and I think that's a radical idea for most entrepreneurs. We're taught that if you're not scaling, you're failing. That the goal is always more. More revenue, more reach, more everything. But what if we are chasing the wrong 'more'? What if 'good enough' meant the business fully funded your life and your time with family? What if it meant you could disappear into the mountains for a week and everything just kept running smoothly? That version of 'good enough' sounds a lot better to me than just 'bigger'. The whole point of building something online is to live a better life offline. We do this by building smart, automated systems that work for you. It's about building the engine once, so you can return to the field. If you're an expert who wants a business that serves your life, and not the other way around, I share how we build these systems inside FieldWork. You can learn more through the link in my profile.",
+        "body_copy": "My goal is to work less next year, not more. And I think that really confuses a lot of people. The default script for founders is that success means more. More revenue, a bigger team, more complexity, more hours behind the screen. But what if that is the wrong goal? What if the point of building an online business was to spend less time online? For me, that is the entire game. It is about building smart, automated systems that handle the work for you, so you do not have to be there. These are the engines that buy back your most valuable asset: your time. This allows you to get back out into the field, to your family, to your life, to the things that actually matter beyond the business. That is the whole philosophy behind what we do in FieldWork. We build these engines online so we can get back to living offline.",
         "script": [
-          "Hook: Declare you're okay with a 'good enough' business.",
-          "Problem: Challenge the 'more is always better' hustle mindset.",
-          "Reframe: Redefine 'good enough' as a business that funds your ideal life.",
-          "Vision: Paint a picture of true freedom from the business.",
-          "Method: Briefly mention systems and automation as the key.",
-          "Callout: Speak directly to the target audience.",
-          "CTA: Invite those who agree to check out FieldWork."
+          "State the contrarian goal: to work less.",
+          "Challenge the standard definition of 'more' as success.",
+          "Reframe the purpose of an online business.",
+          "Introduce smart systems as the mechanism.",
+          "Connect those systems to the real ROI: time.",
+          "Tie the concept to the FieldWork philosophy."
         ],
         "guidance": [
-          "Film this as a simple talking head shot in a grounded, natural setting like by a campfire, in a workshop, or on a porch overlooking a landscape.",
-          "Use on-screen text to emphasize the hook: 'I'm okay with a business that's 'good enough'.' Keep text minimal after that.",
-          "Intersperse B-roll of 'offline' activities: hiking, spending time with family, working with your hands, packing a truck for a trip.",
-          "End with a clear, simple on-screen text CTA: 'Learn about FieldWork. Link in bio.'",
-          "Keep the delivery calm and confident, not aggressive. The tone is one of quiet conviction."
+          "Film as a simple, grounded talking head shot, preferably outdoors to reinforce the 'offline' theme.",
+          "Use a bold text overlay for the hook in the first 3-5 seconds: 'My goal is to work less, not more.'",
+          "After the hook, consider cutting to B-roll of you hiking, with family, or enjoying an offline activity as your voiceover continues.",
+          "Keep the delivery calm and deliberate. Let the opening statement land with confidence.",
+          "End with a simple text card or caption call to action pointing towards FieldWork."
         ],
         "source": "@jrp.co",
         "source_url": "https://www.instagram.com/p/DcCS1ZQs2bT/",
-        "framework": "Contrarian Contentment Declaration",
+        "framework": "Contrarian Declaration",
         "belief_tags": [
           "B",
           "E2"
         ],
         "details": {
-          "Angle": "Mirror the original's contrarian declaration. State that you're okay without a core tenet of hustle culture, like constant growth or being 'always on', and then explain that your real goal is time freedom, not just a bigger business.",
+          "Angle": "Christian should adopt the same contrarian framework to challenge the hustle culture narrative. He will state that his goal is to work less, not more, framing it as a philosophy that confuses traditional founders but is central to the 'Build Online. Live Offline.' ethos.",
           "Source": "@jrp.co (47.58x, 1,719,340 plays)",
-          "Hooks": "I'm okay with leaving money on the table, and I think that makes a lot of founders uncomfortable. | My goal is to work less next year than I did this year, and I think that sounds like failure to some people. | I'm okay with a business that's 'good enough', and I think that's a radical idea for most entrepreneurs.",
-          "Framework": "Contrarian Contentment Declaration"
+          "Hooks": "My goal is to work less next year, not more. And I think that confuses a lot of people. | I build my business so I can forget about it for weeks at a time. | I'm not trying to infinitely scale my business, and I think that makes some founders angry.",
+          "Framework": "Contrarian Declaration"
         }
       },
       {
-        "title": "You started a business to be free, but you've never been more trapped.",
-        "headline": "The Founder's Freedom Trap",
-        "angle": "Christian's version will voice the quiet frustration of building a business for freedom, only to end up chained to a desk. The angle is that this isn't a personal failure, but a systems problem that can be solved.",
+        "title": "Offline.",
+        "headline": "The Goal Is To Be Offline",
+        "angle": "Adopt the single-word hook by using a word that embodies the 'Live Offline' promise. You'll state the word, then unpack how building the right kind of online business is the key to making that word your reality, not just a dream.",
         "hooks": [
-          "You started a business to be free, but you've never been more trapped.",
-          "The most ironic part of being your own boss is who you actually work for.",
-          "Your calendar is the real CEO of your company, isn't it?",
-          "That 'work from anywhere' business somehow means you just work everywhere.",
-          "What if the reward for your success wasn't just more work?"
+          "Offline.",
+          "Present.",
+          "Done.",
+          "Outside.",
+          "Enough."
         ],
         "talking_points": [
-          "You started a business to get your time back, but let's be honest, you've never been more trapped.",
-          "Your calendar is a wall of meetings and your inbox never sleeps. You feel like you can't step away for a single day without something breaking.",
-          "It's exhausting, and it wasn't supposed to be like this. This wasn't the dream.",
-          "The problem isn't you, and it isn't that you need to hustle harder. The problem is you've built a business that runs on your direct time and attention.",
-          "The goal is to change that. It's time to build a business that runs *for* you, not *because* of you.",
-          "This means building smart, automated systems that handle the repeatable work, freeing you up for the things that really matter.",
-          "It\u2019s about using simple AI and automation to create engines that deliver value without requiring you to be at the desk.",
-          "This is how you finally get to live the life you set out to build in the first place.",
-          "Our whole philosophy in FieldWork is 'Build Online, Live Offline'.",
-          "If you're ready to stop trading your time for money and start building a business that gives you your life back, I can show you how. Check out the caption for details."
+          "Offline. For most founders, that word feels impossible.",
+          "We're told the goal is to scale our online presence, but that usually just scales our time spent chained to a screen.",
+          "The hustle culture default is being always on, always available, always building.",
+          "But what if we built differently? What if the real goal of an online business was to spend more time offline?",
+          "This is why we focus on building automated engines and systems inside FieldWork.",
+          "You build the machine once, so it can do the work for you while you're out in the world, living your actual life.",
+          "The point isn't to build a giant online empire. The point is to build an efficient online engine that buys back your time.",
+          "It's about having a business that funds your life, not a business that consumes it.",
+          "If the goal for you is to build online so you can live offline, I can show you how we do it. Learn more about FieldWork at the link in my bio."
         ],
-        "body_copy": "You started a business to be free, but you've never been more trapped. Your calendar is a fortress of back to back calls, and it feels like you can't step away for a single afternoon without everything catching fire. This wasn't the dream. But the problem isn't that you need to work harder. The problem is you've built a business that is completely dependent on your time. The goal is to change that, to build a business that runs for you, not because of you. This is done by creating smart systems, using simple AI and automation to build engines that do the work, so you don't have to. This is how you finally reclaim your time and get back to the life you wanted to live in the first place. Our entire approach is called FieldWork, based on one simple idea: Build Online, Live Offline. If you're ready to build the systems that buy back your time, I can show you the way.",
+        "body_copy": "Offline. For most founders, that word feels impossible. We're told the goal is to scale our online presence, but that usually just scales our time spent chained to a screen. The default is being always on, always available. But what if the real goal of an online business was to spend more time offline? This is the entire idea behind FieldWork. We focus on building automated engines and systems. You build the machine once, so it can do the work for you while you're out in the world, living your actual life. Imagine being fully present with your family on a Tuesday afternoon, not worrying about what's happening online. The point isn't to build a bigger online empire. The point is to build an efficient online engine that buys back your time and funds your life, instead of consuming it. If that's the goal for you, I can show you how we do it. You can learn about FieldWork at the link in my bio.",
         "script": [
-          "Hook: The painful irony of founder 'freedom'.",
-          "Problem: You're trapped by a business that depends on your time.",
-          "Insight: This is a systems problem, not a personal failure.",
-          "Solution: Build automated engines so the business runs for you.",
-          "Vision: Reclaim your time to 'Live Offline'.",
-          "CTA: Learn how inside FieldWork."
+          "Hook with a single powerful word: 'Offline.'",
+          "Identify the founder's trap of being 'always on.'",
+          "Reframe the goal: build online to live offline.",
+          "Introduce the solution: building automated engines.",
+          "Explain the true purpose of the business: to fund your life.",
+          "CTA: Learn more about the FieldWork program."
         ],
         "guidance": [
-          "Visuals: Open on a shot of you looking tired at a laptop. B-roll could show a packed digital calendar, then contrast it with shots of you outdoors, hiking, or with family.",
-          "On-Screen Text: Use a bold, simple text hook like 'The Freedom Trap' in the first 3 seconds. Add key phrases like 'Systems > Hours' to emphasize points.",
-          "Pacing: Start with a grounded, quieter tone to match the pain point. Build a little energy and optimism when you pivot to the solution.",
-          "CTA: End with a clear on-screen text call to action like 'Build Online. Live Offline.' and point to the caption or link in bio."
+          "Opener: Start with the single hook word ('Offline.') as large, bold, centered text on screen for the first 1-2 seconds before you appear.",
+          "Setting: Film as a simple, grounded talking head. A calm indoor space with natural light or an outdoor setting would fit the brand well.",
+          "B-Roll: Briefly cut to a symbolic shot when you say 'living your actual life': closing a laptop, putting a phone down, a peaceful nature scene, or you walking with family.",
+          "On-Screen Text: Use simple, clean text to emphasize key phrases like 'Build Online. Live Offline.'",
+          "CTA: End with a clear, simple text overlay: 'FieldWork Program | Link in Bio'."
         ],
         "source": "@jrp.co",
         "source_url": "https://www.instagram.com/p/DdKux49sa2d/",
-        "framework": "Relatable Irony",
+        "framework": "Single-Word Aspiration Hook",
         "belief_tags": [
-          "I",
+          "E",
           "B"
         ],
         "details": {
-          "Angle": "Christian's version will voice the quiet frustration of building a business for freedom, only to end up chained to a desk. The angle is that this isn't a personal failure, but a systems problem that can be solved.",
+          "Angle": "Adopt the single-word hook by using a word that embodies the 'Live Offline' promise. You'll state the word, then unpack how building the right kind of online business is the key to making that word your reality, not just a dream.",
           "Source": "@jrp.co (39.47x, 1,426,403 plays)",
-          "Hooks": "You started a business to be free, but you've never been more trapped. | The most ironic part of being your own boss is who you actually work for. | Your calendar is the real CEO of your company, isn't it?",
-          "Framework": "Relatable Irony"
+          "Hooks": "Offline. | Present. | Done.",
+          "Framework": "Single-Word Aspiration Hook"
         }
       },
       {
-        "title": "Share this with a founder who feels trapped by their own business.",
-        "headline": "For The Founder Who Feels Trapped",
-        "angle": "Mirror the original's vulnerable, 'I'm in this with you' tone. Frame the conflict not as business versus kids, but as the business versus your actual life. Position 'hustle culture' as the villain and choosing to live offline as the heroic act.",
+        "title": "Share this with a founder who feels chained to their desk.",
+        "headline": "For The Founder Missing Life",
+        "angle": "Frame the conflict not as fatherhood vs. business, but as living a full, offline life vs. the endless demands of an online business. Position yourself as someone actively choosing to live your message in that moment, making the 'Build Online. Live Offline.' ethos tangible.",
         "hooks": [
-          "Share this with a founder who feels trapped by their own business.",
-          "For the person building a business to be free, but has never felt more stuck.",
-          "A message for the expert who is tired of trading their life for a living.",
-          "If you started a business to live more, but you're just working more.",
-          "This is for the founder who feels guilty every time they step away from their laptop."
+          "Share this with a founder who feels chained to their desk.",
+          "This is for the expert who's building a business but losing their life.",
+          "A reminder for the operator who hasn't seen a sunset in weeks.",
+          "If you started a business for freedom but only found a digital prison.",
+          "For the founder who is starting to forget why they even started."
         ],
         "talking_points": [
-          "This is for the founder who feels trapped by the very business that was meant to set them free.",
-          "You can and you will get through this. You have everything you need to build a business that serves your life, not the other way around.",
-          "Honestly, I almost didn't record this. Because it's a painful feeling to admit that the thing you're building is also the thing caging you.",
-          "There's this immense guilt that comes with stepping away from the laptop, this fear that everything will fall apart if you're not constantly available.",
-          "I know how much it can feel like it costs you in the short term. A missed email, a lost lead. But the cost of not disconnecting is so much higher. It costs you your actual life.",
+          "This is for the founder who feels chained to their desk.",
+          "I need you to hear this. You can and you will build a business that serves your life, not the other way around. You have everything you need right now to make that happen.",
+          "Honestly, it's hard to even post this. There are days I feel like a fraud, talking about living offline while I'm stuck tweaking a system late at night.",
+          "Those moments are tough, and they feel like a compromise. I know how much it feels like you're sacrificing the life you wanted for the business you're building.",
           "And I know so many of you are in the same spot, because I get your messages every single day.",
-          "You're not fighting a person. You're fighting a narrative. A hustle culture that tells you that sacrifice is the only path to success. It is not.",
-          "The people you love won't remember your revenue goals or how fast you answered an email. They will remember that you were present.",
-          "This is me showing you that I'm here, away from my desk when I 'should' be working, to prove that it's possible.",
-          "I want to be living proof that you can choose your life over your laptop, and still build something meaningful and successful. If you're ready to learn how, check out FieldWork in my bio."
+          "The internet will always tell you to do more, to grind harder, to never switch off. It will sell you a version of success that costs you your time.",
+          "But you have to keep your eyes on what actually matters. The business is a tool, not the prize. Your life is the prize.",
+          "Nobody will remember the emails you answered after 5 PM or the funnels you optimized on a Saturday. They will remember that you were present.",
+          "This video is me showing up for that idea. I could be working right now, but I'm outside, choosing to prove this is possible.",
+          "I want to be living proof that you can build the right engines in your business so you can choose your life, again and again. If you want to build those engines, check out FieldWork."
         ],
-        "body_copy": "This is for the founder who feels trapped by the business that was meant to set them free. You can build a different way. You have what it takes to run a successful business while also living a full life offline. I almost didn't post this, because the feeling is so painful. The guilt that comes with stepping away from the laptop, feeling like everything might fall apart. I know it costs something in the short term to disconnect. A missed email, a delayed project. But the cost of not disconnecting is so much higher. It's the cost of your actual life. I get messages from so many of you who are in the same spot. You're fighting the hustle narrative that says more hours equals more success. But your family and friends won't remember your revenue charts. They will remember you being present. This is me, away from my desk, proving that it's possible. You can build a business that serves your life. If you're ready to build that, check out FieldWork.",
+        "body_copy": "Share this with a founder who feels chained to their desk. I need you to hear that you can, and you will, build a business that serves your life, not the other way around. Honestly, it's hard to post this. There are moments I feel like a hypocrite, talking about living offline while I'm stuck on my laptop late at night. The pull to just keep working is real. I know so many of you are in that same spot, because you tell me every day. The hustle narrative will always tell you to do more. But you have to remember why you started this. The business is a tool. Your life, your time, your freedom, that is the actual prize. Nobody will remember the emails you answered after dinner. They'll remember that you were there. Right now, I'm choosing to be here, outside, instead of working. I want to prove you can build the right systems that allow you to choose life over your laptop, again and again. That's what we do in FieldWork.",
         "script": [
-          "Hook: Call out founders who feel trapped by their business.",
-          "Vulnerability: Confess the painful feeling of being caged by your own creation.",
-          "Conflict: Frame the choice between the 'cost' of disconnecting and the greater cost of missing your life.",
-          "The Enemy: Identify 'hustle culture' as the false narrative we're all fighting.",
-          "Core Truth: The real legacy is being present, not being productive.",
-          "Proof: Show yourself living this value in the moment, away from work.",
-          "CTA: Introduce FieldWork as the system to achieve this."
+          "Hook: Call out founders chained to their desk.",
+          "Vulnerability: Admit the personal struggle of being stuck online.",
+          "Shared Pain: Acknowledge that the audience feels this too.",
+          "The Real Enemy: Identify the 'hustle' narrative as the problem.",
+          "The Core Truth: The business is a tool for the life you want.",
+          "Lead by Example: Demonstrate choosing life over work in the moment.",
+          "The Solution: Introduce FieldWork as the way to build these systems."
         ],
         "guidance": [
-          "Film this as a raw, selfie-style talking head video. Being outdoors on a trail or by a fire would strongly reinforce the 'Live Offline' message.",
-          "Keep the editing minimal. No jump cuts or flashy graphics. The power is in the authenticity of the message.",
-          "Use a simple, bold text hook on screen for the first 3-5 seconds: 'For the founder who feels trapped.'",
-          "Your delivery should be grounded and heartfelt, not polished or performative. Speak like you're talking to one person.",
-          "The call to action should be a simple on-screen text overlay at the end: 'FieldWork: Link in Bio'."
+          "Film this as a single, straightforward take, talking directly to camera. An outdoor setting like a porch, a trail, or by a campfire is ideal.",
+          "Shoot during golden hour to visually reinforce the idea of finishing work and enjoying the offline world.",
+          "Use simple, bold on-screen text for the hook: 'Share this with a founder who feels chained to their desk.'",
+          "Keep it raw. Avoid overly polished editing. The feeling should be authentic and from the heart.",
+          "End with a simple text overlay and verbal CTA: 'FieldWork. Link in bio.'"
         ],
         "source": "@willgirone",
         "source_url": "https://www.instagram.com/p/DbcdoiuQhU2/",
-        "framework": "Vulnerable Call-Out to a Niche Identity",
+        "framework": "Direct Identity Call-out",
         "belief_tags": [
-          "I",
-          "B"
+          "L",
+          "E2"
         ],
         "details": {
-          "Angle": "Mirror the original's vulnerable, 'I'm in this with you' tone. Frame the conflict not as business versus kids, but as the business versus your actual life. Position 'hustle culture' as the villain and choosing to live offline as the heroic act.",
-          "Source": "@willgirone (30.16x, 16,862 plays)",
-          "Hooks": "Share this with a founder who feels trapped by their own business. | For the person building a business to be free, but has never felt more stuck. | A message for the expert who is tired of trading their life for a living.",
-          "Framework": "Vulnerable Call-Out to a Niche Identity"
+          "Angle": "Frame the conflict not as fatherhood vs. business, but as living a full, offline life vs. the endless demands of an online business. Position yourself as someone actively choosing to live your message in that moment, making the 'Build Online. Live Offline.' ethos tangible.",
+          "Source": "@willgirone (30.44x, 16,862 plays)",
+          "Hooks": "Share this with a founder who feels chained to their desk. | This is for the expert who's building a business but losing their life. | A reminder for the operator who hasn't seen a sunset in weeks.",
+          "Framework": "Direct Identity Call-out"
         }
       }
     ]
@@ -1488,14 +1385,14 @@
           }
         ],
         "last_post_date": "2026-11-10T18:43:00.000Z",
-        "posted_recently": true
+        "posted_recently": false
       },
       {
         "username": "wadepapenfus",
-        "posts": 358,
-        "avg_engagement": 5259,
-        "top_outlier": 506.62,
-        "total_engagement": 1882980,
+        "posts": 357,
+        "avg_engagement": 5273,
+        "top_outlier": 507.22,
+        "total_engagement": 1882520,
         "top_hook": "\ud83d\ude447.8 earthquake ",
         "engagement_history": [
           {
@@ -1548,14 +1445,14 @@
           }
         ],
         "last_post_date": "2026-11-10T13:07:43.000Z",
-        "posted_recently": true
+        "posted_recently": false
       },
       {
         "username": "steveofallstreets",
-        "posts": 657,
-        "avg_engagement": 186,
-        "top_outlier": 234.19,
-        "total_engagement": 122778,
+        "posts": 650,
+        "avg_engagement": 167,
+        "top_outlier": 236.54,
+        "total_engagement": 108746,
         "top_hook": "Rob the bank is robbing banks legally",
         "engagement_history": [
           {
@@ -1608,14 +1505,14 @@
           }
         ],
         "last_post_date": "2026-11-10T18:06:45.000Z",
-        "posted_recently": true
+        "posted_recently": false
       },
       {
         "username": "tomnoske",
-        "posts": 230,
-        "avg_engagement": 373,
-        "top_outlier": 15.14,
-        "total_engagement": 85878,
+        "posts": 227,
+        "avg_engagement": 371,
+        "top_outlier": 15.28,
+        "total_engagement": 84388,
         "top_hook": "Don\u2019t feel bad if chasing your dreams actually requires work.",
         "engagement_history": [
           {
@@ -1668,14 +1565,14 @@
           }
         ],
         "last_post_date": "2026-11-10T16:00:10.000Z",
-        "posted_recently": true
+        "posted_recently": false
       },
       {
         "username": "matthgray",
-        "posts": 237,
-        "avg_engagement": 315,
-        "top_outlier": 19.92,
-        "total_engagement": 74794,
+        "posts": 232,
+        "avg_engagement": 316,
+        "top_outlier": 20.16,
+        "total_engagement": 73426,
         "top_hook": "Nobody ever got rich from being an employee. here\u2019s why:",
         "engagement_history": [
           {
@@ -1728,7 +1625,7 @@
           }
         ],
         "last_post_date": "2026-11-10T00:03:33.000Z",
-        "posted_recently": true
+        "posted_recently": false
       },
       {
         "username": "takimoore",
@@ -1788,14 +1685,14 @@
           }
         ],
         "last_post_date": "2026-11-10T13:20:18.000Z",
-        "posted_recently": true
+        "posted_recently": false
       },
       {
         "username": "willgirone",
-        "posts": 164,
-        "avg_engagement": 31,
-        "top_outlier": 30.16,
-        "total_engagement": 5198,
+        "posts": 158,
+        "avg_engagement": 29,
+        "top_outlier": 30.44,
+        "total_engagement": 4587,
         "top_hook": "Share this with a single father who needs this",
         "engagement_history": [
           {
@@ -1860,11 +1757,6 @@
         "avg_engagement": 685
       },
       {
-        "name": "Pattern Interrupt",
-        "count": 47,
-        "avg_engagement": 473
-      },
-      {
         "name": "Contrarian",
         "count": 21,
         "avg_engagement": 430
@@ -1881,18 +1773,23 @@
       },
       {
         "name": "Curiosity Gap",
-        "count": 749,
+        "count": 742,
         "avg_engagement": 215
       },
       {
         "name": "Cost Replacement",
-        "count": 62,
-        "avg_engagement": 213
+        "count": 60,
+        "avg_engagement": 204
       },
       {
         "name": "Before/After",
         "count": 6,
         "avg_engagement": 204
+      },
+      {
+        "name": "Pattern Interrupt",
+        "count": 46,
+        "avg_engagement": 203
       },
       {
         "name": "Pain Point",
@@ -1930,28 +1827,28 @@
     "duration": [
       {
         "range": "<30s",
-        "count": 66,
-        "avg_engagement": 174
+        "count": 64,
+        "avg_engagement": 176
       },
       {
         "range": "30-45s",
-        "count": 89,
-        "avg_engagement": 261
+        "count": 87,
+        "avg_engagement": 256
       },
       {
         "range": "45-60s",
-        "count": 116,
-        "avg_engagement": 223
+        "count": 115,
+        "avg_engagement": 220
       },
       {
         "range": "60-90s",
-        "count": 333,
-        "avg_engagement": 189
+        "count": 330,
+        "avg_engagement": 149
       },
       {
         "range": ">90s",
-        "count": 339,
-        "avg_engagement": 318
+        "count": 337,
+        "avg_engagement": 320
       }
     ]
   },
@@ -1963,10 +1860,10 @@
   },
   "period": "last 3 days",
   "summary": {
-    "total_engagement": 4540197,
-    "outlier_count": 357,
-    "strong_outliers": 199,
-    "topic_count": 8,
+    "total_engagement": 4522236,
+    "outlier_count": 355,
+    "strong_outliers": 195,
+    "topic_count": 0,
     "idea_count": 10,
     "creator_count": 7,
     "period": "last 3 days",

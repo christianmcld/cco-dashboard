@@ -1,7 +1,7 @@
 {
   "query": "@willgirone",
   "slug": "willgirone",
-  "timestamp": "2026-11-16T23:38:33.641277+00:00",
+  "timestamp": "2026-11-19T22:02:18.535893+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "willgirone",
@@ -26,16 +26,6 @@
       "date": "2026-07-31T05:02:25.000Z",
       "url": "https://www.instagram.com/p/DbcdoiuQhU2/",
       "thumbnail": "/research-thumbs/DbcdoiuQhU2.jpg"
-    },
-    {
-      "hook": "Speed run your ego death",
-      "caption": "Speed run your ego death\n\n#entrepreneur #ego #lawsofuniverse #businessmindset",
-      "likes": 431,
-      "comments": 34,
-      "engagement": 465,
-      "date": "2026-05-20T17:32:18.000Z",
-      "url": "https://www.instagram.com/p/DYkaUnvpA2O/",
-      "thumbnail": "/research-thumbs/DYkaUnvpA2O.jpg"
     },
     {
       "hook": "How long till it\u2019s all in house?",
@@ -136,6 +126,16 @@
       "date": "2026-06-29T01:05:54.000Z",
       "url": "https://www.instagram.com/p/DaJpOp1sxrw/",
       "thumbnail": "/research-thumbs/DaJpOp1sxrw.jpg"
+    },
+    {
+      "hook": "If your organic stopped working this is why\u2026",
+      "caption": "If your organic stopped working this is why\u2026\n\n@noevarner.ai",
+      "likes": 61,
+      "comments": 25,
+      "engagement": 86,
+      "date": "2026-08-17T18:19:56.000Z",
+      "url": "https://www.instagram.com/p/DcJqj-rB37b/",
+      "thumbnail": ""
     }
   ],
   "ads": [],
@@ -168,10 +168,10 @@
   "analysis": {
     "top_hooks": [
       "Share this with a single father who needs this",
-      "Speed run your ego death",
       "How long till it\u2019s all in house?",
       "I used to be super ashamed to show where I lived ",
-      "Let\u2019s get a few things clear\u2026"
+      "Let\u2019s get a few things clear\u2026",
+      "Create content for specific sides of the brain\u2026"
     ],
     "content_themes": [
       "fitnessbusinesscoach",
@@ -182,7 +182,7 @@
       "instagramsalescoach"
     ],
     "best_performing_format": ">90s",
-    "posting_frequency": "6.7 reels/week",
+    "posting_frequency": "6.6 reels/week",
     "ad_strategy_notes": "No Meta ads tracked for this creator yet."
   }
 }

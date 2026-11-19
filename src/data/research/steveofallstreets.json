@@ -1,7 +1,7 @@
 {
   "query": "@steveofallstreets",
   "slug": "steveofallstreets",
-  "timestamp": "2026-11-16T23:38:30.301471+00:00",
+  "timestamp": "2026-11-19T22:02:14.518366+00:00",
   "social_profiles": {
     "instagram": {
       "handle": "steveofallstreets",
@@ -36,16 +36,6 @@
       "date": "2026-08-04T23:03:39.000Z",
       "url": "https://www.instagram.com/p/Dbosr4VPiqG/",
       "thumbnail": "/research-thumbs/Dbosr4VPiqG.jpg"
-    },
-    {
-      "hook": "You never know why they are rich",
-      "caption": "You never know why they are rich",
-      "likes": 9205,
-      "comments": 3666,
-      "engagement": 12871,
-      "date": "2026-05-22T16:00:15.000Z",
-      "url": "https://www.instagram.com/p/DYpZiAjBumO/",
-      "thumbnail": "/research-thumbs/DYpZiAjBumO.jpg"
     },
     {
       "hook": "3yr timer starts now",
@@ -136,6 +126,16 @@
       "date": "2026-10-22T17:28:45.000Z",
       "url": "https://www.instagram.com/p/DezhG6gvUL1/",
       "thumbnail": ""
+    },
+    {
+      "hook": "Pack up the \ud83e\udde0 and sell it",
+      "caption": "Pack up the \ud83e\udde0 and sell it",
+      "likes": 691,
+      "comments": 726,
+      "engagement": 1417,
+      "date": "2026-09-20T14:00:22.000Z",
+      "url": "https://www.instagram.com/p/Ddgv-tIBgIk/",
+      "thumbnail": ""
     }
   ],
   "ads": [],
@@ -169,9 +169,9 @@
     "top_hooks": [
       "Rob the bank is robbing banks legally",
       "How long is your audio file?",
-      "You never know why they are rich",
       "3yr timer starts now",
-      "The Man. Myth. Legend @alex_eubank15"
+      "The Man. Myth. Legend @alex_eubank15",
+      "And then you sell one of them everyday"
     ],
     "content_themes": [
       "(no hashtags)"
